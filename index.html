@@ -91,33 +91,19 @@
 
     </script>
 
-     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
     <section>
         <div class="chart-description">
-            <h2>Section 2: United States Renewables Generation</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+            <h3>Section 2: United States Renewables Generation</h3>
+            <p>
                 Pulls data from the EIA website API to generate the annuala renewable electricity generation in the United States.
             </p>
         </div>
-        <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <figure id="Location2"></figure>
     </section>
 
-
     <script>
-        // This is a comment in JavaScript - it's a different language to HTML and CSS
-
-        let figure_2_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/US_renewable_electricity.json"; // We're storing the URL of the graph we want to display in a variable
-                                                                                                                    // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location2', figure_2_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
-
-        // Do you want to add more graphs?
-        // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
-        // e.g. 
-        // let figure_3_spec = ...
-        // vegaEmbed('#Location3', figure_3_spec)
-
-
+        let figure_2_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/US_renewable_electricity.json";
+        vegaEmbed('#Location2', figure_2_spec)
     </script>
 
 </body>
