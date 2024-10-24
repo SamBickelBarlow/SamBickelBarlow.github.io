@@ -17,6 +17,6 @@
  
     "encoding": {
       "x": {"field": "period","type": "temporal","title":"Year"},
-      "y": {"field": "value","type": "quantitative","title": "Billions of kW hours",}
+      "y": {"field": "value","type": "quantitative","title": "Billions of kW hours"}
     }
 }
