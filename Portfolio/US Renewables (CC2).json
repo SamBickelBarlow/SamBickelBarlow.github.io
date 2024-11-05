@@ -5,7 +5,7 @@
     "anchor": "start",
     "subtitle": "Output, GWh | IEA via ECO-API",
     "fontSize": 20,
-    "subtitleFontSize": 14,
+    "subtitleFontSize": 0,
     "color": "#ffff00",
     "subtitleColor": "#000000"
   },
