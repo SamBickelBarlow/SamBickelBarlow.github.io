@@ -107,7 +107,21 @@
         vegaEmbed('#Location2', figure_2_spec)
     </script>
 
-    <section>
+   <style>
+    #sideBySideCharts {
+        display: flex;
+        gap: 20px; /* Adds space between the charts */
+    }
+    .chart-section {
+        flex: 1; /* Ensures both sections take equal width */
+    }
+</style>
+
+<!-- Existing code for the rest of the page -->
+
+<!-- Wrap the last two sections in a flex container -->
+<div id="sideBySideCharts">
+    <section class="chart-section">
         <div class="chart-description">
             <h3>Section 3: United States Energy Generation</h3>
             <p>
@@ -116,23 +130,25 @@
         </div>
         <figure id="Location3"></figure>
     </section>
-    <script>
-        let figure_3_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/US Nuclear Power (CC2).json";
-        vegaEmbed('#Location3', figure_3_spec)
-    </script>
-    
-    <section>
+
+    <section class="chart-section">
         <div class="chart-description">
-            <h3></h3>
+            <h3>Section 4: United States Renewables (CC2)</h3>
             <p>
+                Additional data visualization on renewable energy generation in the U.S.
             </p>
         </div>
         <figure id="Location4"></figure>
     </section>
-    <script>
-        let figure_4_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/US Renewables (CC2).json";
-        vegaEmbed('#Location4', figure_4_spec)
-    </script>
+</div>
+
+<script>
+    let figure_3_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/US Nuclear Power (CC2).json";
+    let figure_4_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/US Renewables (CC2).json";
+    
+    vegaEmbed('#Location3', figure_3_spec);
+    vegaEmbed('#Location4', figure_4_spec);
+</script>
 
 </body>
     
