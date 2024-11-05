@@ -4,8 +4,8 @@
     "text": "US Renewable Energy Generation",
     "anchor": "start",
     "subtitle": "Output, GWh | IEA via ECO-API",
-    "fontSize": 20,
-    "subtitleFontSize": 0,
+    "fontSize": "20",
+    "subtitleFontSize": "0",
     "color": "#ffff00",
     "subtitleColor": "#000000"
   },
