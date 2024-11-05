@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Nuclear Power",
+    "text": "US Nuclear Power Generation",
     "anchor": "start",
     "subtitle": "Output per hours (GwH)",
     "fontSize": "20",
