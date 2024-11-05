@@ -92,21 +92,6 @@
 
     </script>
 
-    <section>
-        <div class="chart-description">
-            <h3>Section 2: United States Renewables Generation</h3>
-            <p>
-                Pulls data from the EIA website API to generate the annuala renewable electricity generation in the United States.
-            </p>
-        </div>
-        <figure id="Location2"></figure>
-    </section>
-
-    <script>
-        let figure_2_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/US_renewable_electricity.json";
-        vegaEmbed('#Location2', figure_2_spec)
-    </script>
-
    <style>
     #sideBySideCharts {
         display: flex;
@@ -147,6 +132,21 @@
     
     vegaEmbed('#Location3', figure_3_spec);
     vegaEmbed('#Location4', figure_4_spec);
+</script>
+
+<section>
+    <div class="chart-description">
+        <h3>Section 2: United States Renewables Generation</h3>
+        <p>
+            Pulls data from the EIA website API to generate the annuala renewable electricity generation in the United States.
+        </p>
+    </div>
+    <figure id="Location2"></figure>
+    </section>
+
+<script>
+    let figure_2_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/US_renewable_electricity.json";
+    vegaEmbed('#Location2', figure_2_spec)
 </script>
 
 </body>
