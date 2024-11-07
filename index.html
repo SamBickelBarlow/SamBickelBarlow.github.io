@@ -113,7 +113,7 @@
                 Created in the Economics Observatory Laboratory, which pulls data from Amazon AWS' API (CC2).
             </p>
         </div>
-        <figure id="Location3"></figure>
+        <figure id="Location2"></figure>
     </section>
 
     <section class="chart-section">
@@ -123,31 +123,46 @@
                 <br /><br />
             </p>
         </div>
-        <figure id="Location4"></figure>
+        <figure id="Location3"></figure>
     </section>
 </div>
 
 <script>
-    let figure_3_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/US Nuclear Power (CC2).json";
-    let figure_4_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/US Renewables (CC2).json";
+    let figure_2_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/US Nuclear Power (CC2).json";
+    let figure_3_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/US Renewables (CC2).json";
     
+    vegaEmbed('#Location2', figure_2_spec);
     vegaEmbed('#Location3', figure_3_spec);
-    vegaEmbed('#Location4', figure_4_spec);
+</script>
+    
+<section>
+    <div class="chart-description">
+        <h3>Section 4: United States Renewables Generation</h3>
+        <p>
+            Recreation of New York Times chart showing the average age of legislatures compared with median population age.
+        </p>
+    </div>
+    <figure id="Location4"></figure>
+    </section>
+
+<script>
+    let figure_4_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/Recreate NYT chart(CC4).json";
+    vegaEmbed('#Location4', figure_4_spec)
 </script>
 
 <section>
     <div class="chart-description">
-        <h3>Section 2: United States Renewables Generation</h3>
+        <h3>Section X: United States Renewables Generation</h3>
         <p>
             Pulls data from the EIA website API to generate the annuala renewable electricity generation in the United States.
         </p>
     </div>
-    <figure id="Location2"></figure>
+    <figure id="Location100"></figure>
     </section>
 
 <script>
-    let figure_2_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/US_renewable_electricity.json";
-    vegaEmbed('#Location2', figure_2_spec)
+    let figure_100_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/US_renewable_electricity.json";
+    vegaEmbed('#Location100', figure_100_spec)
 </script>
 
 </body>
