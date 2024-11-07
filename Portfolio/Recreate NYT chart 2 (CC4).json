@@ -1,0 +1,299 @@
+{
+    "config": {
+        "view": {
+            "continuousWidth": 300,
+            "continuousHeight": 300
+        },
+        "title": {
+            "anchor": "start",
+            "color": "black",
+            "font": "Georgia",
+            "fontSize": 15
+        }
+    },
+    "layer": [
+        {
+            "data": {
+                "name": "data-d5372a63ba2850b1db02bc119fe5257d"
+            },
+            "mark": {
+                "type": "bar",
+                "color": "red"
+            },
+            "encoding": {
+                "x": {
+                    "axis": {
+                        "labelAngle": -45,
+                        "title": ""
+                    },
+                    "field": "Country",
+                    "scale": {
+                        "domain": [
+                            "Italy",
+                            "Germany",
+                            "Netherlands",
+                            "Sweden",
+                            "Switzerland",
+                            "Japan",
+                            "Norway",
+                            "Canada",
+                            "Greece",
+                            "U.K.",
+                            "South Korea",
+                            "Ireland",
+                            "Australia",
+                            "United States",
+                            "Mexico"
+                        ]
+                    },
+                    "type": "nominal"
+                },
+                "y": {
+                    "axis": {
+                        "labelFontWeight": "lighter",
+                        "title": "Ratio: Average Age of Lawmakers to Median Population Age",
+                        "titleFont": "Georgia",
+                        "titleFontSize": 10
+                    },
+                    "field": "AAL_over_MPA",
+                    "scale": {
+                        "domain": [
+                            0,
+                            2
+                        ]
+                    },
+                    "type": "quantitative"
+                }
+            }
+        },
+        {
+            "data": {
+                "name": "data-316cf89202f2c1e2e23f1d491da39d1a"
+            },
+            "mark": {
+                "type": "bar",
+                "color": "gray"
+            },
+            "encoding": {
+                "x": {
+                    "field": "Country",
+                    "scale": {
+                        "domain": [
+                            "Italy",
+                            "Germany",
+                            "Netherlands",
+                            "Sweden",
+                            "Switzerland",
+                            "Japan",
+                            "Norway",
+                            "Canada",
+                            "Greece",
+                            "U.K.",
+                            "South Korea",
+                            "Ireland",
+                            "Australia",
+                            "United States",
+                            "Mexico"
+                        ]
+                    },
+                    "type": "nominal"
+                },
+                "y": {
+                    "field": "AAL_over_MPA",
+                    "type": "quantitative"
+                }
+            }
+        },
+        {
+            "data": {
+                "name": "data-d764767e7dd3b10b2c76c1355ce10ef3"
+            },
+            "mark": {
+                "type": "rule",
+                "color": "black",
+                "size": 2.5
+            },
+            "encoding": {
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                }
+            }
+        },
+        {
+            "data": {
+                "name": "data-50a5be0509de39a4100f4d3b56555ada"
+            },
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "color": "black",
+                "font": "Georgia",
+                "fontSize": 8
+            },
+            "encoding": {
+                "text": {
+                    "field": "text",
+                    "type": "nominal"
+                },
+                "x": {
+                    "value": 2
+                },
+                "y": {
+                    "value": 115
+                }
+            }
+        },
+        {
+            "data": {
+                "name": "data-97840a9a60ad7927a0a8bd7ba4ba8208"
+            },
+            "mark": {
+                "type": "rule",
+                "color": "black",
+                "size": 1
+            },
+            "encoding": {
+                "x": {
+                    "value": 10
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative"
+                },
+                "y2": {
+                    "value": 150
+                }
+            }
+        }
+    ],
+    "title": "America's Political Gerontocracy",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json",
+    "datasets": {
+        "data-d5372a63ba2850b1db02bc119fe5257d": [
+            {
+                "Country": "United States",
+                "Average Age of Lawmakers": 59,
+                "Median Age of Population": 38,
+                "Country_labels": "United States",
+                "AAL_over_MPA": 1.5526315789473684
+            }
+        ],
+        "data-316cf89202f2c1e2e23f1d491da39d1a": [
+            {
+                "Country": "Mexico",
+                "Average Age of Lawmakers": 48,
+                "Median Age of Population": 30,
+                "Country_labels": "Mexico",
+                "AAL_over_MPA": 1.6
+            },
+            {
+                "Country": "Australia",
+                "Average Age of Lawmakers": 50,
+                "Median Age of Population": 37,
+                "Country_labels": "Australia",
+                "AAL_over_MPA": 1.3513513513513513
+            },
+            {
+                "Country": "Ireland",
+                "Average Age of Lawmakers": 49,
+                "Median Age of Population": 37,
+                "Country_labels": "Ireland",
+                "AAL_over_MPA": 1.3243243243243243
+            },
+            {
+                "Country": "South Korea",
+                "Average Age of Lawmakers": 55,
+                "Median Age of Population": 43,
+                "Country_labels": "South Korea",
+                "AAL_over_MPA": 1.2790697674418605
+            },
+            {
+                "Country": "U.K.",
+                "Average Age of Lawmakers": 51,
+                "Median Age of Population": 40,
+                "Country_labels": "U.K.",
+                "AAL_over_MPA": 1.275
+            },
+            {
+                "Country": "Greece",
+                "Average Age of Lawmakers": 54,
+                "Median Age of Population": 45,
+                "Country_labels": "Greece",
+                "AAL_over_MPA": 1.2
+            },
+            {
+                "Country": "Canada",
+                "Average Age of Lawmakers": 52,
+                "Median Age of Population": 44,
+                "Country_labels": "Canada",
+                "AAL_over_MPA": 1.1818181818181819
+            },
+            {
+                "Country": "Norway",
+                "Average Age of Lawmakers": 46,
+                "Median Age of Population": 40,
+                "Country_labels": "Norway",
+                "AAL_over_MPA": 1.15
+            },
+            {
+                "Country": "Japan",
+                "Average Age of Lawmakers": 55,
+                "Median Age of Population": 48,
+                "Country_labels": "Japan",
+                "AAL_over_MPA": 1.1458333333333333
+            },
+            {
+                "Country": "Switzerland",
+                "Average Age of Lawmakers": 49,
+                "Median Age of Population": 43,
+                "Country_labels": "Switzerland",
+                "AAL_over_MPA": 1.1395348837209303
+            },
+            {
+                "Country": "Sweden",
+                "Average Age of Lawmakers": 45,
+                "Median Age of Population": 41,
+                "Country_labels": "Sweden",
+                "AAL_over_MPA": 1.0975609756097562
+            },
+            {
+                "Country": "Netherlands",
+                "Average Age of Lawmakers": 44,
+                "Median Age of Population": 43,
+                "Country_labels": "Netherlands",
+                "AAL_over_MPA": 1.0232558139534884
+            },
+            {
+                "Country": "Germany",
+                "Average Age of Lawmakers": 47,
+                "Median Age of Population": 47,
+                "Country_labels": "Germany",
+                "AAL_over_MPA": 1
+            },
+            {
+                "Country": "Italy",
+                "Average Age of Lawmakers": 45,
+                "Median Age of Population": 46,
+                "Country_labels": "Italy",
+                "AAL_over_MPA": 0.9782608695652174
+            }
+        ],
+        "data-d764767e7dd3b10b2c76c1355ce10ef3": [
+            {
+                "y": 1
+            }
+        ],
+        "data-50a5be0509de39a4100f4d3b56555ada": [
+            {
+                "text": "If age of lawmakers and politicians were similar"
+            }
+        ],
+        "data-97840a9a60ad7927a0a8bd7ba4ba8208": [
+            {
+                "y": 1.2
+            }
+        ]
+    }
+}
