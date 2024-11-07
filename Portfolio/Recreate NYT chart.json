@@ -1,0 +1,369 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    },
+    "title": {
+      "anchor": "start",
+      "color": "black",
+      "font": "Georgia",
+      "fontSize": 15
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-311e013b1735e0560bda0e3b5a0d1f89"
+      },
+      "mark": {
+        "type": "circle",
+        "color": "red"
+      },
+      "encoding": {
+        "x": {
+          "axis": {
+            "gridDash": [
+              5,
+              5
+            ],
+            "labelFontWeight": "lighter",
+            "title": "Median Age of Population",
+            "titleFont": "Georgia",
+            "titleFontSize": 10
+          },
+          "field": "Median Age of Population",
+          "scale": {
+            "domain": [
+              30,
+              60
+            ]
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "gridDash": [
+              5,
+              5
+            ],
+            "labelFontWeight": "lighter",
+            "title": "Average Age of Lawmakers",
+            "titleFont": "Georgia",
+            "titleFontSize": 10
+          },
+          "field": "Average Age of Lawmakers",
+          "scale": {
+            "domain": [
+              30,
+              60
+            ]
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-99344a24851721b131a5c2e792f370b4"
+      },
+      "mark": {
+        "type": "circle",
+        "color": "black"
+      },
+      "encoding": {
+        "x": {
+          "field": "Median Age of Population",
+          "scale": {
+            "domain": [
+              30,
+              60
+            ]
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Average Age of Lawmakers",
+          "scale": {
+            "domain": [
+              30,
+              60
+            ]
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-311e013b1735e0560bda0e3b5a0d1f89"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "red",
+        "dx": 5,
+        "dy": -5
+      },
+      "encoding": {
+        "text": {
+          "field": "Country_labels",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "Median Age of Population",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Average Age of Lawmakers",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-99344a24851721b131a5c2e792f370b4"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "black",
+        "dx": 5,
+        "dy": -5
+      },
+      "encoding": {
+        "text": {
+          "field": "Country_labels",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "Median Age of Population",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Average Age of Lawmakers",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-3c144b3f5fba7608d07d7ab2c6a1b4c4"
+      },
+      "mark": {
+        "type": "line",
+        "color": "black",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "x",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-7f825cea900ab8eef6a80142e9cabe77"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "font": "Georgia",
+        "fontSize": 8
+      },
+      "encoding": {
+        "text": {
+          "field": "text",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "title": "One Good Chart: America's Political Gerontocracy",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json",
+  "datasets": {
+    "data-311e013b1735e0560bda0e3b5a0d1f89": [
+      {
+        "Country": "United States",
+        "Average Age of Lawmakers": 59,
+        "Median Age of Population": 38,
+        "Country_labels": "United States"
+      }
+    ],
+    "data-99344a24851721b131a5c2e792f370b4": [
+      {
+        "Country": "Mexico",
+        "Average Age of Lawmakers": 48,
+        "Median Age of Population": 30,
+        "Country_labels": "Mexico"
+      },
+      {
+        "Country": "Australia",
+        "Average Age of Lawmakers": 50,
+        "Median Age of Population": 37,
+        "Country_labels": "Australia"
+      },
+      {
+        "Country": "Ireland",
+        "Average Age of Lawmakers": 49,
+        "Median Age of Population": 37,
+        "Country_labels": "Ireland"
+      },
+      {
+        "Country": "South Korea",
+        "Average Age of Lawmakers": 55,
+        "Median Age of Population": 43,
+        "Country_labels": "South Korea"
+      },
+      {
+        "Country": "Japan",
+        "Average Age of Lawmakers": 55,
+        "Median Age of Population": 48,
+        "Country_labels": "Japan"
+      },
+      {
+        "Country": "U.K.",
+        "Average Age of Lawmakers": 51,
+        "Median Age of Population": 40,
+        "Country_labels": "U.K."
+      },
+      {
+        "Country": "Greece",
+        "Average Age of Lawmakers": 54,
+        "Median Age of Population": 45,
+        "Country_labels": "Greece"
+      },
+      {
+        "Country": "Canada",
+        "Average Age of Lawmakers": 52,
+        "Median Age of Population": 44,
+        "Country_labels": "Canada"
+      },
+      {
+        "Country": "Norway",
+        "Average Age of Lawmakers": 46,
+        "Median Age of Population": 40,
+        "Country_labels": "Norway"
+      },
+      {
+        "Country": "Switzerland",
+        "Average Age of Lawmakers": 49,
+        "Median Age of Population": 43,
+        "Country_labels": "Switzerland"
+      },
+      {
+        "Country": "Germany",
+        "Average Age of Lawmakers": 47,
+        "Median Age of Population": 47,
+        "Country_labels": "Germany"
+      },
+      {
+        "Country": "Italy",
+        "Average Age of Lawmakers": 45,
+        "Median Age of Population": 46,
+        "Country_labels": "Italy"
+      },
+      {
+        "Country": "Netherlands",
+        "Average Age of Lawmakers": 44,
+        "Median Age of Population": 43,
+        "Country_labels": "Netherlands"
+      },
+      {
+        "Country": "Sweden",
+        "Average Age of Lawmakers": 45,
+        "Median Age of Population": 41,
+        "Country_labels": "Sweden"
+      },
+      {
+        "Country": null,
+        "Average Age of Lawmakers": 48,
+        "Median Age of Population": 37,
+        "Country_labels": ""
+      },
+      {
+        "Country": null,
+        "Average Age of Lawmakers": 47,
+        "Median Age of Population": 37,
+        "Country_labels": ""
+      },
+      {
+        "Country": null,
+        "Average Age of Lawmakers": 53,
+        "Median Age of Population": 39,
+        "Country_labels": ""
+      },
+      {
+        "Country": null,
+        "Average Age of Lawmakers": 46,
+        "Median Age of Population": 42,
+        "Country_labels": ""
+      },
+      {
+        "Country": null,
+        "Average Age of Lawmakers": 48,
+        "Median Age of Population": 42,
+        "Country_labels": ""
+      },
+      {
+        "Country": null,
+        "Average Age of Lawmakers": 50,
+        "Median Age of Population": 42,
+        "Country_labels": ""
+      },
+      {
+        "Country": null,
+        "Average Age of Lawmakers": 51,
+        "Median Age of Population": 42,
+        "Country_labels": ""
+      },
+      {
+        "Country": null,
+        "Average Age of Lawmakers": 48,
+        "Median Age of Population": 43,
+        "Country_labels": ""
+      },
+      {
+        "Country": null,
+        "Average Age of Lawmakers": 49,
+        "Median Age of Population": 45,
+        "Country_labels": ""
+      },
+      {
+        "Country": null,
+        "Average Age of Lawmakers": 47,
+        "Median Age of Population": 44,
+        "Country_labels": ""
+      }
+    ],
+    "data-3c144b3f5fba7608d07d7ab2c6a1b4c4": [
+      {
+        "x": 30
+      },
+      {
+        "x": 60
+      }
+    ],
+    "data-7f825cea900ab8eef6a80142e9cabe77": [
+      {
+        "x": 50,
+        "y": 61,
+        "text": "If age of lawmakers and politicans were similar"
+      }
+    ]
+  }
+}
