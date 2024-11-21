@@ -34,7 +34,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 01065,none,,0.0,AL,1,65,161558,Hale County,H1,1065
 01067,none,,0.0,AL,1,67,161559,Henry County,H1,1067
 01069,none,,0.0,AL,1,69,161560,Houston County,H1,1069
-01071,Infrastructure failure,2022.0,1848105.0,AL,1,71,161561,Jackson County,H1,1071
+01071,Infrastructure failure/Manmade disaster,2022.0,1848105.0,AL,1,71,161561,Jackson County,H1,1071
 01073,Flooding/Tropical storm/Hurricane,2023.0,2412168.25,AL,1,73,161562,Jefferson County,H1,1073
 01075,Tornado/Severe storm,2022.0,192500.0,AL,1,75,161563,Lamar County,H1,1075
 01077,none,,0.0,AL,1,77,161564,Lauderdale County,H1,1077
@@ -47,7 +47,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 01091,none,,0.0,AL,1,91,161572,Marengo County,H1,1091
 01093,Tornado/Severe storm,2020.0,297150.0,AL,1,93,161573,Marion County,H1,1093
 01095,none,,0.0,AL,1,95,161574,Marshall County,H1,1095
-01097,Infrastructure failure,2021.0,34466227.85,AL,1,97,161575,Mobile County,H1,1097
+01097,Infrastructure failure/Manmade disaster,2021.0,34466227.85,AL,1,97,161575,Mobile County,H1,1097
 01099,none,,0.0,AL,1,99,161576,Monroe County,H1,1099
 01101,Tornado/Severe storm,2021.0,1160041.05,AL,1,101,161577,Montgomery County,H1,1101
 01103,Tornado/Severe storm,2020.0,1484598.68,AL,1,103,161578,Morgan County,H1,1103
@@ -68,7 +68,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 01133,none,,0.0,AL,1,133,161592,Winston County,H1,1133
 02013,none,,0.0,AK,2,13,1419964,Aleutians East Borough,H1,2013
 02016,Flooding/Tropical storm/Hurricane,2021.0,869690.0,AK,2,16,1419965,Aleutians West Census Area,H5,2016
-02020,Fire/Extreme temperature,2023.0,34660000.0,AK,2,20,1416061,Anchorage Municipality,H6,2020
+02020,Fire/Extreme temperature/Drought,2023.0,34660000.0,AK,2,20,1416061,Anchorage Municipality,H6,2020
 02050,Tornado/Severe storm,2023.0,10534230.93,AK,2,50,1419966,Bethel Census Area,H5,2050
 02060,none,,0.0,AK,2,60,1419967,Bristol Bay Borough,H1,2060
 02068,none,,0.0,AK,2,68,1419988,Denali Borough,H1,2068
@@ -82,12 +82,12 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 02150,Tornado/Severe storm,2021.0,500000.0,AK,2,150,1419974,Kodiak Island Borough,H1,2150
 02158,none,,0.0,AK,2,158,1419985,Kusilvak Census Area,H5,2158
 02164,Earthquake/Landslide,2020.0,620000.0,AK,2,164,1419975,Lake and Peninsula Borough,H1,2164
-02170,Infrastructure failure,2023.0,2000000.0,AK,2,170,1419976,Matanuska-Susitna Borough,H1,2170
-02180,Infrastructure failure,2022.0,5997500.0,AK,2,180,1419977,Nome Census Area,H5,2180
-02185,Unidentified disaster,2023.0,29929141.0,AK,2,185,1419978,North Slope Borough,H1,2185
+02170,Infrastructure failure/Manmade disaster,2023.0,2000000.0,AK,2,170,1419976,Matanuska-Susitna Borough,H1,2170
+02180,Infrastructure failure/Manmade disaster,2022.0,5997500.0,AK,2,180,1419977,Nome Census Area,H5,2180
+02185,Blizzard/Winter storm,2023.0,29929141.0,AK,2,185,1419978,North Slope Borough,H1,2185
 02188,Flooding/Tropical storm/Hurricane,2020.0,902147.0,AK,2,188,1419979,Northwest Arctic Borough,H1,2188
 02195,none,,0.0,AK,2,195,2516404,Petersburg Borough,H1,2195
-02198,Unidentified disaster,2022.0,6533041.630000001,AK,2,198,1419980,Prince of Wales-Hyder Census Area,H5,2198
+02198,Fire/Extreme temperature/Drought,2022.0,5205310.15,AK,2,198,1419980,Prince of Wales-Hyder Census Area,H5,2198
 02220,none,,0.0,AK,2,220,1419981,Sitka City and Borough,H6,2220
 02230,Earthquake/Landslide,2022.0,1623037.55,AK,2,230,2339479,Skagway Municipality,H1,2230
 02240,none,,0.0,AK,2,240,1419983,Southeast Fairbanks Census Area,H5,2240
@@ -95,22 +95,22 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 02282,Tornado/Severe storm,2023.0,101400.0,AK,2,282,1419986,Yakutat City and Borough,H1,2282
 02290,Flooding/Tropical storm/Hurricane,2020.0,2110640.0,AK,2,290,1419987,Yukon-Koyukuk Census Area,H5,2290
 04001,Flooding/Tropical storm/Hurricane,2020.0,1114582.0,AZ,4,1,25441,Apache County,H1,4001
-04003,Unidentified disaster,2023.0,72365935.16,AZ,4,3,25442,Cochise County,H1,4003
+04003,Fire/Extreme temperature/Drought,2023.0,72365935.16,AZ,4,3,25442,Cochise County,H1,4003
 04005,Flooding/Tropical storm/Hurricane,2022.0,53108146.0,AZ,4,5,25443,Coconino County,H1,4005
 04007,Flooding/Tropical storm/Hurricane,2023.0,583581.56,AZ,4,7,40471,Gila County,H1,4007
 04009,none,,0.0,AZ,4,9,25444,Graham County,H1,4009
 04011,none,,0.0,AZ,4,11,42807,Greenlee County,H1,4011
 04012,Tornado/Severe storm,2020.0,50093.12,AZ,4,12,43540,La Paz County,H1,4012
-04013,Infrastructure failure,2022.0,58043630.0,AZ,4,13,37026,Maricopa County,H1,4013
+04013,Infrastructure failure/Manmade disaster,2022.0,58043630.0,AZ,4,13,37026,Maricopa County,H1,4013
 04015,Flooding/Tropical storm/Hurricane,2023.0,8250000.0,AZ,4,15,25445,Mohave County,H1,4015
-04017,Infrastructure failure,2021.0,3839258.0,AZ,4,17,42808,Navajo County,H1,4017
+04017,Infrastructure failure/Manmade disaster,2021.0,3839258.0,AZ,4,17,42808,Navajo County,H1,4017
 04019,Tornado/Severe storm,2021.0,5217527.55,AZ,4,19,25446,Pima County,H1,4019
 04021,Flooding/Tropical storm/Hurricane,2022.0,118502618.0,AZ,4,21,25447,Pinal County,H1,4021
 04023,none,,0.0,AZ,4,23,40472,Santa Cruz County,H1,4023
 04025,Flooding/Tropical storm/Hurricane,2023.0,3327041.58,AZ,4,25,42809,Yavapai County,H1,4025
 04027,Flooding/Tropical storm/Hurricane,2023.0,10517000.0,AZ,4,27,23901,Yuma County,H1,4027
 05001,none,,0.0,AR,5,1,63755,Arkansas County,H1,5001
-05003,Fire/Extreme temperature,2021.0,35000.0,AR,5,3,63756,Ashley County,H1,5003
+05003,Fire/Extreme temperature/Drought,2021.0,35000.0,AR,5,3,63756,Ashley County,H1,5003
 05005,none,,0.0,AR,5,5,69895,Baxter County,H1,5005
 05007,Flooding/Tropical storm/Hurricane,2020.0,5800000.0,AR,5,7,69896,Benton County,H1,5007
 05009,Flooding/Tropical storm/Hurricane,2023.0,40000.0,AR,5,9,69897,Boone County,H1,5009
@@ -124,7 +124,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 05025,none,,0.0,AR,5,25,63760,Cleveland County,H1,5025
 05027,Flooding/Tropical storm/Hurricane,2020.0,447300.0,AR,5,27,63761,Columbia County,H1,5027
 05029,none,,0.0,AR,5,29,66846,Conway County,H1,5029
-05031,Unidentified disaster,2023.0,4005511.37,AR,5,31,66847,Craighead County,H1,5031
+05031,Blizzard/Winter storm,2023.0,4005511.37,AR,5,31,66847,Craighead County,H1,5031
 05033,Flooding/Tropical storm/Hurricane,2020.0,1104910.0,AR,5,33,69161,Crawford County,H1,5033
 05035,none,,0.0,AR,5,35,69162,Crittenden County,H1,5035
 05037,Tornado/Severe storm,2023.0,11139282.0,AR,5,37,66848,Cross County,H1,5037
@@ -133,7 +133,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 05043,none,,0.0,AR,5,43,66851,Drew County,H1,5043
 05045,Tornado/Severe storm,2021.0,1256115.24,AR,5,45,66852,Faulkner County,H1,5045
 05047,Tornado/Severe storm,2020.0,2040985.93,AR,5,47,66853,Franklin County,H1,5047
-05049,Unidentified disaster,2023.0,15000.0,AR,5,49,66854,Fulton County,H1,5049
+05049,Blizzard/Winter storm,2023.0,15000.0,AR,5,49,66854,Fulton County,H1,5049
 05051,none,,0.0,AR,5,51,66855,Garland County,H1,5051
 05053,Unidentified disaster,2023.0,31635.0,AR,5,53,66856,Grant County,H1,5053
 05055,none,,0.0,AR,5,55,66857,Greene County,H1,5055
@@ -161,7 +161,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 05099,Tornado/Severe storm,2020.0,1636042.8,AR,5,99,69169,Nevada County,H1,5099
 05101,none,,0.0,AR,5,101,69900,Newton County,H1,5101
 05103,none,,0.0,AR,5,103,69170,Ouachita County,H1,5103
-05105,Manmade disaster,2021.0,40000.0,AR,5,105,69171,Perry County,H1,5105
+05105,Infrastructure failure/Manmade disaster,2021.0,40000.0,AR,5,105,69171,Perry County,H1,5105
 05107,none,,0.0,AR,5,107,69172,Phillips County,H1,5107
 05109,Tornado/Severe storm,2020.0,1797414.08,AR,5,109,69173,Pike County,H1,5109
 05111,none,,0.0,AR,5,111,69174,Poinsett County,H1,5111
@@ -192,18 +192,18 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 06011,Flooding/Tropical storm/Hurricane,2020.0,25724500.0,CA,6,11,1675902,Colusa County,H1,6011
 06013,Tornado/Severe storm,2020.0,3276578.68,CA,6,13,1675903,Contra Costa County,H1,6013
 06015,Tornado/Severe storm,2020.0,293958.5,CA,6,15,1682074,Del Norte County,H1,6015
-06017,Fire/Extreme temperature,2023.0,19331027.4,CA,6,17,277273,El Dorado County,H1,6017
+06017,Fire/Extreme temperature/Drought,2023.0,19331027.4,CA,6,17,277273,El Dorado County,H1,6017
 06019,none,,0.0,CA,6,19,277274,Fresno County,H1,6019
 06021,none,,0.0,CA,6,21,277275,Glenn County,H1,6021
 06023,Flooding/Tropical storm/Hurricane,2020.0,5638113.6,CA,6,23,1681908,Humboldt County,H1,6023
 06025,Tornado/Severe storm,2021.0,1465623.97,CA,6,25,277277,Imperial County,H1,6025
 06027,none,,0.0,CA,6,27,1804637,Inyo County,H1,6027
-06029,Unidentified disaster,2021.0,56042797.0,CA,6,29,2054176,Kern County,H1,6029
+06029,Fire/Extreme temperature/Drought,2021.0,56042797.0,CA,6,29,2054176,Kern County,H1,6029
 06031,none,,0.0,CA,6,31,277280,Kings County,H1,6031
-06033,Fire/Extreme temperature,2021.0,491732.0,CA,6,33,277281,Lake County,H1,6033
+06033,Fire/Extreme temperature/Drought,2021.0,491732.0,CA,6,33,277281,Lake County,H1,6033
 06035,none,,0.0,CA,6,35,1693324,Lassen County,H1,6035
-06037,Unidentified disaster,2023.0,335323075.0,CA,6,37,277283,Los Angeles County,H1,6037
-06039,Fire/Extreme temperature,2022.0,105296.0,CA,6,39,277284,Madera County,H1,6039
+06037,Fire/Extreme temperature/Drought,2023.0,335323075.0,CA,6,37,277283,Los Angeles County,H1,6037
+06039,Fire/Extreme temperature/Drought,2022.0,105296.0,CA,6,39,277284,Madera County,H1,6039
 06041,Flooding/Tropical storm/Hurricane,2021.0,33903146.54,CA,6,41,277285,Marin County,H1,6041
 06043,none,,0.0,CA,6,43,277286,Mariposa County,H1,6043
 06045,Earthquake/Landslide,2021.0,6043340.5,CA,6,45,277287,Mendocino County,H1,6045
@@ -211,39 +211,39 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 06049,none,,0.0,CA,6,49,277289,Modoc County,H1,6049
 06051,none,,0.0,CA,6,51,277290,Mono County,H1,6051
 06053,Unidentified disaster,2022.0,315000.0,CA,6,53,277291,Monterey County,H1,6053
-06055,Fire/Extreme temperature,2022.0,9910162.5,CA,6,55,277292,Napa County,H1,6055
-06057,Fire/Extreme temperature,2021.0,1486380.3,CA,6,57,1682927,Nevada County,H1,6057
-06059,Fire/Extreme temperature,2023.0,60000000.0,CA,6,59,277294,Orange County,H1,6059
-06061,Fire/Extreme temperature,2022.0,1035680.0,CA,6,61,277295,Placer County,H1,6061
-06063,Infrastructure failure,2022.0,499950.0,CA,6,63,277296,Plumas County,H1,6063
-06065,Fire/Extreme temperature,2023.0,32912311.0,CA,6,65,277297,Riverside County,H1,6065
+06055,Fire/Extreme temperature/Drought,2022.0,9910162.5,CA,6,55,277292,Napa County,H1,6055
+06057,Fire/Extreme temperature/Drought,2021.0,1486380.3,CA,6,57,1682927,Nevada County,H1,6057
+06059,Fire/Extreme temperature/Drought,2023.0,60000000.0,CA,6,59,277294,Orange County,H1,6059
+06061,Fire/Extreme temperature/Drought,2022.0,1035680.0,CA,6,61,277295,Placer County,H1,6061
+06063,Infrastructure failure/Manmade disaster,2022.0,499950.0,CA,6,63,277296,Plumas County,H1,6063
+06065,Fire/Extreme temperature/Drought,2023.0,48611925.4,CA,6,65,277297,Riverside County,H1,6065
 06067,Unidentified disaster,2023.0,151240748.0,CA,6,67,277298,Sacramento County,H1,6067
 06069,none,,0.0,CA,6,69,277299,San Benito County,H1,6069
 06071,Flooding/Tropical storm/Hurricane,2023.0,125611303.0,CA,6,71,277300,San Bernardino County,H1,6071
 06073,Flooding/Tropical storm/Hurricane,2023.0,75085464.34,CA,6,73,277301,San Diego County,H1,6073
 06075,Tornado/Severe storm,2023.0,121869660.28,CA,6,75,277302,San Francisco County,H6,6075
 06077,none,,0.0,CA,6,77,277303,San Joaquin County,H1,6077
-06079,Infrastructure failure,2023.0,1462759.0,CA,6,79,277304,San Luis Obispo County,H1,6079
-06081,Infrastructure failure,2022.0,84175464.37,CA,6,81,277305,San Mateo County,H1,6081
+06079,Infrastructure failure/Manmade disaster,2023.0,1462759.0,CA,6,79,277304,San Luis Obispo County,H1,6079
+06081,Infrastructure failure/Manmade disaster,2022.0,84175464.37,CA,6,81,277305,San Mateo County,H1,6081
 06083,none,,0.0,CA,6,83,277306,Santa Barbara County,H1,6083
 06085,Flooding/Tropical storm/Hurricane,2023.0,384191170.0,CA,6,85,277307,Santa Clara County,H1,6085
 06087,Flooding/Tropical storm/Hurricane,2022.0,15728427.05,CA,6,87,277308,Santa Cruz County,H1,6087
 06089,none,,0.0,CA,6,89,1682610,Shasta County,H1,6089
 06091,none,,0.0,CA,6,91,277310,Sierra County,H1,6091
-06093,Fire/Extreme temperature,2022.0,1154123.22,CA,6,93,277311,Siskiyou County,H1,6093
+06093,Fire/Extreme temperature/Drought,2022.0,1154123.22,CA,6,93,277311,Siskiyou County,H1,6093
 06095,none,,0.0,CA,6,95,277312,Solano County,H1,6095
-06097,Fire/Extreme temperature,2020.0,7558316.32,CA,6,97,1657246,Sonoma County,H1,6097
-06099,Unidentified disaster,2022.0,91018239.0,CA,6,99,277314,Stanislaus County,H1,6099
+06097,Fire/Extreme temperature/Drought,2020.0,7558316.32,CA,6,97,1657246,Sonoma County,H1,6097
+06099,Fire/Extreme temperature/Drought,2022.0,91018239.0,CA,6,99,277314,Stanislaus County,H1,6099
 06101,none,,0.0,CA,6,101,277315,Sutter County,H1,6101
-06103,Infrastructure failure,2020.0,12668654.95,CA,6,103,1692767,Tehama County,H1,6103
+06103,Infrastructure failure/Manmade disaster,2020.0,12668654.95,CA,6,103,1692767,Tehama County,H1,6103
 06105,none,,0.0,CA,6,105,277317,Trinity County,H1,6105
-06107,Unidentified disaster,2021.0,23141460.0,CA,6,107,277318,Tulare County,H1,6107
+06107,Fire/Extreme temperature/Drought,2021.0,23141460.0,CA,6,107,277318,Tulare County,H1,6107
 06109,none,,0.0,CA,6,109,277319,Tuolumne County,H1,6109
-06111,Infrastructure failure,2023.0,51840678.0,CA,6,111,277320,Ventura County,H1,6111
+06111,Infrastructure failure/Manmade disaster,2023.0,51840678.0,CA,6,111,277320,Ventura County,H1,6111
 06113,Flooding/Tropical storm/Hurricane,2020.0,173000.0,CA,6,113,277321,Yolo County,H1,6113
 06115,Flooding/Tropical storm/Hurricane,2022.0,289452217.0,CA,6,115,277322,Yuba County,H1,6115
 08001,Flooding/Tropical storm/Hurricane,2020.0,55300.0,CO,8,1,198116,Adams County,H1,8001
-08003,Fire/Extreme temperature,2023.0,630000.0,CO,8,3,198117,Alamosa County,H1,8003
+08003,Fire/Extreme temperature/Drought,2023.0,630000.0,CO,8,3,198117,Alamosa County,H1,8003
 08005,Flooding/Tropical storm/Hurricane,2021.0,22739485.0,CO,8,5,198118,Arapahoe County,H1,8005
 08007,none,,0.0,CO,8,7,198119,Archuleta County,H1,8007
 08009,none,,0.0,CO,8,9,198120,Baca County,H1,8009
@@ -263,21 +263,21 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 08035,none,,0.0,CO,8,35,198133,Douglas County,H1,8035
 08037,Flooding/Tropical storm/Hurricane,2023.0,4368256.0,CO,8,37,198134,Eagle County,H1,8037
 08039,none,,0.0,CO,8,39,198136,Elbert County,H1,8039
-08041,Infrastructure failure,2020.0,14462125.0,CO,8,41,198135,El Paso County,H1,8041
+08041,Infrastructure failure/Manmade disaster,2020.0,14462125.0,CO,8,41,198135,El Paso County,H1,8041
 08043,none,,0.0,CO,8,43,198137,Fremont County,H1,8043
-08045,Fire/Extreme temperature,2020.0,51581134.2,CO,8,45,198138,Garfield County,H1,8045
+08045,Fire/Extreme temperature/Drought,2020.0,51581134.2,CO,8,45,198138,Garfield County,H1,8045
 08047,none,,0.0,CO,8,47,198139,Gilpin County,H1,8047
 08049,none,,0.0,CO,8,49,198140,Grand County,H1,8049
 08051,none,,0.0,CO,8,51,198141,Gunnison County,H1,8051
-08053,Infrastructure failure,2023.0,487250.0,CO,8,53,198142,Hinsdale County,H1,8053
-08055,Fire/Extreme temperature,2020.0,601755.0,CO,8,55,198143,Huerfano County,H1,8055
+08053,Infrastructure failure/Manmade disaster,2023.0,487250.0,CO,8,53,198142,Hinsdale County,H1,8053
+08055,Fire/Extreme temperature/Drought,2020.0,601755.0,CO,8,55,198143,Huerfano County,H1,8055
 08057,none,,0.0,CO,8,57,198144,Jackson County,H1,8057
-08059,Fire/Extreme temperature,2021.0,7542217.0,CO,8,59,198145,Jefferson County,H1,8059
+08059,Fire/Extreme temperature/Drought,2021.0,7542217.0,CO,8,59,198145,Jefferson County,H1,8059
 08061,none,,0.0,CO,8,61,198146,Kiowa County,H1,8061
 08063,none,,0.0,CO,8,63,198147,Kit Carson County,H1,8063
 08065,none,,0.0,CO,8,65,198149,Lake County,H1,8065
-08067,Fire/Extreme temperature,2020.0,40000.0,CO,8,67,198148,La Plata County,H1,8067
-08069,Unidentified disaster,2020.0,5055298.0,CO,8,69,198150,Larimer County,H1,8069
+08067,Fire/Extreme temperature/Drought,2020.0,40000.0,CO,8,67,198148,La Plata County,H1,8067
+08069,Blizzard/Winter storm,2020.0,5055298.0,CO,8,69,198150,Larimer County,H1,8069
 08071,none,,0.0,CO,8,71,198151,Las Animas County,H1,8071
 08073,none,,0.0,CO,8,73,198152,Lincoln County,H1,8073
 08075,none,,0.0,CO,8,75,198153,Logan County,H1,8075
@@ -285,7 +285,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 08079,Flooding/Tropical storm/Hurricane,2022.0,7183184.0,CO,8,79,198155,Mineral County,H1,8079
 08081,none,,0.0,CO,8,81,198156,Moffat County,H1,8081
 08083,none,,0.0,CO,8,83,198157,Montezuma County,H1,8083
-08085,Unidentified disaster,2021.0,80000000.0,CO,8,85,198158,Montrose County,H1,8085
+08085,Fire/Extreme temperature/Drought,2021.0,80000000.0,CO,8,85,198158,Montrose County,H1,8085
 08087,none,,0.0,CO,8,87,198159,Morgan County,H1,8087
 08089,none,,0.0,CO,8,89,198160,Otero County,H1,8089
 08091,none,,0.0,CO,8,91,198161,Ouray County,H1,8091
@@ -296,8 +296,8 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 08101,Unidentified disaster,2020.0,10599938.0,CO,8,101,198166,Pueblo County,H1,8101
 08103,none,,0.0,CO,8,103,198167,Rio Blanco County,H1,8103
 08105,none,,0.0,CO,8,105,198168,Rio Grande County,H1,8105
-08107,Fire/Extreme temperature,2020.0,75000.0,CO,8,107,198169,Routt County,H1,8107
-08109,Fire/Extreme temperature,2022.0,139319.25,CO,8,109,198170,Saguache County,H1,8109
+08107,Fire/Extreme temperature/Drought,2020.0,75000.0,CO,8,107,198169,Routt County,H1,8107
+08109,Fire/Extreme temperature/Drought,2022.0,139319.25,CO,8,109,198170,Saguache County,H1,8109
 08111,none,,0.0,CO,8,111,198171,San Juan County,H1,8111
 08113,none,,0.0,CO,8,113,198172,San Miguel County,H1,8113
 08115,none,,0.0,CO,8,115,198173,Sedgwick County,H1,8115
@@ -309,11 +309,11 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 09001,Flooding/Tropical storm/Hurricane,2020.0,17039657.0,CT,9,1,212794,Fairfield County,H4,9001
 09003,Flooding/Tropical storm/Hurricane,2022.0,69459339.48,CT,9,3,212338,Hartford County,H4,9003
 09005,Tornado/Severe storm,2022.0,902334.19,CT,9,5,212796,Litchfield County,H4,9005
-09007,Unidentified disaster,2023.0,10374606.36,CT,9,7,212797,Middlesex County,H4,9007
-09009,Infrastructure failure,2023.0,139407250.0,CT,9,9,212798,New Haven County,H4,9009
+09007,Unidentified disaster,2023.0,10062866.36,CT,9,7,212797,Middlesex County,H4,9007
+09009,Infrastructure failure/Manmade disaster,2023.0,139407250.0,CT,9,9,212798,New Haven County,H4,9009
 09011,Flooding/Tropical storm/Hurricane,2020.0,880751.0,CT,9,11,212799,New London County,H4,9011
 09013,Tornado/Severe storm,2020.0,9697390.0,CT,9,13,212668,Tolland County,H4,9013
-09015,Infrastructure failure,2020.0,8368750.0,CT,9,15,212801,Windham County,H4,9015
+09015,Infrastructure failure/Manmade disaster,2020.0,8368750.0,CT,9,15,212801,Windham County,H4,9015
 10001,Flooding/Tropical storm/Hurricane,2022.0,13801352.25,DE,10,1,217271,Kent County,H1,10001
 10003,Flooding/Tropical storm/Hurricane,2020.0,1028600.0,DE,10,3,217270,New Castle County,H1,10003
 10005,Flooding/Tropical storm/Hurricane,2023.0,3384229.0500000003,DE,10,5,217269,Sussex County,H1,10005
@@ -332,7 +332,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 12023,none,,0.0,FL,12,23,306909,Columbia County,H1,12023
 12027,none,,0.0,FL,12,27,294452,DeSoto County,H1,12027
 12029,none,,0.0,FL,12,29,295725,Dixie County,H1,12029
-12031,Infrastructure failure,2021.0,3784956.0,FL,12,31,293656,Duval County,H6,12031
+12031,Infrastructure failure/Manmade disaster,2021.0,3784956.0,FL,12,31,293656,Duval County,H6,12031
 12033,Flooding/Tropical storm/Hurricane,2023.0,1018500.0,FL,12,33,295737,Escambia County,H1,12033
 12035,Unidentified disaster,2021.0,671660.0,FL,12,35,308547,Flagler County,H1,12035
 12037,Unidentified disaster,2022.0,1305404.52,FL,12,37,306911,Franklin County,H1,12037
@@ -345,20 +345,20 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 12051,none,,0.0,FL,12,51,307626,Hendry County,H1,12051
 12053,none,,0.0,FL,12,53,295751,Hernando County,H1,12053
 12055,none,,0.0,FL,12,55,295756,Highlands County,H1,12055
-12057,Infrastructure failure,2023.0,3580503.84,FL,12,57,295757,Hillsborough County,H1,12057
+12057,Infrastructure failure/Manmade disaster,2023.0,3580503.84,FL,12,57,295757,Hillsborough County,H1,12057
 12059,none,,0.0,FL,12,59,295735,Holmes County,H1,12059
 12061,none,,0.0,FL,12,61,307624,Indian River County,H1,12061
 12063,none,,0.0,FL,12,63,295734,Jackson County,H1,12063
-12065,Infrastructure failure,2022.0,41696.18,FL,12,65,295733,Jefferson County,H1,12065
+12065,Infrastructure failure/Manmade disaster,2022.0,41696.18,FL,12,65,295733,Jefferson County,H1,12065
 12067,none,,0.0,FL,12,67,295732,Lafayette County,H1,12067
-12069,Infrastructure failure,2023.0,3785691.84,FL,12,69,308551,Lake County,H1,12069
+12069,Infrastructure failure/Manmade disaster,2023.0,3785691.84,FL,12,69,308551,Lake County,H1,12069
 12071,none,,0.0,FL,12,71,295758,Lee County,H1,12071
 12073,Unidentified disaster,2022.0,34070648.31,FL,12,73,306916,Leon County,H1,12073
 12075,none,,0.0,FL,12,75,295724,Levy County,H1,12075
 12077,none,,0.0,FL,12,77,308549,Liberty County,H1,12077
 12079,none,,0.0,FL,12,79,295731,Madison County,H1,12079
-12081,Infrastructure failure,2023.0,663965.14,FL,12,81,295744,Manatee County,H1,12081
-12083,Infrastructure failure,2022.0,4900747.44,FL,12,83,306922,Marion County,H1,12083
+12081,Infrastructure failure/Manmade disaster,2023.0,663965.14,FL,12,81,295744,Manatee County,H1,12081
+12083,Infrastructure failure/Manmade disaster,2022.0,4900747.44,FL,12,83,306922,Marion County,H1,12083
 12085,none,,0.0,FL,12,85,308550,Martin County,H1,12085
 12086,Flooding/Tropical storm/Hurricane,2022.0,86693435.69,FL,12,86,295755,Miami-Dade County,H1,12086
 12087,Flooding/Tropical storm/Hurricane,2022.0,16625991.73,FL,12,87,295759,Monroe County,H1,12087
@@ -366,9 +366,9 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 12091,none,,0.0,FL,12,91,306915,Okaloosa County,H1,12091
 12093,none,,0.0,FL,12,93,295760,Okeechobee County,H1,12093
 12095,Flooding/Tropical storm/Hurricane,2023.0,8229819.75,FL,12,95,295750,Orange County,H1,12095
-12097,Unidentified disaster,2021.0,97020000.0,FL,12,97,295748,Osceola County,H1,12097
+12097,Fire/Extreme temperature/Drought,2021.0,97020000.0,FL,12,97,295748,Osceola County,H1,12097
 12099,Flooding/Tropical storm/Hurricane,2020.0,127119999.4,FL,12,99,295761,Palm Beach County,H1,12099
-12101,Infrastructure failure,2023.0,57015784.96,FL,12,101,295739,Pasco County,H1,12101
+12101,Infrastructure failure/Manmade disaster,2023.0,57015784.96,FL,12,101,295739,Pasco County,H1,12101
 12103,Flooding/Tropical storm/Hurricane,2021.0,5086200.42,FL,12,103,295745,Pinellas County,H1,12103
 12105,none,,0.0,FL,12,105,295747,Polk County,H1,12105
 12107,none,,0.0,FL,12,107,306910,Putnam County,H1,12107
@@ -380,7 +380,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 12119,Unidentified disaster,2022.0,3262593.82,FL,12,119,295740,Sumter County,H1,12119
 12121,none,,0.0,FL,12,121,295729,Suwannee County,H1,12121
 12123,none,,0.0,FL,12,123,295728,Taylor County,H1,12123
-12125,Infrastructure failure,2023.0,7173122.25,FL,12,125,306913,Union County,H1,12125
+12125,Infrastructure failure/Manmade disaster,2023.0,7173122.25,FL,12,125,306913,Union County,H1,12125
 12127,Flooding/Tropical storm/Hurricane,2023.0,6248418.76,FL,12,127,306921,Volusia County,H1,12127
 12129,none,,0.0,FL,12,129,306912,Wakulla County,H1,12129
 12131,none,,0.0,FL,12,131,295727,Walton County,H1,12131
@@ -420,11 +420,11 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 13067,Tornado/Severe storm,2021.0,8806073.4,GA,13,67,1686112,Cobb County,H1,13067
 13069,none,,0.0,GA,13,69,347456,Coffee County,H1,13069
 13071,none,,0.0,GA,13,71,343936,Colquitt County,H1,13071
-13073,Infrastructure failure,2023.0,67048944.0,GA,13,73,348865,Columbia County,H1,13073
+13073,Infrastructure failure/Manmade disaster,2023.0,67048944.0,GA,13,73,348865,Columbia County,H1,13073
 13075,none,,0.0,GA,13,75,343878,Cook County,H1,13075
 13077,Flooding/Tropical storm/Hurricane,2020.0,42000.0,GA,13,77,326666,Coweta County,H1,13077
 13079,none,,0.0,GA,13,79,342918,Crawford County,H1,13079
-13081,Infrastructure failure,2023.0,140522.0,GA,13,81,351607,Crisp County,H1,13081
+13081,Infrastructure failure/Manmade disaster,2023.0,140522.0,GA,13,81,351607,Crisp County,H1,13081
 13083,Flooding/Tropical storm/Hurricane,2023.0,35911.05,GA,13,83,347465,Dade County,H1,13083
 13085,Flooding/Tropical storm/Hurricane,2020.0,31500.0,GA,13,85,351312,Dawson County,H1,13085
 13087,none,,0.0,GA,13,87,352234,Decatur County,H1,13087
@@ -476,7 +476,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 13179,none,,0.0,GA,13,179,357095,Liberty County,H1,13179
 13181,none,,0.0,GA,13,181,1688000,Lincoln County,H1,13181
 13183,none,,0.0,GA,13,183,326719,Long County,H1,13183
-13185,Infrastructure failure,2020.0,264350.0,GA,13,185,326720,Lowndes County,H1,13185
+13185,Infrastructure failure/Manmade disaster,2020.0,264350.0,GA,13,185,326720,Lowndes County,H1,13185
 13187,none,,0.0,GA,13,187,357196,Lumpkin County,H1,13187
 13189,none,,0.0,GA,13,189,348794,McDuffie County,H1,13189
 13191,Flooding/Tropical storm/Hurricane,2020.0,35700.0,GA,13,191,356886,McIntosh County,H1,13191
@@ -494,7 +494,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 13217,none,,0.0,GA,13,217,1673547,Newton County,H1,13217
 13219,none,,0.0,GA,13,219,356774,Oconee County,H1,13219
 13221,none,,0.0,GA,13,221,351262,Oglethorpe County,H1,13221
-13223,Unidentified disaster,2021.0,1584229.57,GA,13,223,349912,Paulding County,H1,13223
+13223,Blizzard/Winter storm,2021.0,1584229.57,GA,13,223,349912,Paulding County,H1,13223
 13225,Flooding/Tropical storm/Hurricane,2023.0,3639300.0,GA,13,225,343153,Peach County,H1,13225
 13227,none,,0.0,GA,13,227,1673011,Pickens County,H1,13227
 13229,none,,0.0,GA,13,229,349086,Pierce County,H1,13229
@@ -542,7 +542,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 13313,none,,0.0,GA,13,313,353513,Whitfield County,H1,13313
 13315,none,,0.0,GA,13,315,345499,Wilcox County,H1,13315
 13317,Tornado/Severe storm,2020.0,199760.0,GA,13,317,351265,Wilkes County,H1,13317
-13319,Infrastructure failure,2020.0,748640.0,GA,13,319,346824,Wilkinson County,H1,13319
+13319,Infrastructure failure/Manmade disaster,2020.0,748640.0,GA,13,319,346824,Wilkinson County,H1,13319
 13321,none,,0.0,GA,13,321,343365,Worth County,H1,13321
 15001,none,,0.0,HI,15,1,365280,Hawaii County,H1,15001
 15003,Unidentified disaster,2020.0,140407242.7,HI,15,3,365281,Honolulu County,H6,15003
@@ -551,7 +551,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 15009,Tornado/Severe storm,2020.0,27350827.0,HI,15,9,365283,Maui County,H1,15009
 16001,Flooding/Tropical storm/Hurricane,2022.0,6321949.91,ID,16,1,395066,Ada County,H1,16001
 16003,none,,0.0,ID,16,3,395067,Adams County,H1,16003
-16005,Fire/Extreme temperature,2022.0,141111.6,ID,16,5,395091,Bannock County,H1,16005
+16005,Fire/Extreme temperature/Drought,2022.0,141111.6,ID,16,5,395091,Bannock County,H1,16005
 16007,none,,0.0,ID,16,7,395090,Bear Lake County,H1,16007
 16009,none,,0.0,ID,16,9,395190,Benewah County,H1,16009
 16011,none,,0.0,ID,16,11,400593,Bingham County,H1,16011
@@ -560,28 +560,28 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 16017,none,,0.0,ID,16,17,395158,Bonner County,H1,16017
 16019,Tornado/Severe storm,2020.0,1648515.0,ID,16,19,395407,Bonneville County,H1,16019
 16021,none,,0.0,ID,16,21,395159,Boundary County,H1,16021
-16023,Fire/Extreme temperature,2020.0,72200.18,ID,16,23,401703,Butte County,H1,16023
+16023,Fire/Extreme temperature/Drought,2020.0,72200.18,ID,16,23,401703,Butte County,H1,16023
 16025,none,,0.0,ID,16,25,399408,Camas County,H1,16025
-16027,Infrastructure failure,2023.0,1235537.0,ID,16,27,399406,Canyon County,H1,16027
+16027,Infrastructure failure/Manmade disaster,2023.0,1235537.0,ID,16,27,399406,Canyon County,H1,16027
 16029,none,,0.0,ID,16,29,395406,Caribou County,H1,16029
-16031,Infrastructure failure,2020.0,100000.0,ID,16,31,395698,Cassia County,H1,16031
+16031,Infrastructure failure/Manmade disaster,2020.0,100000.0,ID,16,31,395698,Cassia County,H1,16031
 16033,none,,0.0,ID,16,33,399755,Clark County,H1,16033
 16035,none,,0.0,ID,16,35,395697,Clearwater County,H1,16035
-16037,Infrastructure failure,2021.0,7869840.0,ID,16,37,399758,Custer County,H1,16037
-16039,Fire/Extreme temperature,2023.0,281944.45,ID,16,39,400252,Elmore County,H1,16039
+16037,Infrastructure failure/Manmade disaster,2021.0,7869840.0,ID,16,37,399758,Custer County,H1,16037
+16039,Fire/Extreme temperature/Drought,2023.0,281944.45,ID,16,39,400252,Elmore County,H1,16039
 16041,none,,0.0,ID,16,41,395585,Franklin County,H1,16041
 16043,Earthquake/Landslide,2021.0,35000.0,ID,16,43,395408,Fremont County,H1,16043
-16045,Fire/Extreme temperature,2023.0,90000.0,ID,16,45,395442,Gem County,H1,16045
+16045,Fire/Extreme temperature/Drought,2023.0,90000.0,ID,16,45,395442,Gem County,H1,16045
 16047,Flooding/Tropical storm/Hurricane,2021.0,0.0,ID,16,47,395441,Gooding County,H1,16047
 16049,none,,0.0,ID,16,49,395699,Idaho County,H1,16049
 16051,none,,0.0,ID,16,51,399751,Jefferson County,H1,16051
 16053,none,,0.0,ID,16,53,395662,Jerome County,H1,16053
 16055,Tornado/Severe storm,2020.0,28863940.02,ID,16,55,395661,Kootenai County,H1,16055
-16057,Fire/Extreme temperature,2023.0,80000.0,ID,16,57,395613,Latah County,H1,16057
+16057,Fire/Extreme temperature/Drought,2023.0,80000.0,ID,16,57,395613,Latah County,H1,16057
 16059,none,,0.0,ID,16,59,399754,Lemhi County,H1,16059
-16061,Fire/Extreme temperature,2023.0,1877848.1600000001,ID,16,61,395622,Lewis County,H1,16061
+16061,Fire/Extreme temperature/Drought,2023.0,1877848.1600000001,ID,16,61,395622,Lewis County,H1,16061
 16063,none,,0.0,ID,16,63,395624,Lincoln County,H1,16063
-16065,Infrastructure failure,2022.0,180000.0,ID,16,65,394803,Madison County,H1,16065
+16065,Infrastructure failure/Manmade disaster,2022.0,180000.0,ID,16,65,394803,Madison County,H1,16065
 16067,none,,0.0,ID,16,67,394807,Minidoka County,H1,16067
 16069,Flooding/Tropical storm/Hurricane,2023.0,4834330.0,ID,16,69,399394,Nez Perce County,H1,16069
 16071,none,,0.0,ID,16,71,399759,Oneida County,H1,16071
@@ -598,7 +598,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 17005,none,,0.0,IL,17,5,424204,Bond County,H1,17005
 17007,none,,0.0,IL,17,7,424205,Boone County,H1,17007
 17009,none,,0.0,IL,17,9,424206,Brown County,H1,17009
-17011,Infrastructure failure,2022.0,25560233.0,IL,17,11,424207,Bureau County,H1,17011
+17011,Infrastructure failure/Manmade disaster,2022.0,25560233.0,IL,17,11,424207,Bureau County,H1,17011
 17013,Flooding/Tropical storm/Hurricane,2022.0,311767.05,IL,17,13,424208,Calhoun County,H1,17013
 17015,Tornado/Severe storm,2023.0,123304.8,IL,17,15,424209,Carroll County,H1,17015
 17017,none,,0.0,IL,17,17,424210,Cass County,H1,17017
@@ -610,12 +610,12 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 17029,Flooding/Tropical storm/Hurricane,2021.0,6030900.0,IL,17,29,424216,Coles County,H1,17029
 17031,Flooding/Tropical storm/Hurricane,2023.0,473559398.96000004,IL,17,31,1784766,Cook County,H1,17031
 17033,none,,0.0,IL,17,33,424218,Crawford County,H1,17033
-17035,Unidentified disaster,2023.0,64351.93,IL,17,35,424219,Cumberland County,H1,17035
-17037,Infrastructure failure,2023.0,51984.0,IL,17,37,422190,DeKalb County,H1,17037
+17035,Blizzard/Winter storm,2023.0,64351.93,IL,17,35,424219,Cumberland County,H1,17035
+17037,Infrastructure failure/Manmade disaster,2023.0,51984.0,IL,17,37,422190,DeKalb County,H1,17037
 17039,none,,0.0,IL,17,39,426598,De Witt County,H1,17039
 17041,none,,0.0,IL,17,41,424222,Douglas County,H1,17041
 17043,Flooding/Tropical storm/Hurricane,2021.0,14566526.45,IL,17,43,422191,DuPage County,H1,17043
-17045,Infrastructure failure,2023.0,20000.0,IL,17,45,424224,Edgar County,H1,17045
+17045,Infrastructure failure/Manmade disaster,2023.0,20000.0,IL,17,45,424224,Edgar County,H1,17045
 17047,none,,0.0,IL,17,47,424225,Edwards County,H1,17047
 17049,none,,0.0,IL,17,49,424226,Effingham County,H1,17049
 17051,none,,0.0,IL,17,51,424227,Fayette County,H1,17051
@@ -624,7 +624,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 17057,none,,0.0,IL,17,57,424230,Fulton County,H1,17057
 17059,none,,0.0,IL,17,59,424231,Gallatin County,H1,17059
 17061,none,,0.0,IL,17,61,424232,Greene County,H1,17061
-17063,Infrastructure failure,2021.0,443750.0,IL,17,63,424233,Grundy County,H1,17063
+17063,Infrastructure failure/Manmade disaster,2021.0,443750.0,IL,17,63,424233,Grundy County,H1,17063
 17065,none,,0.0,IL,17,65,424234,Hamilton County,H1,17065
 17067,none,,0.0,IL,17,67,424235,Hancock County,H1,17067
 17069,none,,0.0,IL,17,69,424236,Hardin County,H1,17069
@@ -674,7 +674,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 17157,none,,0.0,IL,17,157,1784967,Randolph County,H1,17157
 17159,none,,0.0,IL,17,159,424281,Richland County,H1,17159
 17161,Flooding/Tropical storm/Hurricane,2021.0,7316057.0,IL,17,161,424282,Rock Island County,H1,17161
-17163,Infrastructure failure,2020.0,22911859.2,IL,17,163,1784987,St. Clair County,H1,17163
+17163,Infrastructure failure/Manmade disaster,2020.0,22911859.2,IL,17,163,1784987,St. Clair County,H1,17163
 17165,none,,0.0,IL,17,165,424283,Saline County,H1,17165
 17167,Unidentified disaster,2023.0,54979799.9,IL,17,167,1785010,Sangamon County,H1,17167
 17169,Tornado/Severe storm,2023.0,61327.4,IL,17,169,1785037,Schuyler County,H1,17169
@@ -691,7 +691,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 17191,none,,0.0,IL,17,191,424296,Wayne County,H1,17191
 17193,none,,0.0,IL,17,193,424297,White County,H1,17193
 17195,none,,0.0,IL,17,195,1785167,Whiteside County,H1,17195
-17197,Manmade disaster,2023.0,45000.0,IL,17,197,1785190,Will County,H1,17197
+17197,Infrastructure failure/Manmade disaster,2023.0,45000.0,IL,17,197,1785190,Will County,H1,17197
 17199,none,,0.0,IL,17,199,1785215,Williamson County,H1,17199
 17201,Flooding/Tropical storm/Hurricane,2021.0,6630151.12,IL,17,201,1785216,Winnebago County,H1,17201
 17203,Flooding/Tropical storm/Hurricane,2021.0,902959.12,IL,17,203,1785231,Woodford County,H1,17203
@@ -797,7 +797,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 19015,none,,0.0,IA,19,15,465197,Boone County,H1,19015
 19017,none,,0.0,IA,19,17,465198,Bremer County,H1,19017
 19019,none,,0.0,IA,19,19,465199,Buchanan County,H1,19019
-19021,Unidentified disaster,2022.0,65551407.0,IA,19,21,465200,Buena Vista County,H1,19021
+19021,Fire/Extreme temperature/Drought,2022.0,65551407.0,IA,19,21,465200,Buena Vista County,H1,19021
 19023,none,,0.0,IA,19,23,465201,Butler County,H1,19023
 19025,none,,0.0,IA,19,25,465202,Calhoun County,H1,19025
 19027,none,,0.0,IA,19,27,465203,Carroll County,H1,19027
@@ -868,7 +868,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 19157,none,,0.0,IA,19,157,465267,Poweshiek County,H1,19157
 19159,Tornado/Severe storm,2023.0,36000.0,IA,19,159,465268,Ringgold County,H1,19159
 19161,none,,0.0,IA,19,161,465269,Sac County,H1,19161
-19163,Infrastructure failure,2021.0,39010000.0,IA,19,163,465270,Scott County,H1,19163
+19163,Infrastructure failure/Manmade disaster,2021.0,39010000.0,IA,19,163,465270,Scott County,H1,19163
 19165,none,,0.0,IA,19,165,465271,Shelby County,H1,19165
 19167,none,,0.0,IA,19,167,465272,Sioux County,H1,19167
 19169,Tornado/Severe storm,2020.0,543470.0,IA,19,169,465273,Story County,H1,19169
@@ -907,11 +907,11 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 20037,none,,0.0,KS,20,37,484988,Crawford County,H1,20037
 20039,none,,0.0,KS,20,39,484989,Decatur County,H1,20039
 20041,none,,0.0,KS,20,41,484990,Dickinson County,H1,20041
-20043,Infrastructure failure,2021.0,306800.0,KS,20,43,484991,Doniphan County,H1,20043
+20043,Infrastructure failure/Manmade disaster,2021.0,306800.0,KS,20,43,484991,Doniphan County,H1,20043
 20045,none,,0.0,KS,20,45,484992,Douglas County,H1,20045
 20047,none,,0.0,KS,20,47,484993,Edwards County,H1,20047
 20049,none,,0.0,KS,20,49,484994,Elk County,H1,20049
-20051,Unidentified disaster,2023.0,134000000.0,KS,20,51,484995,Ellis County,H1,20051
+20051,Fire/Extreme temperature/Drought,2023.0,134000000.0,KS,20,51,484995,Ellis County,H1,20051
 20053,none,,0.0,KS,20,53,484996,Ellsworth County,H1,20053
 20055,none,,0.0,KS,20,55,485326,Finney County,H1,20055
 20057,none,,0.0,KS,20,57,484997,Ford County,H1,20057
@@ -935,9 +935,9 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 20093,none,,0.0,KS,20,93,485011,Kearny County,H1,20093
 20095,none,,0.0,KS,20,95,485012,Kingman County,H1,20095
 20097,none,,0.0,KS,20,97,485013,Kiowa County,H1,20097
-20099,Unidentified disaster,2023.0,5040234.0,KS,20,99,485014,Labette County,H1,20099
+20099,Fire/Extreme temperature/Drought,2023.0,5040234.0,KS,20,99,485014,Labette County,H1,20099
 20101,none,,0.0,KS,20,101,485015,Lane County,H1,20101
-20103,Infrastructure failure,2023.0,40000000.0,KS,20,103,485016,Leavenworth County,H1,20103
+20103,Infrastructure failure/Manmade disaster,2023.0,40000000.0,KS,20,103,485016,Leavenworth County,H1,20103
 20105,none,,0.0,KS,20,105,485017,Lincoln County,H1,20105
 20107,none,,0.0,KS,20,107,485018,Linn County,H1,20107
 20109,none,,0.0,KS,20,109,485019,Logan County,H1,20109
@@ -1046,19 +1046,19 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 21105,none,,0.0,KY,21,105,516899,Hickman County,H1,21105
 21107,none,,0.0,KY,21,107,516900,Hopkins County,H1,21107
 21109,none,,0.0,KY,21,109,516901,Jackson County,H1,21109
-21111,Infrastructure failure,2021.0,91927992.0,KY,21,111,516902,Jefferson County,H6,21111
+21111,Infrastructure failure/Manmade disaster,2021.0,91927992.0,KY,21,111,516902,Jefferson County,H6,21111
 21113,none,,0.0,KY,21,113,516903,Jessamine County,H1,21113
 21115,none,,0.0,KY,21,115,516904,Johnson County,H1,21115
-21117,Infrastructure failure,2020.0,400000.0,KY,21,117,516905,Kenton County,H1,21117
+21117,Infrastructure failure/Manmade disaster,2020.0,400000.0,KY,21,117,516905,Kenton County,H1,21117
 21119,none,,0.0,KY,21,119,516906,Knott County,H1,21119
 21121,none,,0.0,KY,21,121,516907,Knox County,H1,21121
 21123,none,,0.0,KY,21,123,516908,Larue County,H1,21123
 21125,none,,0.0,KY,21,125,516909,Laurel County,H1,21125
-21127,Infrastructure failure,2022.0,12867000.0,KY,21,127,516910,Lawrence County,H1,21127
+21127,Infrastructure failure/Manmade disaster,2022.0,12867000.0,KY,21,127,516910,Lawrence County,H1,21127
 21129,none,,0.0,KY,21,129,516911,Lee County,H1,21129
 21131,none,,0.0,KY,21,131,516912,Leslie County,H1,21131
 21133,none,,0.0,KY,21,133,516913,Letcher County,H1,21133
-21135,Unidentified disaster,2023.0,117500.0,KY,21,135,516914,Lewis County,H1,21135
+21135,Blizzard/Winter storm,2023.0,117500.0,KY,21,135,516914,Lewis County,H1,21135
 21137,none,,0.0,KY,21,137,516915,Lincoln County,H1,21137
 21139,Flooding/Tropical storm/Hurricane,2020.0,1569331.6,KY,21,139,516916,Livingston County,H1,21139
 21141,none,,0.0,KY,21,141,516917,Logan County,H1,21141
@@ -1086,7 +1086,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 21185,Flooding/Tropical storm/Hurricane,2020.0,2497796.85,KY,21,185,516939,Oldham County,H1,21185
 21187,none,,0.0,KY,21,187,516940,Owen County,H1,21187
 21189,none,,0.0,KY,21,189,516941,Owsley County,H1,21189
-21191,Infrastructure failure,2023.0,7087437.5,KY,21,191,516942,Pendleton County,H1,21191
+21191,Infrastructure failure/Manmade disaster,2023.0,7087437.5,KY,21,191,516942,Pendleton County,H1,21191
 21193,none,,0.0,KY,21,193,516943,Perry County,H1,21193
 21195,Flooding/Tropical storm/Hurricane,2022.0,235830.0,KY,21,195,516944,Pike County,H1,21195
 21197,Flooding/Tropical storm/Hurricane,2023.0,420000.0,KY,21,197,516945,Powell County,H1,21197
@@ -1125,7 +1125,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 22023,Flooding/Tropical storm/Hurricane,2022.0,4854439.0,LA,22,23,558488,Cameron Parish,H1,22023
 22025,none,,0.0,LA,22,25,558495,Catahoula Parish,H1,22025
 22027,none,,0.0,LA,22,27,558505,Claiborne Parish,H1,22027
-22029,Infrastructure failure,2022.0,5602327.0,LA,22,29,558515,Concordia Parish,H1,22029
+22029,Infrastructure failure/Manmade disaster,2022.0,5602327.0,LA,22,29,558515,Concordia Parish,H1,22029
 22031,none,,0.0,LA,22,31,558521,De Soto Parish,H1,22031
 22033,Tornado/Severe storm,2021.0,448341340.16,LA,22,33,558530,East Baton Rouge Parish,H6,22033
 22035,none,,0.0,LA,22,35,558534,East Carroll Parish,H1,22035
@@ -1146,7 +1146,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 22065,none,,0.0,LA,22,65,558088,Madison Parish,H1,22065
 22067,none,,0.0,LA,22,67,558097,Morehouse Parish,H1,22067
 22069,Tornado/Severe storm,2023.0,159750.15,LA,22,69,558108,Natchitoches Parish,H1,22069
-22071,Infrastructure failure,2021.0,182184648.0,LA,22,71,558113,Orleans Parish,H6,22071
+22071,Infrastructure failure/Manmade disaster,2021.0,182184648.0,LA,22,71,558113,Orleans Parish,H6,22071
 22073,none,,0.0,LA,22,73,558114,Ouachita Parish,H1,22073
 22075,Flooding/Tropical storm/Hurricane,2022.0,347900.0,LA,22,75,558125,Plaquemines Parish,H1,22075
 22077,none,,0.0,LA,22,77,559449,Pointe Coupee Parish,H1,22077
@@ -1176,9 +1176,9 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 22125,Flooding/Tropical storm/Hurricane,2020.0,103885.3,LA,22,125,559584,West Feliciana Parish,H1,22125
 22127,none,,0.0,LA,22,127,559594,Winn Parish,H1,22127
 23001,Flooding/Tropical storm/Hurricane,2021.0,100000.0,ME,23,1,581286,Androscoggin County,H1,23001
-23003,Infrastructure failure,2023.0,1092960.0,ME,23,3,581287,Aroostook County,H1,23003
+23003,Infrastructure failure/Manmade disaster,2023.0,1092960.0,ME,23,3,581287,Aroostook County,H1,23003
 23005,Tornado/Severe storm,2023.0,4556074.58,ME,23,5,581288,Cumberland County,H1,23005
-23007,Infrastructure failure,2023.0,104000.0,ME,23,7,581289,Franklin County,H1,23007
+23007,Infrastructure failure/Manmade disaster,2023.0,104000.0,ME,23,7,581289,Franklin County,H1,23007
 23009,Flooding/Tropical storm/Hurricane,2023.0,612017.21,ME,23,9,581290,Hancock County,H1,23009
 23011,Unidentified disaster,2023.0,2844898.27,ME,23,11,581291,Kennebec County,H1,23011
 23013,Flooding/Tropical storm/Hurricane,2023.0,1417177.0,ME,23,13,581292,Knox County,H1,23013
@@ -1186,10 +1186,10 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 23017,Flooding/Tropical storm/Hurricane,2020.0,12000.0,ME,23,17,581294,Oxford County,H1,23017
 23019,none,,0.0,ME,23,19,581295,Penobscot County,H1,23019
 23021,Flooding/Tropical storm/Hurricane,2022.0,33600.0,ME,23,21,581296,Piscataquis County,H1,23021
-23023,Infrastructure failure,2023.0,6772500.0,ME,23,23,581297,Sagadahoc County,H1,23023
+23023,Infrastructure failure/Manmade disaster,2023.0,6772500.0,ME,23,23,581297,Sagadahoc County,H1,23023
 23025,Tornado/Severe storm,2023.0,2160097.56,ME,23,25,581298,Somerset County,H1,23025
 23027,Flooding/Tropical storm/Hurricane,2023.0,80000.0,ME,23,27,581299,Waldo County,H1,23027
-23029,Unidentified disaster,2022.0,175938.0,ME,23,29,581300,Washington County,H1,23029
+23029,Blizzard/Winter storm,2022.0,175938.0,ME,23,29,581300,Washington County,H1,23029
 23031,Flooding/Tropical storm/Hurricane,2021.0,54400000.0,ME,23,31,581301,York County,H1,23031
 24001,none,,0.0,MD,24,1,1713506,Allegany County,H1,24001
 24003,Flooding/Tropical storm/Hurricane,2021.0,9014670.57,MD,24,3,1710958,Anne Arundel County,H1,24003
@@ -1201,17 +1201,17 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 24017,Flooding/Tropical storm/Hurricane,2021.0,65875.0,MD,24,17,1676992,Charles County,H1,24017
 24019,Flooding/Tropical storm/Hurricane,2021.0,12284581.0,MD,24,19,596495,Dorchester County,H1,24019
 24021,Flooding/Tropical storm/Hurricane,2022.0,955348.52,MD,24,21,1711211,Frederick County,H1,24021
-24023,Infrastructure failure,2020.0,58420.0,MD,24,23,1711058,Garrett County,H1,24023
+24023,Infrastructure failure/Manmade disaster,2020.0,58420.0,MD,24,23,1711058,Garrett County,H1,24023
 24025,Flooding/Tropical storm/Hurricane,2023.0,4147814.0,MD,24,25,1698178,Harford County,H1,24025
-24027,Infrastructure failure,2023.0,17303522.0,MD,24,27,1709077,Howard County,H1,24027
-24029,Infrastructure failure,2023.0,2427626.76,MD,24,29,593907,Kent County,H1,24029
+24027,Infrastructure failure/Manmade disaster,2023.0,17303522.0,MD,24,27,1709077,Howard County,H1,24027
+24029,Infrastructure failure/Manmade disaster,2023.0,2427626.76,MD,24,29,593907,Kent County,H1,24029
 24031,Flooding/Tropical storm/Hurricane,2020.0,2332851.1,MD,24,31,1712500,Montgomery County,H1,24031
 24033,Flooding/Tropical storm/Hurricane,2023.0,424616.11,MD,24,33,1714670,Prince George's County,H1,24033
 24035,Flooding/Tropical storm/Hurricane,2021.0,188200.0,MD,24,35,596089,Queen Anne's County,H1,24035
 24037,Flooding/Tropical storm/Hurricane,2023.0,1119346.5,MD,24,37,1697853,St. Mary's County,H1,24037
 24039,Flooding/Tropical storm/Hurricane,2023.0,41173056.85,MD,24,39,596907,Somerset County,H1,24039
 24041,Flooding/Tropical storm/Hurricane,2020.0,4432405.0,MD,24,41,592947,Talbot County,H1,24041
-24043,Infrastructure failure,2023.0,1390000.0,MD,24,43,1714220,Washington County,H1,24043
+24043,Infrastructure failure/Manmade disaster,2023.0,1390000.0,MD,24,43,1714220,Washington County,H1,24043
 24045,none,,0.0,MD,24,45,1668606,Wicomico County,H1,24045
 24047,Flooding/Tropical storm/Hurricane,2023.0,3255222.0,MD,24,47,1668802,Worcester County,H1,24047
 24510,Flooding/Tropical storm/Hurricane,2020.0,7868406.550000001,MD,24,510,1702381,Baltimore city,C7,24510
@@ -1225,7 +1225,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 25015,Flooding/Tropical storm/Hurricane,2020.0,1823000.0,MA,25,15,606934,Hampshire County,H4,25015
 25017,Flooding/Tropical storm/Hurricane,2020.0,57997932.4,MA,25,17,606935,Middlesex County,H4,25017
 25019,none,,0.0,MA,25,19,606936,Nantucket County,H4,25019
-25021,Infrastructure failure,2021.0,35931800.0,MA,25,21,606937,Norfolk County,H1,25021
+25021,Infrastructure failure/Manmade disaster,2021.0,35931800.0,MA,25,21,606937,Norfolk County,H1,25021
 25023,Flooding/Tropical storm/Hurricane,2021.0,2793000.0,MA,25,23,606938,Plymouth County,H1,25023
 25025,Flooding/Tropical storm/Hurricane,2022.0,87521487.0,MA,25,25,606939,Suffolk County,H4,25025
 25027,Flooding/Tropical storm/Hurricane,2022.0,13169064.0,MA,25,27,606940,Worcester County,H4,25027
@@ -1261,7 +1261,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 26059,none,,0.0,MI,26,59,1622972,Hillsdale County,H1,26059
 26061,none,,0.0,MI,26,61,1622973,Houghton County,H1,26061
 26063,none,,0.0,MI,26,63,1622974,Huron County,H1,26063
-26065,Infrastructure failure,2021.0,42261967.42,MI,26,65,1622975,Ingham County,H1,26065
+26065,Infrastructure failure/Manmade disaster,2021.0,42261967.42,MI,26,65,1622975,Ingham County,H1,26065
 26067,none,,0.0,MI,26,67,1622976,Ionia County,H1,26067
 26069,none,,0.0,MI,26,69,1622977,Iosco County,H1,26069
 26071,none,,0.0,MI,26,71,1622978,Iron County,H1,26071
@@ -1298,7 +1298,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 26133,Flooding/Tropical storm/Hurricane,2020.0,29219.84,MI,26,133,1623009,Osceola County,H1,26133
 26135,none,,0.0,MI,26,135,1623010,Oscoda County,H1,26135
 26137,none,,0.0,MI,26,137,1623011,Otsego County,H1,26137
-26139,Infrastructure failure,2020.0,2860924.0,MI,26,139,1623012,Ottawa County,H1,26139
+26139,Infrastructure failure/Manmade disaster,2020.0,2860924.0,MI,26,139,1623012,Ottawa County,H1,26139
 26141,none,,0.0,MI,26,141,1623013,Presque Isle County,H1,26141
 26143,none,,0.0,MI,26,143,1623014,Roscommon County,H1,26143
 26145,none,,0.0,MI,26,145,1623015,Saginaw County,H1,26145
@@ -1309,7 +1309,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 26155,none,,0.0,MI,26,155,1623018,Shiawassee County,H1,26155
 26157,none,,0.0,MI,26,157,1623019,Tuscola County,H1,26157
 26159,none,,0.0,MI,26,159,1623020,Van Buren County,H1,26159
-26161,Infrastructure failure,2023.0,9468000.0,MI,26,161,1623021,Washtenaw County,H1,26161
+26161,Infrastructure failure/Manmade disaster,2023.0,9468000.0,MI,26,161,1623021,Washtenaw County,H1,26161
 26163,Flooding/Tropical storm/Hurricane,2022.0,88227988.39999999,MI,26,163,1623022,Wayne County,H1,26163
 26165,none,,0.0,MI,26,165,1623023,Wexford County,H1,26165
 27001,none,,0.0,MN,27,1,663198,Aitkin County,H1,27001
@@ -1330,7 +1330,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 27031,none,,0.0,MN,27,31,659461,Cook County,H1,27031
 27033,none,,0.0,MN,27,33,659462,Cottonwood County,H1,27033
 27035,none,,0.0,MN,27,35,659463,Crow Wing County,H1,27035
-27037,Infrastructure failure,2023.0,3500059.0,MN,27,37,659464,Dakota County,H1,27037
+27037,Infrastructure failure/Manmade disaster,2023.0,3500059.0,MN,27,37,659464,Dakota County,H1,27037
 27039,none,,0.0,MN,27,39,659465,Dodge County,H1,27039
 27041,none,,0.0,MN,27,41,659466,Douglas County,H1,27041
 27043,none,,0.0,MN,27,43,659467,Faribault County,H1,27043
@@ -1353,7 +1353,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 27077,none,,0.0,MN,27,77,659483,Lake of the Woods County,H1,27077
 27079,none,,0.0,MN,27,79,659485,Le Sueur County,H1,27079
 27081,none,,0.0,MN,27,81,659486,Lincoln County,H1,27081
-27083,Infrastructure failure,2021.0,2733175.0,MN,27,83,659487,Lyon County,H1,27083
+27083,Infrastructure failure/Manmade disaster,2021.0,2733175.0,MN,27,83,659487,Lyon County,H1,27083
 27085,none,,0.0,MN,27,85,659491,McLeod County,H1,27085
 27087,none,,0.0,MN,27,87,659488,Mahnomen County,H1,27087
 27089,none,,0.0,MN,27,89,659489,Marshall County,H1,27089
@@ -1423,7 +1423,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 28043,none,,0.0,MS,28,43,695746,Grenada County,H1,28043
 28045,none,,0.0,MS,28,45,711756,Hancock County,H1,28045
 28047,Flooding/Tropical storm/Hurricane,2021.0,708718.65,MS,28,47,695747,Harrison County,H1,28047
-28049,Infrastructure failure,2022.0,8798291.68,MS,28,49,695748,Hinds County,H1,28049
+28049,Infrastructure failure/Manmade disaster,2022.0,8798291.68,MS,28,49,695748,Hinds County,H1,28049
 28051,Tornado/Severe storm,2022.0,727824.0,MS,28,51,695749,Holmes County,H1,28051
 28053,none,,0.0,MS,28,53,695750,Humphreys County,H1,28053
 28055,none,,0.0,MS,28,55,695751,Issaquena County,H1,28055
@@ -1550,7 +1550,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 29133,none,,0.0,MO,29,133,758521,Mississippi County,H1,29133
 29135,Tornado/Severe storm,2022.0,1497300.0,MO,29,135,758522,Moniteau County,H1,29135
 29137,none,,0.0,MO,29,137,758523,Monroe County,H1,29137
-29139,Infrastructure failure,2020.0,40477.06,MO,29,139,758524,Montgomery County,H1,29139
+29139,Infrastructure failure/Manmade disaster,2020.0,40477.06,MO,29,139,758524,Montgomery County,H1,29139
 29141,none,,0.0,MO,29,141,758525,Morgan County,H1,29141
 29143,none,,0.0,MO,29,143,758526,New Madrid County,H1,29143
 29145,none,,0.0,MO,29,145,758527,Newton County,H1,29145
@@ -1561,7 +1561,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 29155,none,,0.0,MO,29,155,758532,Pemiscot County,H1,29155
 29157,none,,0.0,MO,29,157,758533,Perry County,H1,29157
 29159,none,,0.0,MO,29,159,758534,Pettis County,H1,29159
-29161,Infrastructure failure,2021.0,117481.32,MO,29,161,758535,Phelps County,H1,29161
+29161,Infrastructure failure/Manmade disaster,2021.0,117481.32,MO,29,161,758535,Phelps County,H1,29161
 29163,Flooding/Tropical storm/Hurricane,2021.0,12779152.52,MO,29,163,758536,Pike County,H1,29163
 29165,none,,0.0,MO,29,165,758537,Platte County,H1,29165
 29167,none,,0.0,MO,29,167,758538,Polk County,H1,29167
@@ -1597,10 +1597,10 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 29229,none,,0.0,MO,29,229,758567,Wright County,H1,29229
 29510,Earthquake/Landslide,2021.0,30214033.85,MO,29,510,767557,St. Louis city,C7,29510
 30001,none,,0.0,MT,30,1,1719627,Beaverhead County,H1,30001
-30003,Infrastructure failure,2023.0,308886.0,MT,30,3,1716521,Big Horn County,H1,30003
+30003,Infrastructure failure/Manmade disaster,2023.0,308886.0,MT,30,3,1716521,Big Horn County,H1,30003
 30005,none,,0.0,MT,30,5,1722470,Blaine County,H1,30005
 30007,Flooding/Tropical storm/Hurricane,2021.0,11073000.0,MT,30,7,1719625,Broadwater County,H1,30007
-30009,Infrastructure failure,2023.0,104330.0,MT,30,9,1720111,Carbon County,H1,30009
+30009,Infrastructure failure/Manmade disaster,2023.0,104330.0,MT,30,9,1720111,Carbon County,H1,30009
 30011,none,,0.0,MT,30,11,1688746,Carter County,H1,30011
 30013,none,,0.0,MT,30,13,1719622,Cascade County,H1,30013
 30015,Unidentified disaster,2022.0,683512.0,MT,30,15,1719619,Chouteau County,H1,30015
@@ -1610,7 +1610,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 30023,none,,0.0,MT,30,23,1719617,Deer Lodge County,H6,30023
 30025,none,,0.0,MT,30,25,1688745,Fallon County,H1,30025
 30027,none,,0.0,MT,30,27,1719614,Fergus County,H1,30027
-30029,Fire/Extreme temperature,2020.0,40000.0,MT,30,29,1719611,Flathead County,H1,30029
+30029,Fire/Extreme temperature/Drought,2020.0,40000.0,MT,30,29,1719611,Flathead County,H1,30029
 30031,none,,0.0,MT,30,31,1720053,Gallatin County,H1,30031
 30033,none,,0.0,MT,30,33,1716058,Garfield County,H1,30033
 30035,none,,0.0,MT,30,35,1719607,Glacier County,H1,30035
@@ -1622,12 +1622,12 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 30047,none,,0.0,MT,30,47,1796943,Lake County,H1,30047
 30049,Unidentified disaster,2021.0,3753650.0,MT,30,49,793926,Lewis and Clark County,H1,30049
 30051,none,,0.0,MT,30,51,1720036,Liberty County,H1,30051
-30053,Fire/Extreme temperature,2021.0,5363000.0,MT,30,53,1720038,Lincoln County,H1,30053
+30053,Fire/Extreme temperature/Drought,2021.0,5363000.0,MT,30,53,1720038,Lincoln County,H1,30053
 30055,none,,0.0,MT,30,55,1716270,McCone County,H1,30055
 30057,none,,0.0,MT,30,57,1720033,Madison County,H1,30057
 30059,none,,0.0,MT,30,59,1719600,Meagher County,H1,30059
-30061,Infrastructure failure,2020.0,899921.9,MT,30,61,1720030,Mineral County,H1,30061
-30063,Infrastructure failure,2021.0,2631002.0,MT,30,63,1719596,Missoula County,H1,30063
+30061,Infrastructure failure/Manmade disaster,2020.0,899921.9,MT,30,61,1720030,Mineral County,H1,30061
+30063,Infrastructure failure/Manmade disaster,2021.0,2631002.0,MT,30,63,1719596,Missoula County,H1,30063
 30065,none,,0.0,MT,30,65,1719593,Musselshell County,H1,30065
 30067,Flooding/Tropical storm/Hurricane,2023.0,2116303.0,MT,30,67,1720027,Park County,H1,30067
 30069,none,,0.0,MT,30,69,1719590,Petroleum County,H1,30069
@@ -1636,13 +1636,13 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 30075,none,,0.0,MT,30,75,1719584,Powder River County,H1,30075
 30077,Flooding/Tropical storm/Hurricane,2023.0,636550.0,MT,30,77,1720021,Powell County,H1,30077
 30079,none,,0.0,MT,30,79,1715847,Prairie County,H1,30079
-30081,Infrastructure failure,2020.0,1807805.0,MT,30,81,1719582,Ravalli County,H1,30081
+30081,Infrastructure failure/Manmade disaster,2020.0,1807805.0,MT,30,81,1719582,Ravalli County,H1,30081
 30083,Flooding/Tropical storm/Hurricane,2022.0,1788759.0,MT,30,83,1715338,Richland County,H1,30083
 30085,none,,0.0,MT,30,85,1669428,Roosevelt County,H1,30085
 30087,Flooding/Tropical storm/Hurricane,2023.0,18758000.0,MT,30,87,1716795,Rosebud County,H1,30087
 30089,none,,0.0,MT,30,89,1719578,Sanders County,H1,30089
 30091,none,,0.0,MT,30,91,1677577,Sheridan County,H1,30091
-30093,Infrastructure failure,2020.0,2200052.0,MT,30,93,1719575,Silver Bow County,H6,30093
+30093,Infrastructure failure/Manmade disaster,2020.0,2200052.0,MT,30,93,1719575,Silver Bow County,H6,30093
 30095,Flooding/Tropical storm/Hurricane,2023.0,240496.25,MT,30,95,1719572,Stillwater County,H1,30095
 30097,none,,0.0,MT,30,97,1719569,Sweet Grass County,H1,30097
 30099,none,,0.0,MT,30,99,1720018,Teton County,H1,30099
@@ -1652,7 +1652,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 30107,none,,0.0,MT,30,107,1719560,Wheatland County,H1,30107
 30109,none,,0.0,MT,30,109,1696629,Wibaux County,H1,30109
 30111,Flooding/Tropical storm/Hurricane,2021.0,154717000.0,MT,30,111,1719558,Yellowstone County,H1,30111
-31001,Infrastructure failure,2020.0,767752.0,NE,31,1,835823,Adams County,H1,31001
+31001,Infrastructure failure/Manmade disaster,2020.0,767752.0,NE,31,1,835823,Adams County,H1,31001
 31003,none,,0.0,NE,31,3,835824,Antelope County,H1,31003
 31005,none,,0.0,NE,31,5,835825,Arthur County,H1,31005
 31007,none,,0.0,NE,31,7,835826,Banner County,H1,31007
@@ -1663,11 +1663,11 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 31017,none,,0.0,NE,31,17,835830,Brown County,H1,31017
 31019,none,,0.0,NE,31,19,835831,Buffalo County,H1,31019
 31021,none,,0.0,NE,31,21,835832,Burt County,H1,31021
-31023,Unidentified disaster,2020.0,1289353.0,NE,31,23,835833,Butler County,H1,31023
+31023,Blizzard/Winter storm,2020.0,1289353.0,NE,31,23,835833,Butler County,H1,31023
 31025,none,,0.0,NE,31,25,835834,Cass County,H1,31025
 31027,none,,0.0,NE,31,27,835835,Cedar County,H1,31027
 31029,none,,0.0,NE,31,29,835836,Chase County,H1,31029
-31031,Unidentified disaster,2023.0,84000.0,NE,31,31,835837,Cherry County,H1,31031
+31031,Fire/Extreme temperature/Drought,2023.0,84000.0,NE,31,31,835837,Cherry County,H1,31031
 31033,none,,0.0,NE,31,33,835838,Cheyenne County,H1,31033
 31035,none,,0.0,NE,31,35,835839,Clay County,H1,31035
 31037,none,,0.0,NE,31,37,835840,Colfax County,H1,31037
@@ -1722,7 +1722,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 31135,none,,0.0,NE,31,135,835889,Perkins County,H1,31135
 31137,Tornado/Severe storm,2020.0,79804.56,NE,31,137,835890,Phelps County,H1,31137
 31139,none,,0.0,NE,31,139,835891,Pierce County,H1,31139
-31141,Fire/Extreme temperature,2023.0,27587900.0,NE,31,141,835892,Platte County,H1,31141
+31141,Fire/Extreme temperature/Drought,2023.0,27587900.0,NE,31,141,835892,Platte County,H1,31141
 31143,Tornado/Severe storm,2022.0,4556225.0,NE,31,143,835893,Polk County,H1,31143
 31145,none,,0.0,NE,31,145,835894,Red Willow County,H1,31145
 31147,Tornado/Severe storm,2021.0,5326227.0,NE,31,147,835895,Richardson County,H1,31147
@@ -1746,30 +1746,30 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 31183,none,,0.0,NE,31,183,835913,Wheeler County,H1,31183
 31185,Flooding/Tropical storm/Hurricane,2021.0,100000.0,NE,31,185,835914,York County,H1,31185
 32001,none,,0.0,NV,32,1,858638,Churchill County,H1,32001
-32003,Infrastructure failure,2023.0,912492.8,NV,32,3,863600,Clark County,H1,32003
+32003,Infrastructure failure/Manmade disaster,2023.0,912492.8,NV,32,3,863600,Clark County,H1,32003
 32005,Unidentified disaster,2022.0,767118.01,NV,32,5,858643,Douglas County,H1,32005
 32007,none,,0.0,NV,32,7,857664,Elko County,H1,32007
 32009,none,,0.0,NV,32,9,858641,Esmeralda County,H1,32009
-32011,Unidentified disaster,2022.0,166000.0,NV,32,11,858640,Eureka County,H1,32011
+32011,Fire/Extreme temperature/Drought,2022.0,166000.0,NV,32,11,858640,Eureka County,H1,32011
 32013,none,,0.0,NV,32,13,863310,Humboldt County,H1,32013
 32015,none,,0.0,NV,32,15,863368,Lander County,H1,32015
-32017,Unidentified disaster,2020.0,39159.97,NV,32,17,863992,Lincoln County,H1,32017
+32017,Fire/Extreme temperature/Drought,2020.0,39159.97,NV,32,17,863992,Lincoln County,H1,32017
 32019,none,,0.0,NV,32,19,858645,Lyon County,H1,32019
 32021,Flooding/Tropical storm/Hurricane,2022.0,157500.0,NV,32,21,858644,Mineral County,H1,32021
 32023,none,,0.0,NV,32,23,863599,Nye County,H1,32023
 32027,none,,0.0,NV,32,27,858646,Pershing County,H1,32027
 32029,Flooding/Tropical storm/Hurricane,2023.0,3588000.0,NV,32,29,858642,Storey County,H1,32029
-32031,Infrastructure failure,2022.0,1379517.8599999999,NV,32,31,858608,Washoe County,H1,32031
+32031,Infrastructure failure/Manmade disaster,2022.0,1379517.8599999999,NV,32,31,858608,Washoe County,H1,32031
 32033,none,,0.0,NV,32,33,858615,White Pine County,H1,32033
-32510,Infrastructure failure,2021.0,14501079.0,NV,32,510,863219,Carson City,C7,32510
+32510,Infrastructure failure/Manmade disaster,2021.0,14501079.0,NV,32,510,863219,Carson City,C7,32510
 33001,none,,0.0,NH,33,1,873174,Belknap County,H1,33001
 33003,Flooding/Tropical storm/Hurricane,2023.0,172000.0,NH,33,3,873175,Carroll County,H1,33003
 33005,Flooding/Tropical storm/Hurricane,2023.0,102320.88,NH,33,5,873176,Cheshire County,H1,33005
 33007,none,,0.0,NH,33,7,873177,Coos County,H1,33007
 33009,Flooding/Tropical storm/Hurricane,2020.0,849618.0,NH,33,9,873178,Grafton County,H1,33009
 33011,none,,0.0,NH,33,11,873179,Hillsborough County,H1,33011
-33013,Infrastructure failure,2023.0,790661.37,NH,33,13,873180,Merrimack County,H1,33013
-33015,Infrastructure failure,2022.0,76805.0,NH,33,15,873181,Rockingham County,H1,33015
+33013,Infrastructure failure/Manmade disaster,2023.0,790661.37,NH,33,13,873180,Merrimack County,H1,33013
+33015,Infrastructure failure/Manmade disaster,2022.0,76805.0,NH,33,15,873181,Rockingham County,H1,33015
 33017,Flooding/Tropical storm/Hurricane,2020.0,262389.75,NH,33,17,873182,Strafford County,H1,33017
 33019,Flooding/Tropical storm/Hurricane,2023.0,250000.0,NH,33,19,873183,Sullivan County,H1,33019
 34001,Flooding/Tropical storm/Hurricane,2020.0,42304142.45,NJ,34,1,882270,Atlantic County,H1,34001
@@ -1781,7 +1781,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 34013,Flooding/Tropical storm/Hurricane,2021.0,1396932.6,NJ,34,13,882276,Essex County,H1,34013
 34015,Flooding/Tropical storm/Hurricane,2023.0,200000.0,NJ,34,15,882277,Gloucester County,H1,34015
 34017,Flooding/Tropical storm/Hurricane,2023.0,111041209.03999999,NJ,34,17,882278,Hudson County,H1,34017
-34019,Infrastructure failure,2022.0,31599633.29,NJ,34,19,882228,Hunterdon County,H1,34019
+34019,Infrastructure failure/Manmade disaster,2022.0,31599633.29,NJ,34,19,882228,Hunterdon County,H1,34019
 34021,Unidentified disaster,2020.0,250294839.26,NJ,34,21,882229,Mercer County,H1,34021
 34023,Flooding/Tropical storm/Hurricane,2023.0,26508661.34,NJ,34,23,882230,Middlesex County,H1,34023
 34025,Flooding/Tropical storm/Hurricane,2020.0,60131509.0,NJ,34,25,882910,Monmouth County,H1,34025
@@ -1807,7 +1807,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 35021,none,,0.0,NM,35,21,933055,Harding County,H1,35021
 35023,none,,0.0,NM,35,23,929106,Hidalgo County,H1,35023
 35025,none,,0.0,NM,35,25,1702365,Lea County,H1,35025
-35027,Fire/Extreme temperature,2020.0,73500.0,NM,35,27,929116,Lincoln County,H1,35027
+35027,Fire/Extreme temperature/Drought,2020.0,73500.0,NM,35,27,929116,Lincoln County,H1,35027
 35028,none,,0.0,NM,35,28,1702366,Los Alamos County,H1,35028
 35029,none,,0.0,NM,35,29,933057,Luna County,H1,35029
 35031,none,,0.0,NM,35,31,929107,McKinley County,H1,35031
@@ -1825,11 +1825,11 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 35055,none,,0.0,NM,35,55,933056,Taos County,H1,35055
 35057,none,,0.0,NM,35,57,929112,Torrance County,H1,35057
 35059,none,,0.0,NM,35,59,929115,Union County,H1,35059
-35061,Infrastructure failure,2021.0,300000.0,NM,35,61,933052,Valencia County,H1,35061
+35061,Infrastructure failure/Manmade disaster,2021.0,300000.0,NM,35,61,933052,Valencia County,H1,35061
 36001,Unidentified disaster,2023.0,46000000.0,NY,36,1,974099,Albany County,H1,36001
 36003,none,,0.0,NY,36,3,974100,Allegany County,H1,36003
 36005,none,,0.0,NY,36,5,974101,Bronx County,H6,36005
-36007,Infrastructure failure,2020.0,1147508.0,NY,36,7,974102,Broome County,H1,36007
+36007,Infrastructure failure/Manmade disaster,2020.0,1147508.0,NY,36,7,974102,Broome County,H1,36007
 36009,none,,0.0,NY,36,9,974103,Cattaraugus County,H1,36009
 36011,Flooding/Tropical storm/Hurricane,2023.0,25000.0,NY,36,11,974104,Cayuga County,H1,36011
 36013,none,,0.0,NY,36,13,974105,Chautauqua County,H1,36013
@@ -1845,12 +1845,12 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 36033,Flooding/Tropical storm/Hurricane,2023.0,617394.75,NY,36,33,974115,Franklin County,H1,36033
 36035,none,,0.0,NY,36,35,974116,Fulton County,H1,36035
 36037,none,,0.0,NY,36,37,974117,Genesee County,H1,36037
-36039,Infrastructure failure,2020.0,1500000.0,NY,36,39,974118,Greene County,H1,36039
-36041,Infrastructure failure,2023.0,245000.0,NY,36,41,974119,Hamilton County,H1,36041
+36039,Infrastructure failure/Manmade disaster,2020.0,1500000.0,NY,36,39,974118,Greene County,H1,36039
+36041,Infrastructure failure/Manmade disaster,2023.0,245000.0,NY,36,41,974119,Hamilton County,H1,36041
 36043,Flooding/Tropical storm/Hurricane,2020.0,1808500.0,NY,36,43,974120,Herkimer County,H1,36043
 36045,none,,0.0,NY,36,45,974121,Jefferson County,H1,36045
 36047,Flooding/Tropical storm/Hurricane,2020.0,315000.0,NY,36,47,974122,Kings County,H6,36047
-36049,Unidentified disaster,2022.0,157500.0,NY,36,49,974123,Lewis County,H1,36049
+36049,Fire/Extreme temperature/Drought,2022.0,157500.0,NY,36,49,974123,Lewis County,H1,36049
 36051,Tornado/Severe storm,2023.0,995000.0,NY,36,51,974124,Livingston County,H1,36051
 36053,none,,0.0,NY,36,53,974125,Madison County,H1,36053
 36055,Flooding/Tropical storm/Hurricane,2020.0,120000.0,NY,36,55,974126,Monroe County,H1,36055
@@ -1876,7 +1876,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 36095,none,,0.0,NY,36,95,974145,Schoharie County,H1,36095
 36097,Tornado/Severe storm,2022.0,85652.0,NY,36,97,974146,Schuyler County,H1,36097
 36099,none,,0.0,NY,36,99,974147,Seneca County,H1,36099
-36101,Infrastructure failure,2023.0,173775.0,NY,36,101,974148,Steuben County,H1,36101
+36101,Infrastructure failure/Manmade disaster,2023.0,173775.0,NY,36,101,974148,Steuben County,H1,36101
 36103,Tornado/Severe storm,2022.0,1295775.0,NY,36,103,974149,Suffolk County,H1,36103
 36105,none,,0.0,NY,36,105,974150,Sullivan County,H1,36105
 36107,none,,0.0,NY,36,107,974151,Tioga County,H1,36107
@@ -1887,10 +1887,10 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 36117,none,,0.0,NY,36,117,974156,Wayne County,H1,36117
 36119,Flooding/Tropical storm/Hurricane,2022.0,9959937.920000002,NY,36,119,974157,Westchester County,H1,36119
 36121,none,,0.0,NY,36,121,974158,Wyoming County,H1,36121
-36123,Infrastructure failure,2020.0,1200000.0,NY,36,123,974159,Yates County,H1,36123
+36123,Infrastructure failure/Manmade disaster,2020.0,1200000.0,NY,36,123,974159,Yates County,H1,36123
 37001,Flooding/Tropical storm/Hurricane,2022.0,1575000.0,NC,37,1,1008531,Alamance County,H1,37001
 37003,Flooding/Tropical storm/Hurricane,2021.0,2091250.0,NC,37,3,1008532,Alexander County,H1,37003
-37005,Infrastructure failure,2021.0,1571700.0,NC,37,5,1008533,Alleghany County,H1,37005
+37005,Infrastructure failure/Manmade disaster,2021.0,1571700.0,NC,37,5,1008533,Alleghany County,H1,37005
 37007,Flooding/Tropical storm/Hurricane,2022.0,78750.0,NC,37,7,1008534,Anson County,H1,37007
 37009,Flooding/Tropical storm/Hurricane,2021.0,2175000.0,NC,37,9,1008535,Ashe County,H1,37009
 37011,Flooding/Tropical storm/Hurricane,2023.0,15068812.5,NC,37,11,1008536,Avery County,H1,37011
@@ -1907,12 +1907,12 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 37033,none,,0.0,NC,37,33,1008542,Caswell County,H1,37033
 37035,Flooding/Tropical storm/Hurricane,2020.0,7673635.2,NC,37,35,1008543,Catawba County,H1,37035
 37037,Flooding/Tropical storm/Hurricane,2021.0,564946.0,NC,37,37,1008544,Chatham County,H1,37037
-37039,Infrastructure failure,2023.0,1802325.0,NC,37,39,1008545,Cherokee County,H1,37039
+37039,Infrastructure failure/Manmade disaster,2023.0,1802325.0,NC,37,39,1008545,Cherokee County,H1,37039
 37041,none,,0.0,NC,37,41,1025822,Chowan County,H1,37041
 37043,none,,0.0,NC,37,43,1008546,Clay County,H1,37043
 37045,none,,0.0,NC,37,45,1008547,Cleveland County,H1,37045
 37047,Flooding/Tropical storm/Hurricane,2021.0,9097810.41,NC,37,47,1026339,Columbus County,H1,37047
-37049,Infrastructure failure,2021.0,6000000.0,NC,37,49,1026123,Craven County,H1,37049
+37049,Infrastructure failure/Manmade disaster,2021.0,6000000.0,NC,37,49,1026123,Craven County,H1,37049
 37051,Flooding/Tropical storm/Hurricane,2023.0,62606821.730000004,NC,37,51,1026124,Cumberland County,H1,37051
 37053,Flooding/Tropical storm/Hurricane,2023.0,9860334.75,NC,37,53,1026125,Currituck County,H1,37053
 37055,Flooding/Tropical storm/Hurricane,2023.0,43984500.0,NC,37,55,1026133,Dare County,H1,37055
@@ -1927,14 +1927,14 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 37073,none,,0.0,NC,37,73,1026126,Gates County,H1,37073
 37075,none,,0.0,NC,37,75,1008555,Graham County,H1,37075
 37077,Tornado/Severe storm,2021.0,157500.0,NC,37,77,1008556,Granville County,H1,37077
-37079,Infrastructure failure,2023.0,3298050.0,NC,37,79,1008557,Greene County,H1,37079
-37081,Infrastructure failure,2022.0,7328233.45,NC,37,81,1008558,Guilford County,H1,37081
+37079,Infrastructure failure/Manmade disaster,2023.0,3298050.0,NC,37,79,1008557,Greene County,H1,37079
+37081,Infrastructure failure/Manmade disaster,2022.0,7328233.45,NC,37,81,1008558,Guilford County,H1,37081
 37083,none,,0.0,NC,37,83,1008559,Halifax County,H1,37083
 37085,Tornado/Severe storm,2023.0,7890200.0,NC,37,85,1008560,Harnett County,H1,37085
 37087,Flooding/Tropical storm/Hurricane,2023.0,8800886.64,NC,37,87,1008561,Haywood County,H1,37087
 37089,none,,0.0,NC,37,89,1008562,Henderson County,H1,37089
 37091,Unidentified disaster,2023.0,280350.0,NC,37,91,1026127,Hertford County,H1,37091
-37093,Unidentified disaster,2023.0,12183288.0,NC,37,93,1008563,Hoke County,H1,37093
+37093,Fire/Extreme temperature/Drought,2023.0,12183288.0,NC,37,93,1008563,Hoke County,H1,37093
 37095,Flooding/Tropical storm/Hurricane,2023.0,8194408.6899999995,NC,37,95,1008564,Hyde County,H1,37095
 37097,none,,0.0,NC,37,97,1008565,Iredell County,H1,37097
 37099,none,,0.0,NC,37,99,1008566,Jackson County,H1,37099
@@ -1949,13 +1949,13 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 37117,none,,0.0,NC,37,117,1026328,Martin County,H1,37117
 37119,Flooding/Tropical storm/Hurricane,2022.0,3295068.0,NC,37,119,1008570,Mecklenburg County,H1,37119
 37121,Flooding/Tropical storm/Hurricane,2023.0,6319530.0,NC,37,121,1008571,Mitchell County,H1,37121
-37123,Infrastructure failure,2021.0,1089900.0,NC,37,123,1008572,Montgomery County,H1,37123
+37123,Infrastructure failure/Manmade disaster,2021.0,1089900.0,NC,37,123,1008572,Montgomery County,H1,37123
 37125,none,,0.0,NC,37,125,1008573,Moore County,H1,37125
 37127,Flooding/Tropical storm/Hurricane,2021.0,10804900.0,NC,37,127,1008574,Nash County,H1,37127
 37129,Flooding/Tropical storm/Hurricane,2023.0,4700628.75,NC,37,129,1026329,New Hanover County,H1,37129
 37131,none,,0.0,NC,37,131,1008575,Northampton County,H1,37131
 37133,Flooding/Tropical storm/Hurricane,2023.0,7675762.4,NC,37,133,1026341,Onslow County,H1,37133
-37135,Infrastructure failure,2020.0,18916537.0,NC,37,135,1008576,Orange County,H1,37135
+37135,Infrastructure failure/Manmade disaster,2020.0,18916537.0,NC,37,135,1008576,Orange County,H1,37135
 37137,Tornado/Severe storm,2021.0,6241100.0,NC,37,137,1023355,Pamlico County,H1,37137
 37139,none,,0.0,NC,37,139,1026330,Pasquotank County,H1,37139
 37141,Flooding/Tropical storm/Hurricane,2023.0,3744562.5,NC,37,141,1026129,Pender County,H1,37141
@@ -1964,12 +1964,12 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 37147,Unidentified disaster,2020.0,16955000.0,NC,37,147,1008578,Pitt County,H1,37147
 37149,none,,0.0,NC,37,149,1008579,Polk County,H1,37149
 37151,none,,0.0,NC,37,151,1008580,Randolph County,H1,37151
-37153,Infrastructure failure,2022.0,4436565.0,NC,37,153,1008581,Richmond County,H1,37153
-37155,Infrastructure failure,2022.0,5837632.5,NC,37,155,1026130,Robeson County,H1,37155
+37153,Infrastructure failure/Manmade disaster,2022.0,4436565.0,NC,37,153,1008581,Richmond County,H1,37153
+37155,Infrastructure failure/Manmade disaster,2022.0,5837632.5,NC,37,155,1026130,Robeson County,H1,37155
 37157,Flooding/Tropical storm/Hurricane,2023.0,8863254.23,NC,37,157,1008582,Rockingham County,H1,37157
 37159,Flooding/Tropical storm/Hurricane,2021.0,31496850.0,NC,37,159,1008583,Rowan County,H1,37159
 37161,Flooding/Tropical storm/Hurricane,2021.0,3464600.0,NC,37,161,1008584,Rutherford County,H1,37161
-37163,Infrastructure failure,2023.0,2992500.0,NC,37,163,1026131,Sampson County,H1,37163
+37163,Infrastructure failure/Manmade disaster,2023.0,2992500.0,NC,37,163,1026131,Sampson County,H1,37163
 37165,Flooding/Tropical storm/Hurricane,2022.0,113414.79,NC,37,165,1008585,Scotland County,H1,37165
 37167,none,,0.0,NC,37,167,1025844,Stanly County,H1,37167
 37169,none,,0.0,NC,37,169,1008586,Stokes County,H1,37169
@@ -1990,13 +1990,13 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 37199,none,,0.0,NC,37,199,1008598,Yancey County,H1,37199
 38001,none,,0.0,ND,38,1,1034210,Adams County,H1,38001
 38003,none,,0.0,ND,38,3,1034225,Barnes County,H1,38003
-38005,Infrastructure failure,2022.0,1800000.0,ND,38,5,1034216,Benson County,H1,38005
+38005,Infrastructure failure/Manmade disaster,2022.0,1800000.0,ND,38,5,1034216,Benson County,H1,38005
 38007,none,,0.0,ND,38,7,1035616,Billings County,H1,38007
 38009,none,,0.0,ND,38,9,1034227,Bottineau County,H1,38009
 38011,none,,0.0,ND,38,11,1035619,Bowman County,H1,38011
 38013,none,,0.0,ND,38,13,1034235,Burke County,H1,38013
 38015,Flooding/Tropical storm/Hurricane,2022.0,89831850.01,ND,38,15,1035614,Burleigh County,H1,38015
-38017,Infrastructure failure,2021.0,21897994.6,ND,38,17,1034226,Cass County,H1,38017
+38017,Infrastructure failure/Manmade disaster,2021.0,21897994.6,ND,38,17,1034226,Cass County,H1,38017
 38019,none,,0.0,ND,38,19,1035304,Cavalier County,H1,38019
 38021,Flooding/Tropical storm/Hurricane,2023.0,20666.67,ND,38,21,1035622,Dickey County,H1,38021
 38023,none,,0.0,ND,38,23,1034234,Divide County,H1,38023
@@ -2005,7 +2005,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 38029,Flooding/Tropical storm/Hurricane,2021.0,1900000.0,ND,38,29,1035615,Emmons County,H1,38029
 38031,Tornado/Severe storm,2023.0,203497.02,ND,38,31,1034223,Foster County,H1,38031
 38033,none,,0.0,ND,38,33,1035617,Golden Valley County,H1,38033
-38035,Infrastructure failure,2023.0,19787354.0,ND,38,35,1034218,Grand Forks County,H1,38035
+38035,Infrastructure failure/Manmade disaster,2023.0,19787354.0,ND,38,35,1034218,Grand Forks County,H1,38035
 38037,none,,0.0,ND,38,37,1035300,Grant County,H1,38037
 38039,Flooding/Tropical storm/Hurricane,2020.0,35449.34,ND,38,39,1034219,Griggs County,H1,38039
 38041,none,,0.0,ND,38,41,1034209,Hettinger County,H1,38041
@@ -2015,7 +2015,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 38049,none,,0.0,ND,38,49,1035305,McHenry County,H1,38049
 38051,Flooding/Tropical storm/Hurricane,2020.0,46666.67,ND,38,51,1034211,McIntosh County,H1,38051
 38053,Flooding/Tropical storm/Hurricane,2023.0,32753.33,ND,38,53,1035299,McKenzie County,H1,38053
-38055,Infrastructure failure,2023.0,9440826.5,ND,38,55,1034232,McLean County,H1,38055
+38055,Infrastructure failure/Manmade disaster,2023.0,9440826.5,ND,38,55,1034232,McLean County,H1,38055
 38057,Flooding/Tropical storm/Hurricane,2023.0,299462.0,ND,38,57,1034233,Mercer County,H1,38057
 38059,Flooding/Tropical storm/Hurricane,2022.0,27826743.0,ND,38,59,1034207,Morton County,H1,38059
 38061,none,,0.0,ND,38,61,1035307,Mountrail County,H1,38061
@@ -2030,9 +2030,9 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 38079,none,,0.0,ND,38,79,1034228,Rolette County,H1,38079
 38081,Flooding/Tropical storm/Hurricane,2023.0,137944.0,ND,38,81,1035303,Sargent County,H1,38081
 38083,Flooding/Tropical storm/Hurricane,2020.0,143583.33000000002,ND,38,83,1034203,Sheridan County,H1,38083
-38085,Unidentified disaster,2023.0,2481000.0,ND,38,85,1034208,Sioux County,H1,38085
+38085,Blizzard/Winter storm,2023.0,2481000.0,ND,38,85,1034208,Sioux County,H1,38085
 38087,none,,0.0,ND,38,87,1035896,Slope County,H1,38087
-38089,Fire/Extreme temperature,2021.0,140700.0,ND,38,89,1035618,Stark County,H1,38089
+38089,Fire/Extreme temperature/Drought,2021.0,140700.0,ND,38,89,1035618,Stark County,H1,38089
 38091,Flooding/Tropical storm/Hurricane,2020.0,707000.0,ND,38,91,1034220,Steele County,H1,38091
 38093,none,,0.0,ND,38,93,1034224,Stutsman County,H1,38093
 38095,none,,0.0,ND,38,95,1034213,Towner County,H1,38095
@@ -2085,7 +2085,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 39083,none,,0.0,OH,39,83,1074054,Knox County,H1,39083
 39085,none,,0.0,OH,39,85,1074055,Lake County,H1,39085
 39087,none,,0.0,OH,39,87,1074056,Lawrence County,H1,39087
-39089,Fire/Extreme temperature,2023.0,2136001.0,OH,39,89,1074057,Licking County,H1,39089
+39089,Fire/Extreme temperature/Drought,2023.0,2136001.0,OH,39,89,1074057,Licking County,H1,39089
 39091,Flooding/Tropical storm/Hurricane,2020.0,0.0,OH,39,91,1074058,Logan County,H1,39091
 39093,none,,0.0,OH,39,93,1074059,Lorain County,H1,39093
 39095,Flooding/Tropical storm/Hurricane,2023.0,4155059.97,OH,39,95,1074060,Lucas County,H1,39095
@@ -2118,7 +2118,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 39149,Flooding/Tropical storm/Hurricane,2022.0,33500.0,OH,39,149,1074087,Shelby County,H1,39149
 39151,none,,0.0,OH,39,151,1065576,Stark County,H1,39151
 39153,Flooding/Tropical storm/Hurricane,2020.0,9109000.0,OH,39,153,1074088,Summit County,H1,39153
-39155,Infrastructure failure,2022.0,54684299.0,OH,39,155,1074089,Trumbull County,H1,39155
+39155,Infrastructure failure/Manmade disaster,2022.0,54684299.0,OH,39,155,1074089,Trumbull County,H1,39155
 39157,Flooding/Tropical storm/Hurricane,2023.0,120558.0,OH,39,157,1074090,Tuscarawas County,H1,39157
 39159,none,,0.0,OH,39,159,1074091,Union County,H1,39159
 39161,none,,0.0,OH,39,161,1074092,Van Wert County,H1,39161
@@ -2139,7 +2139,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 40015,Tornado/Severe storm,2023.0,4269618.0,OK,40,15,1101795,Caddo County,H1,40015
 40017,Tornado/Severe storm,2021.0,1333993.58,OK,40,17,1101796,Canadian County,H1,40017
 40019,none,,0.0,OK,40,19,1101797,Carter County,H1,40019
-40021,Infrastructure failure,2023.0,2317439.23,OK,40,21,1101798,Cherokee County,H1,40021
+40021,Infrastructure failure/Manmade disaster,2023.0,2317439.23,OK,40,21,1101798,Cherokee County,H1,40021
 40023,none,,0.0,OK,40,23,1101799,Choctaw County,H1,40023
 40025,none,,0.0,OK,40,25,1101800,Cimarron County,H1,40025
 40027,Flooding/Tropical storm/Hurricane,2023.0,3176167.7,OK,40,27,1101801,Cleveland County,H1,40027
@@ -2180,7 +2180,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 40097,none,,0.0,OK,40,97,1101833,Mayes County,H1,40097
 40099,none,,0.0,OK,40,99,1101837,Murray County,H1,40099
 40101,Flooding/Tropical storm/Hurricane,2023.0,650000.0,OK,40,101,1101838,Muskogee County,H1,40101
-40103,Infrastructure failure,2023.0,3348000.0,OK,40,103,1101839,Noble County,H1,40103
+40103,Infrastructure failure/Manmade disaster,2023.0,3348000.0,OK,40,103,1101839,Noble County,H1,40103
 40105,none,,0.0,OK,40,105,1101840,Nowata County,H1,40105
 40107,none,,0.0,OK,40,107,1101841,Okfuskee County,H1,40107
 40109,Tornado/Severe storm,2020.0,19266000.0,OK,40,109,1101842,Oklahoma County,H1,40109
@@ -2190,7 +2190,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 40117,none,,0.0,OK,40,117,1101846,Pawnee County,H1,40117
 40119,Tornado/Severe storm,2020.0,210840.0,OK,40,119,1101847,Payne County,H1,40119
 40121,none,,0.0,OK,40,121,1101848,Pittsburg County,H1,40121
-40123,Unidentified disaster,2022.0,1074931.0,OK,40,123,1101849,Pontotoc County,H1,40123
+40123,Fire/Extreme temperature/Drought,2022.0,1074931.0,OK,40,123,1101849,Pontotoc County,H1,40123
 40125,Tornado/Severe storm,2022.0,465984.12,OK,40,125,1101850,Pottawatomie County,H1,40125
 40127,none,,0.0,OK,40,127,1101851,Pushmataha County,H1,40127
 40129,none,,0.0,OK,40,129,1101852,Roger Mills County,H1,40129
@@ -2206,32 +2206,32 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 40149,none,,0.0,OK,40,149,1101862,Washita County,H1,40149
 40151,none,,0.0,OK,40,151,1101863,Woods County,H1,40151
 40153,none,,0.0,OK,40,153,1101864,Woodward County,H1,40153
-41001,Fire/Extreme temperature,2023.0,50000.0,OR,41,1,1135845,Baker County,H1,41001
+41001,Fire/Extreme temperature/Drought,2023.0,50000.0,OR,41,1,1135845,Baker County,H1,41001
 41003,Earthquake/Landslide,2023.0,4720128.12,OR,41,3,1155126,Benton County,H1,41003
-41005,Fire/Extreme temperature,2023.0,88352638.58,OR,41,5,1155127,Clackamas County,H1,41005
+41005,Fire/Extreme temperature/Drought,2023.0,88352638.58,OR,41,5,1155127,Clackamas County,H1,41005
 41007,Flooding/Tropical storm/Hurricane,2022.0,22263757.38,OR,41,7,1135846,Clatsop County,H1,41007
 41009,Flooding/Tropical storm/Hurricane,2023.0,549106.0,OR,41,9,1135847,Columbia County,H1,41009
 41011,Earthquake/Landslide,2023.0,1639700.0,OR,41,11,1135848,Coos County,H1,41011
 41013,none,,0.0,OR,41,13,1155128,Crook County,H1,41013
-41015,Unidentified disaster,2022.0,72318159.85,OR,41,15,1155129,Curry County,H1,41015
-41017,Fire/Extreme temperature,2023.0,56856799.0,OR,41,17,1155130,Deschutes County,H1,41017
+41015,Fire/Extreme temperature/Drought,2022.0,72318159.85,OR,41,15,1155129,Curry County,H1,41015
+41017,Fire/Extreme temperature/Drought,2023.0,56856799.0,OR,41,17,1155130,Deschutes County,H1,41017
 41019,Earthquake/Landslide,2020.0,9652500.0,OR,41,19,1135849,Douglas County,H1,41019
 41021,none,,0.0,OR,41,21,1135850,Gilliam County,H1,41021
 41023,none,,0.0,OR,41,23,1135851,Grant County,H1,41023
-41025,Fire/Extreme temperature,2022.0,4922101.8,OR,41,25,1135852,Harney County,H1,41025
+41025,Fire/Extreme temperature/Drought,2022.0,4922101.8,OR,41,25,1135852,Harney County,H1,41025
 41027,Earthquake/Landslide,2021.0,6388542.11,OR,41,27,1155131,Hood River County,H1,41027
 41029,Earthquake/Landslide,2022.0,49323339.0,OR,41,29,1135853,Jackson County,H1,41029
 41031,none,,0.0,OR,41,31,1155132,Jefferson County,H1,41031
 41033,Flooding/Tropical storm/Hurricane,2021.0,131149226.78,OR,41,33,1155133,Josephine County,H1,41033
-41035,Fire/Extreme temperature,2023.0,105518.2,OR,41,35,1155134,Klamath County,H1,41035
+41035,Fire/Extreme temperature/Drought,2023.0,105518.2,OR,41,35,1155134,Klamath County,H1,41035
 41037,none,,0.0,OR,41,37,1135854,Lake County,H1,41037
 41039,Flooding/Tropical storm/Hurricane,2022.0,27109630.0,OR,41,39,1135855,Lane County,H1,41039
-41041,Infrastructure failure,2023.0,866580.75,OR,41,41,1135856,Lincoln County,H1,41041
+41041,Infrastructure failure/Manmade disaster,2023.0,866580.75,OR,41,41,1135856,Lincoln County,H1,41041
 41043,none,,0.0,OR,41,43,1135857,Linn County,H1,41043
 41045,none,,0.0,OR,41,45,1135858,Malheur County,H1,41045
 41047,Unidentified disaster,2023.0,31511197.14,OR,41,47,1135859,Marion County,H1,41047
 41049,none,,0.0,OR,41,49,1135860,Morrow County,H1,41049
-41051,Fire/Extreme temperature,2022.0,10924629.85,OR,41,51,1135861,Multnomah County,H1,41051
+41051,Fire/Extreme temperature/Drought,2022.0,10924629.85,OR,41,51,1135861,Multnomah County,H1,41051
 41053,none,,0.0,OR,41,53,1135862,Polk County,H1,41053
 41055,none,,0.0,OR,41,55,1135863,Sherman County,H1,41055
 41057,none,,0.0,OR,41,57,1135864,Tillamook County,H1,41057
@@ -2247,27 +2247,27 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 42005,none,,0.0,PA,42,5,1213658,Armstrong County,H1,42005
 42007,Flooding/Tropical storm/Hurricane,2023.0,105000.0,PA,42,7,1214112,Beaver County,H1,42007
 42009,none,,0.0,PA,42,9,1209171,Bedford County,H1,42009
-42011,Infrastructure failure,2022.0,430000.0,PA,42,11,1209172,Berks County,H1,42011
+42011,Infrastructure failure/Manmade disaster,2022.0,430000.0,PA,42,11,1209172,Berks County,H1,42011
 42013,Flooding/Tropical storm/Hurricane,2022.0,314996.36,PA,42,13,1213659,Blair County,H1,42013
 42015,none,,0.0,PA,42,15,1213660,Bradford County,H1,42015
 42017,Flooding/Tropical storm/Hurricane,2020.0,1135608.0,PA,42,17,1209173,Bucks County,H1,42017
-42019,Unidentified disaster,2023.0,105000.0,PA,42,19,1213661,Butler County,H1,42019
+42019,Blizzard/Winter storm,2023.0,105000.0,PA,42,19,1213661,Butler County,H1,42019
 42021,Flooding/Tropical storm/Hurricane,2023.0,97500.68,PA,42,21,1213662,Cambria County,H1,42021
-42023,Unidentified disaster,2023.0,73500.0,PA,42,23,1213663,Cameron County,H1,42023
+42023,Infrastructure failure/Manmade disaster,2023.0,73500.0,PA,42,23,1213663,Cameron County,H1,42023
 42025,Flooding/Tropical storm/Hurricane,2023.0,63000.0,PA,42,25,1213664,Carbon County,H1,42025
 42027,Flooding/Tropical storm/Hurricane,2020.0,266620.0,PA,42,27,1214720,Centre County,H1,42027
 42029,Flooding/Tropical storm/Hurricane,2021.0,6879742.0,PA,42,29,1209174,Chester County,H1,42029
 42031,none,,0.0,PA,42,31,1210234,Clarion County,H1,42031
 42033,none,,0.0,PA,42,33,1209175,Clearfield County,H1,42033
-42035,Manmade disaster,2020.0,45000.0,PA,42,35,1214721,Clinton County,H1,42035
+42035,Infrastructure failure/Manmade disaster,2020.0,45000.0,PA,42,35,1214721,Clinton County,H1,42035
 42037,Flooding/Tropical storm/Hurricane,2020.0,210550.0,PA,42,37,1213665,Columbia County,H1,42037
 42039,none,,0.0,PA,42,39,1213666,Crawford County,H1,42039
 42041,Flooding/Tropical storm/Hurricane,2022.0,83955.92,PA,42,41,1209176,Cumberland County,H1,42041
 42043,Unidentified disaster,2023.0,10860135.040000001,PA,42,43,1213667,Dauphin County,H1,42043
 42045,Flooding/Tropical storm/Hurricane,2020.0,6610000.0,PA,42,45,1209177,Delaware County,H1,42045
 42047,none,,0.0,PA,42,47,1213668,Elk County,H1,42047
-42049,Unidentified disaster,2023.0,225000.0,PA,42,49,1209178,Erie County,H1,42049
-42051,Infrastructure failure,2023.0,840060.0,PA,42,51,1209179,Fayette County,H1,42051
+42049,Blizzard/Winter storm,2023.0,225000.0,PA,42,49,1209178,Erie County,H1,42049
+42051,Infrastructure failure/Manmade disaster,2023.0,840060.0,PA,42,51,1209179,Fayette County,H1,42051
 42053,none,,0.0,PA,42,53,1213669,Forest County,H1,42053
 42055,none,,0.0,PA,42,55,1213670,Franklin County,H1,42055
 42057,none,,0.0,PA,42,57,1213671,Fulton County,H1,42057
@@ -2282,17 +2282,17 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 42075,Flooding/Tropical storm/Hurricane,2020.0,1293700.0,PA,42,75,1214034,Lebanon County,H1,42075
 42077,Flooding/Tropical storm/Hurricane,2022.0,133333.0,PA,42,77,1209182,Lehigh County,H1,42077
 42079,Flooding/Tropical storm/Hurricane,2021.0,51535000.0,PA,42,79,1209183,Luzerne County,H1,42079
-42081,Infrastructure failure,2020.0,9160000.0,PA,42,81,1213677,Lycoming County,H1,42081
+42081,Infrastructure failure/Manmade disaster,2020.0,9160000.0,PA,42,81,1213677,Lycoming County,H1,42081
 42083,none,,0.0,PA,42,83,1210235,McKean County,H1,42083
-42085,Unidentified disaster,2020.0,50000.0,PA,42,85,1213678,Mercer County,H1,42085
+42085,Blizzard/Winter storm,2020.0,50000.0,PA,42,85,1213678,Mercer County,H1,42085
 42087,none,,0.0,PA,42,87,1213679,Mifflin County,H1,42087
 42089,Flooding/Tropical storm/Hurricane,2020.0,685500.0,PA,42,89,1209184,Monroe County,H1,42089
-42091,Infrastructure failure,2023.0,15665000.0,PA,42,91,1213680,Montgomery County,H1,42091
+42091,Infrastructure failure/Manmade disaster,2023.0,15665000.0,PA,42,91,1213680,Montgomery County,H1,42091
 42093,Flooding/Tropical storm/Hurricane,2021.0,371804.5,PA,42,93,1213681,Montour County,H1,42093
 42095,Flooding/Tropical storm/Hurricane,2020.0,7314854.0,PA,42,95,1209185,Northampton County,H1,42095
 42097,Flooding/Tropical storm/Hurricane,2023.0,8176565.14,PA,42,97,1209186,Northumberland County,H1,42097
 42099,Unidentified disaster,2022.0,35214.9,PA,42,99,1213682,Perry County,H1,42099
-42101,Infrastructure failure,2022.0,113397708.0,PA,42,101,1209187,Philadelphia County,H6,42101
+42101,Infrastructure failure/Manmade disaster,2022.0,113397708.0,PA,42,101,1209187,Philadelphia County,H6,42101
 42103,Tornado/Severe storm,2023.0,51224.0,PA,42,103,1213683,Pike County,H1,42103
 42105,Flooding/Tropical storm/Hurricane,2023.0,3499.98,PA,42,105,1213684,Potter County,H1,42105
 42107,Flooding/Tropical storm/Hurricane,2021.0,2282942.55,PA,42,107,1213685,Schuylkill County,H1,42107
@@ -2310,14 +2310,14 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 42131,Flooding/Tropical storm/Hurricane,2023.0,494005.0,PA,42,131,1209192,Wyoming County,H1,42131
 42133,Flooding/Tropical storm/Hurricane,2022.0,6821850.0,PA,42,133,1209193,York County,H1,42133
 44001,Flooding/Tropical storm/Hurricane,2023.0,279048.5,RI,44,1,1219777,Bristol County,H4,44001
-44003,Infrastructure failure,2021.0,445540.0,RI,44,3,1219778,Kent County,H4,44003
-44005,Infrastructure failure,2023.0,42098365.0,RI,44,5,1219779,Newport County,H4,44005
-44007,Infrastructure failure,2023.0,3040966.16,RI,44,7,1219781,Providence County,H4,44007
+44003,Infrastructure failure/Manmade disaster,2021.0,445540.0,RI,44,3,1219778,Kent County,H4,44003
+44005,Infrastructure failure/Manmade disaster,2023.0,42098365.0,RI,44,5,1219779,Newport County,H4,44005
+44007,Infrastructure failure/Manmade disaster,2023.0,3040966.16,RI,44,7,1219781,Providence County,H4,44007
 44009,Flooding/Tropical storm/Hurricane,2020.0,4687353.54,RI,44,9,1219782,Washington County,H4,44009
-45001,Unidentified disaster,2020.0,775690.0,SC,45,1,1245666,Abbeville County,H1,45001
-45003,Infrastructure failure,2022.0,11758982.0,SC,45,3,1247979,Aiken County,H1,45003
+45001,Blizzard/Winter storm,2020.0,775690.0,SC,45,1,1245666,Abbeville County,H1,45001
+45003,Infrastructure failure/Manmade disaster,2022.0,11758982.0,SC,45,3,1247979,Aiken County,H1,45003
 45005,none,,0.0,SC,45,5,1247980,Allendale County,H1,45005
-45007,Infrastructure failure,2023.0,900000.0,SC,45,7,1247981,Anderson County,H1,45007
+45007,Infrastructure failure/Manmade disaster,2023.0,900000.0,SC,45,7,1247981,Anderson County,H1,45007
 45009,none,,0.0,SC,45,9,1247982,Bamberg County,H1,45009
 45011,none,,0.0,SC,45,11,1247983,Barnwell County,H1,45011
 45013,Flooding/Tropical storm/Hurricane,2021.0,3421433.45,SC,45,13,1247984,Beaufort County,H1,45013
@@ -2331,12 +2331,12 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 45029,Flooding/Tropical storm/Hurricane,2021.0,105000.0,SC,45,29,1247991,Colleton County,H1,45029
 45031,none,,0.0,SC,45,31,1247992,Darlington County,H1,45031
 45033,Flooding/Tropical storm/Hurricane,2021.0,1368896.0,SC,45,33,1247993,Dillon County,H1,45033
-45035,Infrastructure failure,2023.0,269056.88,SC,45,35,1247998,Dorchester County,H1,45035
+45035,Infrastructure failure/Manmade disaster,2023.0,269056.88,SC,45,35,1247998,Dorchester County,H1,45035
 45037,none,,0.0,SC,45,37,1247999,Edgefield County,H1,45037
 45039,none,,0.0,SC,45,39,1248000,Fairfield County,H1,45039
-45041,Infrastructure failure,2022.0,144900.0,SC,45,41,1248001,Florence County,H1,45041
+45041,Infrastructure failure/Manmade disaster,2022.0,144900.0,SC,45,41,1248001,Florence County,H1,45041
 45043,Flooding/Tropical storm/Hurricane,2020.0,966561.89,SC,45,43,1248002,Georgetown County,H1,45043
-45045,Infrastructure failure,2023.0,19509903.26,SC,45,45,1245489,Greenville County,H1,45045
+45045,Infrastructure failure/Manmade disaster,2023.0,19509903.26,SC,45,45,1245489,Greenville County,H1,45045
 45047,Flooding/Tropical storm/Hurricane,2023.0,350000.0,SC,45,47,1248003,Greenwood County,H1,45047
 45049,Flooding/Tropical storm/Hurricane,2023.0,86984.53,SC,45,49,1248004,Hampton County,H1,45049
 45051,Flooding/Tropical storm/Hurricane,2020.0,9015766.5,SC,45,51,1248005,Horry County,H1,45051
@@ -2350,16 +2350,16 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 45067,Flooding/Tropical storm/Hurricane,2020.0,863929.0,SC,45,67,1248010,Marion County,H1,45067
 45069,Flooding/Tropical storm/Hurricane,2020.0,225000.0,SC,45,69,1248011,Marlboro County,H1,45069
 45071,none,,0.0,SC,45,71,1248013,Newberry County,H1,45071
-45073,Infrastructure failure,2023.0,8185338.87,SC,45,73,1244832,Oconee County,H1,45073
+45073,Infrastructure failure/Manmade disaster,2023.0,8185338.87,SC,45,73,1244832,Oconee County,H1,45073
 45075,none,,0.0,SC,45,75,1248014,Orangeburg County,H1,45075
 45077,Flooding/Tropical storm/Hurricane,2020.0,864999.64,SC,45,77,1248015,Pickens County,H1,45077
-45079,Infrastructure failure,2020.0,46622548.35,SC,45,79,1249299,Richland County,H1,45079
+45079,Infrastructure failure/Manmade disaster,2020.0,81673187.35,SC,45,79,1249299,Richland County,H1,45079
 45081,none,,0.0,SC,45,81,1248016,Saluda County,H1,45081
-45083,Unidentified disaster,2020.0,331018.0,SC,45,83,1248592,Spartanburg County,H1,45083
+45083,Blizzard/Winter storm,2020.0,331018.0,SC,45,83,1248592,Spartanburg County,H1,45083
 45085,Flooding/Tropical storm/Hurricane,2022.0,80650.0,SC,45,85,1244717,Sumter County,H1,45085
 45087,none,,0.0,SC,45,87,1248017,Union County,H1,45087
 45089,none,,0.0,SC,45,89,1248018,Williamsburg County,H1,45089
-45091,Infrastructure failure,2022.0,7747651.0,SC,45,91,1248019,York County,H1,45091
+45091,Infrastructure failure/Manmade disaster,2022.0,7747651.0,SC,45,91,1248019,York County,H1,45091
 46003,none,,0.0,SD,46,3,1266983,Aurora County,H1,46003
 46005,none,,0.0,SD,46,5,1266986,Beadle County,H1,46005
 46007,none,,0.0,SD,46,7,1265812,Bennett County,H1,46007
@@ -2370,27 +2370,27 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 46017,none,,0.0,SD,46,17,1265767,Buffalo County,H1,46017
 46019,none,,0.0,SD,46,19,1265793,Butte County,H1,46019
 46021,none,,0.0,SD,46,21,1266974,Campbell County,H1,46021
-46023,Unidentified disaster,2023.0,69437.85,SD,46,23,1266976,Charles Mix County,H1,46023
+46023,Blizzard/Winter storm,2023.0,55037.85,SD,46,23,1266976,Charles Mix County,H1,46023
 46025,Flooding/Tropical storm/Hurricane,2021.0,19500.0,SD,46,25,1266985,Clark County,H1,46025
 46027,Unidentified disaster,2021.0,15000.0,SD,46,27,1265764,Clay County,H1,46027
 46029,Flooding/Tropical storm/Hurricane,2020.0,17650.0,SD,46,29,1265791,Codington County,H1,46029
 46031,none,,0.0,SD,46,31,1265811,Corson County,H1,46031
 46033,Flooding/Tropical storm/Hurricane,2023.0,954055.0,SD,46,33,1265788,Custer County,H1,46033
-46035,Unidentified disaster,2021.0,422940.73,SD,46,35,1266980,Davison County,H1,46035
+46035,Blizzard/Winter storm,2021.0,422940.73,SD,46,35,1266980,Davison County,H1,46035
 46037,Flooding/Tropical storm/Hurricane,2023.0,63211.75,SD,46,37,1265790,Day County,H1,46037
 46039,none,,0.0,SD,46,39,1265781,Deuel County,H1,46039
 46041,none,,0.0,SD,46,41,1266994,Dewey County,H1,46041
-46043,Unidentified disaster,2021.0,273638.04,SD,46,43,1266978,Douglas County,H1,46043
+46043,Blizzard/Winter storm,2021.0,273638.04,SD,46,43,1266978,Douglas County,H1,46043
 46045,none,,0.0,SD,46,45,1266972,Edmunds County,H1,46045
-46047,Fire/Extreme temperature,2023.0,14000.0,SD,46,47,1265787,Fall River County,H1,46047
-46049,Unidentified disaster,2023.0,16200.0,SD,46,49,1265760,Faulk County,H1,46049
+46047,Fire/Extreme temperature/Drought,2023.0,14000.0,SD,46,47,1265787,Fall River County,H1,46047
+46049,Blizzard/Winter storm,2023.0,16200.0,SD,46,49,1265760,Faulk County,H1,46049
 46051,Flooding/Tropical storm/Hurricane,2022.0,284348.75,SD,46,51,1265782,Grant County,H1,46051
 46053,Flooding/Tropical storm/Hurricane,2023.0,14400.0,SD,46,53,1265765,Gregory County,H1,46053
 46055,none,,0.0,SD,46,55,1266988,Haakon County,H1,46055
 46057,Tornado/Severe storm,2022.0,16900.0,SD,46,57,1265766,Hamlin County,H1,46057
 46059,Flooding/Tropical storm/Hurricane,2023.0,16200.0,SD,46,59,1265783,Hand County,H1,46059
 46061,Flooding/Tropical storm/Hurricane,2020.0,461975.0,SD,46,61,1266979,Hanson County,H1,46061
-46063,Unidentified disaster,2021.0,10000.0,SD,46,63,1265792,Harding County,H1,46063
+46063,Blizzard/Winter storm,2021.0,10000.0,SD,46,63,1265792,Harding County,H1,46063
 46065,Unidentified disaster,2023.0,1899386.83,SD,46,65,1265774,Hughes County,H1,46065
 46067,Flooding/Tropical storm/Hurricane,2023.0,14305076.0,SD,46,67,1265771,Hutchinson County,H1,46067
 46069,none,,0.0,SD,46,69,1266984,Hyde County,H1,46069
@@ -2398,21 +2398,21 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 46073,Unidentified disaster,2023.0,14400.0,SD,46,73,1265778,Jerauld County,H1,46073
 46075,none,,0.0,SD,46,75,1266981,Jones County,H1,46075
 46077,Tornado/Severe storm,2022.0,19200.0,SD,46,77,1265780,Kingsbury County,H1,46077
-46079,Infrastructure failure,2023.0,195583.5,SD,46,79,1265776,Lake County,H1,46079
+46079,Infrastructure failure/Manmade disaster,2023.0,195583.5,SD,46,79,1265776,Lake County,H1,46079
 46081,Flooding/Tropical storm/Hurricane,2023.0,129700.0,SD,46,81,1266996,Lawrence County,H1,46081
 46083,Flooding/Tropical storm/Hurricane,2020.0,29700.0,SD,46,83,1265769,Lincoln County,H1,46083
-46085,Unidentified disaster,2023.0,14400.0,SD,46,85,1265789,Lyman County,H1,46085
+46085,Blizzard/Winter storm,2023.0,14400.0,SD,46,85,1265789,Lyman County,H1,46085
 46087,none,,0.0,SD,46,87,1265773,McCook County,H1,46087
-46089,Unidentified disaster,2022.0,16200.0,SD,46,89,1265762,McPherson County,H1,46089
-46091,Unidentified disaster,2022.0,16200.0,SD,46,91,1265759,Marshall County,H1,46091
+46089,Blizzard/Winter storm,2022.0,16200.0,SD,46,89,1265762,McPherson County,H1,46089
+46091,Blizzard/Winter storm,2022.0,16200.0,SD,46,91,1265759,Marshall County,H1,46091
 46093,Flooding/Tropical storm/Hurricane,2023.0,22000.0,SD,46,93,1266991,Meade County,H1,46093
 46095,none,,0.0,SD,46,95,1267177,Mellette County,H1,46095
-46097,Fire/Extreme temperature,2021.0,17425.0,SD,46,97,1265777,Miner County,H1,46097
+46097,Fire/Extreme temperature/Drought,2021.0,17425.0,SD,46,97,1265777,Miner County,H1,46097
 46099,Flooding/Tropical storm/Hurricane,2020.0,1187842.56,SD,46,99,1265772,Minnehaha County,H1,46099
 46101,Flooding/Tropical storm/Hurricane,2022.0,172200.0,SD,46,101,1265775,Moody County,H1,46101
-46102,Infrastructure failure,2023.0,1894444.0,SD,46,102,1266992,Oglala Lakota County,H1,46102
-46103,Fire/Extreme temperature,2023.0,2616610.0,SD,46,103,1266995,Pennington County,H1,46103
-46105,Fire/Extreme temperature,2023.0,14000.0,SD,46,105,1266990,Perkins County,H1,46105
+46102,Infrastructure failure/Manmade disaster,2023.0,1894444.0,SD,46,102,1266992,Oglala Lakota County,H1,46102
+46103,Fire/Extreme temperature/Drought,2023.0,2616610.0,SD,46,103,1266995,Pennington County,H1,46103
+46105,Fire/Extreme temperature/Drought,2023.0,14000.0,SD,46,105,1266990,Perkins County,H1,46105
 46107,Tornado/Severe storm,2023.0,16200.0,SD,46,107,1265761,Potter County,H1,46107
 46109,Flooding/Tropical storm/Hurricane,2022.0,2145825.15,SD,46,109,1265786,Roberts County,H1,46109
 46111,Tornado/Severe storm,2023.0,10432.2,SD,46,111,1266977,Sanborn County,H1,46111
@@ -2423,7 +2423,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 46123,Unidentified disaster,2023.0,14400.0,SD,46,123,1265784,Tripp County,H1,46123
 46125,Tornado/Severe storm,2023.0,485973.18,SD,46,125,1265770,Turner County,H1,46125
 46127,Tornado/Severe storm,2022.0,12500.0,SD,46,127,1265763,Union County,H1,46127
-46129,Unidentified disaster,2021.0,3750000.0,SD,46,129,1266973,Walworth County,H1,46129
+46129,Fire/Extreme temperature/Drought,2021.0,3750000.0,SD,46,129,1266973,Walworth County,H1,46129
 46135,none,,0.0,SD,46,135,1266975,Yankton County,H1,46135
 46137,none,,0.0,SD,46,137,1266993,Ziebach County,H1,46137
 47001,none,,0.0,TN,47,1,1639722,Anderson County,H1,47001
@@ -2482,7 +2482,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 47107,none,,0.0,TN,47,107,1639773,McMinn County,H1,47107
 47109,none,,0.0,TN,47,109,1639774,McNairy County,H1,47109
 47111,none,,0.0,TN,47,111,1639768,Macon County,H1,47111
-47113,Unidentified disaster,2020.0,790000.0,TN,47,113,1639769,Madison County,H1,47113
+47113,Infrastructure failure/Manmade disaster,2020.0,790000.0,TN,47,113,1639769,Madison County,H1,47113
 47115,none,,0.0,TN,47,115,1639770,Marion County,H1,47115
 47117,none,,0.0,TN,47,117,1639771,Marshall County,H1,47117
 47119,none,,0.0,TN,47,119,1639772,Maury County,H1,47119
@@ -2504,7 +2504,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 47151,none,,0.0,TN,47,151,1639788,Scott County,H1,47151
 47153,none,,0.0,TN,47,153,1652643,Sequatchie County,H1,47153
 47155,none,,0.0,TN,47,155,1639789,Sevier County,H1,47155
-47157,Fire/Extreme temperature,2022.0,2010000.0,TN,47,157,1639790,Shelby County,H1,47157
+47157,Fire/Extreme temperature/Drought,2022.0,2010000.0,TN,47,157,1639790,Shelby County,H1,47157
 47159,none,,0.0,TN,47,159,1639791,Smith County,H1,47159
 47161,none,,0.0,TN,47,161,1639792,Stewart County,H1,47161
 47163,none,,0.0,TN,47,163,1639793,Sullivan County,H1,47163
@@ -2681,7 +2681,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 48315,none,,0.0,TX,48,315,1383940,Marion County,H1,48315
 48317,none,,0.0,TX,48,317,1383941,Martin County,H1,48317
 48319,none,,0.0,TX,48,319,1383942,Mason County,H1,48319
-48321,Infrastructure failure,2020.0,6637090.95,TX,48,321,1383943,Matagorda County,H1,48321
+48321,Infrastructure failure/Manmade disaster,2020.0,6637090.95,TX,48,321,1383943,Matagorda County,H1,48321
 48323,none,,0.0,TX,48,323,1383944,Maverick County,H1,48323
 48325,Flooding/Tropical storm/Hurricane,2022.0,2344898.3899999997,TX,48,325,1383948,Medina County,H1,48325
 48327,none,,0.0,TX,48,327,1383949,Menard County,H1,48327
@@ -2719,7 +2719,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 48391,none,,0.0,TX,48,391,1383981,Refugio County,H1,48391
 48393,none,,0.0,TX,48,393,1383982,Roberts County,H1,48393
 48395,none,,0.0,TX,48,395,1383983,Robertson County,H1,48395
-48397,Fire/Extreme temperature,2021.0,1741334.0,TX,48,397,1383984,Rockwall County,H1,48397
+48397,Fire/Extreme temperature/Drought,2021.0,1741334.0,TX,48,397,1383984,Rockwall County,H1,48397
 48399,none,,0.0,TX,48,399,1383985,Runnels County,H1,48399
 48401,none,,0.0,TX,48,401,1383986,Rusk County,H1,48401
 48403,none,,0.0,TX,48,403,1383987,Sabine County,H1,48403
@@ -2747,7 +2747,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 48447,none,,0.0,TX,48,447,1384009,Throckmorton County,H1,48447
 48449,none,,0.0,TX,48,449,1384010,Titus County,H1,48449
 48451,none,,0.0,TX,48,451,1384011,Tom Green County,H1,48451
-48453,Infrastructure failure,2022.0,110511674.0,TX,48,453,1384012,Travis County,H1,48453
+48453,Infrastructure failure/Manmade disaster,2022.0,110511674.0,TX,48,453,1384012,Travis County,H1,48453
 48455,none,,0.0,TX,48,455,1384013,Trinity County,H1,48455
 48457,none,,0.0,TX,48,457,1384014,Tyler County,H1,48457
 48459,none,,0.0,TX,48,459,1384015,Upshur County,H1,48459
@@ -2755,7 +2755,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 48463,none,,0.0,TX,48,463,1384017,Uvalde County,H1,48463
 48465,none,,0.0,TX,48,465,1384018,Val Verde County,H1,48465
 48467,none,,0.0,TX,48,467,1384019,Van Zandt County,H1,48467
-48469,Unidentified disaster,2021.0,6334031.24,TX,48,469,1384020,Victoria County,H1,48469
+48469,Fire/Extreme temperature/Drought,2021.0,6334031.24,TX,48,469,1384020,Victoria County,H1,48469
 48471,none,,0.0,TX,48,471,1384021,Walker County,H1,48471
 48473,none,,0.0,TX,48,473,1384022,Waller County,H1,48473
 48475,none,,0.0,TX,48,475,1384023,Ward County,H1,48475
@@ -2769,7 +2769,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 48491,Flooding/Tropical storm/Hurricane,2023.0,9445710.0,TX,48,491,1384031,Williamson County,H1,48491
 48493,Flooding/Tropical storm/Hurricane,2023.0,3453316.0,TX,48,493,1384032,Wilson County,H1,48493
 48495,none,,0.0,TX,48,495,1384033,Winkler County,H1,48495
-48497,Infrastructure failure,2022.0,553067.0,TX,48,497,1384034,Wise County,H1,48497
+48497,Infrastructure failure/Manmade disaster,2022.0,553067.0,TX,48,497,1384034,Wise County,H1,48497
 48499,none,,0.0,TX,48,499,1384035,Wood County,H1,48499
 48501,none,,0.0,TX,48,501,1384036,Yoakum County,H1,48501
 48503,Tornado/Severe storm,2021.0,414614.0,TX,48,503,1384037,Young County,H1,48503
@@ -2787,19 +2787,19 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 49019,Flooding/Tropical storm/Hurricane,2022.0,512200.0,UT,49,19,1448024,Grand County,H1,49019
 49021,none,,0.0,UT,49,21,1448025,Iron County,H1,49021
 49023,Flooding/Tropical storm/Hurricane,2020.0,3600013.0,UT,49,23,1455158,Juab County,H1,49023
-49025,Infrastructure failure,2021.0,379500.0,UT,49,25,1448026,Kane County,H1,49025
+49025,Infrastructure failure/Manmade disaster,2021.0,379500.0,UT,49,25,1448026,Kane County,H1,49025
 49027,none,,0.0,UT,49,27,1448027,Millard County,H1,49027
 49029,Earthquake/Landslide,2021.0,407930.0,UT,49,29,1448028,Morgan County,H1,49029
 49031,none,,0.0,UT,49,31,1448029,Piute County,H1,49031
 49033,none,,0.0,UT,49,33,1448030,Rich County,H1,49033
 49035,Earthquake/Landslide,2023.0,133166136.57000001,UT,49,35,1448031,Salt Lake County,H1,49035
-49037,Unidentified disaster,2020.0,30000.0,UT,49,37,1448032,San Juan County,H1,49037
-49039,Unidentified disaster,2020.0,2026000.0,UT,49,39,1448033,Sanpete County,H1,49039
+49037,Fire/Extreme temperature/Drought,2020.0,30000.0,UT,49,37,1448032,San Juan County,H1,49037
+49039,Fire/Extreme temperature/Drought,2020.0,2026000.0,UT,49,39,1448033,Sanpete County,H1,49039
 49041,Flooding/Tropical storm/Hurricane,2020.0,415000.0,UT,49,41,1448034,Sevier County,H1,49041
 49043,none,,0.0,UT,49,43,1448035,Summit County,H1,49043
-49045,Unidentified disaster,2022.0,3129000.0,UT,49,45,1448036,Tooele County,H1,49045
-49047,Infrastructure failure,2021.0,75000.0,UT,49,47,1448037,Uintah County,H1,49047
-49049,Infrastructure failure,2022.0,121022997.8,UT,49,49,1448038,Utah County,H1,49049
+49045,Fire/Extreme temperature/Drought,2022.0,3129000.0,UT,49,45,1448036,Tooele County,H1,49045
+49047,Infrastructure failure/Manmade disaster,2021.0,75000.0,UT,49,47,1448037,Uintah County,H1,49047
+49049,Infrastructure failure/Manmade disaster,2022.0,121022997.8,UT,49,49,1448038,Utah County,H1,49049
 49051,none,,0.0,UT,49,51,1448039,Wasatch County,H1,49051
 49053,Flooding/Tropical storm/Hurricane,2020.0,1340900.0,UT,49,53,1448040,Washington County,H1,49053
 49055,none,,0.0,UT,49,55,1448041,Wayne County,H1,49055
@@ -2809,33 +2809,33 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 50005,Flooding/Tropical storm/Hurricane,2021.0,78750.0,VT,50,5,1461759,Caledonia County,H1,50005
 50007,none,,0.0,VT,50,7,1461760,Chittenden County,H1,50007
 50009,none,,0.0,VT,50,9,1461761,Essex County,H1,50009
-50011,Infrastructure failure,2022.0,131775.0,VT,50,11,1461762,Franklin County,H1,50011
+50011,Infrastructure failure/Manmade disaster,2022.0,131775.0,VT,50,11,1461762,Franklin County,H1,50011
 50013,none,,0.0,VT,50,13,1461763,Grand Isle County,H1,50013
 50015,Flooding/Tropical storm/Hurricane,2021.0,130253.55,VT,50,15,1461764,Lamoille County,H1,50015
 50017,Tornado/Severe storm,2021.0,107296.0,VT,50,17,1461765,Orange County,H1,50017
 50019,none,,0.0,VT,50,19,1461766,Orleans County,H1,50019
 50021,Flooding/Tropical storm/Hurricane,2022.0,274050.0,VT,50,21,1461767,Rutland County,H1,50021
-50023,Fire/Extreme temperature,2023.0,1743547.15,VT,50,23,1461768,Washington County,H1,50023
+50023,Fire/Extreme temperature/Drought,2023.0,1743547.15,VT,50,23,1461768,Washington County,H1,50023
 50025,Flooding/Tropical storm/Hurricane,2023.0,195510.0,VT,50,25,1461769,Windham County,H1,50025
 50027,Flooding/Tropical storm/Hurricane,2021.0,1593215.0,VT,50,27,1461770,Windsor County,H1,50027
-51001,Infrastructure failure,2020.0,126700.0,VA,51,1,1480091,Accomack County,H1,51001
+51001,Infrastructure failure/Manmade disaster,2020.0,126700.0,VA,51,1,1480091,Accomack County,H1,51001
 51003,none,,0.0,VA,51,3,1675170,Albemarle County,H1,51003
 51005,none,,0.0,VA,51,5,1673675,Alleghany County,H1,51005
 51007,none,,0.0,VA,51,7,1497770,Amelia County,H1,51007
 51009,none,,0.0,VA,51,9,1480095,Amherst County,H1,51009
 51011,none,,0.0,VA,51,11,1497238,Appomattox County,H1,51011
-51013,Infrastructure failure,2023.0,534372.0,VA,51,13,1480097,Arlington County,H1,51013
+51013,Infrastructure failure/Manmade disaster,2023.0,534372.0,VA,51,13,1480097,Arlington County,H1,51013
 51015,none,,0.0,VA,51,15,1480098,Augusta County,H1,51015
 51017,none,,0.0,VA,51,17,1673638,Bath County,H1,51017
 51019,Tornado/Severe storm,2020.0,4274408.0,VA,51,19,1674818,Bedford County,H1,51019
 51021,none,,0.0,VA,51,21,1494613,Bland County,H1,51021
-51023,Infrastructure failure,2023.0,157395.0,VA,51,23,1674418,Botetourt County,H1,51023
+51023,Infrastructure failure/Manmade disaster,2023.0,157395.0,VA,51,23,1674418,Botetourt County,H1,51023
 51025,none,,0.0,VA,51,25,1493961,Brunswick County,H1,51025
 51027,none,,0.0,VA,51,27,1497431,Buchanan County,H1,51027
 51029,Flooding/Tropical storm/Hurricane,2020.0,44000.0,VA,51,29,1501502,Buckingham County,H1,51029
 51031,Flooding/Tropical storm/Hurricane,2020.0,1438000.0,VA,51,31,1674917,Campbell County,H1,51031
 51033,none,,0.0,VA,51,33,1480107,Caroline County,H1,51033
-51035,Infrastructure failure,2021.0,18015251.0,VA,51,35,1480108,Carroll County,H1,51035
+51035,Infrastructure failure/Manmade disaster,2021.0,18015251.0,VA,51,35,1480108,Carroll County,H1,51035
 51036,Tornado/Severe storm,2023.0,78750.0,VA,51,36,1480109,Charles City County,H1,51036
 51037,none,,0.0,VA,51,37,1492442,Charlotte County,H1,51037
 51041,Tornado/Severe storm,2023.0,29106750.0,VA,51,41,1480111,Chesterfield County,H1,51041
@@ -2850,7 +2850,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 51061,none,,0.0,VA,51,61,1480120,Fauquier County,H1,51061
 51063,none,,0.0,VA,51,63,1494354,Floyd County,H1,51063
 51065,none,,0.0,VA,51,65,1494061,Fluvanna County,H1,51065
-51067,Infrastructure failure,2021.0,2734692.0,VA,51,67,1494434,Franklin County,H1,51067
+51067,Infrastructure failure/Manmade disaster,2021.0,2734692.0,VA,51,67,1494434,Franklin County,H1,51067
 51069,none,,0.0,VA,51,69,1480124,Frederick County,H1,51069
 51071,none,,0.0,VA,51,71,1494551,Giles County,H1,51071
 51073,none,,0.0,VA,51,73,1480126,Gloucester County,H1,51073
@@ -2860,7 +2860,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 51081,none,,0.0,VA,51,81,1501122,Greensville County,H1,51081
 51083,none,,0.0,VA,51,83,1496705,Halifax County,H1,51083
 51085,none,,0.0,VA,51,85,1480132,Hanover County,H1,51085
-51087,Infrastructure failure,2021.0,14833317.14,VA,51,87,1480133,Henrico County,H1,51087
+51087,Infrastructure failure/Manmade disaster,2021.0,14833317.14,VA,51,87,1480133,Henrico County,H1,51087
 51089,none,,0.0,VA,51,89,1502770,Henry County,H1,51089
 51091,none,,0.0,VA,51,91,1673774,Highland County,H1,51091
 51093,Flooding/Tropical storm/Hurricane,2020.0,920240.0,VA,51,93,1702378,Isle of Wight County,H1,51093
@@ -2868,7 +2868,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 51097,none,,0.0,VA,51,97,1480136,King and Queen County,H1,51097
 51099,none,,0.0,VA,51,99,1480137,King George County,H1,51099
 51101,Tornado/Severe storm,2020.0,81900.0,VA,51,101,1480138,King William County,H1,51101
-51103,Infrastructure failure,2022.0,2310000.0,VA,51,103,1480139,Lancaster County,H1,51103
+51103,Infrastructure failure/Manmade disaster,2022.0,2310000.0,VA,51,103,1480139,Lancaster County,H1,51103
 51105,none,,0.0,VA,51,105,1496538,Lee County,H1,51105
 51107,Flooding/Tropical storm/Hurricane,2020.0,6247712.0,VA,51,107,1480141,Loudoun County,H1,51107
 51109,none,,0.0,VA,51,109,1494707,Louisa County,H1,51109
@@ -2916,7 +2916,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 51510,Flooding/Tropical storm/Hurricane,2022.0,149132473.0,VA,51,510,1498415,Alexandria city,C7,51510
 51520,none,,0.0,VA,51,520,1498416,Bristol city,C7,51520
 51530,none,,0.0,VA,51,530,1498417,Buena Vista city,C7,51530
-51540,Unidentified disaster,2023.0,78310008.0,VA,51,540,1789068,Charlottesville city,C7,51540
+51540,Fire/Extreme temperature/Drought,2023.0,78310008.0,VA,51,540,1789068,Charlottesville city,C7,51540
 51550,Flooding/Tropical storm/Hurricane,2020.0,8749247.0,VA,51,550,1498558,Chesapeake city,C7,51550
 51570,Flooding/Tropical storm/Hurricane,2020.0,240080.0,VA,51,570,1498420,Colonial Heights city,C7,51570
 51580,none,,0.0,VA,51,580,1789069,Covington city,C7,51580
@@ -2925,7 +2925,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 51600,Tornado/Severe storm,2020.0,12092.0,VA,51,600,1789070,Fairfax city,C7,51600
 51610,none,,0.0,VA,51,610,1498423,Falls Church city,C7,51610
 51620,none,,0.0,VA,51,620,1498424,Franklin city,C7,51620
-51630,Infrastructure failure,2020.0,100000.0,VA,51,630,1498425,Fredericksburg city,C7,51630
+51630,Infrastructure failure/Manmade disaster,2020.0,100000.0,VA,51,630,1498425,Fredericksburg city,C7,51630
 51640,none,,0.0,VA,51,640,1498426,Galax city,C7,51640
 51650,Flooding/Tropical storm/Hurricane,2020.0,19141472.0,VA,51,650,1498554,Hampton city,C7,51650
 51660,none,,0.0,VA,51,660,1498563,Harrisonburg city,C7,51660
@@ -2938,11 +2938,11 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 51700,Flooding/Tropical storm/Hurricane,2023.0,987000.0,VA,51,700,1498555,Newport News city,C7,51700
 51710,Flooding/Tropical storm/Hurricane,2020.0,12333660.0,VA,51,710,1498557,Norfolk city,C7,51710
 51720,none,,0.0,VA,51,720,1498434,Norton city,C7,51720
-51730,Infrastructure failure,2020.0,3747297.0,VA,51,730,1498435,Petersburg city,C7,51730
+51730,Infrastructure failure/Manmade disaster,2020.0,3747297.0,VA,51,730,1498435,Petersburg city,C7,51730
 51735,none,,0.0,VA,51,735,1498436,Poquoson city,C7,51735
 51740,Unidentified disaster,2020.0,68070898.0,VA,51,740,1498556,Portsmouth city,C7,51740
 51750,Flooding/Tropical storm/Hurricane,2020.0,100000.0,VA,51,750,1498438,Radford city,C7,51750
-51760,Infrastructure failure,2020.0,60107540.0,VA,51,760,1789073,Richmond city,C7,51760
+51760,Infrastructure failure/Manmade disaster,2020.0,60107540.0,VA,51,760,1789073,Richmond city,C7,51760
 51770,Flooding/Tropical storm/Hurricane,2022.0,325500.0,VA,51,770,1498439,Roanoke city,C7,51770
 51775,none,,0.0,VA,51,775,1789074,Salem city,C7,51775
 51790,none,,0.0,VA,51,790,1789075,Staunton city,C7,51790
@@ -2955,7 +2955,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 53003,none,,0.0,WA,53,3,1533502,Asotin County,H1,53003
 53005,none,,0.0,WA,53,5,1513302,Benton County,H1,53005
 53007,Flooding/Tropical storm/Hurricane,2020.0,158000.0,WA,53,7,1531932,Chelan County,H1,53007
-53009,Unidentified disaster,2021.0,29986688.0,WA,53,9,1531341,Clallam County,H1,53009
+53009,Fire/Extreme temperature/Drought,2021.0,29986688.0,WA,53,9,1531341,Clallam County,H1,53009
 53011,Earthquake/Landslide,2020.0,27673104.0,WA,53,11,1531820,Clark County,H1,53011
 53013,none,,0.0,WA,53,13,1513273,Columbia County,H1,53013
 53015,none,,0.0,WA,53,15,1529156,Cowlitz County,H1,53015
@@ -2970,11 +2970,11 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 53033,Earthquake/Landslide,2022.0,62300995.269999996,WA,53,33,1531933,King County,H1,53033
 53035,Earthquake/Landslide,2022.0,1985000.0,WA,53,35,1529223,Kitsap County,H1,53035
 53037,Flooding/Tropical storm/Hurricane,2020.0,17274080.38,WA,53,37,1531926,Kittitas County,H1,53037
-53039,Fire/Extreme temperature,2022.0,1320742.5,WA,53,39,1529219,Klickitat County,H1,53039
+53039,Fire/Extreme temperature/Drought,2022.0,1320742.5,WA,53,39,1529219,Klickitat County,H1,53039
 53041,none,,0.0,WA,53,41,1531927,Lewis County,H1,53041
-53043,Fire/Extreme temperature,2023.0,94124.0,WA,53,43,1514052,Lincoln County,H1,53043
+53043,Fire/Extreme temperature/Drought,2023.0,94124.0,WA,53,43,1514052,Lincoln County,H1,53043
 53045,Tornado/Severe storm,2023.0,8326884.94,WA,53,45,1529221,Mason County,H1,53045
-53047,Fire/Extreme temperature,2023.0,107678.56,WA,53,47,1531928,Okanogan County,H1,53047
+53047,Fire/Extreme temperature/Drought,2023.0,107678.56,WA,53,47,1531928,Okanogan County,H1,53047
 53049,Flooding/Tropical storm/Hurricane,2022.0,210000.0,WA,53,49,1513274,Pacific County,H1,53049
 53051,none,,0.0,WA,53,51,1529157,Pend Oreille County,H1,53051
 53053,Flooding/Tropical storm/Hurricane,2022.0,24181373.93,WA,53,53,1529159,Pierce County,H1,53053
@@ -3049,7 +3049,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 55003,Flooding/Tropical storm/Hurricane,2020.0,74652.0,WI,55,3,1581061,Ashland County,H1,55003
 55005,Tornado/Severe storm,2023.0,10764099.25,WI,55,5,1581062,Barron County,H1,55005
 55007,Earthquake/Landslide,2023.0,1529465.49,WI,55,7,1581063,Bayfield County,H1,55007
-55009,Infrastructure failure,2022.0,10085630.0,WI,55,9,1581064,Brown County,H1,55009
+55009,Infrastructure failure/Manmade disaster,2022.0,10085630.0,WI,55,9,1581064,Brown County,H1,55009
 55011,none,,0.0,WI,55,11,1581065,Buffalo County,H1,55011
 55013,Tornado/Severe storm,2021.0,4887792.0,WI,55,13,1581066,Burnett County,H1,55013
 55015,Flooding/Tropical storm/Hurricane,2023.0,29153.25,WI,55,15,1581067,Calumet County,H1,55015
@@ -3074,8 +3074,8 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 55053,Tornado/Severe storm,2023.0,11182903.14,WI,55,53,1581086,Jackson County,H1,55053
 55055,Flooding/Tropical storm/Hurricane,2020.0,266075.25,WI,55,55,1581087,Jefferson County,H1,55055
 55057,Tornado/Severe storm,2021.0,4739635.57,WI,55,57,1581088,Juneau County,H1,55057
-55059,Infrastructure failure,2021.0,28483000.0,WI,55,59,1581089,Kenosha County,H1,55059
-55061,Fire/Extreme temperature,2022.0,33719.06,WI,55,61,1581090,Kewaunee County,H1,55061
+55059,Infrastructure failure/Manmade disaster,2021.0,28483000.0,WI,55,59,1581089,Kenosha County,H1,55059
+55061,Fire/Extreme temperature/Drought,2022.0,33719.06,WI,55,61,1581090,Kewaunee County,H1,55061
 55063,Flooding/Tropical storm/Hurricane,2023.0,59985.6,WI,55,63,1581091,La Crosse County,H1,55063
 55065,Tornado/Severe storm,2020.0,5420718.52,WI,55,65,1581092,Lafayette County,H1,55065
 55067,Tornado/Severe storm,2023.0,41484.48,WI,55,67,1581093,Langlade County,H1,55067
@@ -3085,13 +3085,13 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 55075,Tornado/Severe storm,2022.0,38473.63,WI,55,75,1581097,Marinette County,H1,55075
 55077,none,,0.0,WI,55,77,1581098,Marquette County,H1,55077
 55078,Tornado/Severe storm,2022.0,1146445.77,WI,55,78,1581099,Menominee County,H1,55078
-55079,Infrastructure failure,2020.0,3654488.88,WI,55,79,1581100,Milwaukee County,H1,55079
+55079,Infrastructure failure/Manmade disaster,2020.0,3654488.88,WI,55,79,1581100,Milwaukee County,H1,55079
 55081,Flooding/Tropical storm/Hurricane,2022.0,62999.89,WI,55,81,1581101,Monroe County,H1,55081
-55083,Infrastructure failure,2020.0,1088726.12,WI,55,83,1581102,Oconto County,H1,55083
+55083,Infrastructure failure/Manmade disaster,2020.0,1088726.12,WI,55,83,1581102,Oconto County,H1,55083
 55085,none,,0.0,WI,55,85,1581103,Oneida County,H1,55085
 55087,Tornado/Severe storm,2020.0,35176.45,WI,55,87,1581104,Outagamie County,H1,55087
 55089,Flooding/Tropical storm/Hurricane,2023.0,60000.0,WI,55,89,1581105,Ozaukee County,H1,55089
-55091,Unidentified disaster,2020.0,32931.2,WI,55,91,1581106,Pepin County,H1,55091
+55091,Blizzard/Winter storm,2020.0,32931.2,WI,55,91,1581106,Pepin County,H1,55091
 55093,Flooding/Tropical storm/Hurricane,2022.0,255651.79,WI,55,93,1581107,Pierce County,H1,55093
 55095,none,,0.0,WI,55,95,1581108,Polk County,H1,55095
 55097,Tornado/Severe storm,2023.0,8427461.55,WI,55,97,1581109,Portage County,H1,55097
@@ -3104,7 +3104,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 55111,Flooding/Tropical storm/Hurricane,2023.0,7735350.0,WI,55,111,1581115,Sauk County,H1,55111
 55113,Tornado/Severe storm,2021.0,6228247.53,WI,55,113,1581116,Sawyer County,H1,55113
 55115,none,,0.0,WI,55,115,1581117,Shawano County,H1,55115
-55117,Infrastructure failure,2020.0,12140247.85,WI,55,117,1581118,Sheboygan County,H1,55117
+55117,Infrastructure failure/Manmade disaster,2020.0,12140247.85,WI,55,117,1581118,Sheboygan County,H1,55117
 55119,Tornado/Severe storm,2023.0,8556380.7,WI,55,119,1581119,Taylor County,H1,55119
 55121,Flooding/Tropical storm/Hurricane,2022.0,61975.62,WI,55,121,1581120,Trempealeau County,H1,55121
 55123,Tornado/Severe storm,2021.0,5763871.2,WI,55,123,1581121,Vernon County,H1,55123
@@ -3124,7 +3124,7 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 56009,none,,0.0,WY,56,9,1605070,Converse County,H1,56009
 56011,none,,0.0,WY,56,11,1605071,Crook County,H1,56011
 56013,Flooding/Tropical storm/Hurricane,2021.0,2986985.0,WY,56,13,1605072,Fremont County,H1,56013
-56015,Infrastructure failure,2020.0,23855700.0,WY,56,15,1605073,Goshen County,H1,56015
+56015,Infrastructure failure/Manmade disaster,2020.0,23855700.0,WY,56,15,1605073,Goshen County,H1,56015
 56017,none,,0.0,WY,56,17,1605074,Hot Springs County,H1,56017
 56019,none,,0.0,WY,56,19,1609191,Johnson County,H1,56019
 56021,Flooding/Tropical storm/Hurricane,2020.0,7047985.25,WY,56,21,1605075,Laramie County,H1,56021
@@ -3219,6 +3219,6 @@ county,Hazard,fiscalYear,totalSubapplicationAmount,STATE,STATEFP,COUNTYFP,COUNTY
 72149,none,,0.0,PR,72,149,1804555,Villalba Municipio,H1,72149
 72151,none,,0.0,PR,72,151,1804556,Yabucoa Municipio,H1,72151
 72153,none,,0.0,PR,72,153,1804557,Yauco Municipio,H1,72153
-78010,Infrastructure failure,2023.0,946918.5,VI,78,10,2378248,St. Croix Island,H4,78010
+78010,Infrastructure failure/Manmade disaster,2023.0,946918.5,VI,78,10,2378248,St. Croix Island,H4,78010
 78020,Unidentified disaster,2022.0,308386.0,VI,78,20,2378249,St. John Island,H4,78020
 78030,Unidentified disaster,2023.0,43057144.0,VI,78,30,2378250,St. Thomas Island,H4,78030
