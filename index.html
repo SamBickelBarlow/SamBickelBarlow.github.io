@@ -174,6 +174,21 @@
 
 <section>
     <div class="chart-description">
+        <h3>Section 7: FEMA claims by US county (CC7)</h3>
+        <p>
+            Based on FEMA subapplication claims data. Shows the total subapplication claims for the hazard category with the highest claims in each US county.
+        </p>
+    </div>
+    <figure id="Location7"></figure>
+    </section>
+
+<script>
+    let figure_7_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC7/FEMA_map.json";
+    vegaEmbed('#Location7', figure_7_spec)
+</script>
+
+<section>
+    <div class="chart-description">
         <h3>Section X: United States Renewables Generation</h3>
         <p>
             Pulls data from the EIA website API to generate the annuala renewable electricity generation in the United States.
