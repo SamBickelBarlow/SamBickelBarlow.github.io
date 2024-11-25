@@ -174,17 +174,54 @@
 
 <section>
     <div class="chart-description">
+        <h3>Section 5: Scraping OECD data on Space Economy by Country (CC5)</h3>
+        <p>
+            The OECD published a report detailing the state of space economoy in December 2023. This report included tables for 10 countries with statististics like the Number of satellites the country has in orbit, number of spaceports within the country, the size of the country's space workforce, and the public budget for space exploration and actvities per capita. | <a href="https://www.oecd.org/en/publications/the-space-economy-in-figures_fa5494aa-en/full-report.html">OCED report: The Space Economy in Figures</a>
+        </p>
+    </div>
+    <figure id="Location6"></figure>
+         <div class="chart-description">
+        <p>
+            Description here.
+        </p>
+    </div>
+    <figure id="Location7"></figure>
+         <div class="chart-description">
+        <p>
+            Description here.
+        </p>
+    </div>
+    <figure id="Location8"></figure>
+     <div class="chart-description">
+        <p>
+            Description here
+        </p>
+    </div>
+    </section>
+
+<script>
+    let figure_6_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC5/sat_bar_chart.json";
+    let figure_7_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC5/sp_bar_chart.json";
+    let figure_8_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC5/wf_bar_chart.json";
+    
+    vegaEmbed('#Location6', figure_6_spec)
+    vegaEmbed('#Location7', figure_7_spec)
+    vegaEmbed('#Location8', figure_8_spec)
+</script>
+
+<section>
+    <div class="chart-description">
         <h3>Section 7: FEMA claims by US county (CC7)</h3>
         <p>
             Based on FEMA subapplication claims data. Shows the total subapplication claims for the hazard category with the highest claims in each US county.
         </p>
     </div>
-    <figure id="Location7"></figure>
+    <figure id="Location9"></figure>
     </section>
 
 <script>
-    let figure_7_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC7/FEMA_map.json";
-    vegaEmbed('#Location7', figure_7_spec)
+    let figure_9_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC7/FEMA_map.json";
+    vegaEmbed('#Location9', figure_9_spec)
 </script>
 
 <section>
