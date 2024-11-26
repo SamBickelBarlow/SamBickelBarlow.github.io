@@ -1,7 +1,7 @@
 {
     "config": {
         "view": {
-            "continuousWidth": 300,
+            "continuousWidth": 250,
             "continuousHeight": 300
         },
         "title": {
