@@ -1,33 +1,9 @@
-<!-- This HTML file provides a simple example of a portfolio page. It contains a header, a few sections, and a few charts. -->
-<!-- It works with the three css files in this folder: example1.css, example2.css and example3.css. -->
-<!-- The HTML file defines the structure of the page, and the CSS files define how it looks. -->
-<!-- The CSS examples are all designed to work with this page. Try swapping them out on line 29 and see what happens. -->
-
-<!-- Take a look around and make your own copy to adapt for your own use. -->
-
-<!-- This is a comment -->
-<!-- Comments are not displayed in the browser -->
-<!-- They can be used to leave notes in the code -->
-
 <!DOCTYPE html>
 <html> 
-    <!-- HTML is heirarchial: tags like this define elements on the page. 
-    Each tag does something different. For example:
-        - The <html> tag defines the whole document.
-        - The <h1> tag defines a large heading
-        - The <p> tag defines a paragraph
-        - Tags appear as an opening <div> and closing </div> pair
-    -->
-
 <head>    
-    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
-
-    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
-    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
     <link rel="stylesheet" type="text/css" href="Styles.css">
-    <title>My Portfolio</title> <!-- The title displayed in the browser tab, not on the page itself -->
+    <title>My Portfolio</title>
 
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -41,175 +17,145 @@
 </head>
 
 <body> 
-<!-- The body tag contains the elements that visitors to our page will see. -->
-    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
-        <!-- This is a header, it is the largest text on the page -->
+    <h1 class="big" style="margin-bottom: 0px;"> 
         Sam's Page
     </h1>
     <p style="margin-top: 0px; color: darkblue">
-        <!-- we're setting the margin to 0px so the header and authour name are close together -->
         Sam's Page | <a href="https://www.linkedin.com/in/sam-bickel-barlow-02133a150/">LinkedIn</a> | <a
             href="https://www.github.com/SamBickelBarlow">GitHub</a> | <a
             href="https://SamBickelBarlow.github.io/project">Project</a>
     </p>
-    <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
+    <h3 class="small"> 
         This page acts as your portfolio of charts. You can use it as a good starting point to display your work but make sure to customise it to make it your own, or even start from scratch.  
     </h3>
 
-    <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
     <section>
         <div class="chart-description">
-            <h2>Section 1: A basic chart</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                As a first example, we're using a basic chart from our repo.
+            <h2>Section 1: Hosting charts - GDP per capita charts. (CC1)</h2>
+            <p>
+                These charts are from the Professor Richard's Chart Library. They show GDP per capita in both bar and line chart forms.
+                Source: <a href="https://rdeconomist.github.io/library">Professor Richard Davies' Chart Library</a>
             </p>
         </div>
-        <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <figure id="Location11"></figure> 
+        <figure id="Location12"></figure> 
     </section>
-
-    <!-- Do you want to add more sections? -->
-        <!-- Try copying pasting the section above -->
-        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
-        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
-
-
-    <!-- This is a script, it's a way to run JavaScript code on the page -->
     <script>
-        // This is a comment in JavaScript - it's a different language to HTML and CSS
-
-        let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
-                                                                                                                    // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
-
-        // Do you want to add more graphs?
-        // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
-        // e.g. 
-        // let figure_3_spec = ...
-        // vegaEmbed('#Location3', figure_3_spec)
-
-
+        let figure_11_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/Portfolio/CC1/GDP per capita bar - Econ Obs (CC1).json";
+        let figure_12_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/Portfolio/CC1/GDP per capita line - Econ Obs (CC1).json";
+        vegaEmbed('#Location11', figure_11_spec)
+        vegaEmbed('#Location12', figure_12_spec)
     </script>
 
-   <style>
-    #sideBySideCharts {
-        display: flex;
-        gap: 20px; /* Adds space between the charts */
-    }
-    .chart-section {
-        flex: 1; /* Ensures both sections take equal width */
-    }
-</style>
-
-<!-- Existing code for the rest of the page -->
-
-<!-- Wrap the last two sections in a flex container -->
-<div id="sideBySideCharts">
-    <section class="chart-section">
+ <section>
         <div class="chart-description">
-            <h3>Section 2: United States Energy Generation (CC2)</h3>
+            <h2>Section 2: Building. Creating your own visualisations. (CC2)</h2>
             <p>
-                Created in the Economics Observatory Laboratory, which pulls data from Amazon AWS' API (CC2).
+                I have created these charts using data from...
+                Source: 
             </p>
         </div>
-        <figure id="Location2"></figure>
+        <figure id="Location21"></figure> 
+        <figure id="Location22"></figure> 
     </section>
-
-    <section class="chart-section">
-        <div class="chart-description">
-            <h3></h3>
-            <p>
-                <br /><br />
-            </p>
-        </div>
-        <figure id="Location3"></figure>
-    </section>
-</div>
-
-<script>
-    let figure_2_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC2/US Nuclear Power (CC2).json";
-    let figure_3_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC2/US Renewables (CC2).json";
+    <script>
+         let figure_21_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC2/US Nuclear Power (CC2).json";
+         let figure_22_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC2/US Renewables (CC2).json";
     
-    vegaEmbed('#Location2', figure_2_spec);
-    vegaEmbed('#Location3', figure_3_spec);
-</script>
+    vegaEmbed('#Location21', figure_21_spec);
+    vegaEmbed('#Location22', figure_22_spec);
+    </script>
+
+ <section>
+        <div class="chart-description">
+            <h2>Section 3: Debating. Use a visualisation in economic/policy commentary. (CC3)</h2>
+            <p>
+                
+            </p>
+        </div>
+        <figure id="Location31"></figure> 
+        <figure id="Location32"></figure> 
+    </section>
+    <script>
+         let figure_31_spec = "";
+         let figure_32_spec = "";
+    
+    vegaEmbed('#Location31', figure_31_spec);
+    vegaEmbed('#Location32', figure_32_spec);
+    </script>
     
 <section>
     <div class="chart-description">
-        <h3>Section 4: Recreating and updating chart from the New York Times (CC4)</h3>
-        <p>
-            New York Times: This chart plots the average age of legislatures against the median age of a population for a number of countries. The United States is highlighted as an extreme example. | <a href="https://www.nytimes.com/live/2024/01/11/opinion/briefing?searchResultPosition=4#chart-of-the-week-americas-political-gerontocracy">NYT article</a>
-        </p>
+        <h3>Section 4: Replication, Re-create then improve, someone else's chart. (CC4)</h3>
+            <p>
+                Chart 1: New York Times: This chart plots the median age of a population on the x-axis for against the average age of legislatures against on the y-axis a number of countries. The United States is highlighted as an extreme example.
+                Chart 2: My recreation of the New York Times' chart. I approximated the data from the New York Times chart and then recreated a close approximation in VegaLite.
+                Chart 3: My improvement of the New York Times' chart. Rather than a scatter plot with the x-axis as the the median population age and the y-axis as the average of the legislature, I have calculated the ratio of the age of legisature to the median population age. I have also added a horizontal line to show the ratio at which the average legislature age and median population age are even so that it is easy to tell which countries have older and younger legislatures than their average. I have also retained highlighting of the United States. I believe my chart better gets to the central arguement that many legislatures, the US in particular, represent are much older than their constituents and therefore constitute a gerontocracy where older members of society are overrepresented.
+            </p>
     </div>
     <img src="https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC4/NYT average Legislature age.png" alt="Original NYT chart" width=350 height=350>
-    <div class="chart-description">
-        <p>
-            I've recreated a close approximation of the New York Times chart here:
-        </p>
-    </div>
-    <figure id="Location4"></figure>
-         <div class="chart-description">
-        <p>
-            An updated version of the New York Times chart.
-        </p>
-    </div>
-    <figure id="Location5"></figure>
-     <div class="chart-description">
-        <p>
-            Instead of using a scatter plot I instead use a bar chart that plots the ratio of the "Average Age of Legislature" to the "Median Population Age".
-            I made this change because I think the ratio is what is really important to highlight and the ordered bar chart more easily displays where the United States falls
-            relative to other countries. The scatter plot made this comparison more difficult.
-        </p>
-    </div>
-    </section>
+    <figure id="Location41"></figure>
+    <figure id="Location42"></figure>
+    <p>
+        Source: <a href="https://www.nytimes.com/live/2024/01/11/opinion/briefing?searchResultPosition=4#chart-of-the-week-americas-political-gerontocracy">NYT article - America's Political Gerontocracy</a>
+    </p>
+</section>
 
 <script>
-    let figure_4_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC4/Recreate NYT chart (CC4).json";
-    let figure_5_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC4/Update NYT chart (CC4).json";
+    let figure_41_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC4/Recreate NYT chart (CC4).json";
+    let figure_42_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC4/Update NYT chart (CC4).json";
 
-    vegaEmbed('#Location4', figure_4_spec)
-    vegaEmbed('#Location5', figure_5_spec)
+    vegaEmbed('#Location41', figure_41_spec)
+    vegaEmbed('#Location42', figure_42_spec)
 </script>
 
 <section>
     <div class="chart-description">
-        <h3>Section 5: Scraping OECD data on Space Economy by Country (CC5)</h3>
-        <p>
-            The OECD published a report detailing the state of space economoy in December 2023. This report included tables for 10 countries with statististics like the Number of satellites the country has in orbit, number of spaceports within the country, the size of the country's space workforce, and the public budget for space exploration and actvities per capita. I scraped the data for each country in the report to create the charts below. Because the OECD report included public space budget in per capita terms, I also used World Bank data on population the population of each country to back into the budget| <a href="https://www.oecd.org/en/publications/the-space-economy-in-figures_fa5494aa-en/full-report.html">OCED report: The Space Economy in Figures</a> | <a href="https://data.worldbank.org/indicator/SP.POP.TOTL?most_recent_year_desc=false">World Bank Population data</a>
-        </p>
-    <figure id="Location6"></figure>
-    <figure id="Location7"></figure>
-    <figure id="Location8"></figure>
-    <p>
-        The charts reveal that the United Kingdom is a consistent outlier in terms of budget efficiency with the most satellites, spaceports and workforce per dollar of public budget. These charts suggest that further investigation should be done to understand why the United Kingdom is such an outlier on this regard.
-    </p>
+        <h3>Section 5: Scraper. Implement a data scraper of your own. (CC5)</h3>
+            <p>
+                The OECD published a report detailing the state of space economoy in December 2023. 
+                This report included tables for 10 countries with statististics like the Number of satellites the country has in orbit, number of spaceports within the country, the size of the country's space workforce, and the public budget for space exploration and actvities per capita. 
+                I scraped the data for each country in the report to create the charts below. Because the OECD report included public space budget in per capita terms, I also used World Bank data on population the population of each country to back into the budget.
+                The charts reveal that the United Kingdom is a consistent outlier in terms of budget efficiency with the most satellites, spaceports and workforce per dollar of public budget. These charts suggest that further investigation should be done to understand why the United Kingdom is such an outlier on this regard.
+            </p>
     </div>
-    </section>
+    <figure id="Location51"></figure>
+    <figure id="Location52"></figure>
+    <figure id="Location53"></figure>
+    <p>
+        Sources: <a href="https://www.oecd.org/en/publications/the-space-economy-in-figures_fa5494aa-en/full-report.html">OCED report: The Space Economy in Figures</a> | <a href="https://data.worldbank.org/indicator/SP.POP.TOTL?most_recent_year_desc=false">World Bank Population data</a>
+    </p>
+</section>
 
 <script>
-    let figure_6_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC5/sat_bar_chart.json";
-    let figure_7_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC5/sp_bar_chart.json";
-    let figure_8_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC5/wf_bar_chart.json";
+    let figure_51_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC5/sat_bar_chart.json";
+    let figure_52_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC5/sp_bar_chart.json";
+    let figure_53_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC5/wf_bar_chart.json";
     
-    vegaEmbed('#Location6', figure_6_spec)
-    vegaEmbed('#Location7', figure_7_spec)
-    vegaEmbed('#Location8', figure_8_spec)
+    vegaEmbed('#Location51', figure_51_spec)
+    vegaEmbed('#Location52', figure_52_spec)
+    vegaEmbed('#Location53', figure_53_spec)
 </script>
 
 <section>
     <div class="chart-description">
         <h3>Section 7: FEMA claims by US county (CC7)</h3>
-        <p>
-            Based on FEMA subapplication claims data. Shows the total subapplication claims for the hazard category with the highest claims in each US county.
-        </p>
+            <p>
+                I created a cloropleth map based on FEMA subapplication claims data. 
+                It shows the total subapplication claims for the hazard category with the highest claims in each US county by year.
+                This map gives a sense of where types hazards the most costly in the US. One suprise is the high flooding cost in the counties of a dry and water scare state like Arizona. This may require further investigation to understand why this is.
+            </p>
     </div>
-    <figure id="Location9"></figure>
+    <figure id="Location71"></figure>
+    <figure id="Location72"></figure>
     </section>
 
 <script>
-    let figure_9_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC7/FEMA_map.json";
-    vegaEmbed('#Location9', figure_9_spec)
+    let figure_71_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC7/FEMA_map.json";
+    let figure_72_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC7/FEMA_map.json";
+    
+    vegaEmbed('#Location71', figure_9_spec)
+    vegaEmbed('#Location72', figure_9_spec)
 </script>
 
 <section>
