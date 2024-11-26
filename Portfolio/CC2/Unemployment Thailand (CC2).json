@@ -1,34 +1,34 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "US Nuclear Power Generation",
+    "text": "Low Unemployment in Thailand",
     "anchor": "start",
-    "subtitle": "Output per hours (GwH)",
-    "fontSize": "20",
-    "subtitleFontSize": "-2",
-    "color": "#15c615",
-    "subtitleColor": "#000000"
+    "subtitle": "Rate, % | Source: NESDB (WB) through ECO API",
+    "fontSize": "17",
+    "subtitleFontSize": "12",
+    "color": "#990000",
+    "subtitleColor": "#990000"
   },
-  "height": "300",
-  "width": "445",
+  "height": "250",
+  "width": "container",
   "autosize": {
     "type": "fit",
     "contains": "padding"
   },
-  "background": "#d9d9d9",
+  "background": "#ffffff",
   "view": {
-    "fill": "#333333",
+    "fill": "#ffffff",
     "strokeOpacity": 0
   },
   "data": {
-    "url": "https://api.economicsobservatory.com/usa/nGwh?vega",
+    "url": "https://api.economicsobservatory.com/tha/unem?vega",
     "format": {
       "type": "json"
     }
   },
   "mark": {
     "type": "line",
-    "color": "#15c615",
+    "color": "#002fa7",
     "strokeWidth": "2"
   },
   "encoding": {
@@ -36,7 +36,7 @@
       "field": "date",
       "type": "temporal",
       "axis": {
-        "title": "Year",
+        "title": "",
         "titleColor": "#122B39",
         "grid": false
       }
@@ -45,7 +45,7 @@
       "field": "value",
       "type": "quantitative",
       "axis": {
-        "title": "Output per hours (GwH)",
+        "title": "",
         "titleColor": "#122B39",
         "grid": false
       }
