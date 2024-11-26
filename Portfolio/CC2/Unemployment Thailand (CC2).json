@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Low Unemployment in Thailand",
+    "text": "Unemployment in Thailand",
     "anchor": "start",
     "subtitle": "Rate, % | Source: NESDB (WB) through ECO API",
     "fontSize": "17",
