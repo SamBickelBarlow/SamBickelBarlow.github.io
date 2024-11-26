@@ -15,9 +15,20 @@
   "projection": {"type": "albersUsa", "reflectY": true},
   "data": {
     "url": "https://gist.githubusercontent.com/sdwfrost/d1c73f91dd9d175998ed166eb216994a/raw/e89c35f308cee7e2e5a784e1d3afc5d449e9e4bb/counties.geojson",
-    "format": {"type": "json"}
+    "format": {
+      "property": "features"
+    }
   },
+  "transform": [
+    {
+      "calculate": "'FIPS County Code: ' + datum.properties.GEOID",
+      "as": "FIPS_Code_Label"
+    }
+  ],
   "mark": {"type": "geoshape", "fill": "white", "stroke": "black"},
   "width": 600,
-  "height": 300
+  "height": 300,
+  "encoding": {
+    "tooltip": {"field": "FIPS_Code_Label", "type": "nominal"}
+  }
 }
