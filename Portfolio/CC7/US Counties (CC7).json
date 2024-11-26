@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "US Counties",
+    "subtitle": [
+      "US by county",
+      "Source: https://gist.githubusercontent.com/sdwfrost/",
+      ""
+    ],
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleFontWeight": "lighter",
+    "anchor": "middle"
+  },
+  "projection": {"type": "albersUsa", "reflectY": true},
+  "data": {
+    "url": "https://gist.githubusercontent.com/sdwfrost/d1c73f91dd9d175998ed166eb216994a/raw/e89c35f308cee7e2e5a784e1d3afc5d449e9e4bb/counties.geojson",
+    "format": {"type": "json"}
+  },
+  "mark": {"type": "geoshape", "fill": "white", "stroke": "black"},
+  "width": 600,
+  "height": 300
+}
