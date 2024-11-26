@@ -13,7 +13,7 @@ body { /* We can style any HTML element by using its name - here we're styling t
   /* we want a white page, that's centered and not too wide */
   background-color: #fff;
   margin:0 auto;
-  max-width: 800px;
+  max-width: 1200px;
   padding-top: 60px;
 }
 
