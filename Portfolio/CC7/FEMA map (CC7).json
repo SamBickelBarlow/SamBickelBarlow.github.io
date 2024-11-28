@@ -12,44 +12,32 @@
     "subtitleFontWeight": "lighter",
     "anchor": "middle"
   },
-  "projection": {
-    "type": "albersUsa",
-    "reflectY": true
-  },
+  "projection": {"type": "albersUsa", "reflectY": true},
   "description": "",
   "data": {
-    "url": "https://gist.githubusercontent.com/sdwfrost/d1c73f91dd9d175998ed166eb216994a/raw/e89c35f308cee7e2e5a784e1d3afc5d449e9e4bb/counties.geojson",
-    "format": {
-      "property": "features"
-    }
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC7/output/FEMA_county_haz_max.csv"
   },
   "width": 600,
   "height": 300,
   "transform": [
     {
-      "lookup": "properties.GEOID",
+      "lookup": "county",
       "from": {
-        "key": "county",
-        "fields": ["county" , "COUNTYNAME" , "STATE" , "Hazard", "totalSubapplicationAmount", "fiscalYear"],
+        "key": "properties.GEOID",
+        "fields": ["type","geometry","properties"],
         "data": {
-          "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC7/output/FEMA_county_haz_max.csv"
+          "url": "https://gist.githubusercontent.com/sdwfrost/d1c73f91dd9d175998ed166eb216994a/raw/e89c35f308cee7e2e5a784e1d3afc5d449e9e4bb/counties.geojson",
+           "format": {"property": "features"}
         }
       }
     },
-    {
-      "filter": "datum.fiscalYear == yearParam"
-    }
+    {"filter": "datum.fiscalYear == yearParam"}
   ],
   "params": [
     {
       "name": "yearParam",
       "value": 2023,
-      "bind": {
-        "input": "range",
-        "min": 2020,
-        "max": 2023,
-        "step": 1
-      }
+      "bind": {"input": "range", "min": 2020, "max": 2023, "step": 1}
     }
   ],
   "layer": [
@@ -65,59 +53,69 @@
           "field": "Hazard",
           "type": "nominal",
           "scale": {
-            "domain": ["Flooding/Tropical storm/Hurricane", "Unidentified disaster", "Tornado/Severe storm", "Fire/Extreme temperature", "Winter storm/Blizzard", "Infrastructure failure/Manmade disaster", "Earthquake/Landslide"],
-            "range": ["#0500ff", "#FFFFFF", "#edff00", "#ff0000", "#ad00ff", "#01ff00", "#ffac00"]},
+            "domain": [
+              "Flooding/Tropical storm/Hurricane",
+              "Unidentified disaster",
+              "Tornado/Severe storm",
+              "Fire/Extreme temperature/Drought",
+              "Winter storm/Blizzard",
+              "Infrastructure failure/Manmade disaster",
+              "Earthquake/Landslide"
+            ],
+            "range": [
+              "#0500ff",
+              "#FFFFFF",
+              "#edff00",
+              "#ff0000",
+              "#ad00ff",
+              "#01ff00",
+              "#ffac00"
+            ]
+          },
           "legend": {
             "title": "Hazard Type",
             "labelFontSize": 12,
             "titleFontSize": 14
-            }
+          }
         },
         "opacity": {
           "field": "totalSubapplicationAmount",
           "type": "quantitative",
-          "scale": {
-            "domain": [0, 100000000],
-            "range": [0.2, 1]
-          },
-        "legend": null
-        },
-         "tooltip": [
-            {"field": "COUNTYNAME", "title": "County:"},
-            {"field": "STATE", "title": "State:"},
-            {"field": "Hazard", "title": "Primary Hazard:"},
-            {"field": "totalSubapplicationAmount", "title": "FEMA claim amount:", "format": "$,d"}
-            ]
-      }
-    },
-
-    {
-      "mark": {
-        "type": "geoshape",
-        "stroke": "black",
-        "strokeWidth": 0.25
-      },
-      "encoding": {
-        "color": {
-          "field": "Hazard",
-          "type": "nominal",
-          "legend": null
-        },
-        "opacity": {
-          "field": "totalSubapplicationAmount",
-          "type": "quantitative",
-          "scale": {
-            "domain": [0, 100000000],
-            "range": [0.2, 1]
-          },
+          "scale": {"domain": [0, 100000000], "range": [0.2, 1]},
           "legend": null
         },
         "tooltip": [
-            {"field": "COUNTYNAME", "title": "County:"},
-            {"field": "STATE", "title": "State:"},
-            {"field": "Hazard", "title": "Primary Hazard:"},
-            {"field": "totalSubapplicationAmount", "title": "FEMA claim amount:", "format": "$,d"}
-            ]
+          {"field": "COUNTYNAME", "title": "County:"},
+          {"field": "STATE", "title": "State:"},
+          {"field": "Hazard", "title": "Primary Hazard:"},
+          {
+            "field": "totalSubapplicationAmount",
+            "title": "FEMA claim amount:",
+            "format": "$,d"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.25},
+      "encoding": {
+        "color": {"field": "Hazard", "type": "nominal", "legend": null},
+        "opacity": {
+          "field": "totalSubapplicationAmount",
+          "type": "quantitative",
+          "scale": {"domain": [0, 100000000], "range": [0.2, 1]},
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "COUNTYNAME", "title": "County:"},
+          {"field": "STATE", "title": "State:"},
+          {"field": "Hazard", "title": "Primary Hazard:"},
+          {
+            "field": "totalSubapplicationAmount",
+            "title": "FEMA claim amount:",
+            "format": "$,d"
+          }
+        ]
       }
     }
   ]
