@@ -31,11 +31,11 @@
         }
       }
     },
-    {"filter": "datum.fiscalYear == yearParam"}
+    {"filter": "datum.fiscalYear == Year"}
   ],
   "params": [
     {
-      "name": "yearParam",
+      "name": "Year",
       "value": 2023,
       "bind": {"input": "range", "min": 2020, "max": 2023, "step": 1}
     }
