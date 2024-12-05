@@ -1,0 +1,67 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+      "text": "Changes in CPI of nine Euro Zone economies",
+      "subtitle": ["Source: FRED API",""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+
+  "width":600,
+  "height":400,
+
+  "mark":{
+      "type": "line",
+      "smooth":false,
+      "strokeWidth":2,
+      "opacity":1
+      },
+   
+  
+  "transform": [
+    {
+      "filter": "datum.variable != 'Austria_cpi' && datum.variable != 'Belgium_cpi' && datum.variable != 'France_cpi' && datum.variable != 'Germany_cpi' && datum.variable != 'Ireland_cpi' && datum.variable != 'Italy_cpi' && datum.variable != 'Poland_cpi' && datum.variable != 'Spain_cpi' && datum.variable != 'The Netherlands_cpi'"
+    },
+    {
+      "filter": "datum.date > 1577836700000"
+    },
+    {
+      "calculate": "datum.variable === 'Austria_cpi_ma' ? 'Austria' : datum.variable === 'Belgium_cpi_ma' ? 'Belgium' : datum.variable === 'France_cpi_ma' ? 'France' : datum.variable === 'Germany_cpi_ma' ? 'Germany' : datum.variable === 'Ireland_cpi_ma' ? 'Ireland' : datum.variable === 'Italy_cpi_ma' ? 'Italy' : datum.variable === 'Poland_cpi_ma' ? 'Poland' : datum.variable === 'Spain_cpi_ma' ? 'Spain' : datum.variable === 'The Netherlands_cpi_ma' ? 'The Netherlands' : datum.variable === 'EUR_USD_exrate' ? 'EUR/USD exchange rate' : datum.variable",
+      "as": "variable_renamed"
+    }
+  ],
+
+  "data": {
+     "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC6/exrate_cpis.csv"},
+
+ "encoding": {
+    
+    "x": {
+        "field": "date",
+        "type": "temporal",
+        "axis": {
+          "format": "%Y",
+          "tickCount": "year",
+        },
+        "title":null},
+    
+    "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title":null,
+        "scale": {"domain": [-1, 2]}
+        },
+    
+    "color":{
+      "field":"variable_renamed",
+      "title":null,
+      "legend": {
+        "orient": "right",
+        "title": "Monthly CPI by country",
+        "titleLimit": 150
+      }
+    }
+  }
+}
