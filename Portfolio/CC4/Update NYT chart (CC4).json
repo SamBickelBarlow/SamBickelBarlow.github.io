@@ -2,7 +2,7 @@
     "config": {
         "view": {
             "continuousWidth": 250,
-            "continuousHeight": 300
+            "continuousHeight": 250
         },
         "title": {
             "anchor": "start",
