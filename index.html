@@ -147,6 +147,27 @@
 
 <section>
     <div class="chart-description">
+        <h2>Section 6: Euro Zone Inflation during the COVID-19 pandemic (CC6)</h2>
+            <p>
+                I used a for loop to iteratively call FRED (US Federal Reserve data) to get the consumer price index (CPIs) for nine Eurozone economies between 2020 and 2024.<br> 
+                The chart shows how all of these economies saw spikes in inflation starting late 2022. Though some economies like Poland had more inflation than others.<br>
+            </p>
+    </div>
+    <figure id="Location71"></figure>
+    <figure id="Location72"></figure>
+    </section>
+     <p>
+        Sources: <a href="https://www.fema.gov/about/openfema/data-sets">OpenFEMA Datasets</a> | <a href="https://gist.githubusercontent.com/sdwfrost/d1c73f91dd9d175998ed166eb216994a/raw/e89c35f308cee7e2e5a784e1d3afc5d449e9e4bb/counties.geojson">US Counties Geospatial JSON file</a>
+    </p>
+
+<script>
+    let figure_61_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC6/EU cpis (CC6).json";
+    
+    vegaEmbed('#Location61', figure_61_spec)
+</script>
+
+<section>
+    <div class="chart-description">
         <h2>Section 7: FEMA claims by US county (CC7)</h2>
             <p>
                 I created a cloropleth map based on FEMA subapplication claims data.<br> 
