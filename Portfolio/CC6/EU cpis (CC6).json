@@ -1,67 +1,108 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
   "title": {
-      "text": "Changes in CPI of nine Euro Zone economies",
-      "subtitle": ["Source: FRED API",""],
-      "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
-      "anchor": "start",
-      "color": "black"},
-
-  "width":600,
-  "height":400,
-
-  "mark":{
-      "type": "line",
-      "smooth":false,
-      "strokeWidth":2,
-      "opacity":1
-      },
-   
-  
+    "text": "Changes in CPI of nine Euro Zone economies",
+    "subtitle": ["Source: FRED API", ""],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 600,
+  "height": 400,
   "transform": [
     {
-      "filter": "datum.variable != 'Austria_cpi' && datum.variable != 'Belgium_cpi' && datum.variable != 'France_cpi' && datum.variable != 'Germany_cpi' && datum.variable != 'Ireland_cpi' && datum.variable != 'Italy_cpi' && datum.variable != 'Poland_cpi' && datum.variable != 'Spain_cpi' && datum.variable != 'The Netherlands_cpi'"
+      "filter": "datum.variable != 'Austria_cpi' && datum.variable != 'Belgium_cpi' && datum.variable != 'France_cpi' && datum.variable != 'Germany_cpi' && datum.variable != 'Ireland_cpi' && datum.variable != 'Italy_cpi' && datum.variable != 'Poland_cpi' && datum.variable != 'Spain_cpi' && datum.variable != 'The Netherlands_cpi' && datum.variable != 'EUR_USD_exrate'"
     },
     {
       "filter": "datum.date > 1577836700000"
     },
     {
-      "calculate": "datum.variable === 'Austria_cpi_ma' ? 'Austria' : datum.variable === 'Belgium_cpi_ma' ? 'Belgium' : datum.variable === 'France_cpi_ma' ? 'France' : datum.variable === 'Germany_cpi_ma' ? 'Germany' : datum.variable === 'Ireland_cpi_ma' ? 'Ireland' : datum.variable === 'Italy_cpi_ma' ? 'Italy' : datum.variable === 'Poland_cpi_ma' ? 'Poland' : datum.variable === 'Spain_cpi_ma' ? 'Spain' : datum.variable === 'The Netherlands_cpi_ma' ? 'The Netherlands' : datum.variable === 'EUR_USD_exrate' ? 'EUR/USD exchange rate' : datum.variable",
+      "calculate": "datum.variable === 'Austria_cpi_ma' ? 'Austria' : datum.variable === 'Belgium_cpi_ma' ? 'Belgium' : datum.variable === 'France_cpi_ma' ? 'France' : datum.variable === 'Germany_cpi_ma' ? 'Germany' : datum.variable === 'Ireland_cpi_ma' ? 'Ireland' : datum.variable === 'Italy_cpi_ma' ? 'Italy' : datum.variable === 'Poland_cpi_ma' ? 'Poland' : datum.variable === 'Spain_cpi_ma' ? 'Spain' : datum.variable === 'The Netherlands_cpi_ma' ? 'The Netherlands' : datum.variable",
       "as": "variable_renamed"
     }
   ],
-
   "data": {
-     "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC6/exrate_cpis.csv"},
-
- "encoding": {
-    
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC6/exrate_cpis.csv"
+  },
+  "encoding": {
     "x": {
-        "field": "date",
-        "type": "temporal",
-        "axis": {
-          "format": "%Y",
-          "tickCount": "year",
-        },
-        "title":null},
-    
+      "field": "date",
+      "type": "temporal",
+      "axis": {
+        "format": "%Y",
+        "tickCount": "year"
+      },
+      "title": null
+    },
     "y": {
-        "field": "value",
-        "type": "quantitative",
-        "title":null,
-        "scale": {"domain": [-1, 2]}
-        },
-    
-    "color":{
-      "field":"variable_renamed",
-      "title":null,
+      "field": "value",
+      "type": "quantitative",
+      "title": null,
+      "scale": { "domain": [-1, 2] }
+    },
+    "color": {
+      "field": "variable_renamed",
+      "title": null,
       "legend": {
         "orient": "right",
-        "title": "Monthly CPI by country",
-        "titleLimit": 150
+        "title": "Monthly CPI by country (12 month moving average)",
+        "titleLimit": 300
+      }
+    },
+    "tooltip": [
+      { "field": "date", "type": "temporal", "title": "Date" },
+      { "field": "value", "type": "quantitative", "title": "CPI", "format": ".2f" },
+      { "field": "variable_renamed", "type": "nominal", "title": "Country" }
+    ]
+  },
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "on": "pointerover"
+          }
+        }
+      ],
+      "mark": { "type": "line" },
+      "encoding": {
+        "opacity": {
+          "condition": { "param": "hover", "value": 1 },
+          "value": 0.2
+        }
+      }
+    },
+    {
+      "mark": { "type": "text", "align": "left", "dx": 5 },
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "param": "hover",
+            "value": 0.2,
+            "empty": false
+          },
+          "value": 0
+        }
       }
     }
-  }
+  ],
+  "annotations": [
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "x": { "value": 550 },
+          "y": { "value": 370 },
+          "text": { "value": "12-month moving average" },
+          "fontSize": { "value": 12 },
+          "fontStyle": { "value": "italic" },
+          "align": { "value": "left" },
+          "baseline": { "value": "top" }
+        }
+      }
+    }
+  ]
 }
