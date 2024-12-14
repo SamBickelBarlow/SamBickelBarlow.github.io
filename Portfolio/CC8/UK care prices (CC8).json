@@ -12,7 +12,7 @@
   },
 
   "width": 450,
-  "height": 250,
+  "height": 300,
 
   "data": {
     "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC8/care_prices.csv"
@@ -21,7 +21,7 @@
   "transform": [
     {
       "calculate": "datum.price", 
-      "as": "Price"
+      "as": "Median price"
     },
     {
       "calculate": "datum.price_trend", 
@@ -33,7 +33,7 @@
     },
     {"filter": {"selection": "chooseItem"}},
     {
-      "fold": ["Price", "Pre-legislation price trend"],
+      "fold": ["price", "Pre-legislation price trend"],
       "as": ["price_type", "value"]
     }
   ],
@@ -83,7 +83,7 @@
           "type": "nominal",
           "title": "Price Type",
           "scale": {
-            "domain": ["Price", "Pre-legislation price trend"],
+            "domain": ["Median price", "Pre-legislation price trend"],
             "range": ["black", "red"]
           }
         },
@@ -91,7 +91,7 @@
           "field": "price_type",
           "type": "nominal",
           "scale": {
-            "domain": ["Price", "Pre-legislation price trend"],
+            "domain": ["Median price", "Pre-legislation price trend"],
             "range": [[], [4, 4]]
           }
         },
