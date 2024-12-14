@@ -11,8 +11,8 @@
     "color": "black"
   },
 
-  "width": 450,
-  "height": 300,
+  "width": 500,
+  "height": 350,
 
   "data": {
     "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC8/care_prices.csv"
