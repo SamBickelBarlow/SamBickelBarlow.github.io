@@ -192,17 +192,20 @@
 
 <section>
     <div class="chart-description">
-        <h2>Section X: United States Renewables Generation</h2>
+        <h2>Section 8: Big Data. Extracting a story from millions of prices (CC8)</h2>
         <p>
-            Pulls data from the EIA website API to generate the annuala renewable electricity generation in the United States.
+            Using Richard Davies' UK price dataset I extracted median monthly pricing for nursing homes, residential homes, and home care assistants. The chart shows a clear spike in prices around April 2022 when the UK passed the Nationality and Border Act, which put more restrictions on immigration. Because migrants often take jobs a nurses it has been speculated that tighter immigration laws may be a contributing factor to rising care costs un the UK. However, the rapid price of care increase also coinsided with a more general price shock in the start of the Russia-Ukraine war. Disentagling whether the Nationality and Border Act or some other combination of factors triggered the increase in care prices would required further econometric investigation.
         </p>
     </div>
-    <figure id="Location100"></figure>
+    <figure id="Location81"></figure>
     </section>
+    <p>
+        Sources: <a href="https://richarddavies.io/autocpi/">Richard Davies AutoCPI research</a>
+    </p>
 
 <script>
-    let figure_100_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/US_renewable_electricity.json";
-    vegaEmbed('#Location100', figure_100_spec)
+    let figure_81_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC8/UK care prices (CC8).json";
+    vegaEmbed('#Location81', figure_81_spec)
 </script>
 
 </body>
