@@ -1,0 +1,139 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "UK Rising Price of Care",
+    "subtitle": ["The price of nursing, residential and home care spiked in 2022 after the UK introduced new immigration restrictions. Source: Davies Price Data."],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "subtitlePadding": 5,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "width": 450,
+  "height": 250,
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC8/care_prices.csv"
+  },
+
+  "transform": [
+    {
+      "calculate": "datum.price", 
+      "as": "Price"
+    },
+    {
+      "calculate": "datum.price_trend", 
+      "as": "Pre-legislation price trend"
+    },
+    {
+      "calculate": "datum.description === 'NURSING HOME' ? 'Nursing Home (monthly)' : datum.description === 'RESIDENTIAL HOME' ? 'Residential Home (monthly)' : datum.description === 'HOME CARE ASSISTANT HRLY RATE' ? 'Home Care Asst. (hourly)' : datum.description", 
+      "as": "description"
+    },
+    {"filter": {"selection": "chooseItem"}},
+    {
+      "fold": ["Price", "Pre-legislation price trend"],
+      "as": ["price_type", "value"]
+    }
+  ],
+
+  "layer": [
+    {
+      "selection": {
+        "chooseItem": {
+          "type": "single",
+          "init": {"description": "Nursing Home (monthly)"},
+          "fields": ["description"],
+          "bind": {
+            "input": "select",
+            "options": [
+              "Home Care Asst. (hourly)",
+              "Nursing Home (monthly)",
+              "Residential Home (monthly)"
+            ],
+            "name": "Care type:"
+          }
+        }
+      },
+
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2
+      },
+
+      "encoding": {
+        "x": {
+          "field": "quote_date",
+          "type": "temporal",
+          "title": null,
+          "axis": {"grid": false}
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "grid": false,
+            "labelExpr": "'£' + format(datum.value, ',.0f')"
+          }
+        },
+        "color": {
+          "field": "price_type",
+          "type": "nominal",
+          "title": "Price Type",
+          "scale": {
+            "domain": ["Price", "Pre-legislation price trend"],
+            "range": ["black", "red"]
+          }
+        },
+        "strokeDash": {
+          "field": "price_type",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Price", "Pre-legislation price trend"],
+            "range": [[], [4, 4]]
+          }
+        },
+        "order": {
+          "field": "price_type",
+          "type": "nominal",
+          "sort": "descending"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "color": "darkblue",
+        "size": 1
+      },
+      "encoding": {
+        "x": {"field": "quote_date" , "type": "temporal"}
+      },
+      "data": {
+        "values": [
+          {"quote_date": "2022-04-01"}
+        ],
+        "format": {
+          "parse": {"date": "%Y-%m-%d"}
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 11,
+        "color": "darkblue",
+        "dx": -105, 
+        "dy": -110,
+        "text": "UK passes Nationality and Borders Act 2022"
+      }
+    }
+  ],
+
+  "resolve": {
+    "scale": {"y": "independent"}
+  }
+}
