@@ -33,7 +33,7 @@
     },
     {"filter": {"selection": "chooseItem"}},
     {
-      "fold": ["price", "Pre-legislation price trend"],
+      "fold": ["Median price", "Pre-legislation price trend"],
       "as": ["price_type", "value"]
     }
   ],
