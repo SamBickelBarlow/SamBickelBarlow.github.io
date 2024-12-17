@@ -1,0 +1,103 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "UK Care price distributions",
+    "subtitle": ["Prices (£), colours set by decile for the 10th to 90th deciles"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "subtitlePadding": 5,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "width": 500,
+  "height": 350,
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC8/care_prices_area.csv"
+  },
+
+  "transform": [
+    {
+      "calculate": "datum.description === 'NURSING HOME' ? 'Nursing Home (monthly)' : datum.description === 'RESIDENTIAL HOME' ? 'Residential Home (monthly)' : datum.description === 'HOME CARE ASSISTANT HRLY RATE' ? 'Home Care Asst. (hourly)' : datum.description",
+      "as": "description"
+    },
+    {
+      "calculate": "datum.percentile_label === '10' ? '0 to 10th percentile' : datum.percentile_label === '1020' ? '10th to 20th percentile' : datum.percentile_label === '2030' ? '20th to 30th percentile' : datum.percentile_label === '3040' ? '30th to 40th percentile' : datum.percentile_label === '4050' ? '40th to 50th percentile' : datum.percentile_label === '5060' ? '50th to 60th percentile' : datum.percentile_label === '6070' ? '60th to 70th percentile' : datum.percentile_label === '7080' ? '70th to 80th percentile' : datum.percentile_label === '8090' ? '80th to 90th percentile' : datum.percentile_label",
+      "as": "percentile_label"
+    },
+    { "filter": { "selection": "chooseItem" } }
+  ],
+
+  "selection": {
+    "chooseItem": {
+      "type": "single",
+      "init": { "description": "Residential Home (monthly)" },
+      "fields": ["description"],
+      "bind": {
+        "input": "select",
+        "options": [
+          "Nursing Home (monthly)",
+          "Residential Home (monthly)",
+          "Home Care Asst. (hourly)"
+        ],
+        "name": "Care type:"
+      }
+    }
+  },
+
+  "mark": {
+    "type": "area",
+    "orient": "vertical",
+    "opacity": 0.7
+  },
+
+  "encoding": {
+    "x": {
+      "field": "quote_date",
+      "type": "temporal",
+      "title": null,
+      "axis": 
+        {
+        "grid": false
+        }
+    },
+    "y": {
+      "aggregate": "median",
+      "field": "price",
+      "type": "quantitative",
+      "title": null,
+      "axis": 
+        {
+        "grid": false
+        }
+    },
+    "color": {
+      "legend": null,
+      "field": "percentile_label",
+      "scale": {
+        "range": [
+          null, "#A8D08D", "#6BBF4B", "#388E3C", "#006400", "#006400", "#388E3C", "#6BBF4B", "#A8D08D", null
+        ]
+      }
+    },
+    "order": { "field": "percentile_label" },
+    "tooltip": [
+      { 
+        "field": "quote_date", 
+        "type": "temporal", 
+        "title": "Date", 
+        "format": "%b %Y" 
+        },
+      { 
+      "field": "percentile_label", 
+      "type": "ordinal", 
+      "title": "Percentile Ranges"
+      },
+      { "field": "price", "type": "quantitative", "aggregate": "median", "title": "Price"}
+    ]
+  },
+
+  "resolve": { "scale": { "y": "independent" } }
+}
