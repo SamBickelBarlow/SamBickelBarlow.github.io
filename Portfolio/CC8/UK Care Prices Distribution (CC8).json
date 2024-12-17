@@ -68,10 +68,7 @@
       "field": "price",
       "type": "quantitative",
       "title": null,
-      "axis": 
-        {
-        "grid": false
-        }
+      "axis": null
     },
     "color": {
       "legend": null,
@@ -95,7 +92,7 @@
       "type": "ordinal", 
       "title": "Percentile Ranges"
       },
-      { "field": "price", "type": "quantitative", "aggregate": "median", "title": "Price"}
+      { "field": "price", "type": "quantitative", "aggregate": "mean", "title": "Average price in range (£)", "format": ".2f"}
     ]
   },
 
