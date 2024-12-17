@@ -33,7 +33,7 @@
   "selection": {
     "chooseItem": {
       "type": "single",
-      "init": { "description": "Residential Home (monthly)" },
+      "init": { "description": "Nursing Home (monthly)" },
       "fields": ["description"],
       "bind": {
         "input": "select",
