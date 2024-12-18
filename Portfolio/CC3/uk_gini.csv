@@ -1,12 +1,4 @@
 ,Country Name,year,gini
-0,United Kingdom,1960-01-01,
-1,United Kingdom,1961-01-01,
-2,United Kingdom,1962-01-01,
-3,United Kingdom,1963-01-01,
-4,United Kingdom,1964-01-01,
-5,United Kingdom,1965-01-01,
-6,United Kingdom,1966-01-01,
-7,United Kingdom,1967-01-01,
 8,United Kingdom,1968-01-01,26.8
 9,United Kingdom,1969-01-01,27.9
 10,United Kingdom,1970-01-01,28.0
@@ -61,5 +53,3 @@
 59,United Kingdom,2019-01-01,32.8
 60,United Kingdom,2020-01-01,32.6
 61,United Kingdom,2021-01-01,32.4
-62,United Kingdom,2022-01-01,
-63,United Kingdom,2023-01-01,
