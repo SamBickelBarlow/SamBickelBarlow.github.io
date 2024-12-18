@@ -67,8 +67,7 @@
       "aggregate": "median",
       "field": "price",
       "type": "quantitative",
-      "title": null,
-      "axis": null
+      "title": null
     },
     "color": {
       "legend": null,
