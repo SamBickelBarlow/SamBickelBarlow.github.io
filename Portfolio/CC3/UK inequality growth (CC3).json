@@ -1,0 +1,94 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC3/uk_data.csv"
+  },
+  "title": {
+    "text": "UK Inequality and GDP Index (1968–2021)",
+    "fontSize": 16,
+    "fontWeight": "bold",
+    "anchor": "start",
+    "subtitle": "Comparing Gini Coefficient and GDP over time",
+    "subtitleFontSize": 12,
+    "subtitleFontStyle": "italic"
+  },
+  "width": 450,
+  "height": 300,
+  "transform": [
+    {"calculate": "'Gini Coefficient'", "as": "type"},
+    {"calculate": "datum.gdp / 1e11", "as": "gdp_hb"},
+    {"calculate": "'GDP (hundred billion USD)'", "as": "type_gdp"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "line", "strokeWidth": 2},
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "temporal",
+          "title": null,
+          "axis": {"grid": false}
+        },
+        "y": {
+          "field": "gini",
+          "type": "quantitative",
+          "title": null,
+          "axis": {"grid": true}
+        },
+        "color": {
+          "field": "type",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Gini Coefficient", "GDP (hundred billion USD)"],
+            "range": ["#E15759", "#4E79A7"]
+          },
+          "legend": {
+            "title": "Indicators",
+            "orient": "right",
+            "labelFontSize": 12,
+            "titleFontSize": 13,
+            "titleFontWeight": "bold"
+          }
+        },
+        "tooltip": [
+          {"field": "year", "type": "temporal", "title": "Year"},
+          {"field": "gini", "type": "quantitative", "title": "Gini Coefficient"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "year", "type": "temporal", "title": "Year"},
+        "y": {
+          "field": "gdp_hb",
+          "type": "quantitative",
+          "title": "Value",
+          "axis": {"grid": true}
+        },
+        "color": {
+          "field": "type_gdp",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Gini Coefficient", "GDP (hundred billion USD)"],
+            "range": ["#E15759", "#4E79A7"]
+          },
+          "legend": {
+            "title": "Indicators",
+            "orient": "right",
+            "labelFontSize": 12,
+            "titleFontSize": 13,
+            "titleFontWeight": "bold"
+          }
+        },
+        "tooltip": [
+          {"field": "year", "type": "temporal", "title": "Year"},
+          {"field": "gdp_hb", "type": "quantitative", "title": "GDP (Hundred Billion $)"}
+        ]
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {"y": "shared"}
+  }
+}
