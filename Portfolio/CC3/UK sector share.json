@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC3/ons_share.csv"
+  },
+  "title": {
+    "text": "GVA contribution by sector",
+    "fontSize": 16,
+    "fontWeight": "bold",
+    "anchor": "start",
+    "subtitle": "",
+    "subtitleFontSize": 12,
+    "subtitleFontStyle": "italic"
+  },
+  "width": 450,
+  "height": 300,
+  "mark": "area",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": "Date"},
+    "y": {"field": "GVA_share", 
+          "type": "quantitative", 
+          "title": "GVA Contribution" , 
+          "scale": {"domain": [0, 1]} , 
+          "axis": {"format": "%"}},
+    "color": {"field": "sector", "type": "nominal", "title": "sector"},
+    "tooltip": [
+      {"field": "date", "type": "temporal"},
+      {"field": "sector", "type": "nominal"},
+      {"field": "GVA_share", "type": "quantitative"}
+    ]
+  }
+}
