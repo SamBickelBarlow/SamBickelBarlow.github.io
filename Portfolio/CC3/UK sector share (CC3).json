@@ -1,0 +1,59 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC3/ons_share_melt2.csv"
+  },
+  "title": {
+    "text": "Gross Value Added (GVA) contribution by sector in the United Kingdom",
+    "fontSize": 16,
+    "fontWeight": "bold",
+    "anchor": "start",
+    "subtitle": "Financial and insurance services contribution to total UK GVA has remained mostly consistent since the mid-2000s",
+    "subtitleFontSize": 12,
+    "subtitleFontStyle": "italic"
+  },
+  "width": 700,
+  "height": 300,
+  "mark": "area",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": null},
+    "y": {
+      "field": "GVA_share",
+      "type": "quantitative",
+      "title": "Sectoral GVA contribution",
+      "scale": {"domain": [0, 1]},
+      "axis": {"format": "%"}
+    },
+    "color": {
+      "field": "sector",
+      "type": "nominal",
+      "scale": {
+        "range": [
+          "#42ab49",  
+          "#0a295e", 
+          "#e6c235", 
+          "#f2b0af", 
+          "red", 
+          "#e16e6d",
+          "#d15a5a", 
+          "#c43c3c",
+          "#bd2323"
+        ]
+      },
+      "legend": {
+        "orient": "bottom",        
+        "labelFontSize": 10,       
+        "labelLimit": 300,        
+        "symbolSize": 150,
+        "title": "Sector",          
+        "titleFontSize": 14,
+        "columns": 3 
+      }
+    },
+    "tooltip": [
+      {"field": "date", "type": "temporal"},
+      {"field": "sector", "type": "nominal"},
+      {"field": "GVA_share", "type": "quantitative", "format": ".1%"}
+    ]
+  }
+}
