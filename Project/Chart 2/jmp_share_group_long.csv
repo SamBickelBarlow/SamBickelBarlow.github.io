@@ -193,7 +193,7 @@
 191,2000,Sub-Saharan Africa,wat_share_sm_r,0.080517571,Rural,Safely managed,0.080517571
 192,2001,Australia and New Zealand,wat_share_sm_r,0.9620237362200289,Rural,Safely managed,0.9620237362200289
 193,2001,Central and Southern Asia,wat_share_sm_r,0.33192212495190043,Rural,Safely managed,0.33192212495190043
-194,2001,Eastern and South-Eastern Asia,wat_share_sm_r,0.7056332227505535,Rural,Safely managed,0.7056332227505535
+194,2001,Eastern and South-Eastern Asia,wat_share_sm_r,0.692660903,Rural,Safely managed,0.699147063
 195,2001,Europe and Northern America,wat_share_sm_r,0.8011259555128905,Rural,Safely managed,0.8011259555128905
 196,2001,Latin America and the Caribbean,wat_share_sm_r,0.35136810027002746,Rural,Safely managed,0.35136810027002746
 197,2001,Northern Africa and Western Asia,wat_share_sm_r,0.11519403074783345,Rural,Safely managed,0.11519403074783345
@@ -561,7 +561,7 @@
 559,2000,Sub-Saharan Africa,wat_share_basal_sub_r,0.224613818,Rural,At least basic,0.224613818
 560,2001,Australia and New Zealand,wat_share_basal_sub_r,0.029959202388795552,Rural,At least basic,0.029959202388795552
 561,2001,Central and Southern Asia,wat_share_basal_sub_r,0.44699996124987973,Rural,At least basic,0.44699996124987973
-562,2001,Eastern and South-Eastern Asia,wat_share_basal_sub_r,-0.00648616,Rural,At least basic,-0.00648616
+562,2001,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0,Rural,At least basic,0
 563,2001,Europe and Northern America,wat_share_basal_sub_r,0.16800404583905532,Rural,At least basic,0.16800404583905532
 564,2001,Latin America and the Caribbean,wat_share_basal_sub_r,0.3767508781133254,Rural,At least basic,0.3767508781133254
 565,2001,Northern Africa and Western Asia,wat_share_basal_sub_r,0.6078898335616715,Rural,At least basic,0.6078898335616715
