@@ -1,0 +1,2025 @@
+,year,region_sdg,stat,amount
+0,2000,Australia and New Zealand,wat_share_sm_u,0.8143102310114496
+1,2000,Central and Southern Asia,wat_share_sm_u,0.2085663330453645
+2,2000,Eastern and South-Eastern Asia,wat_share_sm_u,0.6183976587820361
+3,2000,Europe and Northern America,wat_share_sm_u,0.5516783698676657
+4,2000,Latin America and the Caribbean,wat_share_sm_u,0.47938160259448315
+5,2000,Northern Africa and Western Asia,wat_share_sm_u,0.2715498746835801
+6,2000,Oceania,wat_share_sm_u,0.14745616306431072
+7,2000,Sub-Saharan Africa,wat_share_sm_u,0.28523527571196755
+8,2001,Australia and New Zealand,wat_share_sm_u,0.8144006916278725
+9,2001,Central and Southern Asia,wat_share_sm_u,0.20914733266319985
+10,2001,Eastern and South-Eastern Asia,wat_share_sm_u,0.6213087006925363
+11,2001,Europe and Northern America,wat_share_sm_u,0.5529658040918131
+12,2001,Latin America and the Caribbean,wat_share_sm_u,0.4799689803409182
+13,2001,Northern Africa and Western Asia,wat_share_sm_u,0.2715411399501208
+14,2001,Oceania,wat_share_sm_u,0.14704283112204974
+15,2001,Sub-Saharan Africa,wat_share_sm_u,0.2844280864750976
+16,2002,Australia and New Zealand,wat_share_sm_u,0.8140437990919235
+17,2002,Central and Southern Asia,wat_share_sm_u,0.20888306666562062
+18,2002,Eastern and South-Eastern Asia,wat_share_sm_u,0.6241530800643758
+19,2002,Europe and Northern America,wat_share_sm_u,0.5543152626035102
+20,2002,Latin America and the Caribbean,wat_share_sm_u,0.4804896093881564
+21,2002,Northern Africa and Western Asia,wat_share_sm_u,0.27153115639661857
+22,2002,Oceania,wat_share_sm_u,0.14654130408119667
+23,2002,Sub-Saharan Africa,wat_share_sm_u,0.285755944032675
+24,2003,Australia and New Zealand,wat_share_sm_u,0.8143265615527261
+25,2003,Central and Southern Asia,wat_share_sm_u,0.20854512405331319
+26,2003,Eastern and South-Eastern Asia,wat_share_sm_u,0.6272019111769798
+27,2003,Europe and Northern America,wat_share_sm_u,0.5556532864190243
+28,2003,Latin America and the Caribbean,wat_share_sm_u,0.4810815873284667
+29,2003,Northern Africa and Western Asia,wat_share_sm_u,0.271573051199069
+30,2003,Oceania,wat_share_sm_u,0.14590735672230937
+31,2003,Sub-Saharan Africa,wat_share_sm_u,0.2871016729404642
+32,2004,Australia and New Zealand,wat_share_sm_u,0.8149908854321641
+33,2004,Central and Southern Asia,wat_share_sm_u,0.20872619370034254
+34,2004,Eastern and South-Eastern Asia,wat_share_sm_u,0.6303058151502638
+35,2004,Europe and Northern America,wat_share_sm_u,0.5567771190690068
+36,2004,Latin America and the Caribbean,wat_share_sm_u,0.4817074617829536
+37,2004,Northern Africa and Western Asia,wat_share_sm_u,0.2715479088288766
+38,2004,Oceania,wat_share_sm_u,0.1453361197917226
+39,2004,Sub-Saharan Africa,wat_share_sm_u,0.2896088882585595
+40,2005,Australia and New Zealand,wat_share_sm_u,0.8161547611202948
+41,2005,Central and Southern Asia,wat_share_sm_u,0.20964418704825744
+42,2005,Eastern and South-Eastern Asia,wat_share_sm_u,0.6334494987672916
+43,2005,Europe and Northern America,wat_share_sm_u,0.5579149022370533
+44,2005,Latin America and the Caribbean,wat_share_sm_u,0.4823404244577455
+45,2005,Northern Africa and Western Asia,wat_share_sm_u,0.27125616415878334
+46,2005,Oceania,wat_share_sm_u,0.14483777497993117
+47,2005,Sub-Saharan Africa,wat_share_sm_u,0.2917287025423842
+48,2006,Australia and New Zealand,wat_share_sm_u,0.8177961069123961
+49,2006,Central and Southern Asia,wat_share_sm_u,0.21057895456582146
+50,2006,Eastern and South-Eastern Asia,wat_share_sm_u,0.6365946161565524
+51,2006,Europe and Northern America,wat_share_sm_u,0.5592170780414557
+52,2006,Latin America and the Caribbean,wat_share_sm_u,0.4829799229158435
+53,2006,Northern Africa and Western Asia,wat_share_sm_u,0.2694371968263451
+54,2006,Oceania,wat_share_sm_u,0.14434365994458967
+55,2006,Sub-Saharan Africa,wat_share_sm_u,0.294192838512482
+56,2007,Australia and New Zealand,wat_share_sm_u,0.8202783650907963
+57,2007,Central and Southern Asia,wat_share_sm_u,0.2114592032227179
+58,2007,Eastern and South-Eastern Asia,wat_share_sm_u,0.639691589550944
+59,2007,Europe and Northern America,wat_share_sm_u,0.5602204483466566
+60,2007,Latin America and the Caribbean,wat_share_sm_u,0.48358264122447114
+61,2007,Northern Africa and Western Asia,wat_share_sm_u,0.26678266043191606
+62,2007,Oceania,wat_share_sm_u,0.14384426451945412
+63,2007,Sub-Saharan Africa,wat_share_sm_u,0.29737765789117665
+64,2008,Australia and New Zealand,wat_share_sm_u,0.8231650862429526
+65,2008,Central and Southern Asia,wat_share_sm_u,0.21231323597916837
+66,2008,Eastern and South-Eastern Asia,wat_share_sm_u,0.6427868680249025
+67,2008,Europe and Northern America,wat_share_sm_u,0.5609791282647316
+68,2008,Latin America and the Caribbean,wat_share_sm_u,0.4842007705494729
+69,2008,Northern Africa and Western Asia,wat_share_sm_u,0.26726941483840694
+70,2008,Oceania,wat_share_sm_u,0.14341060359450553
+71,2008,Sub-Saharan Africa,wat_share_sm_u,0.3002854889200478
+72,2009,Australia and New Zealand,wat_share_sm_u,0.8258466838586227
+73,2009,Central and Southern Asia,wat_share_sm_u,0.21323915865852985
+74,2009,Eastern and South-Eastern Asia,wat_share_sm_u,0.6458761239848005
+75,2009,Europe and Northern America,wat_share_sm_u,0.5615058536357613
+76,2009,Latin America and the Caribbean,wat_share_sm_u,0.4848073176904499
+77,2009,Northern Africa and Western Asia,wat_share_sm_u,0.2685232965674011
+78,2009,Oceania,wat_share_sm_u,0.14291079510230895
+79,2009,Sub-Saharan Africa,wat_share_sm_u,0.30262253069905337
+80,2010,Australia and New Zealand,wat_share_sm_u,0.8281150214005539
+81,2010,Central and Southern Asia,wat_share_sm_u,0.21425508592179598
+82,2010,Eastern and South-Eastern Asia,wat_share_sm_u,0.6489658632123998
+83,2010,Europe and Northern America,wat_share_sm_u,0.5621716914190645
+84,2010,Latin America and the Caribbean,wat_share_sm_u,0.48535236356234884
+85,2010,Northern Africa and Western Asia,wat_share_sm_u,0.2702204427538226
+86,2010,Oceania,wat_share_sm_u,0.14226354106622421
+87,2010,Sub-Saharan Africa,wat_share_sm_u,0.30480193433421526
+88,2011,Australia and New Zealand,wat_share_sm_u,0.8304970195382941
+89,2011,Central and Southern Asia,wat_share_sm_u,0.21508187540863694
+90,2011,Eastern and South-Eastern Asia,wat_share_sm_u,0.6572033411930682
+91,2011,Europe and Northern America,wat_share_sm_u,0.5628492186435616
+92,2011,Latin America and the Caribbean,wat_share_sm_u,0.4858152044286628
+93,2011,Northern Africa and Western Asia,wat_share_sm_u,0.2733503066627123
+94,2011,Oceania,wat_share_sm_u,0.14147079783145192
+95,2011,Sub-Saharan Africa,wat_share_sm_u,0.305842471269408
+96,2012,Australia and New Zealand,wat_share_sm_u,0.8330240364576942
+97,2012,Central and Southern Asia,wat_share_sm_u,0.21659927156955142
+98,2012,Eastern and South-Eastern Asia,wat_share_sm_u,0.6654213150684906
+99,2012,Europe and Northern America,wat_share_sm_u,0.5633145039360117
+100,2012,Latin America and the Caribbean,wat_share_sm_u,0.4862428918817672
+101,2012,Northern Africa and Western Asia,wat_share_sm_u,0.2771416642351001
+102,2012,Oceania,wat_share_sm_u,0.14062249449385816
+103,2012,Sub-Saharan Africa,wat_share_sm_u,0.308704734937067
+104,2013,Australia and New Zealand,wat_share_sm_u,0.8348232164873419
+105,2013,Central and Southern Asia,wat_share_sm_u,0.21801847455378412
+106,2013,Eastern and South-Eastern Asia,wat_share_sm_u,0.6736077810403308
+107,2013,Europe and Northern America,wat_share_sm_u,0.5637512385512569
+108,2013,Latin America and the Caribbean,wat_share_sm_u,0.4884212765019163
+109,2013,Northern Africa and Western Asia,wat_share_sm_u,0.2803069240304586
+110,2013,Oceania,wat_share_sm_u,0.13993142289624916
+111,2013,Sub-Saharan Africa,wat_share_sm_u,0.3093539909813542
+112,2014,Australia and New Zealand,wat_share_sm_u,0.8349589660080703
+113,2014,Central and Southern Asia,wat_share_sm_u,0.21975655542160052
+114,2014,Eastern and South-Eastern Asia,wat_share_sm_u,0.6817273906387049
+115,2014,Europe and Northern America,wat_share_sm_u,0.5642438256660812
+116,2014,Latin America and the Caribbean,wat_share_sm_u,0.49067839474806024
+117,2014,Northern Africa and Western Asia,wat_share_sm_u,0.2822272422978454
+118,2014,Oceania,wat_share_sm_u,0.13914606853121173
+119,2014,Sub-Saharan Africa,wat_share_sm_u,0.3101744280940289
+120,2015,Australia and New Zealand,wat_share_sm_u,0.8346675863838227
+121,2015,Central and Southern Asia,wat_share_sm_u,0.22173629911845064
+122,2015,Eastern and South-Eastern Asia,wat_share_sm_u,0.6897713112391823
+123,2015,Europe and Northern America,wat_share_sm_u,0.5649764899898173
+124,2015,Latin America and the Caribbean,wat_share_sm_u,0.4929631862625396
+125,2015,Northern Africa and Western Asia,wat_share_sm_u,0.2833987013729129
+126,2015,Oceania,wat_share_sm_u,0.13837869094876137
+127,2015,Sub-Saharan Africa,wat_share_sm_u,0.3113133656687942
+128,2016,Australia and New Zealand,wat_share_sm_u,0.8344095795569032
+129,2016,Central and Southern Asia,wat_share_sm_u,0.22335989644672974
+130,2016,Eastern and South-Eastern Asia,wat_share_sm_u,0.6977921754985006
+131,2016,Europe and Northern America,wat_share_sm_u,0.565708726043929
+132,2016,Latin America and the Caribbean,wat_share_sm_u,0.49525557693631306
+133,2016,Northern Africa and Western Asia,wat_share_sm_u,0.2824556392705709
+134,2016,Oceania,wat_share_sm_u,0.1376342939426022
+135,2016,Sub-Saharan Africa,wat_share_sm_u,0.3119079169319494
+136,2017,Australia and New Zealand,wat_share_sm_u,0.8342395105569654
+137,2017,Central and Southern Asia,wat_share_sm_u,0.2247490240992219
+138,2017,Eastern and South-Eastern Asia,wat_share_sm_u,0.7058647930129732
+139,2017,Europe and Northern America,wat_share_sm_u,0.5664977922596144
+140,2017,Latin America and the Caribbean,wat_share_sm_u,0.49796975333056254
+141,2017,Northern Africa and Western Asia,wat_share_sm_u,0.28111692673259553
+142,2017,Oceania,wat_share_sm_u,0.13683991605732865
+143,2017,Sub-Saharan Africa,wat_share_sm_u,0.31227311726507845
+144,2018,Australia and New Zealand,wat_share_sm_u,0.8336404056291624
+145,2018,Central and Southern Asia,wat_share_sm_u,0.22620813046023414
+146,2018,Eastern and South-Eastern Asia,wat_share_sm_u,0.7137261523714692
+147,2018,Europe and Northern America,wat_share_sm_u,0.5673217019124785
+148,2018,Latin America and the Caribbean,wat_share_sm_u,0.5013440707916088
+149,2018,Northern Africa and Western Asia,wat_share_sm_u,0.2801693195092407
+150,2018,Oceania,wat_share_sm_u,0.13597643652669505
+151,2018,Sub-Saharan Africa,wat_share_sm_u,0.3130876501055925
+152,2019,Australia and New Zealand,wat_share_sm_u,0.832217116673484
+153,2019,Central and Southern Asia,wat_share_sm_u,0.22749385046654444
+154,2019,Eastern and South-Eastern Asia,wat_share_sm_u,0.7213126809832114
+155,2019,Europe and Northern America,wat_share_sm_u,0.5682075909853374
+156,2019,Latin America and the Caribbean,wat_share_sm_u,0.5047745800622416
+157,2019,Northern Africa and Western Asia,wat_share_sm_u,0.278975480295529
+158,2019,Oceania,wat_share_sm_u,0.13503960399874626
+159,2019,Sub-Saharan Africa,wat_share_sm_u,0.3139282119785713
+160,2020,Australia and New Zealand,wat_share_sm_u,0.8309852897332156
+161,2020,Central and Southern Asia,wat_share_sm_u,0.22877118126351612
+162,2020,Eastern and South-Eastern Asia,wat_share_sm_u,0.7259686250428382
+163,2020,Europe and Northern America,wat_share_sm_u,0.5690582785372245
+164,2020,Latin America and the Caribbean,wat_share_sm_u,0.5074970614998058
+165,2020,Northern Africa and Western Asia,wat_share_sm_u,0.27772415653185245
+166,2020,Oceania,wat_share_sm_u,0.1342679537984225
+167,2020,Sub-Saharan Africa,wat_share_sm_u,0.3148062686155532
+168,2021,Australia and New Zealand,wat_share_sm_u,0.8303501082711016
+169,2021,Central and Southern Asia,wat_share_sm_u,0.23021384651268711
+170,2021,Eastern and South-Eastern Asia,wat_share_sm_u,0.7292292337547484
+171,2021,Europe and Northern America,wat_share_sm_u,0.5698900537845767
+172,2021,Latin America and the Caribbean,wat_share_sm_u,0.5049566050549451
+173,2021,Northern Africa and Western Asia,wat_share_sm_u,0.27682753290526113
+174,2021,Oceania,wat_share_sm_u,0.13366460798713556
+175,2021,Sub-Saharan Africa,wat_share_sm_u,0.3151516126667275
+176,2022,Australia and New Zealand,wat_share_sm_u,0.8300997349975515
+177,2022,Central and Southern Asia,wat_share_sm_u,0.23086700483171899
+178,2022,Eastern and South-Eastern Asia,wat_share_sm_u,0.7321622173489275
+179,2022,Europe and Northern America,wat_share_sm_u,0.5690811034664937
+180,2022,Latin America and the Caribbean,wat_share_sm_u,0.5066416654928652
+181,2022,Northern Africa and Western Asia,wat_share_sm_u,0.2769443112648466
+182,2022,Oceania,wat_share_sm_u,0.13304648280351666
+183,2022,Sub-Saharan Africa,wat_share_sm_u,0.3103395560558407
+184,2000,Australia and New Zealand,wat_share_sm_r,0.0
+185,2000,Central and Southern Asia,wat_share_sm_r,0.3154037638057649
+186,2000,Eastern and South-Eastern Asia,wat_share_sm_r,0.055665957248304074
+187,2000,Europe and Northern America,wat_share_sm_r,0.24181283876965365
+188,2000,Latin America and the Caribbean,wat_share_sm_r,0.2318556950990037
+189,2000,Northern Africa and Western Asia,wat_share_sm_r,0.09661410332059171
+190,2000,Oceania,wat_share_sm_r,0.03619142125857827
+191,2000,Sub-Saharan Africa,wat_share_sm_r,0.025908054694768354
+192,2001,Australia and New Zealand,wat_share_sm_r,0.0
+193,2001,Central and Southern Asia,wat_share_sm_r,0.32643384876893233
+194,2001,Eastern and South-Eastern Asia,wat_share_sm_r,0.057561070498175375
+195,2001,Europe and Northern America,wat_share_sm_r,0.24139296596809387
+196,2001,Latin America and the Caribbean,wat_share_sm_r,0.23825328289130657
+197,2001,Northern Africa and Western Asia,wat_share_sm_r,0.09790339359951808
+198,2001,Oceania,wat_share_sm_r,0.035365657537467406
+199,2001,Sub-Saharan Africa,wat_share_sm_r,0.026949103326813564
+200,2002,Australia and New Zealand,wat_share_sm_r,0.0
+201,2002,Central and Southern Asia,wat_share_sm_r,0.33747638737276037
+202,2002,Eastern and South-Eastern Asia,wat_share_sm_r,0.06031245445405091
+203,2002,Europe and Northern America,wat_share_sm_r,0.24115279475434573
+204,2002,Latin America and the Caribbean,wat_share_sm_r,0.2424087791811955
+205,2002,Northern Africa and Western Asia,wat_share_sm_r,0.0992123262571091
+206,2002,Oceania,wat_share_sm_r,0.03456870418384781
+207,2002,Sub-Saharan Africa,wat_share_sm_r,0.0283016922315645
+208,2003,Australia and New Zealand,wat_share_sm_r,0.0
+209,2003,Central and Southern Asia,wat_share_sm_r,0.3486253934830465
+210,2003,Eastern and South-Eastern Asia,wat_share_sm_r,0.06324774312092332
+211,2003,Europe and Northern America,wat_share_sm_r,0.24085258649541683
+212,2003,Latin America and the Caribbean,wat_share_sm_r,0.24505620956111437
+213,2003,Northern Africa and Western Asia,wat_share_sm_r,0.10052970092344543
+214,2003,Oceania,wat_share_sm_r,0.03378451354591729
+215,2003,Sub-Saharan Africa,wat_share_sm_r,0.02966065819854006
+216,2004,Australia and New Zealand,wat_share_sm_r,0.0
+217,2004,Central and Southern Asia,wat_share_sm_r,0.36012760438618246
+218,2004,Eastern and South-Eastern Asia,wat_share_sm_r,0.06624497546770891
+219,2004,Europe and Northern America,wat_share_sm_r,0.24545967248719205
+220,2004,Latin America and the Caribbean,wat_share_sm_r,0.2475451055542326
+221,2004,Northern Africa and Western Asia,wat_share_sm_r,0.10186888143189297
+222,2004,Oceania,wat_share_sm_r,0.03298308297314123
+223,2004,Sub-Saharan Africa,wat_share_sm_r,0.03119086764260311
+224,2005,Australia and New Zealand,wat_share_sm_r,0.0
+225,2005,Central and Southern Asia,wat_share_sm_r,0.37184743111361235
+226,2005,Eastern and South-Eastern Asia,wat_share_sm_r,0.06870700048236927
+227,2005,Europe and Northern America,wat_share_sm_r,0.250003693186089
+228,2005,Latin America and the Caribbean,wat_share_sm_r,0.2500108784034734
+229,2005,Northern Africa and Western Asia,wat_share_sm_r,0.10320749161173916
+230,2005,Oceania,wat_share_sm_r,0.032215093984843575
+231,2005,Sub-Saharan Africa,wat_share_sm_r,0.032726569318312394
+232,2006,Australia and New Zealand,wat_share_sm_r,0.0
+233,2006,Central and Southern Asia,wat_share_sm_r,0.3836530497660134
+234,2006,Eastern and South-Eastern Asia,wat_share_sm_r,0.07103507480785211
+235,2006,Europe and Northern America,wat_share_sm_r,0.25427994234214746
+236,2006,Latin America and the Caribbean,wat_share_sm_r,0.252467917673123
+237,2006,Northern Africa and Western Asia,wat_share_sm_r,0.10409682365326013
+238,2006,Oceania,wat_share_sm_r,0.031476804889780184
+239,2006,Sub-Saharan Africa,wat_share_sm_r,0.03431315671371182
+240,2007,Australia and New Zealand,wat_share_sm_r,0.0
+241,2007,Central and Southern Asia,wat_share_sm_r,0.39570432461630173
+242,2007,Eastern and South-Eastern Asia,wat_share_sm_r,0.07341690595833184
+243,2007,Europe and Northern America,wat_share_sm_r,0.2587067774733783
+244,2007,Latin America and the Caribbean,wat_share_sm_r,0.25489942512345326
+245,2007,Northern Africa and Western Asia,wat_share_sm_r,0.10465521155529343
+246,2007,Oceania,wat_share_sm_r,0.030766089412920646
+247,2007,Sub-Saharan Africa,wat_share_sm_r,0.03655989354595301
+248,2008,Australia and New Zealand,wat_share_sm_r,0.0
+249,2008,Central and Southern Asia,wat_share_sm_r,0.40788731812057255
+250,2008,Eastern and South-Eastern Asia,wat_share_sm_r,0.07587620614844193
+251,2008,Europe and Northern America,wat_share_sm_r,0.25758011262134234
+252,2008,Latin America and the Caribbean,wat_share_sm_r,0.25772507471444617
+253,2008,Northern Africa and Western Asia,wat_share_sm_r,0.10723538840575687
+254,2008,Oceania,wat_share_sm_r,0.03003519483626034
+255,2008,Sub-Saharan Africa,wat_share_sm_r,0.03877183534230454
+256,2009,Australia and New Zealand,wat_share_sm_r,0.0
+257,2009,Central and Southern Asia,wat_share_sm_r,0.42125193819936363
+258,2009,Eastern and South-Eastern Asia,wat_share_sm_r,0.0784084035189266
+259,2009,Europe and Northern America,wat_share_sm_r,0.26161294187058726
+260,2009,Latin America and the Caribbean,wat_share_sm_r,0.26052894440363805
+261,2009,Northern Africa and Western Asia,wat_share_sm_r,0.1102581542838647
+262,2009,Oceania,wat_share_sm_r,0.029303832605015553
+263,2009,Sub-Saharan Africa,wat_share_sm_r,0.04057656188594907
+264,2010,Australia and New Zealand,wat_share_sm_r,0.0
+265,2010,Central and Southern Asia,wat_share_sm_r,0.43487814903223243
+266,2010,Eastern and South-Eastern Asia,wat_share_sm_r,0.08104278419238925
+267,2010,Europe and Northern America,wat_share_sm_r,0.2656473565727242
+268,2010,Latin America and the Caribbean,wat_share_sm_r,0.2633241680277879
+269,2010,Northern Africa and Western Asia,wat_share_sm_r,0.11330027059225263
+270,2010,Oceania,wat_share_sm_r,0.028585837576952274
+271,2010,Sub-Saharan Africa,wat_share_sm_r,0.04243879628760565
+272,2011,Australia and New Zealand,wat_share_sm_r,0.0
+273,2011,Central and Southern Asia,wat_share_sm_r,0.4486951327586678
+274,2011,Eastern and South-Eastern Asia,wat_share_sm_r,0.08361374253395347
+275,2011,Europe and Northern America,wat_share_sm_r,0.26968241863735387
+276,2011,Latin America and the Caribbean,wat_share_sm_r,0.26603381890515454
+277,2011,Northern Africa and Western Asia,wat_share_sm_r,0.11641230852140322
+278,2011,Oceania,wat_share_sm_r,0.027901458270189507
+279,2011,Sub-Saharan Africa,wat_share_sm_r,0.04395115632509886
+280,2012,Australia and New Zealand,wat_share_sm_r,0.0
+281,2012,Central and Southern Asia,wat_share_sm_r,0.4627704937885958
+282,2012,Eastern and South-Eastern Asia,wat_share_sm_r,0.0861953013847465
+283,2012,Europe and Northern America,wat_share_sm_r,0.274204126321175
+284,2012,Latin America and the Caribbean,wat_share_sm_r,0.2686825133726964
+285,2012,Northern Africa and Western Asia,wat_share_sm_r,0.11995036362577562
+286,2012,Oceania,wat_share_sm_r,0.027253230584929004
+287,2012,Sub-Saharan Africa,wat_share_sm_r,0.04711989272325221
+288,2013,Australia and New Zealand,wat_share_sm_r,0.0
+289,2013,Central and Southern Asia,wat_share_sm_r,0.4768063502390724
+290,2013,Eastern and South-Eastern Asia,wat_share_sm_r,0.08885639245334621
+291,2013,Europe and Northern America,wat_share_sm_r,0.2746820162651041
+292,2013,Latin America and the Caribbean,wat_share_sm_r,0.27407804961640325
+293,2013,Northern Africa and Western Asia,wat_share_sm_r,0.12368983094471163
+294,2013,Oceania,wat_share_sm_r,0.026634190283792606
+295,2013,Sub-Saharan Africa,wat_share_sm_r,0.049637453071300124
+296,2014,Australia and New Zealand,wat_share_sm_r,0.0
+297,2014,Central and Southern Asia,wat_share_sm_r,0.4910467590971956
+298,2014,Eastern and South-Eastern Asia,wat_share_sm_r,0.09161812709846
+299,2014,Europe and Northern America,wat_share_sm_r,0.2742411848446427
+300,2014,Latin America and the Caribbean,wat_share_sm_r,0.27926435022510054
+301,2014,Northern Africa and Western Asia,wat_share_sm_r,0.12726862811287426
+302,2014,Oceania,wat_share_sm_r,0.02604758894536987
+303,2014,Sub-Saharan Africa,wat_share_sm_r,0.05170734953414346
+304,2015,Australia and New Zealand,wat_share_sm_r,0.0
+305,2015,Central and Southern Asia,wat_share_sm_r,0.5055124452732139
+306,2015,Eastern and South-Eastern Asia,wat_share_sm_r,0.09449805716981158
+307,2015,Europe and Northern America,wat_share_sm_r,0.27386687744185645
+308,2015,Latin America and the Caribbean,wat_share_sm_r,0.2843325141396776
+309,2015,Northern Africa and Western Asia,wat_share_sm_r,0.1308326463938093
+310,2015,Oceania,wat_share_sm_r,0.025488804999745332
+311,2015,Sub-Saharan Africa,wat_share_sm_r,0.05381851326838773
+312,2016,Australia and New Zealand,wat_share_sm_r,0.0
+313,2016,Central and Southern Asia,wat_share_sm_r,0.5201593726478599
+314,2016,Eastern and South-Eastern Asia,wat_share_sm_r,0.09749822058600256
+315,2016,Europe and Northern America,wat_share_sm_r,0.27350491041234026
+316,2016,Latin America and the Caribbean,wat_share_sm_r,0.2884459701044811
+317,2016,Northern Africa and Western Asia,wat_share_sm_r,0.13382837227621608
+318,2016,Oceania,wat_share_sm_r,0.024964841855886887
+319,2016,Sub-Saharan Africa,wat_share_sm_r,0.05598747720163776
+320,2017,Australia and New Zealand,wat_share_sm_r,0.0
+321,2017,Central and Southern Asia,wat_share_sm_r,0.5349080365476703
+322,2017,Eastern and South-Eastern Asia,wat_share_sm_r,0.10056888815764908
+323,2017,Europe and Northern America,wat_share_sm_r,0.2732163029175618
+324,2017,Latin America and the Caribbean,wat_share_sm_r,0.2948159411539646
+325,2017,Northern Africa and Western Asia,wat_share_sm_r,0.1367688558915552
+326,2017,Oceania,wat_share_sm_r,0.024470163208276573
+327,2017,Sub-Saharan Africa,wat_share_sm_r,0.0582335877709314
+328,2018,Australia and New Zealand,wat_share_sm_r,0.0
+329,2018,Central and Southern Asia,wat_share_sm_r,0.549764589947434
+330,2018,Eastern and South-Eastern Asia,wat_share_sm_r,0.10375446009918757
+331,2018,Europe and Northern America,wat_share_sm_r,0.2730377261757994
+332,2018,Latin America and the Caribbean,wat_share_sm_r,0.30040639345241815
+333,2018,Northern Africa and Western Asia,wat_share_sm_r,0.13968909309661348
+334,2018,Oceania,wat_share_sm_r,0.023992823494747437
+335,2018,Sub-Saharan Africa,wat_share_sm_r,0.06047856146273901
+336,2019,Australia and New Zealand,wat_share_sm_r,0.0
+337,2019,Central and Southern Asia,wat_share_sm_r,0.5647063383066862
+338,2019,Eastern and South-Eastern Asia,wat_share_sm_r,0.10707761780653215
+339,2019,Europe and Northern America,wat_share_sm_r,0.2729907102195224
+340,2019,Latin America and the Caribbean,wat_share_sm_r,0.3058552637224518
+341,2019,Northern Africa and Western Asia,wat_share_sm_r,0.13959708092531195
+342,2019,Oceania,wat_share_sm_r,0.023542456633292557
+343,2019,Sub-Saharan Africa,wat_share_sm_r,0.06272090779116671
+344,2020,Australia and New Zealand,wat_share_sm_r,0.0
+345,2020,Central and Southern Asia,wat_share_sm_r,0.5796886049164709
+346,2020,Eastern and South-Eastern Asia,wat_share_sm_r,0.11034056294223166
+347,2020,Europe and Northern America,wat_share_sm_r,0.27299480815115634
+348,2020,Latin America and the Caribbean,wat_share_sm_r,0.3112566523049725
+349,2020,Northern Africa and Western Asia,wat_share_sm_r,0.13799720440755037
+350,2020,Oceania,wat_share_sm_r,0.02319471661833998
+351,2020,Sub-Saharan Africa,wat_share_sm_r,0.06488222652788145
+352,2021,Australia and New Zealand,wat_share_sm_r,0.0
+353,2021,Central and Southern Asia,wat_share_sm_r,0.5946149850528475
+354,2021,Eastern and South-Eastern Asia,wat_share_sm_r,0.11337557173125706
+355,2021,Europe and Northern America,wat_share_sm_r,0.27283547580633505
+356,2021,Latin America and the Caribbean,wat_share_sm_r,0.30780185492561213
+357,2021,Northern Africa and Western Asia,wat_share_sm_r,0.1365111256395054
+358,2021,Oceania,wat_share_sm_r,0.022941708767020525
+359,2021,Sub-Saharan Africa,wat_share_sm_r,0.06709985570792634
+360,2022,Australia and New Zealand,wat_share_sm_r,0.0
+361,2022,Central and Southern Asia,wat_share_sm_r,0.6099404868121204
+362,2022,Eastern and South-Eastern Asia,wat_share_sm_r,0.11621866208455658
+363,2022,Europe and Northern America,wat_share_sm_r,0.2695568485838123
+364,2022,Latin America and the Caribbean,wat_share_sm_r,0.3107708056249995
+365,2022,Northern Africa and Western Asia,wat_share_sm_r,0.1358357128211832
+366,2022,Oceania,wat_share_sm_r,0.02271144751801778
+367,2022,Sub-Saharan Africa,wat_share_sm_r,0.06849632529731063
+368,2000,Australia and New Zealand,wat_share_basal_sub_u,0.00012812729013419877
+369,2000,Central and Southern Asia,wat_share_basal_sub_u,0.0010870528703245267
+370,2000,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0013786810213654466
+371,2000,Europe and Northern America,wat_share_basal_sub_u,0.00016421679352926429
+372,2000,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011297427752634116
+373,2000,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006657986048562833
+374,2000,Oceania,wat_share_basal_sub_u,0.0012221503614661341
+375,2000,Sub-Saharan Africa,wat_share_basal_sub_u,0.0031033859075363097
+376,2001,Australia and New Zealand,wat_share_basal_sub_u,0.00012814152362065732
+377,2001,Central and Southern Asia,wat_share_basal_sub_u,0.0010964346380963439
+378,2001,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0013808858512674353
+379,2001,Europe and Northern America,wat_share_basal_sub_u,0.00016443173695797298
+380,2001,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011328415299388223
+381,2001,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006672529672484848
+382,2001,Oceania,wat_share_basal_sub_u,0.0012198905601569342
+383,2001,Sub-Saharan Africa,wat_share_basal_sub_u,0.003112404511217149
+384,2002,Australia and New Zealand,wat_share_basal_sub_u,0.0001280853685193718
+385,2002,Central and Southern Asia,wat_share_basal_sub_u,0.0011057087194269795
+386,2002,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0013823097647232309
+387,2002,Europe and Northern America,wat_share_basal_sub_u,0.00016439114525273812
+388,2002,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011365001137774485
+389,2002,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006691445973645141
+390,2002,Oceania,wat_share_basal_sub_u,0.0012177740845999848
+391,2002,Sub-Saharan Africa,wat_share_basal_sub_u,0.0031131597555240234
+392,2003,Australia and New Zealand,wat_share_basal_sub_u,0.00011786302877775068
+393,2003,Central and Southern Asia,wat_share_basal_sub_u,0.0011140101668898632
+394,2003,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.001384463868560671
+395,2003,Europe and Northern America,wat_share_basal_sub_u,0.00016408594445393128
+396,2003,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011383485526058933
+397,2003,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006708675249308298
+398,2003,Oceania,wat_share_basal_sub_u,0.001215730356334479
+399,2003,Sub-Saharan Africa,wat_share_basal_sub_u,0.003112792118514845
+400,2004,Australia and New Zealand,wat_share_basal_sub_u,0.00010770945086615612
+401,2004,Central and Southern Asia,wat_share_basal_sub_u,0.0011212933280055166
+402,2004,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0013867197321934485
+403,2004,Europe and Northern America,wat_share_basal_sub_u,0.00016215434995986606
+404,2004,Latin America and the Caribbean,wat_share_basal_sub_u,0.001140237943021249
+405,2004,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006722196726737264
+406,2004,Oceania,wat_share_basal_sub_u,0.0012140959086190033
+407,2004,Sub-Saharan Africa,wat_share_basal_sub_u,0.003099968840692326
+408,2005,Australia and New Zealand,wat_share_basal_sub_u,9.762431962865537e-05
+409,2005,Central and Southern Asia,wat_share_basal_sub_u,0.0011023121843434288
+410,2005,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0013891791657725508
+411,2005,Europe and Northern America,wat_share_basal_sub_u,0.0001605320310296152
+412,2005,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011419046716070725
+413,2005,Northern Africa and Western Asia,wat_share_basal_sub_u,0.000673144906734087
+414,2005,Oceania,wat_share_basal_sub_u,0.001212428108807425
+415,2005,Sub-Saharan Africa,wat_share_basal_sub_u,0.0030914559610314704
+416,2006,Australia and New Zealand,wat_share_basal_sub_u,8.75864831905238e-05
+417,2006,Central and Southern Asia,wat_share_basal_sub_u,0.0010984240913108373
+418,2006,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.001392663127695874
+419,2006,Europe and Northern America,wat_share_basal_sub_u,0.0001593036008613475
+420,2006,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011433747870277374
+421,2006,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006664159001221552
+422,2006,Oceania,wat_share_basal_sub_u,0.0012117936608639788
+423,2006,Sub-Saharan Africa,wat_share_basal_sub_u,0.003082742400953829
+424,2007,Australia and New Zealand,wat_share_basal_sub_u,7.761246232255788e-05
+425,2007,Central and Southern Asia,wat_share_basal_sub_u,0.0010947556907186617
+426,2007,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.00139662340247921
+427,2007,Europe and Northern America,wat_share_basal_sub_u,0.00015765037211975004
+428,2007,Latin America and the Caribbean,wat_share_basal_sub_u,0.001145107304178128
+429,2007,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006551120593960724
+430,2007,Oceania,wat_share_basal_sub_u,0.001211654725136867
+431,2007,Sub-Saharan Africa,wat_share_basal_sub_u,0.0030773522828674896
+432,2008,Australia and New Zealand,wat_share_basal_sub_u,6.763503994382076e-05
+433,2008,Central and Southern Asia,wat_share_basal_sub_u,0.0010910669909303381
+434,2008,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0014007924821874181
+435,2008,Europe and Northern America,wat_share_basal_sub_u,0.00015595837319019493
+436,2008,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011465217671677355
+437,2008,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006336287156802899
+438,2008,Oceania,wat_share_basal_sub_u,0.0012120090080674356
+439,2008,Sub-Saharan Africa,wat_share_basal_sub_u,0.003064907185846654
+440,2009,Australia and New Zealand,wat_share_basal_sub_u,5.759676463245311e-05
+441,2009,Central and Southern Asia,wat_share_basal_sub_u,0.0010882650069901714
+442,2009,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0014051195493714715
+443,2009,Europe and Northern America,wat_share_basal_sub_u,0.0001544841335955999
+444,2009,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011476875671121844
+445,2009,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006189446697639518
+446,2009,Oceania,wat_share_basal_sub_u,0.001211483571598017
+447,2009,Sub-Saharan Africa,wat_share_basal_sub_u,0.0030598687288335594
+448,2010,Australia and New Zealand,wat_share_basal_sub_u,4.7493496593749345e-05
+449,2010,Central and Southern Asia,wat_share_basal_sub_u,0.0010862516570227954
+450,2010,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0014095256191657833
+451,2010,Europe and Northern America,wat_share_basal_sub_u,0.0001509041481452018
+452,2010,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011486361090578465
+453,2010,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006048857378825584
+454,2010,Oceania,wat_share_basal_sub_u,0.0012091364669151506
+455,2010,Sub-Saharan Africa,wat_share_basal_sub_u,0.0030574556179802
+456,2011,Australia and New Zealand,wat_share_basal_sub_u,3.736441925919543e-05
+457,2011,Central and Southern Asia,wat_share_basal_sub_u,0.0010844296413176815
+458,2011,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0013677624514736317
+459,2011,Europe and Northern America,wat_share_basal_sub_u,0.0001473219763293037
+460,2011,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011492533629578617
+461,2011,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0005942949052441294
+462,2011,Oceania,wat_share_basal_sub_u,0.001205373035194667
+463,2011,Sub-Saharan Africa,wat_share_basal_sub_u,0.003032825358742733
+464,2012,Australia and New Zealand,wat_share_basal_sub_u,2.720646616708753e-05
+465,2012,Central and Southern Asia,wat_share_basal_sub_u,0.0010727045799573042
+466,2012,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0013267570508899498
+467,2012,Europe and Northern America,wat_share_basal_sub_u,0.00014374127530011017
+468,2012,Latin America and the Caribbean,wat_share_basal_sub_u,0.001149740012614813
+469,2012,Northern Africa and Western Asia,wat_share_basal_sub_u,0.000586683407699774
+470,2012,Oceania,wat_share_basal_sub_u,0.001200971900318974
+471,2012,Sub-Saharan Africa,wat_share_basal_sub_u,0.0030284286308982556
+472,2013,Australia and New Zealand,wat_share_basal_sub_u,2.1041081142621574e-05
+473,2013,Central and Southern Asia,wat_share_basal_sub_u,0.0010610163812734667
+474,2013,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0012850132454205162
+475,2013,Europe and Northern America,wat_share_basal_sub_u,0.0001392116337501643
+476,2013,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011331818348203795
+477,2013,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0005781270778957505
+478,2013,Oceania,wat_share_basal_sub_u,0.0011970683221484103
+479,2013,Sub-Saharan Africa,wat_share_basal_sub_u,0.0030462484935173603
+480,2014,Australia and New Zealand,wat_share_basal_sub_u,2.2775998124875216e-05
+481,2014,Central and Southern Asia,wat_share_basal_sub_u,0.0010486297178417662
+482,2014,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0012426762409509786
+483,2014,Europe and Northern America,wat_share_basal_sub_u,0.00013467715845268555
+484,2014,Latin America and the Caribbean,wat_share_basal_sub_u,0.0011168348695709093
+485,2014,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0005660910074421191
+486,2014,Oceania,wat_share_basal_sub_u,0.0011939503146387853
+487,2014,Sub-Saharan Africa,wat_share_basal_sub_u,0.0030639641548734827
+488,2015,Australia and New Zealand,wat_share_basal_sub_u,2.449965737713983e-05
+489,2015,Central and Southern Asia,wat_share_basal_sub_u,0.0010352687917508047
+490,2015,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0011999803226511638
+491,2015,Europe and Northern America,wat_share_basal_sub_u,0.00013095009626862004
+492,2015,Latin America and the Caribbean,wat_share_basal_sub_u,0.001101408994234901
+493,2015,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0005580589894366806
+494,2015,Oceania,wat_share_basal_sub_u,0.0011909044037738735
+495,2015,Sub-Saharan Africa,wat_share_basal_sub_u,0.003081275798269976
+496,2016,Australia and New Zealand,wat_share_basal_sub_u,2.6223872899683304e-05
+497,2016,Central and Southern Asia,wat_share_basal_sub_u,0.0010218456557877
+498,2016,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.00115714762992223
+499,2016,Europe and Northern America,wat_share_basal_sub_u,0.000127186224107172
+500,2016,Latin America and the Caribbean,wat_share_basal_sub_u,0.0010881754018620608
+501,2016,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0005739011167114689
+502,2016,Oceania,wat_share_basal_sub_u,0.0011878625464034
+503,2016,Sub-Saharan Africa,wat_share_basal_sub_u,0.003100517490811894
+504,2017,Australia and New Zealand,wat_share_basal_sub_u,2.7950680432656144e-05
+505,2017,Central and Southern Asia,wat_share_basal_sub_u,0.0010094590152545729
+506,2017,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0011136410244539778
+507,2017,Europe and Northern America,wat_share_basal_sub_u,0.00012340794523218838
+508,2017,Latin America and the Caribbean,wat_share_basal_sub_u,0.0010838395494076974
+509,2017,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0005948801274237881
+510,2017,Oceania,wat_share_basal_sub_u,0.0011842269417210232
+511,2017,Sub-Saharan Africa,wat_share_basal_sub_u,0.003121420568674395
+512,2018,Australia and New Zealand,wat_share_basal_sub_u,2.9662233008428563e-05
+513,2018,Central and Southern Asia,wat_share_basal_sub_u,0.0009979060182513126
+514,2018,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.001070856976545218
+515,2018,Europe and Northern America,wat_share_basal_sub_u,0.00011960414582399359
+516,2018,Latin America and the Caribbean,wat_share_basal_sub_u,0.0010740685327173536
+517,2018,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006277471362911211
+518,2018,Oceania,wat_share_basal_sub_u,0.0011799162932199193
+519,2018,Sub-Saharan Africa,wat_share_basal_sub_u,0.0031408033481945094
+520,2019,Australia and New Zealand,wat_share_basal_sub_u,3.134097484105418e-05
+521,2019,Central and Southern Asia,wat_share_basal_sub_u,0.0009883706030742701
+522,2019,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0010292391123897173
+523,2019,Europe and Northern America,wat_share_basal_sub_u,0.000115777148920931
+524,2019,Latin America and the Caribbean,wat_share_basal_sub_u,0.0010644808028493706
+525,2019,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006490391157912563
+526,2019,Oceania,wat_share_basal_sub_u,0.0011750834005871656
+527,2019,Sub-Saharan Africa,wat_share_basal_sub_u,0.003159123118134825
+528,2020,Australia and New Zealand,wat_share_basal_sub_u,3.302212489615364e-05
+529,2020,Central and Southern Asia,wat_share_basal_sub_u,0.000980514805580379
+530,2020,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0010141765312970236
+531,2020,Europe and Northern America,wat_share_basal_sub_u,0.00011192786127981163
+532,2020,Latin America and the Caribbean,wat_share_basal_sub_u,0.00105338979576342
+533,2020,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006714752160908629
+534,2020,Oceania,wat_share_basal_sub_u,0.0011715867142045755
+535,2020,Sub-Saharan Africa,wat_share_basal_sub_u,0.0031770895979645456
+536,2021,Australia and New Zealand,wat_share_basal_sub_u,3.472381860932133e-05
+537,2021,Central and Southern Asia,wat_share_basal_sub_u,0.0009739156923434407
+538,2021,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.0010100045636486203
+539,2021,Europe and Northern America,wat_share_basal_sub_u,0.00010831240567179638
+540,2021,Latin America and the Caribbean,wat_share_basal_sub_u,0.001019844617433291
+541,2021,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006899484343957439
+542,2021,Oceania,wat_share_basal_sub_u,0.0011685263239284024
+543,2021,Sub-Saharan Africa,wat_share_basal_sub_u,0.0032000329920559133
+544,2022,Australia and New Zealand,wat_share_basal_sub_u,3.6440478007596975e-05
+545,2022,Central and Southern Asia,wat_share_basal_sub_u,0.0009751014958456373
+546,2022,Eastern and South-Eastern Asia,wat_share_basal_sub_u,0.001007217339105072
+547,2022,Europe and Northern America,wat_share_basal_sub_u,0.00010526750170009189
+548,2022,Latin America and the Caribbean,wat_share_basal_sub_u,0.0010067125190151966
+549,2022,Northern Africa and Western Asia,wat_share_basal_sub_u,0.0006922323164505625
+550,2022,Oceania,wat_share_basal_sub_u,0.001165535318013892
+551,2022,Sub-Saharan Africa,wat_share_basal_sub_u,0.003204706303759227
+552,2000,Australia and New Zealand,wat_share_basal_sub_r,0.0
+553,2000,Central and Southern Asia,wat_share_basal_sub_r,0.004502452754623415
+554,2000,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0010207915029809655
+555,2000,Europe and Northern America,wat_share_basal_sub_r,0.0007524136195440961
+556,2000,Latin America and the Caribbean,wat_share_basal_sub_r,0.0018781571909370228
+557,2000,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0007319669907778483
+558,2000,Oceania,wat_share_basal_sub_r,0.0006626443241803834
+559,2000,Sub-Saharan Africa,wat_share_basal_sub_r,0.0015083683849520934
+560,2001,Australia and New Zealand,wat_share_basal_sub_r,0.0
+561,2001,Central and Southern Asia,wat_share_basal_sub_r,0.004452782530867162
+562,2001,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0010504362494777827
+563,2001,Europe and Northern America,wat_share_basal_sub_r,0.0007495261813949442
+564,2001,Latin America and the Caribbean,wat_share_basal_sub_r,0.0018687167498577565
+565,2001,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0007323963578009899
+566,2001,Oceania,wat_share_basal_sub_r,0.0006472213276256189
+567,2001,Sub-Saharan Africa,wat_share_basal_sub_r,0.0015604121565141495
+568,2002,Australia and New Zealand,wat_share_basal_sub_r,0.0
+569,2002,Central and Southern Asia,wat_share_basal_sub_r,0.004403202560852342
+570,2002,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0010748005173730638
+571,2002,Europe and Northern America,wat_share_basal_sub_r,0.000745609995753383
+572,2002,Latin America and the Caribbean,wat_share_basal_sub_r,0.0018804025564618113
+573,2002,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0007354606609972273
+574,2002,Oceania,wat_share_basal_sub_r,0.0006325188930455582
+575,2002,Sub-Saharan Africa,wat_share_basal_sub_r,0.001612085215457749
+576,2003,Australia and New Zealand,wat_share_basal_sub_r,0.0
+577,2003,Central and Southern Asia,wat_share_basal_sub_r,0.004351335547899238
+578,2003,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.001100214688598896
+579,2003,Europe and Northern America,wat_share_basal_sub_r,0.0007410338372767463
+580,2003,Latin America and the Caribbean,wat_share_basal_sub_r,0.0019044300813159654
+581,2003,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0007388827813214546
+582,2003,Oceania,wat_share_basal_sub_r,0.0006181543395355317
+583,2003,Sub-Saharan Africa,wat_share_basal_sub_r,0.0016641715140714283
+584,2004,Australia and New Zealand,wat_share_basal_sub_r,0.0
+585,2004,Central and Southern Asia,wat_share_basal_sub_r,0.004299128290235924
+586,2004,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0011263867636683628
+587,2004,Europe and Northern America,wat_share_basal_sub_r,0.0006863651910472507
+588,2004,Latin America and the Caribbean,wat_share_basal_sub_r,0.0019268974949851999
+589,2004,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0007427665726143064
+590,2004,Oceania,wat_share_basal_sub_r,0.000604084240411338
+591,2004,Sub-Saharan Africa,wat_share_basal_sub_r,0.0017153017403634125
+592,2005,Australia and New Zealand,wat_share_basal_sub_r,0.0
+593,2005,Central and Southern Asia,wat_share_basal_sub_r,0.004245236373355331
+594,2005,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0011587697173775452
+595,2005,Europe and Northern America,wat_share_basal_sub_r,0.0006321359945206234
+596,2005,Latin America and the Caribbean,wat_share_basal_sub_r,0.0019490616920627758
+597,2005,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0007463872667484321
+598,2005,Oceania,wat_share_basal_sub_r,0.0005905548446579927
+599,2005,Sub-Saharan Africa,wat_share_basal_sub_r,0.0017661980742675768
+600,2006,Australia and New Zealand,wat_share_basal_sub_r,0.0
+601,2006,Central and Southern Asia,wat_share_basal_sub_r,0.0041896039607405905
+602,2006,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0011927780609284403
+603,2006,Europe and Northern America,wat_share_basal_sub_r,0.000578410048675168
+604,2006,Latin America and the Caribbean,wat_share_basal_sub_r,0.001971049677925031
+605,2006,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0007457880973061135
+606,2006,Oceania,wat_share_basal_sub_r,0.0005771627906343093
+607,2006,Sub-Saharan Africa,wat_share_basal_sub_r,0.0018166481154888764
+608,2007,Australia and New Zealand,wat_share_basal_sub_r,0.0
+609,2007,Central and Southern Asia,wat_share_basal_sub_r,0.004133833364028344
+610,2007,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0012273385651556201
+611,2007,Europe and Northern America,wat_share_basal_sub_r,0.0005258671010780728
+612,2007,Latin America and the Caribbean,wat_share_basal_sub_r,0.001992834368910332
+613,2007,Northern Africa and Western Asia,wat_share_basal_sub_r,0.000741983681074261
+614,2007,Oceania,wat_share_basal_sub_r,0.0005637571308494924
+615,2007,Sub-Saharan Africa,wat_share_basal_sub_r,0.0018588897518799399
+616,2008,Australia and New Zealand,wat_share_basal_sub_r,0.0
+617,2008,Central and Southern Asia,wat_share_basal_sub_r,0.004076518245865658
+618,2008,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.001262814463401078
+619,2008,Europe and Northern America,wat_share_basal_sub_r,0.00045527647665897825
+620,2008,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020113645625005746
+621,2008,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0007281417536469807
+622,2008,Oceania,wat_share_basal_sub_r,0.000549458034560667
+623,2008,Sub-Saharan Africa,wat_share_basal_sub_r,0.0019035448979982954
+624,2009,Australia and New Zealand,wat_share_basal_sub_r,0.0
+625,2009,Central and Southern Asia,wat_share_basal_sub_r,0.004006306982811267
+626,2009,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.001298924767437555
+627,2009,Europe and Northern America,wat_share_basal_sub_r,0.0004044441400008874
+628,2009,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020300837936475685
+629,2009,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0007170460314241294
+630,2009,Oceania,wat_share_basal_sub_r,0.0005349106130167952
+631,2009,Sub-Saharan Africa,wat_share_basal_sub_r,0.001952267782406422
+632,2010,Australia and New Zealand,wat_share_basal_sub_r,0.0
+633,2010,Central and Southern Asia,wat_share_basal_sub_r,0.003934420223324825
+634,2010,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.001336120960226961
+635,2010,Europe and Northern America,wat_share_basal_sub_r,0.0003541832077980904
+636,2010,Latin America and the Caribbean,wat_share_basal_sub_r,0.002048839024007006
+637,2010,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0007046587566551818
+638,2010,Oceania,wat_share_basal_sub_r,0.000520465154081718
+639,2010,Sub-Saharan Africa,wat_share_basal_sub_r,0.0020007785379718562
+640,2011,Australia and New Zealand,wat_share_basal_sub_r,0.0
+641,2011,Central and Southern Asia,wat_share_basal_sub_r,0.0038602235546136023
+642,2011,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0013722686787527904
+643,2011,Europe and Northern America,wat_share_basal_sub_r,0.00030412758676996813
+644,2011,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020674545958215057
+645,2011,Northern Africa and Western Asia,wat_share_basal_sub_r,0.000691541669184148
+646,2011,Oceania,wat_share_basal_sub_r,0.0005064650898712954
+647,2011,Sub-Saharan Africa,wat_share_basal_sub_r,0.0020157555101627876
+648,2012,Australia and New Zealand,wat_share_basal_sub_r,0.0
+649,2012,Central and Southern Asia,wat_share_basal_sub_r,0.003783367055588687
+650,2012,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0014080783939433694
+651,2012,Europe and Northern America,wat_share_basal_sub_r,0.0002546734181352707
+652,2012,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020857926785342157
+653,2012,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006822701707523375
+654,2012,Oceania,wat_share_basal_sub_r,0.0004929271453763153
+655,2012,Sub-Saharan Africa,wat_share_basal_sub_r,0.0020499555146307104
+656,2013,Australia and New Zealand,wat_share_basal_sub_r,0.0
+657,2013,Central and Southern Asia,wat_share_basal_sub_r,0.0037075702365543476
+658,2013,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.001444537822307249
+659,2013,Europe and Northern America,wat_share_basal_sub_r,0.0002510947253097582
+660,2013,Latin America and the Caribbean,wat_share_basal_sub_r,0.002076674408677398
+661,2013,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006741867486179002
+662,2013,Oceania,wat_share_basal_sub_r,0.00048107233654344874
+663,2013,Sub-Saharan Africa,wat_share_basal_sub_r,0.002090635632478427
+664,2014,Australia and New Zealand,wat_share_basal_sub_r,0.0
+665,2014,Central and Southern Asia,wat_share_basal_sub_r,0.0036298331035623586
+666,2014,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.00148196578649314
+667,2014,Europe and Northern America,wat_share_basal_sub_r,0.000251777236167055
+668,2014,Latin America and the Caribbean,wat_share_basal_sub_r,0.002070206875098366
+669,2014,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006638615251104529
+670,2014,Oceania,wat_share_basal_sub_r,0.0004696996590678387
+671,2014,Sub-Saharan Africa,wat_share_basal_sub_r,0.0021367317236932583
+672,2015,Australia and New Zealand,wat_share_basal_sub_r,0.0
+673,2015,Central and Southern Asia,wat_share_basal_sub_r,0.0035504329160670296
+674,2015,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0015207214343391587
+675,2015,Europe and Northern America,wat_share_basal_sub_r,0.000252697999195589
+676,2015,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020659321132369857
+677,2015,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006530540519817301
+678,2015,Oceania,wat_share_basal_sub_r,0.00045880473669637333
+679,2015,Sub-Saharan Africa,wat_share_basal_sub_r,0.0021830751310768864
+680,2016,Australia and New Zealand,wat_share_basal_sub_r,0.0
+681,2016,Central and Southern Asia,wat_share_basal_sub_r,0.0034698171031605778
+682,2016,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0015608301395271908
+683,2016,Europe and Northern America,wat_share_basal_sub_r,0.0002535183175972685
+684,2016,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020586771128878537
+685,2016,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006438080826695303
+686,2016,Oceania,wat_share_basal_sub_r,0.00044850655640616137
+687,2016,Sub-Saharan Africa,wat_share_basal_sub_r,0.002230392020208582
+688,2017,Australia and New Zealand,wat_share_basal_sub_r,0.0
+689,2017,Central and Southern Asia,wat_share_basal_sub_r,0.0033883085692089187
+690,2017,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0016015006629497355
+691,2017,Europe and Northern America,wat_share_basal_sub_r,0.00025442289176780947
+692,2017,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020615303731319422
+693,2017,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006340728581393546
+694,2017,Oceania,wat_share_basal_sub_r,0.00043874675791719786
+695,2017,Sub-Saharan Africa,wat_share_basal_sub_r,0.002278567340092239
+696,2018,Australia and New Zealand,wat_share_basal_sub_r,0.0
+697,2018,Central and Southern Asia,wat_share_basal_sub_r,0.003305796829691041
+698,2018,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.001646089804271604
+699,2018,Europe and Northern America,wat_share_basal_sub_r,0.0002555352096685846
+700,2018,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020639563256084847
+701,2018,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006242747663018972
+702,2018,Oceania,wat_share_basal_sub_r,0.0004293681756193752
+703,2018,Sub-Saharan Africa,wat_share_basal_sub_r,0.0023250096842949743
+704,2019,Australia and New Zealand,wat_share_basal_sub_r,0.0
+705,2019,Central and Southern Asia,wat_share_basal_sub_r,0.003222674302569984
+706,2019,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0016894916771468067
+707,2019,Europe and Northern America,wat_share_basal_sub_r,0.000256639527285433
+708,2019,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020705719274517506
+709,2019,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006437908195778154
+710,2019,Oceania,wat_share_basal_sub_r,0.00042048368973795163
+711,2019,Sub-Saharan Africa,wat_share_basal_sub_r,0.002370164340907774
+712,2020,Australia and New Zealand,wat_share_basal_sub_r,0.0
+713,2020,Central and Southern Asia,wat_share_basal_sub_r,0.003139107741543692
+714,2020,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0017359465820541169
+715,2020,Europe and Northern America,wat_share_basal_sub_r,0.0002578790394728962
+716,2020,Latin America and the Caribbean,wat_share_basal_sub_r,0.0021100142986914027
+717,2020,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006776093168943127
+718,2020,Oceania,wat_share_basal_sub_r,0.0004134279168485048
+719,2020,Sub-Saharan Africa,wat_share_basal_sub_r,0.002416103802991274
+720,2021,Australia and New Zealand,wat_share_basal_sub_r,0.0
+721,2021,Central and Southern Asia,wat_share_basal_sub_r,0.0030557726964377187
+722,2021,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0017864251248773868
+723,2021,Europe and Northern America,wat_share_basal_sub_r,0.0002603099012948479
+724,2021,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020831343598234193
+725,2021,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006985023317453987
+726,2021,Oceania,wat_share_basal_sub_r,0.00040804090415772496
+727,2021,Sub-Saharan Africa,wat_share_basal_sub_r,0.0024619993788648513
+728,2022,Australia and New Zealand,wat_share_basal_sub_r,0.0
+729,2022,Central and Southern Asia,wat_share_basal_sub_r,0.0029668278914348895
+730,2022,Eastern and South-Eastern Asia,wat_share_basal_sub_r,0.0018312524542347286
+731,2022,Europe and Northern America,wat_share_basal_sub_r,0.0002601451760200755
+732,2022,Latin America and the Caribbean,wat_share_basal_sub_r,0.0020708055288375564
+733,2022,Northern Africa and Western Asia,wat_share_basal_sub_r,0.0006962523983811028
+734,2022,Oceania,wat_share_basal_sub_r,0.00040336389896409246
+735,2022,Sub-Saharan Africa,wat_share_basal_sub_r,0.002503830627958618
+736,2000,Australia and New Zealand,wat_pop_basal_sub_u,2.4774846263699617
+737,2000,Central and Southern Asia,wat_pop_basal_sub_u,492.83279678563855
+738,2000,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1130.6681729936645
+739,2000,Europe and Northern America,wat_pop_basal_sub_u,125.25281044546315
+740,2000,Latin America and the Caribbean,wat_pop_basal_sub_u,445.80162453880837
+741,2000,Northern Africa and Western Asia,wat_pop_basal_sub_u,136.01591555761124
+742,2000,Oceania,wat_pop_basal_sub_u,2.4331219501692543
+743,2000,Sub-Saharan Africa,wat_pop_basal_sub_u,628.8821224709613
+744,2001,Australia and New Zealand,wat_pop_basal_sub_u,2.503451667456031
+745,2001,Central and Southern Asia,wat_pop_basal_sub_u,511.4529077852753
+746,2001,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1170.6655941818626
+747,2001,Europe and Northern America,wat_pop_basal_sub_u,126.09665334019157
+748,2001,Latin America and the Caribbean,wat_pop_basal_sub_u,455.503310653473
+749,2001,Northern Africa and Western Asia,wat_pop_basal_sub_u,139.70177457537721
+750,2001,Oceania,wat_pop_basal_sub_u,2.483511415209604
+751,2001,Sub-Saharan Africa,wat_pop_basal_sub_u,656.6691045630309
+752,2002,Australia and New Zealand,wat_pop_basal_sub_u,2.5367415645888043
+753,2002,Central and Southern Asia,wat_pop_basal_sub_u,531.1777979961164
+754,2002,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1213.1697581750723
+755,2002,Europe and Northern America,wat_pop_basal_sub_u,126.78781026267282
+756,2002,Latin America and the Caribbean,wat_pop_basal_sub_u,465.2234887552047
+757,2002,Northern Africa and Western Asia,wat_pop_basal_sub_u,143.55544978760898
+758,2002,Oceania,wat_pop_basal_sub_u,2.531646883719773
+759,2002,Sub-Saharan Africa,wat_pop_basal_sub_u,684.0942595214445
+760,2003,Australia and New Zealand,wat_pop_basal_sub_u,2.3667792212634033
+761,2003,Central and Southern Asia,wat_pop_basal_sub_u,550.7409979289592
+762,2003,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1256.4725476017104
+763,2003,Europe and Northern America,wat_pop_basal_sub_u,127.32626441090021
+764,2003,Latin America and the Caribbean,wat_pop_basal_sub_u,474.06500749150035
+765,2003,Northern Africa and Western Asia,wat_pop_basal_sub_u,147.43610316126535
+766,2003,Oceania,wat_pop_basal_sub_u,2.5811112188170764
+767,2003,Sub-Saharan Africa,wat_pop_basal_sub_u,712.3717383298036
+768,2004,Australia and New Zealand,wat_pop_basal_sub_u,2.191971498523527
+769,2004,Central and Southern Asia,wat_pop_basal_sub_u,570.4455249422265
+770,2004,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1300.4286680078287
+771,2004,Europe and Northern America,wat_pop_basal_sub_u,126.63944084946482
+772,2004,Latin America and the Caribbean,wat_pop_basal_sub_u,482.81134949391014
+773,2004,Northern Africa and Western Asia,wat_pop_basal_sub_u,151.34753718410354
+774,2004,Oceania,wat_pop_basal_sub_u,2.6321897104797585
+775,2004,Sub-Saharan Africa,wat_pop_basal_sub_u,738.9434448671692
+776,2005,Australia and New Zealand,wat_pop_basal_sub_u,2.013983654526814
+777,2005,Central and Southern Asia,wat_pop_basal_sub_u,576.6693858166864
+778,2005,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1345.1166131147365
+779,2005,Europe and Northern America,wat_pop_basal_sub_u,126.19623988608814
+780,2005,Latin America and the Caribbean,wat_pop_basal_sub_u,491.4386466026085
+781,2005,Northern Africa and Western Asia,wat_pop_basal_sub_u,155.59489467457388
+782,2005,Oceania,wat_pop_basal_sub_u,2.683615708273489
+783,2005,Sub-Saharan Africa,wat_pop_basal_sub_u,767.8686524223754
+784,2006,Australia and New Zealand,wat_pop_basal_sub_u,1.8346806184674123
+785,2006,Central and Southern Asia,wat_pop_basal_sub_u,590.4169163605465
+786,2006,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1390.5305289314056
+787,2006,Europe and Northern America,wat_pop_basal_sub_u,126.13128513111377
+788,2006,Latin America and the Caribbean,wat_pop_basal_sub_u,499.91045262456646
+789,2006,Northern Africa and Western Asia,wat_pop_basal_sub_u,158.50440808979667
+790,2006,Oceania,wat_pop_basal_sub_u,2.7382873651222424
+791,2006,Sub-Saharan Africa,wat_pop_basal_sub_u,797.7356880543123
+792,2007,Australia and New Zealand,wat_pop_basal_sub_u,1.654229103616571
+793,2007,Central and Southern Asia,wat_pop_basal_sub_u,604.0886792561247
+794,2007,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1436.8350554639171
+795,2007,Europe and Northern America,wat_pop_basal_sub_u,125.73965911492101
+796,2007,Latin America and the Caribbean,wat_pop_basal_sub_u,508.43487026229525
+797,2007,Northern Africa and Western Asia,wat_pop_basal_sub_u,160.47059173089661
+798,2007,Oceania,wat_pop_basal_sub_u,2.7947011523461307
+799,2007,Sub-Saharan Africa,wat_pop_basal_sub_u,828.6227650423568
+800,2008,Australia and New Zealand,wat_pop_basal_sub_u,1.4693250283831434
+801,2008,Central and Southern Asia,wat_pop_basal_sub_u,617.7723745668618
+802,2008,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1484.2265976554302
+803,2008,Europe and Northern America,wat_pop_basal_sub_u,125.33340416334268
+804,2008,Latin America and the Caribbean,wat_pop_basal_sub_u,516.7200843209199
+805,2008,Northern Africa and Western Asia,wat_pop_basal_sub_u,159.89478958068398
+806,2008,Oceania,wat_pop_basal_sub_u,2.8527637776371355
+807,2008,Sub-Saharan Africa,wat_pop_basal_sub_u,860.9389919617249
+808,2009,Australia and New Zealand,wat_pop_basal_sub_u,1.274924661383106
+809,2009,Central and Southern Asia,wat_pop_basal_sub_u,632.2446648381392
+810,2009,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1532.5966211411987
+811,2009,Europe and Northern America,wat_pop_basal_sub_u,125.04348781964745
+812,2009,Latin America and the Caribbean,wat_pop_basal_sub_u,524.8457281403925
+813,2009,Northern Africa and Western Asia,wat_pop_basal_sub_u,160.8354969751559
+814,2009,Oceania,wat_pop_basal_sub_u,2.908763243319518
+815,2009,Sub-Saharan Africa,wat_pop_basal_sub_u,896.5782788878777
+816,2010,Australia and New Zealand,wat_pop_basal_sub_u,1.0686593433085791
+817,2010,Central and Southern Asia,wat_pop_basal_sub_u,647.5616037672605
+818,2010,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1581.785883067503
+819,2010,Europe and Northern America,wat_pop_basal_sub_u,122.96628500073217
+820,2010,Latin America and the Caribbean,wat_pop_basal_sub_u,533.0060030107288
+821,2010,Northern Africa and Western Asia,wat_pop_basal_sub_u,161.52231339306405
+822,2010,Oceania,wat_pop_basal_sub_u,2.9608818306179137
+823,2010,Sub-Saharan Africa,wat_pop_basal_sub_u,934.5628489373681
+824,2011,Australia and New Zealand,wat_pop_basal_sub_u,0.853508760363279
+825,2011,Central and Southern Asia,wat_pop_basal_sub_u,663.0952473100239
+826,2011,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1575.5892196444345
+827,2011,Europe and Northern America,wat_pop_basal_sub_u,120.84859426761446
+828,2011,Latin America and the Caribbean,wat_pop_basal_sub_u,541.1849481919392
+829,2011,Northern Africa and Western Asia,wat_pop_basal_sub_u,162.49392342175776
+830,2011,Oceania,wat_pop_basal_sub_u,3.0109783123044678
+831,2011,Sub-Saharan Africa,wat_pop_basal_sub_u,972.6281906185976
+832,2012,Australia and New Zealand,wat_pop_basal_sub_u,0.6314946007973407
+833,2012,Central and Southern Asia,wat_pop_basal_sub_u,672.4469370581576
+834,2012,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1567.714401465947
+835,2012,Europe and Northern America,wat_pop_basal_sub_u,118.69279308246708
+836,2012,Latin America and the Caribbean,wat_pop_basal_sub_u,549.2995552050913
+837,2012,Northern Africa and Western Asia,wat_pop_basal_sub_u,164.28134514889325
+838,2012,Oceania,wat_pop_basal_sub_u,3.059546918337477
+839,2012,Sub-Saharan Africa,wat_pop_basal_sub_u,1012.5067964996629
+840,2013,Australia and New Zealand,wat_pop_basal_sub_u,0.49653638336067507
+841,2013,Central and Southern Asia,wat_pop_basal_sub_u,681.6571144458451
+842,2013,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1556.7817972520531
+843,2013,Europe and Northern America,wat_pop_basal_sub_u,115.68944840166499
+844,2013,Latin America and the Caribbean,wat_pop_basal_sub_u,549.0406924947117
+845,2013,Northern Africa and Western Asia,wat_pop_basal_sub_u,166.19124788343098
+846,2013,Oceania,wat_pop_basal_sub_u,3.1084562005261125
+847,2013,Sub-Saharan Africa,wat_pop_basal_sub_u,1061.5294755485725
+848,2014,Australia and New Zealand,wat_pop_basal_sub_u,0.5462896240175314
+849,2014,Central and Southern Asia,wat_pop_basal_sub_u,690.4843450092765
+850,2014,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1542.529980046168
+851,2014,Europe and Northern America,wat_pop_basal_sub_u,112.61732041987025
+852,2014,Latin America and the Caribbean,wat_pop_basal_sub_u,548.6019260724075
+853,2014,Northern Africa and Western Asia,wat_pop_basal_sub_u,167.12130089332567
+854,2014,Oceania,wat_pop_basal_sub_u,3.159695873562729
+855,2014,Sub-Saharan Africa,wat_pop_basal_sub_u,1112.78623173071
+856,2015,Australia and New Zealand,wat_pop_basal_sub_u,0.5972462951498368
+857,2015,Central and Southern Asia,wat_pop_basal_sub_u,698.5981791576219
+858,2015,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1525.0866516972444
+859,2015,Europe and Northern America,wat_pop_basal_sub_u,110.18163553429366
+860,2015,Latin America and the Caribbean,wat_pop_basal_sub_u,548.3610669199059
+861,2015,Northern Africa and Western Asia,wat_pop_basal_sub_u,169.0703944875152
+862,2015,Oceania,wat_pop_basal_sub_u,3.2103313984396444
+863,2015,Sub-Saharan Africa,wat_pop_basal_sub_u,1166.4674943241735
+864,2016,Australia and New Zealand,wat_pop_basal_sub_u,0.6501719529904695
+865,2016,Central and Southern Asia,wat_pop_basal_sub_u,706.3659143128402
+866,2016,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1504.773145024701
+867,2016,Europe and Northern America,wat_pop_basal_sub_u,107.70317327049197
+868,2016,Latin America and the Caribbean,wat_pop_basal_sub_u,548.9532768002146
+869,2016,Northern Africa and Western Asia,wat_pop_basal_sub_u,178.11605554726765
+870,2016,Oceania,wat_pop_basal_sub_u,3.2606300536860817
+871,2016,Sub-Saharan Africa,wat_pop_basal_sub_u,1222.180835212541
+872,2017,Australia and New Zealand,wat_pop_basal_sub_u,0.7051391132200914
+873,2017,Central and Southern Asia,wat_pop_basal_sub_u,714.6580112334867
+874,2017,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1481.008959522246
+875,2017,Europe and Northern America,wat_pop_basal_sub_u,105.1789181156285
+876,2017,Latin America and the Caribbean,wat_pop_basal_sub_u,553.7682596397625
+877,2017,Northern Africa and Western Asia,wat_pop_basal_sub_u,188.83715669775182
+878,2017,Oceania,wat_pop_basal_sub_u,3.3102125443346724
+879,2017,Sub-Saharan Africa,wat_pop_basal_sub_u,1280.1698939990656
+880,2018,Australia and New Zealand,wat_pop_basal_sub_u,0.7614977235242908
+881,2018,Central and Southern Asia,wat_pop_basal_sub_u,723.3758189232843
+882,2018,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1454.2310504894053
+883,2018,Europe and Northern America,wat_pop_basal_sub_u,102.56273686383686
+884,2018,Latin America and the Caribbean,wat_pop_basal_sub_u,555.4583106898261
+885,2018,Northern Africa and Western Asia,wat_pop_basal_sub_u,203.69272759958812
+886,2018,Oceania,wat_pop_basal_sub_u,3.3589708360211143
+887,2018,Sub-Saharan Africa,wat_pop_basal_sub_u,1340.4102640556591
+888,2019,Australia and New Zealand,wat_pop_basal_sub_u,0.8190611753381227
+889,2019,Central and Southern Asia,wat_pop_basal_sub_u,733.3170634114714
+890,2019,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1424.9540086060833
+891,2019,Europe and Northern America,wat_pop_basal_sub_u,99.87539252655291
+892,2019,Latin America and the Caribbean,wat_pop_basal_sub_u,556.8817444497806
+893,2019,Northern Africa and Western Asia,wat_pop_basal_sub_u,215.17183830313365
+894,2019,Oceania,wat_pop_basal_sub_u,3.407240171167422
+895,2019,Sub-Saharan Africa,wat_pop_basal_sub_u,1402.549573246834
+896,2020,Australia and New Zealand,wat_pop_basal_sub_u,0.8759469166821447
+897,2020,Central and Southern Asia,wat_pop_basal_sub_u,744.3987262480122
+898,2020,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1429.2183570480638
+899,2020,Europe and Northern America,wat_pop_basal_sub_u,97.00802567338147
+900,2020,Latin America and the Caribbean,wat_pop_basal_sub_u,556.985159662709
+901,2020,Northern Africa and Western Asia,wat_pop_basal_sub_u,226.73163588954807
+902,2020,Oceania,wat_pop_basal_sub_u,3.4640541735910104
+903,2020,Sub-Saharan Africa,wat_pop_basal_sub_u,1466.9303994442596
+904,2021,Australia and New Zealand,wat_pop_basal_sub_u,0.9319181634842154
+905,2021,Central and Southern Asia,wat_pop_basal_sub_u,755.9439285430997
+906,2021,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1446.1447970367328
+907,2021,Europe and Northern America,wat_pop_basal_sub_u,94.17494749800535
+908,2021,Latin America and the Caribbean,wat_pop_basal_sub_u,544.3780811104582
+909,2021,Northern Africa and Western Asia,wat_pop_basal_sub_u,237.02550012687698
+910,2021,Oceania,wat_pop_basal_sub_u,3.526625516164909
+911,2021,Sub-Saharan Africa,wat_pop_basal_sub_u,1535.4462985348441
+912,2022,Australia and New Zealand,wat_pop_basal_sub_u,0.9891952891218118
+913,2022,Central and Southern Asia,wat_pop_basal_sub_u,773.240596328907
+914,2022,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1463.661696869103
+915,2022,Europe and Northern America,wat_pop_basal_sub_u,91.77314578788122
+916,2022,Latin America and the Caribbean,wat_pop_basal_sub_u,542.3961504500119
+917,2022,Northern Africa and Western Asia,wat_pop_basal_sub_u,242.3942918346073
+918,2022,Oceania,wat_pop_basal_sub_u,3.593210369533522
+919,2022,Sub-Saharan Africa,wat_pop_basal_sub_u,1596.9516910757527
+920,2000,Australia and New Zealand,wat_share_lim_r,0.0
+921,2000,Central and Southern Asia,wat_share_lim_r,0.043164592094765405
+922,2000,Eastern and South-Eastern Asia,wat_share_lim_r,0.010111655749916262
+923,2000,Europe and Northern America,wat_share_lim_r,0.00470121375990919
+924,2000,Latin America and the Caribbean,wat_share_lim_r,0.025316226826646356
+925,2000,Northern Africa and Western Asia,wat_share_lim_r,0.06676226295323077
+926,2000,Oceania,wat_share_lim_r,0.012950234058279027
+927,2000,Sub-Saharan Africa,wat_share_lim_r,0.09106353357965241
+928,2001,Australia and New Zealand,wat_share_lim_r,0.0
+929,2001,Central and Southern Asia,wat_share_lim_r,0.043514345923831695
+930,2001,Eastern and South-Eastern Asia,wat_share_lim_r,0.010079835426191985
+931,2001,Europe and Northern America,wat_share_lim_r,0.004649800212070332
+932,2001,Latin America and the Caribbean,wat_share_lim_r,0.0245946127768042
+933,2001,Northern Africa and Western Asia,wat_share_lim_r,0.06701303064735414
+934,2001,Oceania,wat_share_lim_r,0.012893903874209795
+935,2001,Sub-Saharan Africa,wat_share_lim_r,0.09458171417939365
+936,2002,Australia and New Zealand,wat_share_lim_r,0.0
+937,2002,Central and Southern Asia,wat_share_lim_r,0.04368977677365162
+938,2002,Eastern and South-Eastern Asia,wat_share_lim_r,0.010655439477262232
+939,2002,Europe and Northern America,wat_share_lim_r,0.004640615652937828
+940,2002,Latin America and the Caribbean,wat_share_lim_r,0.023702799883076837
+941,2002,Northern Africa and Western Asia,wat_share_lim_r,0.06702319917072704
+942,2002,Oceania,wat_share_lim_r,0.012838430940989205
+943,2002,Sub-Saharan Africa,wat_share_lim_r,0.09818318284973786
+944,2003,Australia and New Zealand,wat_share_lim_r,0.0
+945,2003,Central and Southern Asia,wat_share_lim_r,0.04386824537153916
+946,2003,Eastern and South-Eastern Asia,wat_share_lim_r,0.01120615839560675
+947,2003,Europe and Northern America,wat_share_lim_r,0.004629128998683282
+948,2003,Latin America and the Caribbean,wat_share_lim_r,0.022781533642991385
+949,2003,Northern Africa and Western Asia,wat_share_lim_r,0.0676953218583244
+950,2003,Oceania,wat_share_lim_r,0.012785800531988734
+951,2003,Sub-Saharan Africa,wat_share_lim_r,0.10185872385047189
+952,2004,Australia and New Zealand,wat_share_lim_r,0.0
+953,2004,Central and Southern Asia,wat_share_lim_r,0.044050929459065705
+954,2004,Eastern and South-Eastern Asia,wat_share_lim_r,0.011776249875383171
+955,2004,Europe and Northern America,wat_share_lim_r,0.004622298912825757
+956,2004,Latin America and the Caribbean,wat_share_lim_r,0.021945003324904556
+957,2004,Northern Africa and Western Asia,wat_share_lim_r,0.06843149447646862
+958,2004,Oceania,wat_share_lim_r,0.012735212143354645
+959,2004,Sub-Saharan Africa,wat_share_lim_r,0.1055002591015849
+960,2005,Australia and New Zealand,wat_share_lim_r,0.0
+961,2005,Central and Southern Asia,wat_share_lim_r,0.04420495121400861
+962,2005,Eastern and South-Eastern Asia,wat_share_lim_r,0.012372943170119737
+963,2005,Europe and Northern America,wat_share_lim_r,0.004591580324306064
+964,2005,Latin America and the Caribbean,wat_share_lim_r,0.02107359895115182
+965,2005,Northern Africa and Western Asia,wat_share_lim_r,0.07000732179884528
+966,2005,Oceania,wat_share_lim_r,0.012995447632573152
+967,2005,Sub-Saharan Africa,wat_share_lim_r,0.1091211157270077
+968,2006,Australia and New Zealand,wat_share_lim_r,0.0
+969,2006,Central and Southern Asia,wat_share_lim_r,0.04436493009960288
+970,2006,Eastern and South-Eastern Asia,wat_share_lim_r,0.013002775504521434
+971,2006,Europe and Northern America,wat_share_lim_r,0.004580527582714612
+972,2006,Latin America and the Caribbean,wat_share_lim_r,0.020182379499224228
+973,2006,Northern Africa and Western Asia,wat_share_lim_r,0.07166565585467068
+974,2006,Oceania,wat_share_lim_r,0.013363677916808068
+975,2006,Sub-Saharan Africa,wat_share_lim_r,0.1127142806841559
+976,2007,Australia and New Zealand,wat_share_lim_r,0.0
+977,2007,Central and Southern Asia,wat_share_lim_r,0.04447494120891121
+978,2007,Eastern and South-Eastern Asia,wat_share_lim_r,0.013638297478892964
+979,2007,Europe and Northern America,wat_share_lim_r,0.00455242536460927
+980,2007,Latin America and the Caribbean,wat_share_lim_r,0.01927219993378958
+981,2007,Northern Africa and Western Asia,wat_share_lim_r,0.07338168866051344
+982,2007,Oceania,wat_share_lim_r,0.013735052919389083
+983,2007,Sub-Saharan Africa,wat_share_lim_r,0.11633782217699858
+984,2008,Australia and New Zealand,wat_share_lim_r,0.0
+985,2008,Central and Southern Asia,wat_share_lim_r,0.04457846586670539
+986,2008,Eastern and South-Eastern Asia,wat_share_lim_r,0.014275961941970677
+987,2008,Europe and Northern America,wat_share_lim_r,0.004527473218114521
+988,2008,Latin America and the Caribbean,wat_share_lim_r,0.0184628188474307
+989,2008,Northern Africa and Western Asia,wat_share_lim_r,0.07504607166371387
+990,2008,Oceania,wat_share_lim_r,0.01411279988744755
+991,2008,Sub-Saharan Africa,wat_share_lim_r,0.11992820332996697
+992,2009,Australia and New Zealand,wat_share_lim_r,0.0
+993,2009,Central and Southern Asia,wat_share_lim_r,0.044672367125828276
+994,2009,Eastern and South-Eastern Asia,wat_share_lim_r,0.014915988681381059
+995,2009,Europe and Northern America,wat_share_lim_r,0.004447794234407953
+996,2009,Latin America and the Caribbean,wat_share_lim_r,0.018506229794512597
+997,2009,Northern Africa and Western Asia,wat_share_lim_r,0.07673513449401398
+998,2009,Oceania,wat_share_lim_r,0.014959391064975796
+999,2009,Sub-Saharan Africa,wat_share_lim_r,0.12351762810247625
+1000,2010,Australia and New Zealand,wat_share_lim_r,0.0
+1001,2010,Central and Southern Asia,wat_share_lim_r,0.04474731242084783
+1002,2010,Eastern and South-Eastern Asia,wat_share_lim_r,0.01556759863533794
+1003,2010,Europe and Northern America,wat_share_lim_r,0.004356139485204639
+1004,2010,Latin America and the Caribbean,wat_share_lim_r,0.018531341972917274
+1005,2010,Northern Africa and Western Asia,wat_share_lim_r,0.0784970705886136
+1006,2010,Oceania,wat_share_lim_r,0.015849226850895154
+1007,2010,Sub-Saharan Africa,wat_share_lim_r,0.1270904964658464
+1008,2011,Australia and New Zealand,wat_share_lim_r,0.0
+1009,2011,Central and Southern Asia,wat_share_lim_r,0.044810625078961316
+1010,2011,Eastern and South-Eastern Asia,wat_share_lim_r,0.016201359412020593
+1011,2011,Europe and Northern America,wat_share_lim_r,0.0042660344831210424
+1012,2011,Latin America and the Caribbean,wat_share_lim_r,0.018555619711389755
+1013,2011,Northern Africa and Western Asia,wat_share_lim_r,0.08032026686962
+1014,2011,Oceania,wat_share_lim_r,0.016784833329384144
+1015,2011,Sub-Saharan Africa,wat_share_lim_r,0.13228384760027706
+1016,2012,Australia and New Zealand,wat_share_lim_r,0.0
+1017,2012,Central and Southern Asia,wat_share_lim_r,0.04486184454995852
+1018,2012,Eastern and South-Eastern Asia,wat_share_lim_r,0.016830723968108682
+1019,2012,Europe and Northern America,wat_share_lim_r,0.004177233047249996
+1020,2012,Latin America and the Caribbean,wat_share_lim_r,0.01860069950957008
+1021,2012,Northern Africa and Western Asia,wat_share_lim_r,0.08182796985335763
+1022,2012,Oceania,wat_share_lim_r,0.017767381896274817
+1023,2012,Sub-Saharan Africa,wat_share_lim_r,0.13609417321770678
+1024,2013,Australia and New Zealand,wat_share_lim_r,0.0
+1025,2013,Central and Southern Asia,wat_share_lim_r,0.04489771482062217
+1026,2013,Eastern and South-Eastern Asia,wat_share_lim_r,0.017460128381124495
+1027,2013,Europe and Northern America,wat_share_lim_r,0.003609997942376924
+1028,2013,Latin America and the Caribbean,wat_share_lim_r,0.01865242592118658
+1029,2013,Northern Africa and Western Asia,wat_share_lim_r,0.08324223899139277
+1030,2013,Oceania,wat_share_lim_r,0.01866029933279734
+1031,2013,Sub-Saharan Africa,wat_share_lim_r,0.1399423182099032
+1032,2014,Australia and New Zealand,wat_share_lim_r,0.0
+1033,2014,Central and Southern Asia,wat_share_lim_r,0.04491659656321518
+1034,2014,Eastern and South-Eastern Asia,wat_share_lim_r,0.01808840758425303
+1035,2014,Europe and Northern America,wat_share_lim_r,0.0035692332281016003
+1036,2014,Latin America and the Caribbean,wat_share_lim_r,0.01863566155950656
+1037,2014,Northern Africa and Western Asia,wat_share_lim_r,0.08472268377381185
+1038,2014,Oceania,wat_share_lim_r,0.019599211050299888
+1039,2014,Sub-Saharan Africa,wat_share_lim_r,0.1437440338607628
+1040,2015,Australia and New Zealand,wat_share_lim_r,0.0
+1041,2015,Central and Southern Asia,wat_share_lim_r,0.04491889613021813
+1042,2015,Eastern and South-Eastern Asia,wat_share_lim_r,0.018714503514221686
+1043,2015,Europe and Northern America,wat_share_lim_r,0.0035251095225797956
+1044,2015,Latin America and the Caribbean,wat_share_lim_r,0.018622492007552383
+1045,2015,Northern Africa and Western Asia,wat_share_lim_r,0.08627971393876006
+1046,2015,Oceania,wat_share_lim_r,0.020584878167297396
+1047,2015,Sub-Saharan Africa,wat_share_lim_r,0.1475060438974891
+1048,2016,Australia and New Zealand,wat_share_lim_r,0.0
+1049,2016,Central and Southern Asia,wat_share_lim_r,0.04490450838687547
+1050,2016,Eastern and South-Eastern Asia,wat_share_lim_r,0.019338340828349426
+1051,2016,Europe and Northern America,wat_share_lim_r,0.003482206283353933
+1052,2016,Latin America and the Caribbean,wat_share_lim_r,0.018545571540666328
+1053,2016,Northern Africa and Western Asia,wat_share_lim_r,0.08808616006888657
+1054,2016,Oceania,wat_share_lim_r,0.021616465136323062
+1055,2016,Sub-Saharan Africa,wat_share_lim_r,0.15129909093827099
+1056,2017,Australia and New Zealand,wat_share_lim_r,0.0
+1057,2017,Central and Southern Asia,wat_share_lim_r,0.04487140174834854
+1058,2017,Eastern and South-Eastern Asia,wat_share_lim_r,0.0199564966714894
+1059,2017,Europe and Northern America,wat_share_lim_r,0.0034385156271085097
+1060,2017,Latin America and the Caribbean,wat_share_lim_r,0.018711707661449407
+1061,2017,Northern Africa and Western Asia,wat_share_lim_r,0.09000088739502182
+1062,2017,Oceania,wat_share_lim_r,0.022691500300405808
+1063,2017,Sub-Saharan Africa,wat_share_lim_r,0.15422498744146584
+1064,2018,Australia and New Zealand,wat_share_lim_r,0.0
+1065,2018,Central and Southern Asia,wat_share_lim_r,0.04482100474919582
+1066,2018,Eastern and South-Eastern Asia,wat_share_lim_r,0.02024591913588368
+1067,2018,Europe and Northern America,wat_share_lim_r,0.0033842869891472036
+1068,2018,Latin America and the Caribbean,wat_share_lim_r,0.01875924148878105
+1069,2018,Northern Africa and Western Asia,wat_share_lim_r,0.09207506903693731
+1070,2018,Oceania,wat_share_lim_r,0.023809549131679892
+1071,2018,Sub-Saharan Africa,wat_share_lim_r,0.15797582747634564
+1072,2019,Australia and New Zealand,wat_share_lim_r,0.0
+1073,2019,Central and Southern Asia,wat_share_lim_r,0.04473863097647977
+1074,2019,Eastern and South-Eastern Asia,wat_share_lim_r,0.020833298292638393
+1075,2019,Europe and Northern America,wat_share_lim_r,0.003340529350394286
+1076,2019,Latin America and the Caribbean,wat_share_lim_r,0.018244657383608736
+1077,2019,Northern Africa and Western Asia,wat_share_lim_r,0.09412007420399521
+1078,2019,Oceania,wat_share_lim_r,0.02494471084079917
+1079,2019,Sub-Saharan Africa,wat_share_lim_r,0.16190220866112334
+1080,2020,Australia and New Zealand,wat_share_lim_r,0.0
+1081,2020,Central and Southern Asia,wat_share_lim_r,0.04464286102114821
+1082,2020,Eastern and South-Eastern Asia,wat_share_lim_r,0.02138678181577344
+1083,2020,Europe and Northern America,wat_share_lim_r,0.0032583159446954997
+1084,2020,Latin America and the Caribbean,wat_share_lim_r,0.01418494155496213
+1085,2020,Northern Africa and Western Asia,wat_share_lim_r,0.09620018604312912
+1086,2020,Oceania,wat_share_lim_r,0.026122664206158018
+1087,2020,Sub-Saharan Africa,wat_share_lim_r,0.1654406453965459
+1088,2021,Australia and New Zealand,wat_share_lim_r,0.0
+1089,2021,Central and Southern Asia,wat_share_lim_r,0.04452585687277188
+1090,2021,Eastern and South-Eastern Asia,wat_share_lim_r,0.01776073498105216
+1091,2021,Europe and Northern America,wat_share_lim_r,0.003165215505117864
+1092,2021,Latin America and the Caribbean,wat_share_lim_r,0.010998793757754607
+1093,2021,Northern Africa and Western Asia,wat_share_lim_r,0.09851055846527683
+1094,2021,Oceania,wat_share_lim_r,0.026619024642057995
+1095,2021,Sub-Saharan Africa,wat_share_lim_r,0.16890089707650002
+1096,2022,Australia and New Zealand,wat_share_lim_r,0.0
+1097,2022,Central and Southern Asia,wat_share_lim_r,0.044267895626499514
+1098,2022,Eastern and South-Eastern Asia,wat_share_lim_r,0.011599495052368016
+1099,2022,Europe and Northern America,wat_share_lim_r,0.0031722839885779865
+1100,2022,Latin America and the Caribbean,wat_share_lim_r,0.01100543304488682
+1101,2022,Northern Africa and Western Asia,wat_share_lim_r,0.10003764858038196
+1102,2022,Oceania,wat_share_lim_r,0.027109713133876435
+1103,2022,Sub-Saharan Africa,wat_share_lim_r,0.1715365303856411
+1104,2000,Australia and New Zealand,wat_share_lim_u,0.0
+1105,2000,Central and Southern Asia,wat_share_lim_u,0.01808223101413653
+1106,2000,Eastern and South-Eastern Asia,wat_share_lim_u,0.007806081703409082
+1107,2000,Europe and Northern America,wat_share_lim_u,0.0015670296653990399
+1108,2000,Latin America and the Caribbean,wat_share_lim_u,0.0032478740909842414
+1109,2000,Northern Africa and Western Asia,wat_share_lim_u,0.02634385283349503
+1110,2000,Oceania,wat_share_lim_u,0.019357099554060706
+1111,2000,Sub-Saharan Africa,wat_share_lim_u,0.08629708401182516
+1112,2001,Australia and New Zealand,wat_share_lim_u,0.0
+1113,2001,Central and Southern Asia,wat_share_lim_u,0.018086826274927397
+1114,2001,Eastern and South-Eastern Asia,wat_share_lim_u,0.007672120816735739
+1115,2001,Europe and Northern America,wat_share_lim_u,0.001563172891852531
+1116,2001,Latin America and the Caribbean,wat_share_lim_u,0.0031913297021501797
+1117,2001,Northern Africa and Western Asia,wat_share_lim_u,0.026370428837167954
+1118,2001,Oceania,wat_share_lim_u,0.02192114306330789
+1119,2001,Sub-Saharan Africa,wat_share_lim_u,0.08783740340653914
+1120,2002,Australia and New Zealand,wat_share_lim_u,0.0
+1121,2002,Central and Southern Asia,wat_share_lim_u,0.018143496610551084
+1122,2002,Eastern and South-Eastern Asia,wat_share_lim_u,0.007453758890850074
+1123,2002,Europe and Northern America,wat_share_lim_u,0.0015593257996355595
+1124,2002,Latin America and the Caribbean,wat_share_lim_u,0.003110654486331416
+1125,2002,Northern Africa and Western Asia,wat_share_lim_u,0.026370371460708728
+1126,2002,Oceania,wat_share_lim_u,0.022058359330587484
+1127,2002,Sub-Saharan Africa,wat_share_lim_u,0.08806173949996816
+1128,2003,Australia and New Zealand,wat_share_lim_u,0.0
+1129,2003,Central and Southern Asia,wat_share_lim_u,0.01820887336125809
+1130,2003,Eastern and South-Eastern Asia,wat_share_lim_u,0.007236366594497387
+1131,2003,Europe and Northern America,wat_share_lim_u,0.0015758968145926347
+1132,2003,Latin America and the Caribbean,wat_share_lim_u,0.0030344864086030367
+1133,2003,Northern Africa and Western Asia,wat_share_lim_u,0.02638442066348611
+1134,2003,Oceania,wat_share_lim_u,0.022174062095906298
+1135,2003,Sub-Saharan Africa,wat_share_lim_u,0.08818553430599055
+1136,2004,Australia and New Zealand,wat_share_lim_u,0.0
+1137,2004,Central and Southern Asia,wat_share_lim_u,0.01826042220685068
+1138,2004,Eastern and South-Eastern Asia,wat_share_lim_u,0.00702852929547882
+1139,2004,Europe and Northern America,wat_share_lim_u,0.0018659587529007398
+1140,2004,Latin America and the Caribbean,wat_share_lim_u,0.002958876591211393
+1141,2004,Northern Africa and Western Asia,wat_share_lim_u,0.026424499778217436
+1142,2004,Oceania,wat_share_lim_u,0.022282773856858024
+1143,2004,Sub-Saharan Africa,wat_share_lim_u,0.08839567856200777
+1144,2005,Australia and New Zealand,wat_share_lim_u,0.0
+1145,2005,Central and Southern Asia,wat_share_lim_u,0.020203215660565443
+1146,2005,Eastern and South-Eastern Asia,wat_share_lim_u,0.006825206184855449
+1147,2005,Europe and Northern America,wat_share_lim_u,0.0021190920908647935
+1148,2005,Latin America and the Caribbean,wat_share_lim_u,0.0028970871823417728
+1149,2005,Northern Africa and Western Asia,wat_share_lim_u,0.02653899057556884
+1150,2005,Oceania,wat_share_lim_u,0.022398644186177655
+1151,2005,Sub-Saharan Africa,wat_share_lim_u,0.08855179982683622
+1152,2006,Australia and New Zealand,wat_share_lim_u,0.0
+1153,2006,Central and Southern Asia,wat_share_lim_u,0.02056882880807467
+1154,2006,Eastern and South-Eastern Asia,wat_share_lim_u,0.006620605156295355
+1155,2006,Europe and Northern America,wat_share_lim_u,0.00238223725818019
+1156,2006,Latin America and the Caribbean,wat_share_lim_u,0.002836939512374801
+1157,2006,Northern Africa and Western Asia,wat_share_lim_u,0.026651940384101108
+1158,2006,Oceania,wat_share_lim_u,0.022513580274490276
+1159,2006,Sub-Saharan Africa,wat_share_lim_u,0.08862715307439271
+1160,2007,Australia and New Zealand,wat_share_lim_u,0.0
+1161,2007,Central and Southern Asia,wat_share_lim_u,0.020851446346370626
+1162,2007,Eastern and South-Eastern Asia,wat_share_lim_u,0.006419533248802681
+1163,2007,Europe and Northern America,wat_share_lim_u,0.002621726943403564
+1164,2007,Latin America and the Caribbean,wat_share_lim_u,0.002777249053535833
+1165,2007,Northern Africa and Western Asia,wat_share_lim_u,0.026796443758145373
+1166,2007,Oceania,wat_share_lim_u,0.022629477183748154
+1167,2007,Sub-Saharan Africa,wat_share_lim_u,0.08858898164352881
+1168,2008,Australia and New Zealand,wat_share_lim_u,0.0
+1169,2008,Central and Southern Asia,wat_share_lim_u,0.02113679589934326
+1170,2008,Eastern and South-Eastern Asia,wat_share_lim_u,0.006219821251662219
+1171,2008,Europe and Northern America,wat_share_lim_u,0.0028560843905553364
+1172,2008,Latin America and the Caribbean,wat_share_lim_u,0.0027232049908433274
+1173,2008,Northern Africa and Western Asia,wat_share_lim_u,0.026892246782966867
+1174,2008,Oceania,wat_share_lim_u,0.022747929138739666
+1175,2008,Sub-Saharan Africa,wat_share_lim_u,0.08863225593036042
+1176,2009,Australia and New Zealand,wat_share_lim_u,0.0
+1177,2009,Central and Southern Asia,wat_share_lim_u,0.021425423001626198
+1178,2009,Eastern and South-Eastern Asia,wat_share_lim_u,0.006023377417082149
+1179,2009,Europe and Northern America,wat_share_lim_u,0.003088282596617693
+1180,2009,Latin America and the Caribbean,wat_share_lim_u,0.002729701188014516
+1181,2009,Northern Africa and Western Asia,wat_share_lim_u,0.026978233628328466
+1182,2009,Oceania,wat_share_lim_u,0.021562269547091673
+1183,2009,Sub-Saharan Africa,wat_share_lim_u,0.08864415706289852
+1184,2010,Australia and New Zealand,wat_share_lim_u,0.0
+1185,2010,Central and Southern Asia,wat_share_lim_u,0.02170916587250004
+1186,2010,Eastern and South-Eastern Asia,wat_share_lim_u,0.005832275708390053
+1187,2010,Europe and Northern America,wat_share_lim_u,0.003315624416630902
+1188,2010,Latin America and the Caribbean,wat_share_lim_u,0.002736655214614687
+1189,2010,Northern Africa and Western Asia,wat_share_lim_u,0.027136423735967113
+1190,2010,Oceania,wat_share_lim_u,0.020412099856711444
+1191,2010,Sub-Saharan Africa,wat_share_lim_u,0.08863924875742266
+1192,2011,Australia and New Zealand,wat_share_lim_u,0.0
+1193,2011,Central and Southern Asia,wat_share_lim_u,0.02199534314766384
+1194,2011,Eastern and South-Eastern Asia,wat_share_lim_u,0.005651724669496016
+1195,2011,Europe and Northern America,wat_share_lim_u,0.0035388865788553965
+1196,2011,Latin America and the Caribbean,wat_share_lim_u,0.002743429561403151
+1197,2011,Northern Africa and Western Asia,wat_share_lim_u,0.027329020308901896
+1198,2011,Oceania,wat_share_lim_u,0.019218810766398017
+1199,2011,Sub-Saharan Africa,wat_share_lim_u,0.0894708591917516
+1200,2012,Australia and New Zealand,wat_share_lim_u,0.0
+1201,2012,Central and Southern Asia,wat_share_lim_u,0.022280987204352114
+1202,2012,Eastern and South-Eastern Asia,wat_share_lim_u,0.005473108810774019
+1203,2012,Europe and Northern America,wat_share_lim_u,0.003760808648422334
+1204,2012,Latin America and the Caribbean,wat_share_lim_u,0.0027501197949085974
+1205,2012,Northern Africa and Western Asia,wat_share_lim_u,0.02748921926139355
+1206,2012,Oceania,wat_share_lim_u,0.017990204099837804
+1207,2012,Sub-Saharan Africa,wat_share_lim_u,0.08929083723908524
+1208,2013,Australia and New Zealand,wat_share_lim_u,0.0
+1209,2013,Central and Southern Asia,wat_share_lim_u,0.02256001847522672
+1210,2013,Eastern and South-Eastern Asia,wat_share_lim_u,0.005294816767713899
+1211,2013,Europe and Northern America,wat_share_lim_u,0.0039733074227015575
+1212,2013,Latin America and the Caribbean,wat_share_lim_u,0.0027577035333151167
+1213,2013,Northern Africa and Western Asia,wat_share_lim_u,0.027555093667494843
+1214,2013,Oceania,wat_share_lim_u,0.016583015643748464
+1215,2013,Sub-Saharan Africa,wat_share_lim_u,0.08909822067442577
+1216,2014,Australia and New Zealand,wat_share_lim_u,0.0
+1217,2014,Central and Southern Asia,wat_share_lim_u,0.02283075201956239
+1218,2014,Eastern and South-Eastern Asia,wat_share_lim_u,0.005116848322229825
+1219,2014,Europe and Northern America,wat_share_lim_u,0.0041697719903687255
+1220,2014,Latin America and the Caribbean,wat_share_lim_u,0.0027558841717479593
+1221,2014,Northern Africa and Western Asia,wat_share_lim_u,0.027641595808316696
+1222,2014,Oceania,wat_share_lim_u,0.015170316306344932
+1223,2014,Sub-Saharan Africa,wat_share_lim_u,0.08884956510961083
+1224,2015,Australia and New Zealand,wat_share_lim_u,0.0
+1225,2015,Central and Southern Asia,wat_share_lim_u,0.023093301515704018
+1226,2015,Eastern and South-Eastern Asia,wat_share_lim_u,0.004940029950372992
+1227,2015,Europe and Northern America,wat_share_lim_u,0.004101709951663635
+1228,2015,Latin America and the Caribbean,wat_share_lim_u,0.002755741002048559
+1229,2015,Northern Africa and Western Asia,wat_share_lim_u,0.02860354257086345
+1230,2015,Oceania,wat_share_lim_u,0.013755130184300034
+1231,2015,Sub-Saharan Africa,wat_share_lim_u,0.08853521618989384
+1232,2016,Australia and New Zealand,wat_share_lim_u,0.0
+1233,2016,Central and Southern Asia,wat_share_lim_u,0.023355405874509787
+1234,2016,Eastern and South-Eastern Asia,wat_share_lim_u,0.004749836857171105
+1235,2016,Europe and Northern America,wat_share_lim_u,0.004034745566867878
+1236,2016,Latin America and the Caribbean,wat_share_lim_u,0.0027605764622116937
+1237,2016,Northern Africa and Western Asia,wat_share_lim_u,0.028979634328445508
+1238,2016,Oceania,wat_share_lim_u,0.012332071414555603
+1239,2016,Sub-Saharan Africa,wat_share_lim_u,0.08833482167375284
+1240,2017,Australia and New Zealand,wat_share_lim_u,0.0
+1241,2017,Central and Southern Asia,wat_share_lim_u,0.023620799817568563
+1242,2017,Eastern and South-Eastern Asia,wat_share_lim_u,0.004574041607436806
+1243,2017,Europe and Northern America,wat_share_lim_u,0.003966256480815245
+1244,2017,Latin America and the Caribbean,wat_share_lim_u,0.0020660057946320746
+1245,2017,Northern Africa and Western Asia,wat_share_lim_u,0.029420227117281473
+1246,2017,Oceania,wat_share_lim_u,0.01089302511746575
+1247,2017,Sub-Saharan Africa,wat_share_lim_u,0.08794618845138606
+1248,2018,Australia and New Zealand,wat_share_lim_u,0.0
+1249,2018,Central and Southern Asia,wat_share_lim_u,0.023872793124942657
+1250,2018,Eastern and South-Eastern Asia,wat_share_lim_u,0.004352995331706539
+1251,2018,Europe and Northern America,wat_share_lim_u,0.0038975830539844936
+1252,2018,Latin America and the Caribbean,wat_share_lim_u,0.002092170788846453
+1253,2018,Northern Africa and Western Asia,wat_share_lim_u,0.028745038391827075
+1254,2018,Oceania,wat_share_lim_u,0.00942251279094615
+1255,2018,Sub-Saharan Africa,wat_share_lim_u,0.08761498200122511
+1256,2019,Australia and New Zealand,wat_share_lim_u,0.0
+1257,2019,Central and Southern Asia,wat_share_lim_u,0.024121832666031632
+1258,2019,Eastern and South-Eastern Asia,wat_share_lim_u,0.004043755735935355
+1259,2019,Europe and Northern America,wat_share_lim_u,0.0038287773036011987
+1260,2019,Latin America and the Caribbean,wat_share_lim_u,0.002118723773338498
+1261,2019,Northern Africa and Western Asia,wat_share_lim_u,0.029240814837708
+1262,2019,Oceania,wat_share_lim_u,0.007931006631570408
+1263,2019,Sub-Saharan Africa,wat_share_lim_u,0.0877989511507889
+1264,2020,Australia and New Zealand,wat_share_lim_u,0.0
+1265,2020,Central and Southern Asia,wat_share_lim_u,0.02439333009828918
+1266,2020,Eastern and South-Eastern Asia,wat_share_lim_u,0.0038615412543858297
+1267,2020,Europe and Northern America,wat_share_lim_u,0.0037452085530160282
+1268,2020,Latin America and the Caribbean,wat_share_lim_u,0.0021222959009541058
+1269,2020,Northern Africa and Western Asia,wat_share_lim_u,0.02978447506998131
+1270,2020,Oceania,wat_share_lim_u,0.006416150045738697
+1271,2020,Sub-Saharan Africa,wat_share_lim_u,0.08801638593461233
+1272,2021,Australia and New Zealand,wat_share_lim_u,0.0
+1273,2021,Central and Southern Asia,wat_share_lim_u,0.02466741163571
+1274,2021,Eastern and South-Eastern Asia,wat_share_lim_u,0.0037957594861301697
+1275,2021,Europe and Northern America,wat_share_lim_u,0.0036451716744174633
+1276,2021,Latin America and the Caribbean,wat_share_lim_u,0.0020680925531678124
+1277,2021,Northern Africa and Western Asia,wat_share_lim_u,0.03035503728892141
+1278,2021,Oceania,wat_share_lim_u,0.006444816810838848
+1279,2021,Sub-Saharan Africa,wat_share_lim_u,0.08834170013861678
+1280,2022,Australia and New Zealand,wat_share_lim_u,0.0
+1281,2022,Central and Southern Asia,wat_share_lim_u,0.02485268412341786
+1282,2022,Eastern and South-Eastern Asia,wat_share_lim_u,0.0037311790140268173
+1283,2022,Europe and Northern America,wat_share_lim_u,0.0033927571476213563
+1284,2022,Latin America and the Caribbean,wat_share_lim_u,0.002074962179110543
+1285,2022,Northern Africa and Western Asia,wat_share_lim_u,0.03083341178409846
+1286,2022,Oceania,wat_share_lim_u,0.004329962814112169
+1287,2022,Sub-Saharan Africa,wat_share_lim_u,0.08734451830218123
+1288,2000,Australia and New Zealand,wat_share_unimp_r,0.005453126064389139
+1289,2000,Central and Southern Asia,wat_share_unimp_r,0.15149758390476414
+1290,2000,Eastern and South-Eastern Asia,wat_share_unimp_r,0.24057929853201426
+1291,2000,Europe and Northern America,wat_share_unimp_r,0.021801714884687372
+1292,2000,Latin America and the Caribbean,wat_share_unimp_r,0.16386140796508902
+1293,2000,Northern Africa and Western Asia,wat_share_unimp_r,0.1593593312455123
+1294,2000,Oceania,wat_share_unimp_r,0.1557609083528479
+1295,2000,Sub-Saharan Africa,wat_share_unimp_r,0.3518677027220776
+1296,2001,Australia and New Zealand,wat_share_unimp_r,0.005467465895748601
+1297,2001,Central and Southern Asia,wat_share_unimp_r,0.14585892574026385
+1298,2001,Eastern and South-Eastern Asia,wat_share_unimp_r,0.23891791432940906
+1299,2001,Europe and Northern America,wat_share_unimp_r,0.021512243536422403
+1300,2001,Latin America and the Caribbean,wat_share_unimp_r,0.1570653694165774
+1301,2001,Northern Africa and Western Asia,wat_share_unimp_r,0.1575648831178892
+1302,2001,Oceania,wat_share_unimp_r,0.15635047551554648
+1303,2001,Sub-Saharan Africa,wat_share_unimp_r,0.3445072042039913
+1304,2002,Australia and New Zealand,wat_share_unimp_r,0.005462035318889349
+1305,2002,Central and Southern Asia,wat_share_unimp_r,0.14032960169334693
+1306,2002,Eastern and South-Eastern Asia,wat_share_unimp_r,0.22809339839353754
+1307,2002,Europe and Northern America,wat_share_unimp_r,0.020875944933681556
+1308,2002,Latin America and the Caribbean,wat_share_unimp_r,0.14884712146883256
+1309,2002,Northern Africa and Western Asia,wat_share_unimp_r,0.15520525184418238
+1310,2002,Oceania,wat_share_unimp_r,0.15695873616621725
+1311,2002,Sub-Saharan Africa,wat_share_unimp_r,0.3390903489446179
+1312,2003,Australia and New Zealand,wat_share_unimp_r,0.004761536761256063
+1313,2003,Central and Southern Asia,wat_share_unimp_r,0.13488101013181017
+1314,2003,Eastern and South-Eastern Asia,wat_share_unimp_r,0.21715006536064183
+1315,2003,Europe and Northern America,wat_share_unimp_r,0.020223457453289642
+1316,2003,Latin America and the Caribbean,wat_share_unimp_r,0.1418816036539565
+1317,2003,Northern Africa and Western Asia,wat_share_unimp_r,0.1511590181747522
+1318,2003,Oceania,wat_share_unimp_r,0.15760626544933432
+1319,2003,Sub-Saharan Africa,wat_share_unimp_r,0.3335584711220775
+1320,2004,Australia and New Zealand,wat_share_unimp_r,0.004064800374631524
+1321,2004,Central and Southern Asia,wat_share_unimp_r,0.1292412661056386
+1322,2004,Eastern and South-Eastern Asia,wat_share_unimp_r,0.20621737282609096
+1323,2004,Europe and Northern America,wat_share_unimp_r,0.019578961598886852
+1324,2004,Latin America and the Caribbean,wat_share_unimp_r,0.13503486762609798
+1325,2004,Northern Africa and Western Asia,wat_share_unimp_r,0.14714776722715772
+1326,2004,Oceania,wat_share_unimp_r,0.15826843799852355
+1327,2004,Sub-Saharan Africa,wat_share_unimp_r,0.32793472516192995
+1328,2005,Australia and New Zealand,wat_share_unimp_r,0.0033714042763916766
+1329,2005,Central and Southern Asia,wat_share_unimp_r,0.12360180879649844
+1330,2005,Eastern and South-Eastern Asia,wat_share_unimp_r,0.19695642550619336
+1331,2005,Europe and Northern America,wat_share_unimp_r,0.02944521340593282
+1332,2005,Latin America and the Caribbean,wat_share_unimp_r,0.12821499272917208
+1333,2005,Northern Africa and Western Asia,wat_share_unimp_r,0.14148162508678055
+1334,2005,Oceania,wat_share_unimp_r,0.16407374504564842
+1335,2005,Sub-Saharan Africa,wat_share_unimp_r,0.3225125844398048
+1336,2006,Australia and New Zealand,wat_share_unimp_r,0.0026801235555479674
+1337,2006,Central and Southern Asia,wat_share_unimp_r,0.11800573065365502
+1338,2006,Eastern and South-Eastern Asia,wat_share_unimp_r,0.18768384046897804
+1339,2006,Europe and Northern America,wat_share_unimp_r,0.028845300583908707
+1340,2006,Latin America and the Caribbean,wat_share_unimp_r,0.1214417879069399
+1341,2006,Northern Africa and Western Asia,wat_share_unimp_r,0.1357241341039955
+1342,2006,Oceania,wat_share_unimp_r,0.16988611864794514
+1343,2006,Sub-Saharan Africa,wat_share_unimp_r,0.31701812158215853
+1344,2007,Australia and New Zealand,wat_share_unimp_r,0.0019875035318211156
+1345,2007,Central and Southern Asia,wat_share_unimp_r,0.11229834941722897
+1346,2007,Eastern and South-Eastern Asia,wat_share_unimp_r,0.17841549204315105
+1347,2007,Europe and Northern America,wat_share_unimp_r,0.02824658840940906
+1348,2007,Latin America and the Caribbean,wat_share_unimp_r,0.11471255613547034
+1349,2007,Northern Africa and Western Asia,wat_share_unimp_r,0.12985006009493677
+1350,2007,Oceania,wat_share_unimp_r,0.17570982187025622
+1351,2007,Sub-Saharan Africa,wat_share_unimp_r,0.3115688157080547
+1352,2008,Australia and New Zealand,wat_share_unimp_r,0.001296470424507274
+1353,2008,Central and Southern Asia,wat_share_unimp_r,0.10660290707845908
+1354,2008,Eastern and South-Eastern Asia,wat_share_unimp_r,0.16932580953538023
+1355,2008,Europe and Northern America,wat_share_unimp_r,0.03090606208751314
+1356,2008,Latin America and the Caribbean,wat_share_unimp_r,0.10804593579155113
+1357,2008,Northern Africa and Western Asia,wat_share_unimp_r,0.1240209099918734
+1358,2008,Oceania,wat_share_unimp_r,0.18159313339485778
+1359,2008,Sub-Saharan Africa,wat_share_unimp_r,0.3059209717503899
+1360,2009,Australia and New Zealand,wat_share_unimp_r,0.0006056710133697257
+1361,2009,Central and Southern Asia,wat_share_unimp_r,0.1009649063328687
+1362,2009,Eastern and South-Eastern Asia,wat_share_unimp_r,0.16009317226429776
+1363,2009,Europe and Northern America,wat_share_unimp_r,0.030343604301098705
+1364,2009,Latin America and the Caribbean,wat_share_unimp_r,0.101446293256437
+1365,2009,Northern Africa and Western Asia,wat_share_unimp_r,0.11822586034671692
+1366,2009,Oceania,wat_share_unimp_r,0.18752155180508495
+1367,2009,Sub-Saharan Africa,wat_share_unimp_r,0.3002125493378515
+1368,2010,Australia and New Zealand,wat_share_unimp_r,4.687012531826833e-19
+1369,2010,Central and Southern Asia,wat_share_unimp_r,0.0952728159496325
+1370,2010,Eastern and South-Eastern Asia,wat_share_unimp_r,0.15088828118534253
+1371,2010,Europe and Northern America,wat_share_unimp_r,0.029793481050368012
+1372,2010,Latin America and the Caribbean,wat_share_unimp_r,0.09482944361646732
+1373,2010,Northern Africa and Western Asia,wat_share_unimp_r,0.11231220670770266
+1374,2010,Oceania,wat_share_unimp_r,0.19345097546532344
+1375,2010,Sub-Saharan Africa,wat_share_unimp_r,0.29452868786358316
+1376,2011,Australia and New Zealand,wat_share_unimp_r,0.0
+1377,2011,Central and Southern Asia,wat_share_unimp_r,0.08960795376492613
+1378,2011,Eastern and South-Eastern Asia,wat_share_unimp_r,0.1416066994705583
+1379,2011,Europe and Northern America,wat_share_unimp_r,0.029251512380306537
+1380,2011,Latin America and the Caribbean,wat_share_unimp_r,0.0882489360923114
+1381,2011,Northern Africa and Western Asia,wat_share_unimp_r,0.10625799536905171
+1382,2011,Oceania,wat_share_unimp_r,0.1993638624473803
+1383,2011,Sub-Saharan Africa,wat_share_unimp_r,0.28668358745499906
+1384,2012,Australia and New Zealand,wat_share_unimp_r,0.0
+1385,2012,Central and Southern Asia,wat_share_unimp_r,0.08395639657496107
+1386,2012,Eastern and South-Eastern Asia,wat_share_unimp_r,0.1323390754972055
+1387,2012,Europe and Northern America,wat_share_unimp_r,0.028721700970721187
+1388,2012,Latin America and the Caribbean,wat_share_unimp_r,0.08176483426783675
+1389,2012,Northern Africa and Western Asia,wat_share_unimp_r,0.10024360256996229
+1390,2012,Oceania,wat_share_unimp_r,0.20527489835433735
+1391,2012,Sub-Saharan Africa,wat_share_unimp_r,0.28105265233701865
+1392,2013,Australia and New Zealand,wat_share_unimp_r,0.0
+1393,2013,Central and Southern Asia,wat_share_unimp_r,0.07827604535255898
+1394,2013,Eastern and South-Eastern Asia,wat_share_unimp_r,0.12305748696014786
+1395,2013,Europe and Northern America,wat_share_unimp_r,0.028206676854007514
+1396,2013,Latin America and the Caribbean,wat_share_unimp_r,0.07665924788337831
+1397,2013,Northern Africa and Western Asia,wat_share_unimp_r,0.09429321663597516
+1398,2013,Oceania,wat_share_unimp_r,0.21115899426152376
+1399,2013,Sub-Saharan Africa,wat_share_unimp_r,0.2755000863362841
+1400,2014,Australia and New Zealand,wat_share_unimp_r,0.0
+1401,2014,Central and Southern Asia,wat_share_unimp_r,0.07258143679689918
+1402,2014,Eastern and South-Eastern Asia,wat_share_unimp_r,0.1138950711033313
+1403,2014,Europe and Northern America,wat_share_unimp_r,0.027696005289610134
+1404,2014,Latin America and the Caribbean,wat_share_unimp_r,0.07158153100677801
+1405,2014,Northern Africa and Western Asia,wat_share_unimp_r,0.08840874151601925
+1406,2014,Oceania,wat_share_unimp_r,0.21704365175684012
+1407,2014,Sub-Saharan Africa,wat_share_unimp_r,0.26995185961085266
+1408,2015,Australia and New Zealand,wat_share_unimp_r,0.0
+1409,2015,Central and Southern Asia,wat_share_unimp_r,0.0668600752678322
+1410,2015,Eastern and South-Eastern Asia,wat_share_unimp_r,0.10478829929683663
+1411,2015,Europe and Northern America,wat_share_unimp_r,0.02720009162306601
+1412,2015,Latin America and the Caribbean,wat_share_unimp_r,0.06653092720164328
+1413,2015,Northern Africa and Western Asia,wat_share_unimp_r,0.08260820695581989
+1414,2015,Oceania,wat_share_unimp_r,0.22294989698660383
+1415,2015,Sub-Saharan Africa,wat_share_unimp_r,0.26436460676420004
+1416,2016,Australia and New Zealand,wat_share_unimp_r,0.0
+1417,2016,Central and Southern Asia,wat_share_unimp_r,0.06111629206834326
+1418,2016,Eastern and South-Eastern Asia,wat_share_unimp_r,0.09574192497210608
+1419,2016,Europe and Northern America,wat_share_unimp_r,0.026719623321424277
+1420,2016,Latin America and the Caribbean,wat_share_unimp_r,0.06312784582065047
+1421,2016,Northern Africa and Western Asia,wat_share_unimp_r,0.07672008691451211
+1422,2016,Oceania,wat_share_unimp_r,0.22886530917895825
+1423,2016,Sub-Saharan Africa,wat_share_unimp_r,0.25885619865006626
+1424,2017,Australia and New Zealand,wat_share_unimp_r,0.0
+1425,2017,Central and Southern Asia,wat_share_unimp_r,0.055377309107215014
+1426,2017,Eastern and South-Eastern Asia,wat_share_unimp_r,0.08677022527962835
+1427,2017,Europe and Northern America,wat_share_unimp_r,0.02624005047604578
+1428,2017,Latin America and the Caribbean,wat_share_unimp_r,0.07359804347035707
+1429,2017,Northern Africa and Western Asia,wat_share_unimp_r,0.07080559062655276
+1430,2017,Oceania,wat_share_unimp_r,0.234772989617308
+1431,2017,Sub-Saharan Africa,wat_share_unimp_r,0.2526910873527722
+1432,2018,Australia and New Zealand,wat_share_unimp_r,0.0
+1433,2018,Central and Southern Asia,wat_share_unimp_r,0.049661864156256896
+1434,2018,Eastern and South-Eastern Asia,wat_share_unimp_r,0.078006229878204
+1435,2018,Europe and Northern America,wat_share_unimp_r,0.025758681282112478
+1436,2018,Latin America and the Caribbean,wat_share_unimp_r,0.06812135992788809
+1437,2018,Northern Africa and Western Asia,wat_share_unimp_r,0.06482604495225737
+1438,2018,Oceania,wat_share_unimp_r,0.24061682943589388
+1439,2018,Sub-Saharan Africa,wat_share_unimp_r,0.24679418323093827
+1440,2019,Australia and New Zealand,wat_share_unimp_r,0.0
+1441,2019,Central and Southern Asia,wat_share_unimp_r,0.04395253868901959
+1442,2019,Eastern and South-Eastern Asia,wat_share_unimp_r,0.06914720535947695
+1443,2019,Europe and Northern America,wat_share_unimp_r,0.025310148117878753
+1444,2019,Latin America and the Caribbean,wat_share_unimp_r,0.0632709368888342
+1445,2019,Northern Africa and Western Asia,wat_share_unimp_r,0.058675261637579364
+1446,2019,Oceania,wat_share_unimp_r,0.2458834146360729
+1447,2019,Sub-Saharan Africa,wat_share_unimp_r,0.241033005555001
+1448,2020,Australia and New Zealand,wat_share_unimp_r,0.0
+1449,2020,Central and Southern Asia,wat_share_unimp_r,0.038283639293490275
+1450,2020,Eastern and South-Eastern Asia,wat_share_unimp_r,0.05994651649087155
+1451,2020,Europe and Northern America,wat_share_unimp_r,0.024884235827518697
+1452,2020,Latin America and the Caribbean,wat_share_unimp_r,0.05859966264982336
+1453,2020,Northern Africa and Western Asia,wat_share_unimp_r,0.05256693950110828
+1454,2020,Oceania,wat_share_unimp_r,0.2510785599992442
+1455,2020,Sub-Saharan Africa,wat_share_unimp_r,0.23512105627064708
+1456,2021,Australia and New Zealand,wat_share_unimp_r,0.0
+1457,2021,Central and Southern Asia,wat_share_unimp_r,0.03265445048649375
+1458,2021,Eastern and South-Eastern Asia,wat_share_unimp_r,0.049485800242466106
+1459,2021,Europe and Northern America,wat_share_unimp_r,0.024533195527353974
+1460,2021,Latin America and the Caribbean,wat_share_unimp_r,0.047157191107809485
+1461,2021,Northern Africa and Western Asia,wat_share_unimp_r,0.04697812497525244
+1462,2021,Oceania,wat_share_unimp_r,0.2562022735006949
+1463,2021,Sub-Saharan Africa,wat_share_unimp_r,0.22888473523590988
+1464,2022,Australia and New Zealand,wat_share_unimp_r,0.0
+1465,2022,Central and Southern Asia,wat_share_unimp_r,0.026827837810723412
+1466,2022,Eastern and South-Eastern Asia,wat_share_unimp_r,0.03928617273199279
+1467,2022,Europe and Northern America,wat_share_unimp_r,0.024002947855386845
+1468,2022,Latin America and the Caribbean,wat_share_unimp_r,0.04396057773631938
+1469,2022,Northern Africa and Western Asia,wat_share_unimp_r,0.04440385805287664
+1470,2022,Oceania,wat_share_unimp_r,0.2649075899563282
+1471,2022,Sub-Saharan Africa,wat_share_unimp_r,0.22225937980014907
+1472,2000,Australia and New Zealand,wat_share_unimp_u,0.001367008447980372
+1473,2000,Central and Southern Asia,wat_share_unimp_u,0.04453956703610684
+1474,2000,Eastern and South-Eastern Asia,wat_share_unimp_u,0.022935506146836395
+1475,2000,Europe and Northern America,wat_share_unimp_u,0.0029908340662249183
+1476,2000,Latin America and the Caribbean,wat_share_unimp_u,0.023157748957601438
+1477,2000,Northern Africa and Western Asia,wat_share_unimp_u,0.023100963276764194
+1478,2000,Oceania,wat_share_unimp_u,0.045227245747405866
+1479,2000,Sub-Saharan Africa,wat_share_unimp_u,0.09808094479370309
+1480,2001,Australia and New Zealand,wat_share_unimp_u,0.0013671603070902671
+1481,2001,Central and Southern Asia,wat_share_unimp_u,0.043158063939315386
+1482,2001,Eastern and South-Eastern Asia,wat_share_unimp_u,0.02234458286490302
+1483,2001,Europe and Northern America,wat_share_unimp_u,0.002988527862015474
+1484,2001,Latin America and the Caribbean,wat_share_unimp_u,0.02210882638787605
+1485,2001,Northern Africa and Western Asia,wat_share_unimp_u,0.022589397611456907
+1486,2001,Oceania,wat_share_unimp_u,0.04562535892586196
+1487,2001,Sub-Saharan Africa,wat_share_unimp_u,0.09538194398455403
+1488,2002,Australia and New Zealand,wat_share_unimp_u,0.0013665611802549603
+1489,2002,Central and Southern Asia,wat_share_unimp_u,0.04179892573882849
+1490,2002,Eastern and South-Eastern Asia,wat_share_unimp_u,0.021668460754165165
+1491,2002,Europe and Northern America,wat_share_unimp_u,0.0029643433310185866
+1492,2002,Latin America and the Caribbean,wat_share_unimp_u,0.021091306164038946
+1493,2002,Northern Africa and Western Asia,wat_share_unimp_u,0.022056670233597156
+1494,2002,Oceania,wat_share_unimp_u,0.04588908780920842
+1495,2002,Sub-Saharan Africa,wat_share_unimp_u,0.09290261523505645
+1496,2003,Australia and New Zealand,wat_share_unimp_u,0.001282462757140972
+1497,2003,Central and Southern Asia,wat_share_unimp_u,0.04046671345364695
+1498,2003,Eastern and South-Eastern Asia,wat_share_unimp_u,0.02094870714339487
+1499,2003,Europe and Northern America,wat_share_unimp_u,0.002939722980613704
+1500,2003,Latin America and the Caribbean,wat_share_unimp_u,0.02010534904465216
+1501,2003,Northern Africa and Western Asia,wat_share_unimp_u,0.021455114418343732
+1502,2003,Oceania,wat_share_unimp_u,0.046110712591310124
+1503,2003,Sub-Saharan Africa,wat_share_unimp_u,0.09085270318249898
+1504,2004,Australia and New Zealand,wat_share_unimp_u,0.0011990933395947276
+1505,2004,Central and Southern Asia,wat_share_unimp_u,0.03901949290460221
+1506,2004,Eastern and South-Eastern Asia,wat_share_unimp_u,0.020237680535010096
+1507,2004,Europe and Northern America,wat_share_unimp_u,0.00291593968636969
+1508,2004,Latin America and the Caribbean,wat_share_unimp_u,0.019109839472467124
+1509,2004,Northern Africa and Western Asia,wat_share_unimp_u,0.020851649204549367
+1510,2004,Oceania,wat_share_unimp_u,0.04632072351683764
+1511,2004,Sub-Saharan Africa,wat_share_unimp_u,0.08878681665180067
+1512,2005,Australia and New Zealand,wat_share_unimp_u,0.0011164954795598319
+1513,2005,Central and Southern Asia,wat_share_unimp_u,0.037569610835291506
+1514,2005,Eastern and South-Eastern Asia,wat_share_unimp_u,0.019548655434755736
+1515,2005,Europe and Northern America,wat_share_unimp_u,0.0028993106917589093
+1516,2005,Latin America and the Caribbean,wat_share_unimp_u,0.018106590757097828
+1517,2005,Northern Africa and Western Asia,wat_share_unimp_u,0.019890145120655067
+1518,2005,Oceania,wat_share_unimp_u,0.045694616242988054
+1519,2005,Sub-Saharan Africa,wat_share_unimp_u,0.08674383991490532
+1520,2006,Australia and New Zealand,wat_share_unimp_u,0.0010344865522297153
+1521,2006,Central and Southern Asia,wat_share_unimp_u,0.036133735966579844
+1522,2006,Eastern and South-Eastern Asia,wat_share_unimp_u,0.018870627964419642
+1523,2006,Europe and Northern America,wat_share_unimp_u,0.002885299043268786
+1524,2006,Latin America and the Caribbean,wat_share_unimp_u,0.017100765704235667
+1525,2006,Northern Africa and Western Asia,wat_share_unimp_u,0.01885426916975518
+1526,2006,Oceania,wat_share_unimp_u,0.04510618140703352
+1527,2006,Sub-Saharan Africa,wat_share_unimp_u,0.08467567327489169
+1528,2007,Australia and New Zealand,wat_share_unimp_u,0.0009533418962022177
+1529,2007,Central and Southern Asia,wat_share_unimp_u,0.034647174199735606
+1530,2007,Eastern and South-Eastern Asia,wat_share_unimp_u,0.018273977083665537
+1531,2007,Europe and Northern America,wat_share_unimp_u,0.0028700704128117663
+1532,2007,Latin America and the Caribbean,wat_share_unimp_u,0.01609338016931889
+1533,2007,Northern Africa and Western Asia,wat_share_unimp_u,0.017787663551911474
+1534,2007,Oceania,wat_share_unimp_u,0.04452690821998035
+1535,2007,Sub-Saharan Africa,wat_share_unimp_u,0.08244790734255657
+1536,2008,Australia and New Zealand,wat_share_unimp_u,0.0008723409777760176
+1537,2008,Central and Southern Asia,wat_share_unimp_u,0.03316930294208414
+1538,2008,Eastern and South-Eastern Asia,wat_share_unimp_u,0.017678907927948108
+1539,2008,Europe and Northern America,wat_share_unimp_u,0.0028392752073922094
+1540,2008,Latin America and the Caribbean,wat_share_unimp_u,0.015081785697756358
+1541,2008,Northern Africa and Western Asia,wat_share_unimp_u,0.016777269118847065
+1542,2008,Oceania,wat_share_unimp_u,0.04393470592560208
+1543,2008,Sub-Saharan Africa,wat_share_unimp_u,0.08034433875329339
+1544,2009,Australia and New Zealand,wat_share_unimp_u,0.0007907772807225701
+1545,2009,Central and Southern Asia,wat_share_unimp_u,0.031718138530658455
+1546,2009,Eastern and South-Eastern Asia,wat_share_unimp_u,0.017085648419434878
+1547,2009,Europe and Northern America,wat_share_unimp_u,0.0028099061447723825
+1548,2009,Latin America and the Caribbean,wat_share_unimp_u,0.014068526320369135
+1549,2009,Northern Africa and Western Asia,wat_share_unimp_u,0.015808937208618527
+1550,2009,Oceania,wat_share_unimp_u,0.04333324185722274
+1551,2009,Sub-Saharan Africa,wat_share_unimp_u,0.0781965416433367
+1552,2010,Australia and New Zealand,wat_share_unimp_u,0.0007085369718270591
+1553,2010,Central and Southern Asia,wat_share_unimp_u,0.03024498628081184
+1554,2010,Eastern and South-Eastern Asia,wat_share_unimp_u,0.01649389625056838
+1555,2010,Europe and Northern America,wat_share_unimp_u,0.0028165858736544625
+1556,2010,Latin America and the Caribbean,wat_share_unimp_u,0.013052512850912988
+1557,2010,Northern Africa and Western Asia,wat_share_unimp_u,0.014861042663865126
+1558,2010,Oceania,wat_share_unimp_u,0.04270679202579649
+1559,2010,Sub-Saharan Africa,wat_share_unimp_u,0.07602760218073192
+1560,2011,Australia and New Zealand,wat_share_unimp_u,0.000626144704626773
+1561,2011,Central and Southern Asia,wat_share_unimp_u,0.028787678990337972
+1562,2011,Eastern and South-Eastern Asia,wat_share_unimp_u,0.015913489162392765
+1563,2011,Europe and Northern America,wat_share_unimp_u,0.002822205230254799
+1564,2011,Latin America and the Caribbean,wat_share_unimp_u,0.012036932881463914
+1565,2011,Northern Africa and Western Asia,wat_share_unimp_u,0.013959756322537325
+1566,2011,Oceania,wat_share_unimp_u,0.04201597852636399
+1567,2011,Sub-Saharan Africa,wat_share_unimp_u,0.07393626127938609
+1568,2012,Australia and New Zealand,wat_share_unimp_u,0.0005435873757927266
+1569,2012,Central and Southern Asia,wat_share_unimp_u,0.0273329017964797
+1570,2012,Eastern and South-Eastern Asia,wat_share_unimp_u,0.015336597252066373
+1571,2012,Europe and Northern America,wat_share_unimp_u,0.0028356161336431395
+1572,2012,Latin America and the Caribbean,wat_share_unimp_u,0.011023936391545695
+1573,2012,Northern Africa and Western Asia,wat_share_unimp_u,0.013067656050569221
+1574,2012,Oceania,wat_share_unimp_u,0.04127875706198156
+1575,2012,Sub-Saharan Africa,wat_share_unimp_u,0.07172420519138803
+1576,2013,Australia and New Zealand,wat_share_unimp_u,0.00046056333836716007
+1577,2013,Central and Southern Asia,wat_share_unimp_u,0.02586944951812713
+1578,2013,Eastern and South-Eastern Asia,wat_share_unimp_u,0.014757389387367932
+1579,2013,Europe and Northern America,wat_share_unimp_u,0.0028571872488773963
+1580,2013,Latin America and the Caribbean,wat_share_unimp_u,0.009959091501916937
+1581,2013,Northern Africa and Western Asia,wat_share_unimp_u,0.01214983315075697
+1582,2013,Oceania,wat_share_unimp_u,0.0405572788941388
+1583,2013,Sub-Saharan Africa,wat_share_unimp_u,0.06949997869155886
+1584,2014,Australia and New Zealand,wat_share_unimp_u,0.00037692607135149234
+1585,2014,Central and Southern Asia,wat_share_unimp_u,0.02441706688386581
+1586,2014,Eastern and South-Eastern Asia,wat_share_unimp_u,0.014176554989395615
+1587,2014,Europe and Northern America,wat_share_unimp_u,0.0028775089852690183
+1588,2014,Latin America and the Caribbean,wat_share_unimp_u,0.008892756315308475
+1589,2014,Northern Africa and Western Asia,wat_share_unimp_u,0.011224756281334356
+1590,2014,Oceania,wat_share_unimp_u,0.039837429579249156
+1591,2014,Sub-Saharan Africa,wat_share_unimp_u,0.06724943330160296
+1592,2015,Australia and New Zealand,wat_share_unimp_u,0.0002930937260468636
+1593,2015,Central and Southern Asia,wat_share_unimp_u,0.02294748719668702
+1594,2015,Eastern and South-Eastern Asia,wat_share_unimp_u,0.013594885172589872
+1595,2015,Europe and Northern America,wat_share_unimp_u,0.0028816678291502776
+1596,2015,Latin America and the Caribbean,wat_share_unimp_u,0.007791885501318308
+1597,2015,Northern Africa and Western Asia,wat_share_unimp_u,0.011004738958718565
+1598,2015,Oceania,wat_share_unimp_u,0.03913408012342721
+1599,2015,Sub-Saharan Africa,wat_share_unimp_u,0.06494341316144746
+1600,2016,Australia and New Zealand,wat_share_unimp_u,0.0002930637607128639
+1601,2016,Central and Southern Asia,wat_share_unimp_u,0.02147828135377563
+1602,2016,Eastern and South-Eastern Asia,wat_share_unimp_u,0.01301757964808592
+1603,2016,Europe and Northern America,wat_share_unimp_u,0.002885395010418828
+1604,2016,Latin America and the Caribbean,wat_share_unimp_u,0.00669069724982553
+1605,2016,Northern Africa and Western Asia,wat_share_unimp_u,0.010009493901799777
+1606,2016,Oceania,wat_share_unimp_u,0.038435523622068965
+1607,2016,Sub-Saharan Africa,wat_share_unimp_u,0.0626875665734047
+1608,2017,Australia and New Zealand,wat_share_unimp_u,0.0002930646751465915
+1609,2017,Central and Southern Asia,wat_share_unimp_u,0.02001989561560031
+1610,2017,Eastern and South-Eastern Asia,wat_share_unimp_u,0.012467598590120914
+1611,2017,Europe and Northern America,wat_share_unimp_u,0.00288847952349888
+1612,2017,Latin America and the Caribbean,wat_share_unimp_u,0.005671873390233768
+1613,2017,Northern Africa and Western Asia,wat_share_unimp_u,0.0089276574703338
+1614,2017,Oceania,wat_share_unimp_u,0.03772622967338562
+1615,2017,Sub-Saharan Africa,wat_share_unimp_u,0.06032679701583145
+1616,2018,Australia and New Zealand,wat_share_unimp_u,0.00029291484031982297
+1617,2018,Central and Southern Asia,wat_share_unimp_u,0.018557817195936403
+1618,2018,Eastern and South-Eastern Asia,wat_share_unimp_u,0.011914363701104167
+1619,2018,Europe and Northern America,wat_share_unimp_u,0.0028916346757133287
+1620,2018,Latin America and the Caribbean,wat_share_unimp_u,0.0047014994200887264
+1621,2018,Northern Africa and Western Asia,wat_share_unimp_u,0.007821986031992167
+1622,2018,Oceania,wat_share_unimp_u,0.037055067226622294
+1623,2018,Sub-Saharan Africa,wat_share_unimp_u,0.05753062340674477
+1624,2019,Australia and New Zealand,wat_share_unimp_u,0.00029247529130732277
+1625,2019,Central and Southern Asia,wat_share_unimp_u,0.017093848850428788
+1626,2019,Eastern and South-Eastern Asia,wat_share_unimp_u,0.011324001981150543
+1627,2019,Europe and Northern America,wat_share_unimp_u,0.002893823854762317
+1628,2019,Latin America and the Caribbean,wat_share_unimp_u,0.0038235014172146894
+1629,2019,Northern Africa and Western Asia,wat_share_unimp_u,0.006696937321962121
+1630,2019,Oceania,wat_share_unimp_u,0.036420368621009495
+1631,2019,Sub-Saharan Africa,wat_share_unimp_u,0.054691846213877494
+1632,2020,Australia and New Zealand,wat_share_unimp_u,0.0002921028617798224
+1633,2020,Central and Southern Asia,wat_share_unimp_u,0.015628829001625925
+1634,2020,Eastern and South-Eastern Asia,wat_share_unimp_u,0.010723212721984902
+1635,2020,Europe and Northern America,wat_share_unimp_u,0.0028890956860840354
+1636,2020,Latin America and the Caribbean,wat_share_unimp_u,0.0034591431835443035
+1637,2020,Northern Africa and Western Asia,wat_share_unimp_u,0.005807057279369751
+1638,2020,Oceania,wat_share_unimp_u,0.035626529170485775
+1639,2020,Sub-Saharan Africa,wat_share_unimp_u,0.05183068071281511
+1640,2021,Australia and New Zealand,wat_share_unimp_u,0.00029194005056411775
+1641,2021,Central and Southern Asia,wat_share_unimp_u,0.014096753771413313
+1642,2021,Eastern and South-Eastern Asia,wat_share_unimp_u,0.01012497121104314
+1643,2021,Europe and Northern America,wat_share_unimp_u,0.002880319602571571
+1644,2021,Latin America and the Caribbean,wat_share_unimp_u,0.0031441332047948832
+1645,2021,Northern Africa and Western Asia,wat_share_unimp_u,0.005084916563630828
+1646,2021,Oceania,wat_share_unimp_u,0.0349098323750404
+1647,2021,Sub-Saharan Africa,wat_share_unimp_u,0.04884305315034875
+1648,2022,Australia and New Zealand,wat_share_unimp_u,0.00029191249335229074
+1649,2022,Central and Southern Asia,wat_share_unimp_u,0.012826523747985768
+1650,2022,Eastern and South-Eastern Asia,wat_share_unimp_u,0.009572258803542956
+1651,2022,Europe and Northern America,wat_share_unimp_u,0.0028250750021499437
+1652,2022,Latin America and the Caribbean,wat_share_unimp_u,0.0030090372166317143
+1653,2022,Northern Africa and Western Asia,wat_share_unimp_u,0.004836131106641138
+1654,2022,Oceania,wat_share_unimp_u,0.031811408771259896
+1655,2022,Sub-Saharan Africa,wat_share_unimp_u,0.04601658606575205
+1656,2000,Australia and New Zealand,wat_share_ns_r,0.002542908527435315
+1657,2000,Central and Southern Asia,wat_share_ns_r,0.03252767766396772
+1658,2000,Eastern and South-Eastern Asia,wat_share_ns_r,0.04970126073081584
+1659,2000,Europe and Northern America,wat_share_ns_r,0.0036543930035163453
+1660,2000,Latin America and the Caribbean,wat_share_ns_r,0.09064322710512575
+1661,2000,Northern Africa and Western Asia,wat_share_ns_r,0.05146499136660714
+1662,2000,Oceania,wat_share_ns_r,0.4343501574817253
+1663,2000,Sub-Saharan Africa,wat_share_ns_r,0.25179365089970374
+1664,2001,Australia and New Zealand,wat_share_ns_r,0.0025495954954267734
+1665,2001,Central and Southern Asia,wat_share_ns_r,0.031704642134124154
+1666,2001,Eastern and South-Eastern Asia,wat_share_ns_r,0.04914117815333087
+1667,2001,Europe and Northern America,wat_share_ns_r,0.0036390448072771116
+1668,2001,Latin America and the Caribbean,wat_share_ns_r,0.08893360180277096
+1669,2001,Northern Africa and Western Asia,wat_share_ns_r,0.05052943618633616
+1670,2001,Oceania,wat_share_ns_r,0.43673918843419196
+1671,2001,Sub-Saharan Africa,wat_share_ns_r,0.24738235925119353
+1672,2002,Australia and New Zealand,wat_share_ns_r,0.002547063102072718
+1673,2002,Central and Southern Asia,wat_share_ns_r,0.030913331866197647
+1674,2002,Eastern and South-Eastern Asia,wat_share_ns_r,0.04861810589320555
+1675,2002,Europe and Northern America,wat_share_ns_r,0.003634837527944852
+1676,2002,Latin America and the Caribbean,wat_share_ns_r,0.08823370061837855
+1677,2002,Northern Africa and Western Asia,wat_share_ns_r,0.04956811767895554
+1678,2002,Oceania,wat_share_ns_r,0.4390538692210925
+1679,2002,Sub-Saharan Africa,wat_share_ns_r,0.24078136978825426
+1680,2003,Australia and New Zealand,wat_share_ns_r,0.0025432540564571254
+1681,2003,Central and Southern Asia,wat_share_ns_r,0.030149678772079736
+1682,2003,Eastern and South-Eastern Asia,wat_share_ns_r,0.04804813650042425
+1683,2003,Europe and Northern America,wat_share_ns_r,0.0036264205126852237
+1684,2003,Latin America and the Caribbean,wat_share_ns_r,0.08632170254501559
+1685,2003,Northern Africa and Western Asia,wat_share_ns_r,0.04839525690010568
+1686,2003,Oceania,wat_share_ns_r,0.44140980003953056
+1687,2003,Sub-Saharan Africa,wat_share_ns_r,0.23407218789373052
+1688,2004,Australia and New Zealand,wat_share_ns_r,0.0025405002341446206
+1689,2004,Central and Southern Asia,wat_share_ns_r,0.029238945815889136
+1690,2004,Eastern and South-Eastern Asia,wat_share_ns_r,0.047450305840393704
+1691,2004,Europe and Northern America,wat_share_ns_r,0.0036172374026820614
+1692,2004,Latin America and the Caribbean,wat_share_ns_r,0.08443208465702079
+1693,2004,Northern Africa and Western Asia,wat_share_ns_r,0.04718956624718046
+1694,2004,Oceania,wat_share_ns_r,0.4438038724121692
+1695,2004,Sub-Saharan Africa,wat_share_ns_r,0.2273255837735857
+1696,2005,Australia and New Zealand,wat_share_ns_r,0.0025391329278261587
+1697,2005,Central and Southern Asia,wat_share_ns_r,0.028292176660535514
+1698,2005,Eastern and South-Eastern Asia,wat_share_ns_r,0.04522347332178724
+1699,2005,Europe and Northern America,wat_share_ns_r,0.003609317292767368
+1700,2005,Latin America and the Caribbean,wat_share_ns_r,0.0825159368036783
+1701,2005,Northern Africa and Western Asia,wat_share_ns_r,0.045252230810713265
+1702,2005,Oceania,wat_share_ns_r,0.43190370360557806
+1703,2005,Sub-Saharan Africa,wat_share_ns_r,0.22031734764668354
+1704,2006,Australia and New Zealand,wat_share_ns_r,0.0025390644210452674
+1705,2006,Central and Southern Asia,wat_share_ns_r,0.027365244341352842
+1706,2006,Eastern and South-Eastern Asia,wat_share_ns_r,0.04297574080718002
+1707,2006,Europe and Northern America,wat_share_ns_r,0.0036030835190500174
+1708,2006,Latin America and the Caribbean,wat_share_ns_r,0.08057497272258496
+1709,2006,Northern Africa and Western Asia,wat_share_ns_r,0.04303190993793009
+1710,2006,Oceania,wat_share_ns_r,0.4198154055500338
+1711,2006,Sub-Saharan Africa,wat_share_ns_r,0.21333430021425337
+1712,2007,Australia and New Zealand,wat_share_ns_r,0.0025372385512608822
+1713,2007,Central and Southern Asia,wat_share_ns_r,0.026350485501125537
+1714,2007,Eastern and South-Eastern Asia,wat_share_ns_r,0.040711332729914965
+1715,2007,Europe and Northern America,wat_share_ns_r,0.003601023118717246
+1716,2007,Latin America and the Caribbean,wat_share_ns_r,0.0786094090722962
+1717,2007,Northern Africa and Western Asia,wat_share_ns_r,0.040624995113632774
+1718,2007,Oceania,wat_share_ns_r,0.40753151014603956
+1719,2007,Sub-Saharan Africa,wat_share_ns_r,0.20639293969331096
+1720,2008,Australia and New Zealand,wat_share_ns_r,0.0025365725696876776
+1721,2008,Central and Southern Asia,wat_share_ns_r,0.02534456215419974
+1722,2008,Eastern and South-Eastern Asia,wat_share_ns_r,0.038264470494991584
+1723,2008,Europe and Northern America,wat_share_ns_r,0.00013915003799636243
+1724,2008,Latin America and the Caribbean,wat_share_ns_r,0.0766477942000113
+1725,2008,Northern Africa and Western Asia,wat_share_ns_r,0.03851542966994994
+1726,2008,Oceania,wat_share_ns_r,0.39511869103113845
+1727,2008,Sub-Saharan Africa,wat_share_ns_r,0.19935905855987998
+1728,2009,Australia and New Zealand,wat_share_ns_r,0.0025353670327098693
+1729,2009,Central and Southern Asia,wat_share_ns_r,0.024391008635651003
+1730,2009,Eastern and South-Eastern Asia,wat_share_ns_r,0.0359641883151881
+1731,2009,Europe and Northern America,wat_share_ns_r,0.0001388421717534815
+1732,2009,Latin America and the Caribbean,wat_share_ns_r,0.07466679888057419
+1733,2009,Northern Africa and Western Asia,wat_share_ns_r,0.0365466515153384
+1734,2009,Oceania,wat_share_ns_r,0.38252695250186597
+1735,2009,Sub-Saharan Africa,wat_share_ns_r,0.19230408610228522
+1736,2010,Australia and New Zealand,wat_share_ns_r,0.002532758071208897
+1737,2010,Central and Southern Asia,wat_share_ns_r,0.02340611832400957
+1738,2010,Eastern and South-Eastern Asia,wat_share_ns_r,0.03366337185091813
+1739,2010,Europe and Northern America,wat_share_ns_r,0.00013907975945076206
+1740,2010,Latin America and the Caribbean,wat_share_ns_r,0.07264899663447928
+1741,2010,Northern Africa and Western Asia,wat_share_ns_r,0.03450802669772643
+1742,2010,Oceania,wat_share_ns_r,0.36966233097188794
+1743,2010,Sub-Saharan Africa,wat_share_ns_r,0.18525135396286205
+1744,2011,Australia and New Zealand,wat_share_ns_r,0.002528679846113718
+1745,2011,Central and Southern Asia,wat_share_ns_r,0.02243731104158621
+1746,2011,Eastern and South-Eastern Asia,wat_share_ns_r,0.03132713238406716
+1747,2011,Europe and Northern America,wat_share_ns_r,0.00013964005336719132
+1748,2011,Latin America and the Caribbean,wat_share_ns_r,0.0706017742531422
+1749,2011,Northern Africa and Western Asia,wat_share_ns_r,0.03239033518508812
+1750,2011,Oceania,wat_share_ns_r,0.356518845817369
+1751,2011,Sub-Saharan Africa,wat_share_ns_r,0.1789193762653228
+1752,2012,Australia and New Zealand,wat_share_ns_r,0.0025295130434063212
+1753,2012,Central and Southern Asia,wat_share_ns_r,0.021466884144106937
+1754,2012,Eastern and South-Eastern Asia,wat_share_ns_r,0.028975649224898085
+1755,2012,Europe and Northern America,wat_share_ns_r,0.00014056499016258761
+1756,2012,Latin America and the Caribbean,wat_share_ns_r,0.06852053558607309
+1757,2012,Northern Africa and Western Asia,wat_share_ns_r,0.030345194399418067
+1758,2012,Oceania,wat_share_ns_r,0.34314150196084564
+1759,2012,Sub-Saharan Africa,wat_share_ns_r,0.1717638264808339
+1760,2013,Australia and New Zealand,wat_share_ns_r,0.002529432305055578
+1761,2013,Central and Southern Asia,wat_share_ns_r,0.02046279606732988
+1762,2013,Eastern and South-Eastern Asia,wat_share_ns_r,0.02668791634520317
+1763,2013,Europe and Northern America,wat_share_ns_r,0.0001299708367068032
+1764,2013,Latin America and the Caribbean,wat_share_ns_r,0.06548518450489621
+1765,2013,Northern Africa and Western Asia,wat_share_ns_r,0.028316597419151025
+1766,2013,Oceania,wat_share_ns_r,0.32951280265818117
+1767,2013,Sub-Saharan Africa,wat_share_ns_r,0.1645204011038381
+1768,2014,Australia and New Zealand,wat_share_ns_r,0.0
+1769,2014,Central and Southern Asia,wat_share_ns_r,0.019467820158901947
+1770,2014,Eastern and South-Eastern Asia,wat_share_ns_r,0.02433242474303804
+1771,2014,Europe and Northern America,wat_share_ns_r,0.00013161491721728425
+1772,2014,Latin America and the Caribbean,wat_share_ns_r,0.062442860696185654
+1773,2014,Northern Africa and Western Asia,wat_share_ns_r,0.02621721129376378
+1774,2014,Oceania,wat_share_ns_r,0.3157005419436305
+1775,2014,Sub-Saharan Africa,wat_share_ns_r,0.15726509212990986
+1776,2015,Australia and New Zealand,wat_share_ns_r,0.0
+1777,2015,Central and Southern Asia,wat_share_ns_r,0.01844704459511473
+1778,2015,Eastern and South-Eastern Asia,wat_share_ns_r,0.021972838480098674
+1779,2015,Europe and Northern America,wat_share_ns_r,0.00013865119953139087
+1780,2015,Latin America and the Caribbean,wat_share_ns_r,0.05939334273815944
+1781,2015,Northern Africa and Western Asia,wat_share_ns_r,0.024082142164798905
+1782,2015,Oceania,wat_share_ns_r,0.3017483017005759
+1783,2015,Sub-Saharan Africa,wat_share_ns_r,0.15001663372605173
+1784,2016,Australia and New Zealand,wat_share_ns_r,0.0
+1785,2016,Central and Southern Asia,wat_share_ns_r,0.017400671262915824
+1786,2016,Eastern and South-Eastern Asia,wat_share_ns_r,0.019608861639484543
+1787,2016,Europe and Northern America,wat_share_ns_r,0.00014585298339773298
+1788,2016,Latin America and the Caribbean,wat_share_ns_r,0.05622095936170801
+1789,2016,Northern Africa and Western Asia,wat_share_ns_r,0.02187491311976779
+1790,2016,Oceania,wat_share_ns_r,0.2876465081223405
+1791,2016,Sub-Saharan Africa,wat_share_ns_r,0.1428114233037427
+1792,2017,Australia and New Zealand,wat_share_ns_r,0.0
+1793,2017,Central and Southern Asia,wat_share_ns_r,0.016355703366677896
+1794,2017,Eastern and South-Eastern Asia,wat_share_ns_r,0.01723670942142448
+1795,2017,Europe and Northern America,wat_share_ns_r,0.0001530036112480147
+1796,2017,Latin America and the Caribbean,wat_share_ns_r,0.03419932674524915
+1797,2017,Northern Africa and Western Asia,wat_share_ns_r,0.019639732723792477
+1798,2017,Oceania,wat_share_ns_r,0.2733878778660703
+1799,2017,Sub-Saharan Africa,wat_share_ns_r,0.13470182576486162
+1800,2018,Australia and New Zealand,wat_share_ns_r,0.0
+1801,2018,Central and Southern Asia,wat_share_ns_r,0.015334850099008401
+1802,2018,Eastern and South-Eastern Asia,wat_share_ns_r,0.0148585354129538
+1803,2018,Europe and Northern America,wat_share_ns_r,0.0001491094436507996
+1804,2018,Latin America and the Caribbean,wat_share_ns_r,0.032043627824481204
+1805,2018,Northern Africa and Western Asia,wat_share_ns_r,0.017312324232660017
+1806,2018,Oceania,wat_share_ns_r,0.2590600503368985
+1807,2018,Sub-Saharan Africa,wat_share_ns_r,0.12737632570539584
+1808,2019,Australia and New Zealand,wat_share_ns_r,0.0
+1809,2019,Central and Southern Asia,wat_share_ns_r,0.014313009972645764
+1810,2019,Eastern and South-Eastern Asia,wat_share_ns_r,0.01241559444413553
+1811,2019,Europe and Northern America,wat_share_ns_r,0.0001561269679359589
+1812,2019,Latin America and the Caribbean,wat_share_ns_r,0.02988474557835101
+1813,2019,Northern Africa and Western Asia,wat_share_ns_r,0.015062281799028
+1814,2019,Oceania,wat_share_ns_r,0.2446068024444268
+1815,2019,Sub-Saharan Africa,wat_share_ns_r,0.12025432636125634
+1816,2020,Australia and New Zealand,wat_share_ns_r,0.0
+1817,2020,Central and Southern Asia,wat_share_ns_r,0.013363618542292857
+1818,2020,Eastern and South-Eastern Asia,wat_share_ns_r,0.01066108547357001
+1819,2020,Europe and Northern America,wat_share_ns_r,0.0001630386723299126
+1820,2020,Latin America and the Caribbean,wat_share_ns_r,0.027765705980596724
+1821,2020,Northern Africa and Western Asia,wat_share_ns_r,0.013022691392085744
+1822,2020,Oceania,wat_share_ns_r,0.22995882289988487
+1823,2020,Sub-Saharan Africa,wat_share_ns_r,0.11346430251369172
+1824,2021,Australia and New Zealand,wat_share_ns_r,0.0
+1825,2021,Central and Southern Asia,wat_share_ns_r,0.01242546033913956
+1826,2021,Eastern and South-Eastern Asia,wat_share_ns_r,0.010238795589676903
+1827,2021,Europe and Northern America,wat_share_ns_r,0.00016979111808024952
+1828,2021,Latin America and the Caribbean,wat_share_ns_r,0.02389524249428914
+1829,2021,Northern Africa and Western Asia,wat_share_ns_r,0.011982375118473082
+1830,2021,Oceania,wat_share_ns_r,0.2151475368530813
+1831,2021,Sub-Saharan Africa,wat_share_ns_r,0.10733180597826793
+1832,2022,Australia and New Zealand,wat_share_ns_r,0.0
+1833,2022,Central and Southern Asia,wat_share_ns_r,0.011480625379536076
+1834,2022,Eastern and South-Eastern Asia,wat_share_ns_r,0.009969329904242595
+1835,2022,Europe and Northern America,wat_share_ns_r,8.873046279108849e-06
+1836,2022,Latin America and the Caribbean,wat_share_ns_r,0.02297344354148755
+1837,2022,Northern Africa and Western Asia,wat_share_ns_r,0.011126280122298098
+1838,2022,Oceania,wat_share_ns_r,0.19662029466577643
+1839,2022,Sub-Saharan Africa,wat_share_ns_r,0.10093229568681865
+1840,2000,Australia and New Zealand,wat_share_ns_u,0.0
+1841,2000,Central and Southern Asia,wat_share_ns_u,0.0045798613213014015
+1842,2000,Eastern and South-Eastern Asia,wat_share_ns_u,0.004775739320378737
+1843,2000,Europe and Northern America,wat_share_ns_u,0.0002903802440478093
+1844,2000,Latin America and the Caribbean,wat_share_ns_u,0.0031609802140628376
+1845,2000,Northern Africa and Western Asia,wat_share_ns_u,0.003847121412838552
+1846,2000,Oceania,wat_share_ns_u,0.012312472760982681
+1847,2000,Sub-Saharan Africa,wat_share_ns_u,0.03546654894059975
+1848,2001,Australia and New Zealand,wat_share_ns_u,0.0
+1849,2001,Central and Southern Asia,wat_share_ns_u,0.0045069445979856616
+1850,2001,Eastern and South-Eastern Asia,wat_share_ns_u,0.004675389495653336
+1851,2001,Europe and Northern America,wat_share_ns_u,0.0002874645550527755
+1852,2001,Latin America and the Caribbean,wat_share_ns_u,0.003131287619622798
+1853,2001,Northern Africa and Western Asia,wat_share_ns_u,0.0037240758985541706
+1854,2001,Oceania,wat_share_ns_u,0.012435311986651649
+1855,2001,Sub-Saharan Africa,wat_share_ns_u,0.035221487191175634
+1856,2002,Australia and New Zealand,wat_share_ns_u,0.0
+1857,2002,Central and Southern Asia,wat_share_ns_u,0.004435551699501462
+1858,2002,Eastern and South-Eastern Asia,wat_share_ns_u,0.004578197105724065
+1859,2002,Europe and Northern America,wat_share_ns_u,0.00028441908312086696
+1860,2002,Latin America and the Caribbean,wat_share_ns_u,0.0030474417368481443
+1861,2002,Northern Africa and Western Asia,wat_share_ns_u,0.003606749983651906
+1862,2002,Oceania,wat_share_ns_u,0.012574296648803992
+1863,2002,Sub-Saharan Africa,wat_share_ns_u,0.03439087552315339
+1864,2003,Australia and New Zealand,wat_share_ns_u,0.0
+1865,2003,Central and Southern Asia,wat_share_ns_u,0.004371209000942141
+1866,2003,Eastern and South-Eastern Asia,wat_share_ns_u,0.004477581626793747
+1867,2003,Europe and Northern America,wat_share_ns_u,0.000281429652954645
+1868,2003,Latin America and the Caribbean,wat_share_ns_u,0.002925480801305086
+1869,2003,Northern Africa and Western Asia,wat_share_ns_u,0.003466378725143304
+1870,2003,Oceania,wat_share_ns_u,0.012700280630360886
+1871,2003,Sub-Saharan Africa,wat_share_ns_u,0.033295787151028655
+1872,2004,Australia and New Zealand,wat_share_ns_u,0.0
+1873,2004,Central and Southern Asia,wat_share_ns_u,0.004276409378637338
+1874,2004,Eastern and South-Eastern Asia,wat_share_ns_u,0.004378727654546515
+1875,2004,Europe and Northern America,wat_share_ns_u,0.0002785125867988805
+1876,2004,Latin America and the Caribbean,wat_share_ns_u,0.0027970531175166217
+1877,2004,Northern Africa and Western Asia,wat_share_ns_u,0.003321981983155985
+1878,2004,Oceania,wat_share_ns_u,0.012822506912854643
+1879,2004,Sub-Saharan Africa,wat_share_ns_u,0.032177301237438005
+1880,2005,Australia and New Zealand,wat_share_ns_u,0.0
+1881,2005,Central and Southern Asia,wat_share_ns_u,0.004177396500168965
+1882,2005,Eastern and South-Eastern Asia,wat_share_ns_u,0.004281212654563605
+1883,2005,Europe and Northern America,wat_share_ns_u,0.00027566624422449527
+1884,2005,Latin America and the Caribbean,wat_share_ns_u,0.002666711704589681
+1885,2005,Northern Africa and Western Asia,wat_share_ns_u,0.0031251558750412605
+1886,2005,Oceania,wat_share_ns_u,0.01366714694498604
+1887,2005,Sub-Saharan Africa,wat_share_ns_u,0.03102753603998074
+1888,2006,Australia and New Zealand,wat_share_ns_u,0.0
+1889,2006,Central and Southern Asia,wat_share_ns_u,0.004081699789698542
+1890,2006,Eastern and South-Eastern Asia,wat_share_ns_u,0.00418549253176608
+1891,2006,Europe and Northern America,wat_share_ns_u,0.00027342679989759993
+1892,2006,Latin America and the Caribbean,wat_share_ns_u,0.0025351009480939933
+1893,2006,Northern Africa and Western Asia,wat_share_ns_u,0.0028985668114294783
+1894,2006,Oceania,wat_share_ns_u,0.01452257322726333
+1895,2006,Sub-Saharan Africa,wat_share_ns_u,0.02983270386410878
+1896,2007,Australia and New Zealand,wat_share_ns_u,0.0
+1897,2007,Central and Southern Asia,wat_share_ns_u,0.003970384332259958
+1898,2007,Eastern and South-Eastern Asia,wat_share_ns_u,0.004015414084759144
+1899,2007,Europe and Northern America,wat_share_ns_u,0.00027278759464058984
+1900,2007,Latin America and the Caribbean,wat_share_ns_u,0.0024022546040011364
+1901,2007,Northern Africa and Western Asia,wat_share_ns_u,0.002660941508154644
+1902,2007,Oceania,wat_share_ns_u,0.015389584649069473
+1903,2007,Sub-Saharan Africa,wat_share_ns_u,0.028620560804559665
+1904,2008,Australia and New Zealand,wat_share_ns_u,0.0
+1905,2008,Central and Southern Asia,wat_share_ns_u,0.0038612518632053826
+1906,2008,Eastern and South-Eastern Asia,wat_share_ns_u,0.0038448860130973037
+1907,2008,Europe and Northern America,wat_share_ns_u,0.0002887123051354087
+1908,2008,Latin America and the Caribbean,wat_share_ns_u,0.0022680145089128503
+1909,2008,Northern Africa and Western Asia,wat_share_ns_u,0.0024539803116535464
+1910,2008,Oceania,wat_share_ns_u,0.01627027560400058
+1911,2008,Sub-Saharan Africa,wat_share_ns_u,0.02738639957334543
+1912,2009,Australia and New Zealand,wat_share_ns_u,0.0
+1913,2009,Central and Southern Asia,wat_share_ns_u,0.00376081046427801
+1914,2009,Eastern and South-Eastern Asia,wat_share_ns_u,0.0036760602604550383
+1915,2009,Europe and Northern America,wat_share_ns_u,0.00030462924277806545
+1916,2009,Latin America and the Caribbean,wat_share_ns_u,0.0021324871891985056
+1917,2009,Northern Africa and Western Asia,wat_share_ns_u,0.0022621215339858687
+1918,2009,Oceania,wat_share_ns_u,0.017166736931643417
+1919,2009,Sub-Saharan Africa,wat_share_ns_u,0.026129150608155776
+1920,2010,Australia and New Zealand,wat_share_ns_u,0.0
+1921,2010,Central and Southern Asia,wat_share_ns_u,0.003655600778571267
+1922,2010,Eastern and South-Eastern Asia,wat_share_ns_u,0.0035083726333178175
+1923,2010,Europe and Northern America,wat_share_ns_u,0.00032035949225950794
+1924,2010,Latin America and the Caribbean,wat_share_ns_u,0.0019952187822482254
+1925,2010,Northern Africa and Western Asia,wat_share_ns_u,0.002068557877783833
+1926,2010,Oceania,wat_share_ns_u,0.01807426663704785
+1927,2010,Sub-Saharan Africa,wat_share_ns_u,0.02485068605131823
+1928,2011,Australia and New Zealand,wat_share_ns_u,0.0
+1929,2011,Central and Southern Asia,wat_share_ns_u,0.0035522599435875916
+1930,2011,Eastern and South-Eastern Asia,wat_share_ns_u,0.0033437231615465594
+1931,2011,Europe and Northern America,wat_share_ns_u,0.00033588033230818535
+1932,2011,Latin America and the Caribbean,wat_share_ns_u,0.0018570043408562133
+1933,2011,Northern Africa and Western Asia,wat_share_ns_u,0.001879785657494875
+1934,2011,Oceania,wat_share_ns_u,0.018973810404895868
+1935,2011,Sub-Saharan Africa,wat_share_ns_u,0.024203963538683645
+1936,2012,Australia and New Zealand,wat_share_ns_u,0.0
+1937,2012,Central and Southern Asia,wat_share_ns_u,0.0034503123423799305
+1938,2012,Eastern and South-Eastern Asia,wat_share_ns_u,0.0031788229991877056
+1939,2012,Europe and Northern America,wat_share_ns_u,0.00035152799682998945
+1940,2012,Latin America and the Caribbean,wat_share_ns_u,0.0017180320669742555
+1941,2012,Northern Africa and Western Asia,wat_share_ns_u,0.0016924839715710368
+1942,2012,Oceania,wat_share_ns_u,0.019869086711376206
+1943,2012,Sub-Saharan Africa,wat_share_ns_u,0.02280093733278578
+1944,2013,Australia and New Zealand,wat_share_ns_u,0.0
+1945,2013,Central and Southern Asia,wat_share_ns_u,0.0033460218710705735
+1946,2013,Eastern and South-Eastern Asia,wat_share_ns_u,0.0030126774337901306
+1947,2013,Europe and Northern America,wat_share_ns_u,0.00036717820742131175
+1948,2013,Latin America and the Caribbean,wat_share_ns_u,0.0016279537840364318
+1949,2013,Northern Africa and Western Asia,wat_share_ns_u,0.0014985678148952302
+1950,2013,Oceania,wat_share_ns_u,0.020791726878290454
+1951,2013,Sub-Saharan Africa,wat_share_ns_u,0.021369754560069062
+1952,2014,Australia and New Zealand,wat_share_ns_u,0.0
+1953,2014,Central and Southern Asia,wat_share_ns_u,0.00324252321285515
+1954,2014,Eastern and South-Eastern Asia,wat_share_ns_u,0.002845327868434156
+1955,2014,Europe and Northern America,wat_share_ns_u,0.0003825507698076689
+1956,2014,Latin America and the Caribbean,wat_share_ns_u,0.0015364233449283006
+1957,2014,Northern Africa and Western Asia,wat_share_ns_u,0.0012998829492428452
+1958,2014,Oceania,wat_share_ns_u,0.02173710526300435
+1959,2014,Sub-Saharan Africa,wat_share_ns_u,0.01991793760724413
+1960,2015,Australia and New Zealand,wat_share_ns_u,0.0
+1961,2015,Central and Southern Asia,wat_share_ns_u,0.0031350325171272835
+1962,2015,Eastern and South-Eastern Asia,wat_share_ns_u,0.002676983485472295
+1963,2015,Europe and Northern America,wat_share_ns_u,0.00039777034976537956
+1964,2015,Latin America and the Caribbean,wat_share_ns_u,0.0014779231990620341
+1965,2015,Northern Africa and Western Asia,wat_share_ns_u,0.0011049853984456612
+1966,2015,Oceania,wat_share_ns_u,0.02271538254101072
+1967,2015,Sub-Saharan Africa,wat_share_ns_u,0.018442457641173384
+1968,2016,Australia and New Zealand,wat_share_ns_u,0.0
+1969,2016,Central and Southern Asia,wat_share_ns_u,0.0030263927480687247
+1970,2016,Eastern and South-Eastern Asia,wat_share_ns_u,0.002507851480664149
+1971,2016,Europe and Northern America,wat_share_ns_u,0.0004128235746778155
+1972,2016,Latin America and the Caribbean,wat_share_ns_u,0.0014210171102106773
+1973,2016,Northern Africa and Western Asia,wat_share_ns_u,0.0009533255258342201
+1974,2016,Oceania,wat_share_ns_u,0.023724832089978557
+1975,2016,Sub-Saharan Africa,wat_share_ns_u,0.016979710028244256
+1976,2017,Australia and New Zealand,wat_share_ns_u,0.0
+1977,2017,Central and Southern Asia,wat_share_ns_u,0.0029232416586946063
+1978,2017,Eastern and South-Eastern Asia,wat_share_ns_u,0.002337735929286775
+1979,2017,Europe and Northern America,wat_share_ns_u,0.00042739202841832663
+1980,2017,Latin America and the Caribbean,wat_share_ns_u,0.0013405238589779642
+1981,2017,Northern Africa and Western Asia,wat_share_ns_u,0.000876455278654851
+1982,2017,Oceania,wat_share_ns_u,0.0247575024162628
+1983,2017,Sub-Saharan Africa,wat_share_ns_u,0.015501211818765629
+1984,2018,Australia and New Zealand,wat_share_ns_u,0.0
+1985,2018,Central and Southern Asia,wat_share_ns_u,0.0028211627418352372
+1986,2018,Eastern and South-Eastern Asia,wat_share_ns_u,0.0021380270919321427
+1987,2018,Europe and Northern America,wat_share_ns_u,0.00044153178757399495
+1988,2018,Latin America and the Caribbean,wat_share_ns_u,0.0012906638310719177
+1989,2018,Northern Africa and Western Asia,wat_share_ns_u,0.0007985750790073664
+1990,2018,Oceania,wat_share_ns_u,0.02582143547635704
+1991,2018,Sub-Saharan Africa,wat_share_ns_u,0.014026515096708164
+1992,2019,Australia and New Zealand,wat_share_ns_u,0.0
+1993,2019,Central and Southern Asia,wat_share_ns_u,0.002717961480903262
+1994,2019,Eastern and South-Eastern Asia,wat_share_ns_u,0.002002884027398072
+1995,2019,Europe and Northern America,wat_share_ns_u,0.00045522910160167426
+1996,2019,Latin America and the Caribbean,wat_share_ns_u,0.0012408929924137748
+1997,2019,Northern Africa and Western Asia,wat_share_ns_u,0.0007282269049672448
+1998,2019,Oceania,wat_share_ns_u,0.026906353205811615
+1999,2019,Sub-Saharan Africa,wat_share_ns_u,0.01285452843350057
+2000,2020,Australia and New Zealand,wat_share_ns_u,0.0
+2001,2020,Central and Southern Asia,wat_share_ns_u,0.0025830248665784884
+2002,2020,Eastern and South-Eastern Asia,wat_share_ns_u,0.0018760120864986121
+2003,2020,Europe and Northern America,wat_share_ns_u,0.0004686277023043067
+2004,2020,Latin America and the Caribbean,wat_share_ns_u,0.0011995111561911634
+2005,2020,Northern Africa and Western Asia,wat_share_ns_u,0.0006552593872464006
+2006,2020,Oceania,wat_share_ns_u,0.027985062520212444
+2007,2020,Sub-Saharan Africa,wat_share_ns_u,0.011756083834814472
+2008,2021,Australia and New Zealand,wat_share_ns_u,0.0
+2009,2021,Central and Southern Asia,wat_share_ns_u,0.002545088484172832
+2010,2021,Eastern and South-Eastern Asia,wat_share_ns_u,0.001750101864186576
+2011,2021,Europe and Northern America,wat_share_ns_u,0.0004814561975920287
+2012,2021,Latin America and the Caribbean,wat_share_ns_u,0.0009630101913536235
+2013,2021,Northern Africa and Western Asia,wat_share_ns_u,0.0006007483358338531
+2014,2021,Oceania,wat_share_ns_u,0.029051542851560284
+2015,2021,Sub-Saharan Africa,wat_share_ns_u,0.010827289023303844
+2016,2022,Australia and New Zealand,wat_share_ns_u,0.0
+2017,2022,Central and Southern Asia,wat_share_ns_u,0.002510491380403787
+2018,2022,Eastern and South-Eastern Asia,wat_share_ns_u,0.0016050080970081385
+2019,2022,Europe and Northern America,wat_share_ns_u,0.00047542962999182946
+2020,2022,Latin America and the Caribbean,wat_share_ns_u,0.0009102327011557009
+2021,2022,Northern Africa and Western Asia,wat_share_ns_u,0.0005447190424455368
+2022,2022,Oceania,wat_share_ns_u,0.029429175932662494
+2023,2022,Sub-Saharan Africa,wat_share_ns_u,0.009827446801516957
