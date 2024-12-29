@@ -1,0 +1,145 @@
+,year,region_sdg,stat,amount
+176,2022,Australia and New Zealand,pop_t,31362.701
+177,2022,Central and Southern Asia,pop_t,2084589.543
+178,2022,Eastern and South-Eastern Asia,pop_t,2344325.113
+179,2022,Europe and Northern America,pop_t,1118592.667
+180,2022,Latin America and the Caribbean,pop_t,660269.074
+181,2022,Northern Africa and Western Asia,pop_t,553690.053
+182,2022,Oceania,pop_t,13675.853000000001
+183,2022,Sub-Saharan Africa,pop_t,1166766.36
+360,2022,Australia and New Zealand,pop_r,-2683188.104056915
+361,2022,Central and Southern Asia,pop_r,-77213883.44911961
+362,2022,Eastern and South-Eastern Asia,pop_r,-142973039.87295115
+363,2022,Europe and Northern America,pop_r,-86062298.21169093
+364,2022,Latin America and the Caribbean,pop_r,-53217731.9099098
+365,2022,Northern Africa and Western Asia,pop_r,-34462631.2128851
+366,2022,Oceania,pop_r,-294612.5629749413
+367,2022,Sub-Saharan Africa,pop_r,-48664685.87643351
+544,2022,Australia and New Zealand,pop_u,2714550.805056915
+545,2022,Central and Southern Asia,pop_u,79298472.99211961
+546,2022,Eastern and South-Eastern Asia,pop_u,145317364.98595116
+547,2022,Europe and Northern America,pop_u,87180890.87869093
+548,2022,Latin America and the Caribbean,pop_u,53877958.22590979
+549,2022,Northern Africa and Western Asia,pop_u,35016321.26588509
+550,2022,Oceania,pop_u,308288.41597494134
+551,2022,Sub-Saharan Africa,pop_u,49831452.236433506
+728,2022,Australia and New Zealand,wat_pop_sm_t,518528.79999999993
+729,2022,Central and Southern Asia,wat_pop_sm_t,37641558.56214762
+730,2022,Eastern and South-Eastern Asia,wat_pop_sm_t,47125270.89323387
+731,2022,Europe and Northern America,wat_pop_sm_t,104607356.81863202
+732,2022,Latin America and the Caribbean,wat_pop_sm_t,36533093.21164483
+733,2022,Northern Africa and Western Asia,wat_pop_sm_t,14702617.36670791
+734,2022,Oceania,wat_pop_sm_t,135160.94876995214
+735,2022,Sub-Saharan Africa,wat_pop_sm_t,16161823.384988079
+912,2022,Australia and New Zealand,wat_pop_sm_r,0.0
+913,2022,Central and Southern Asia,wat_pop_sm_r,-4894938349.186158
+914,2022,Eastern and South-Eastern Asia,wat_pop_sm_r,-919531654.437182
+915,2022,Europe and Northern America,wat_pop_sm_r,-2081387578.8922226
+916,2022,Latin America and the Caribbean,wat_pop_sm_r,-1867491481.5814743
+917,2022,Northern Africa and Western Asia,wat_pop_sm_r,-696083214.3977164
+918,2022,Oceania,wat_pop_sm_r,-1834400.8560891785
+919,2022,Sub-Saharan Africa,wat_pop_sm_r,-399723354.35213757
+1096,2022,Australia and New Zealand,wat_pop_sm_u,225334790.39151353
+1097,2022,Central and Southern Asia,wat_pop_sm_u,1830740094.7419615
+1098,2022,Eastern and South-Eastern Asia,wat_pop_sm_u,10639588416.74174
+1099,2022,Europe and Northern America,wat_pop_sm_u,4961299758.24374
+1100,2022,Latin America and the Caribbean,wat_pop_sm_u,2729681848.8929954
+1101,2022,Northern Africa and Western Asia,wat_pop_sm_u,969757097.6009148
+1102,2022,Oceania,wat_pop_sm_u,4101668.9434533417
+1103,2022,Sub-Saharan Africa,wat_pop_sm_u,1546467076.4672604
+1280,2022,Australia and New Zealand,wat_pop_basal_sub_t,0.0
+1281,2022,Central and Southern Asia,wat_pop_basal_sub_t,22774379.521231275
+1282,2022,Eastern and South-Eastern Asia,wat_pop_basal_sub_t,30712717.625253994
+1283,2022,Europe and Northern America,wat_pop_basal_sub_t,5570517.3418193925
+1284,2022,Latin America and the Caribbean,wat_pop_basal_sub_t,15063622.810635928
+1285,2022,Northern Africa and Western Asia,wat_pop_basal_sub_t,4468317.96607388
+1286,2022,Oceania,wat_pop_basal_sub_t,81963.69946716976
+1287,2022,Sub-Saharan Africa,wat_pop_basal_sub_t,31420401.648986306
+1464,2022,Australia and New Zealand,wat_pop_basal_sub_r,0.0
+1465,2022,Central and Southern Asia,wat_pop_basal_sub_r,-2098701197.6351528
+1466,2022,Eastern and South-Eastern Asia,wat_pop_basal_sub_r,-1663116286.8110688
+1467,2022,Europe and Northern America,wat_pop_basal_sub_r,-109934806.3676382
+1468,2022,Latin America and the Caribbean,wat_pop_basal_sub_r,-960436148.8182019
+1469,2022,Northern Africa and Western Asia,wat_pop_basal_sub_r,-333933047.27519155
+1470,2022,Oceania,wat_pop_basal_sub_r,-4264007.472692229
+1471,2022,Sub-Saharan Africa,wat_pop_basal_sub_r,-1151707446.240676
+1648,2022,Australia and New Zealand,wat_pop_basal_sub_u,989195.2891218117
+1649,2022,Central and Southern Asia,wat_pop_basal_sub_u,773240596.328907
+1650,2022,Eastern and South-Eastern Asia,wat_pop_basal_sub_u,1463661696.869103
+1651,2022,Europe and Northern America,wat_pop_basal_sub_u,91773145.78788123
+1652,2022,Latin America and the Caribbean,wat_pop_basal_sub_u,542396150.450012
+1653,2022,Northern Africa and Western Asia,wat_pop_basal_sub_u,242394291.83460727
+1654,2022,Oceania,wat_pop_basal_sub_u,3593210.3695335216
+1655,2022,Sub-Saharan Africa,wat_pop_basal_sub_u,1596951691.0757527
+1832,2022,Australia and New Zealand,wat_pop_lim_t,0.0
+1833,2022,Central and Southern Asia,wat_pop_lim_t,7665953.101387945
+1834,2022,Eastern and South-Eastern Asia,wat_pop_lim_t,1575895.7564983137
+1835,2022,Europe and Northern America,wat_pop_lim_t,374070.4016758242
+1836,2022,Latin America and the Caribbean,wat_pop_lim_t,260523.23091540605
+1837,2022,Northern Africa and Western Asia,wat_pop_lim_t,3156331.365864178
+1838,2022,Oceania,wat_pop_lim_t,26533.40215369169
+1839,2022,Sub-Saharan Africa,wat_pop_lim_t,15818895.065011889
+2016,2022,Australia and New Zealand,wat_pop_lim_r,0.0
+2017,2022,Central and Southern Asia,wat_pop_lim_r,-335258096.6837746
+2018,2022,Eastern and South-Eastern Asia,wat_pop_lim_r,-122782117.45402095
+2019,2022,Europe and Northern America,wat_pop_lim_r,-19558594.160897583
+2020,2022,Latin America and the Caribbean,wat_pop_lim_r,-26796887.20459237
+2021,2022,Northern Africa and Western Asia,wat_pop_lim_r,-189563407.13297033
+2022,2022,Oceania,wat_pop_lim_r,-577025.1360602038
+2023,2022,Sub-Saharan Africa,wat_pop_lim_r,-627691735.7579862
+2200,2022,Australia and New Zealand,wat_pop_lim_u,0.0
+2201,2022,Central and Southern Asia,wat_pop_lim_u,197077990.0742531
+2202,2022,Eastern and South-Eastern Asia,wat_pop_lim_u,54220510.26092563
+2203,2022,Europe and Northern America,wat_pop_lim_u,29578359.066467613
+2204,2022,Latin America and the Caribbean,wat_pop_lim_u,11179472.560646059
+2205,2022,Northern Africa and Western Asia,wat_pop_lim_u,107967265.27553189
+2206,2022,Oceania,wat_pop_lim_u,133487.73771930396
+2207,2022,Sub-Saharan Africa,wat_pop_lim_u,435250419.1889436
+2384,2022,Australia and New Zealand,wat_pop_unimp_t,792.3538574224903
+2385,2022,Central and Southern Asia,wat_pop_unimp_t,4482219.09534161
+2386,2022,Eastern and South-Eastern Asia,wat_pop_unimp_t,5001404.345101372
+2387,2022,Europe and Northern America,wat_pop_unimp_t,866357.4689674791
+2388,2022,Latin America and the Caribbean,wat_pop_unimp_t,904519.9019762627
+2389,2022,Northern Africa and Western Asia,wat_pop_unimp_t,1073967.699399543
+2390,2022,Oceania,wat_pop_unimp_t,272254.39502279105
+2391,2022,Sub-Saharan Africa,wat_pop_unimp_t,17151669.25078315
+2568,2022,Australia and New Zealand,wat_pop_unimp_r,0.0
+2569,2022,Central and Southern Asia,wat_pop_unimp_r,-182095982.43585038
+2570,2022,Eastern and South-Eastern Asia,wat_pop_unimp_r,-487756337.0562274
+2571,2022,Europe and Northern America,wat_pop_unimp_r,-128715770.27837224
+2572,2022,Latin America and the Caribbean,wat_pop_unimp_r,-141794420.44333276
+2573,2022,Northern Africa and Western Asia,wat_pop_unimp_r,-113005722.05949701
+2574,2022,Oceania,wat_pop_unimp_r,-4882085.592804054
+2575,2022,Sub-Saharan Africa,wat_pop_unimp_r,-1058878728.0771192
+2752,2022,Australia and New Zealand,wat_pop_unimp_u,79241.12938356321
+2753,2022,Central and Southern Asia,wat_pop_unimp_u,101712374.70124301
+2754,2022,Eastern and South-Eastern Asia,wat_pop_unimp_u,139101542.6294436
+2755,2022,Europe and Northern America,wat_pop_unimp_u,24629255.548655175
+2756,2022,Latin America and the Caribbean,wat_pop_unimp_u,16212078.145789139
+2757,2022,Northern Africa and Western Asia,wat_pop_unimp_u,16934352.05140865
+2758,2022,Oceania,wat_pop_unimp_u,980708.8820023066
+2759,2022,Sub-Saharan Africa,wat_pop_unimp_u,229307331.06192547
+2936,2022,Australia and New Zealand,wat_pop_ns_t,0.0
+2937,2022,Central and Southern Asia,wat_pop_ns_t,1681921.24513563
+2938,2022,Eastern and South-Eastern Asia,wat_pop_ns_t,1119309.701137411
+2939,2022,Europe and Northern America,wat_pop_ns_t,19923.885766432413
+2940,2022,Latin America and the Caribbean,wat_pop_ns_t,289533.58453762054
+2941,2022,Northern Africa and Western Asia,wat_pop_ns_t,245523.72375444352
+2942,2022,Oceania,wat_pop_ns_t,217351.94907556986
+2943,2022,Sub-Saharan Africa,wat_pop_ns_t,7236553.847955134
+3120,2022,Australia and New Zealand,wat_pop_ns_r,0.0
+3121,2022,Central and Southern Asia,wat_pop_ns_r,-77152359.81966835
+3122,2022,Eastern and South-Eastern Asia,wat_pop_ns_r,-61423691.4086775
+3123,2022,Europe and Northern America,wat_pop_ns_r,-29879.848595337724
+3124,2022,Latin America and the Caribbean,wat_pop_ns_r,-89684056.79366675
+3125,2022,Northern Africa and Western Asia,wat_pop_ns_r,-22506448.825353272
+3126,2022,Oceania,wat_pop_ns_r,-3266393.1895888047
+3127,2022,Sub-Saharan Africa,wat_pop_ns_r,-536782379.1810486
+3304,2022,Australia and New Zealand,wat_pop_ns_u,0.0
+3305,2022,Central and Southern Asia,wat_pop_ns_u,19907813.292589877
+3306,2022,Eastern and South-Eastern Asia,wat_pop_ns_u,23323554.743833855
+3307,2022,Europe and Northern America,wat_pop_ns_u,4144837.8692814074
+3308,2022,Latin America and the Caribbean,wat_pop_ns_u,4904147.944872389
+3309,2022,Northern Africa and Western Asia,wat_pop_ns_u,1907405.6989918216
+3310,2022,Oceania,wat_pop_ns_u,907267.4031728387
+3311,2022,Sub-Saharan Africa,wat_pop_ns_u,48971594.589588344
