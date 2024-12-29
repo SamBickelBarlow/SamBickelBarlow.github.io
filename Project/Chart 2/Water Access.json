@@ -1,0 +1,146 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "title": {
+    "text": "Global Access to Water (by Region): Rural and Urban",
+    "subtitle": "Share of population with access to different levels of water services, 2000-2022",
+    "fontSize": 18,
+    "fontWeight": "bold",
+    "anchor": "start"
+  },
+  "params": [
+    {
+      "name": "year",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2022,
+        "step": 1,
+        "name": "Year"
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%202/jmp_share_group_long.csv",
+        "format": {"type": "csv"}
+      },
+      "transform": [
+        {
+          "calculate": "indexof(['Surface water', 'Unimproved', 'Limited (more than 30 mins)', 'At least basic', 'Safely managed'], datum.category)",
+          "as": "order"
+        },
+        {
+          "filter": "datum.year == year"
+        }
+      ],
+      "mark": {
+        "type": "bar",
+        "size": 18
+      },
+      "encoding": {
+        "x": {
+          "field": "region_sdg",
+          "type": "nominal",
+          "title": "",
+          "axis": {
+            "labelAngle": -45
+          }
+        },
+        "xOffset": {
+          "field": "population_type",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "share",
+          "type": "quantitative",
+          "title": "Share of Population",
+          "axis": {
+            "format": ".0%"
+          }
+        },
+        "color": {
+          "field": "category",
+          "type": "nominal",
+          "title": "Category",
+          "sort": [
+            "Safely managed",
+            "At least basic",
+            "Limited (more than 30 mins)",
+            "Unimproved",
+            "Surface water"
+          ],
+          "scale": {
+            "domain": [
+              "Safely managed",
+              "At least basic",
+              "Limited (more than 30 mins)",
+              "Unimproved",
+              "Surface water"
+            ],
+            "range": [
+              "#008585",
+              "#74a892",
+              "#fbf2c4",
+              "#e5c185",
+              "#c7522a"
+            ]
+          },
+          "legend": {
+            "orient": "top",
+            "title": ""
+          }
+        },
+        "order": {"field": "order", "type": "ordinal"},
+        "tooltip": [
+          {"field": "year", "title": "Year"},
+          {"field": "region_sdg", "title": "Region"},
+          {"field": "population_type", "title": "Population Type"},
+          {"field": "category", "title": "Category"},
+          {"field": "share", "title": "Share", "format": ".2f"}
+        ]
+      }
+    },
+     {
+      "data": {
+        "values": [{"x": 0, "y": 1, "label": "R    U       R    U       R    U       R    U       R    U       R    U       R    U       R    U"}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "bottom",
+        "dx": 292.5,
+        "dy": -1
+      },
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative" , "axis" : null},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    } ,
+    {
+      "data": {
+        "values": [{"x": 0, "y": 1, "label": "R = Rural, U = Urban"}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "bottom",
+        "fontWeight": "bold",
+        "dx": 6,
+        "dy": -20
+      },
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative" , "axis" : null},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    }
+  ]
+}
