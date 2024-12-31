@@ -1,0 +1,100 @@
+{
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%203/area_chart.csv"
+  },
+  "mark": {
+    "type": "area",
+    "opacity": 0.75
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "quantitative",
+      "title": "",
+      "scale": {"domain": [2001, 2021]},
+      "axis": {
+        "labelFont": "Arial",
+        "labelFontSize": 12,
+        "titleFont": "Arial",
+        "titleFontSize": 14,
+        "grid": true
+      }
+    },
+    "y": {
+      "field": "share_of_Water_Stress",
+      "type": "quantitative",
+      "title": "",
+       "scale": {"domain": [0, 1]},
+      "axis": {
+        "format": ".0%",
+        "labelFont": "Arial",
+        "labelFontSize": 12,
+        "titleFont": "Arial",
+        "titleFontSize": 10,
+        "titleAngle": 0,
+        "titleAlign": "right",
+        "grid": true
+      }
+    },
+    "color": {
+      "field": "Contribution to Water Stress",
+      "type": "nominal",
+      "title": "Sector",
+      "scale": {
+      "domain": ["Agricultural Sector", "Industrial Sector", "Municipal Sector"],
+      "range": ["#aec97e", "#ffb81d", "#73b7d9"]
+      },
+      "legend": {
+        "orient": "top",
+        "titleFont": "Arial",
+        "titleFontSize": 14,
+        "labelFont": "Arial",
+        "labelFontSize": 12
+      }
+    },
+    "facet": {
+      "field": "Area",
+      "type": "nominal",
+      "title": "",
+      "columns": 4,
+      "header": {
+        "labelFont": "Arial",
+        "labelFontSize": 14,
+        "titleFont": "Arial",
+        "titleFontSize": 16,
+        "labelFontWeight": "bold",
+        "labelAnchor": "start"
+      }
+    }
+  },
+  "title": {
+    "text": "Contribution to Water Stress by Sector",
+    "subtitle": "Sectoral Contribution to Water Stress by Region: 2001 to 2021",
+    "font": "Arial",
+    "fontSize": 18,
+    "subtitleFont": "Arial",
+    "subtitleFontSize": 14,
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {
+    "facet": {
+      "cell": {
+        "width": 220,
+        "height": 150
+      }
+    },
+    "view": {
+      "stroke": "transparent"
+    },
+    "background": "#f9f9f9",
+    "axis": {
+      "domainColor": "gray",
+      "domainWidth": 1,
+      "gridColor": "#e6e6e6",
+      "gridWidth": 0.8,
+      "tickColor": "gray",
+      "tickWidth": 1
+    }
+  }
+}
