@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Water Project</title>
+<html> 
+<head>    
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <title>Water Crisis: Where in the world suffers from a lack of water</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+        #chartGrid {
+            display: flex;
+        }
+        
+    </style>
 </head>
-<body>
-<p>"Water Project"</p>    
+
+<body> 
+    <h1 class="big" style="margin-bottom: 0px;"> 
+        Water Crisis: Where in the world suffers from a lack of water
+    </h1>
+    <p style="margin-top: 0px; color: darkblue">
+    </p>
+    <h3 class="small"> 
+    </h3>
+
+    <section>
+        <div class="chart-description">
+            <h2>Mapping Water Stress</h2>
+            <p>
+                Water Stress ratio between total freshwater withdrawn by all major sectors and total renewable freshwater resources, after taking into account environmental water requirements.<br>
+                Chart 1 shows the variation in water stress acrosss the world and how water stress has changed over time.<br>
+            </p>
+        </div>
+        <figure id="Chart1"></figure> 
+        <p>
+            Source: <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a>
+        </p>
+    </section>
+    <script>
+        let figure_1_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/Water%20Stress%20Map.json";
+        vegaEmbed('#Chart1', figure_1_spec)
+    </script>
+
+ <section>
+        <div class="chart-description">
+            <h2>Urban/Rural divide in access to freshwater</h2>
+            <p>
+                In all regions of the world rural populations struggle more with access to clean water. However, in most regions access has improved overtime.<br>
+                Chart 2 shows share of populations with differing levels of access to freshwater across regions and how that has access has changed in the last 20 years.<br>
+            </p>
+        </div>
+        <figure id="Chart2"></figure> 
+     <p>
+         Source: <a href="https://washdata.org/">Joint Monitoring Program for Water Stress (WHO/UNICEF)</a>
+     </p>
+    </section>
+    <script>
+        let figure_2_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%202/Water%20Access.json";
+    
+        vegaEmbed('#Chart2', figure_2_spec);
+    </script>
+
+ <section>
+        <div class="chart-description">
+            <h2>Which sectors of economies are the biggest contributors to water stress?</h2>
+            <p>
+             Chart 3 which sectors contribute most to water stress. In most regions, with the exception of North America and Europe, agricultural water use dominates freshwater stress contribution.<br>
+             While agriculture is naturally a water intensive economic activity, focusing on increasing efficient use of water in this sector could may pay the biggest dividends for policymakers interested in mitigating water shortages.
+            </p>
+        </div>
+        <figure id="Chart3"></figure> 
+         <p>
+         Source: <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a>
+    <script>
+         let figure_3_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%203/Sector%20Stress.json";
+    
+    vegaEmbed('#Chart3', figure_3_spec);
+    </script>
+    
+<section>
+        <h2>Aims</h2>
+            <p>
+             Aims...
+            </p>
+</section>
+
+<section>
+        <h2>Data</h2>
+            <p>
+             Data...
+            </p>
+</section>
+
+<section>
+        <h2>Analytical Challenges</h2>
+            <p>
+             Challenges...
+            </p>
+</section>
+
+<section>
+        <h2>Conclusions</h2>
+            <p>
+             Conclusions...
+            </p>
+</section>
+
 </body>
+    
 </html>
+
