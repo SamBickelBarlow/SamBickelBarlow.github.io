@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 300,
+  "description": "Scatter plot comparing the logarithm of GDP per capita and Water Stress, with size based on TotalPopulation.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%205/GDP_chart.csv",
+    "format": {"type": "csv"}
+  },
+  "title": {
+    "text": "Relationship Between GDP and Water Stress",
+    "subtitle": "In general, GDP gains have not necessarily translated into improved water security.",
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 12
+  },
+  "params": [
+    {
+      "name": "yearSelection",
+      "value": 2021,
+      "bind": {
+        "input": "range",
+        "min": 2001,
+        "max": 2021,
+        "step": 1,
+        "name": "Year:"
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.Year == yearSelection"
+    },
+    {
+      "calculate": "log(datum['GDP per capita'])",
+      "as": "Log_GDP_per_capita"
+    },
+    {
+      "calculate": "log(datum['WaterStress'])",
+      "as": "Log_WaterStress"
+    },
+    {
+      "calculate": "datum['Total population']/1000",
+      "as": "Population_mil"
+    }
+  ],
+  "mark": "circle",
+  "encoding": {
+    "x": {
+      "field": "Log_GDP_per_capita",
+      "type": "quantitative",
+      "title": "Log(GDP per capita)",
+      "scale": {
+        "domain": [4, 12]
+      }
+    },
+    "y": {
+      "field": "Log_WaterStress",
+      "type": "quantitative",
+      "title": "Log(Water Stress)",
+      "scale": {
+        "domain": [-2, 8]
+      }
+    },
+    "color": {
+      "field": "SDG_Region",
+      "type": "nominal",
+      "title": "SDG Region"
+    },
+    "size": {
+      "field": "Population_mil",
+      "type": "quantitative",
+      "title": "Total Population (millions)",
+      "scale": {
+        "domain": [1, 1000],
+        "range": [1, 1000]
+      }
+    },
+    "tooltip": [
+      {"field": "Area", "type": "nominal", "title": "Country"},
+      {"field": "Year", "type": "quantitative", "title": "Year"},
+      {"field": "GDP per capita", "type": "quantitative", "title": "GDP per capita"},
+      {"field": "WaterStress", "type": "quantitative", "title": "Water Stress"},
+      {"field": "Total population", "type": "quantitative", "title": "Total Population"}
+    ]
+  }
+}
