@@ -1,4 +1,4 @@
-Area,Year,SDG 6.4.1. Industrial Water Use Efficiency,SDG 6.4.1. Irrigated Agriculture Water Use Efficiency,SDG 6.4.1. Services Water Use Efficiency,SDG 6.4.1. Water Use Efficiency,SDG 6.4.2. Water Stress
+Area,Year,IndustrialWaterUseEfficiency,IrrigatedAgricultureWaterUseEfficiency,ServicesWaterUseEfficiency,WaterUseEfficiency,WaterStress
 Afghanistan,2001,9.33299473,0.060692822,6.345883476,0.173917579,54.75701944
 Afghanistan,2002,11.50279881,0.075557637,13.61696767,0.272931083,54.75701944
 Afghanistan,2003,10.95449885,0.06862341,16.85757991,0.302243741,54.75701944
