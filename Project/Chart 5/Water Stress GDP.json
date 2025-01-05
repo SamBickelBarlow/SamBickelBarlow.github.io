@@ -25,11 +25,33 @@
         "step": 1,
         "name": "Year:"
       }
+    },
+    {
+      "name": "regionSelection",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "Australia and New Zealand",
+          "Central and Southern Asia",
+          "Eastern and South-Eastern Asia",
+          "Europe and Northern America",
+          "Latin America and the Caribbean",
+          "Northern Africa and Western Asia",
+          "Oceania",
+          "Sub-Saharan Africa"
+        ],
+        "name": "Region:"
+      }
     }
   ],
   "transform": [
     {
       "filter": "datum.Year == yearSelection"
+    },
+    {
+      "filter": "regionSelection == 'All' || datum.SDG_Region == regionSelection"
     },
     {
       "calculate": "log(datum['GDP per capita'])",
@@ -65,7 +87,29 @@
     "color": {
       "field": "SDG_Region",
       "type": "nominal",
-      "title": "SDG Region"
+      "title": "SDG Region",
+      "scale": {
+        "domain": [
+          "Australia and New Zealand",
+          "Central and Southern Asia",
+          "Eastern and South-Eastern Asia",
+          "Europe and Northern America",
+          "Latin America and the Caribbean",
+          "Northern Africa and Western Asia",
+          "Oceania",
+          "Sub-Saharan Africa"
+        ],
+        "range": [
+          "#1f77b4",  // Blue
+          "#ff7f0e",  // Orange
+          "#2ca02c",  // Green
+          "#d62728",  // Red
+          "#9467bd",  // Purple
+          "#8c564b",  // Brown
+          "#e377c2",  // Pink
+          "#7f7f7f"   // Gray
+        ]
+      }
     },
     "size": {
       "field": "Population_mil",
