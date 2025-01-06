@@ -66,7 +66,7 @@
          <b>Challenges:</b><br>
              One challenge I faced is that there were some months in this data set that were missing data. At first these missing observations were interpreted by vegaLite as zero values. To instead simply not plot these points I had to eliminate those missing observations before plotting.<br><br>
          <b>Conclusion:</b><br>
-             Freshwater resources (measured as terrestriaal water storage) have generally declined over the past two decades. This confirms concerns raised by researchers that pressure on water resources is a growing concern.<br>
+             Freshwater resources (measured as terrestrial water storage) have generally declined over the past two decades. This confirms concerns raised by researchers that pressure on water resources is a growing concern.<br>
         
     <script>
          let figure_4_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%204/Water%20Storage.json";
@@ -75,15 +75,36 @@
     </script>
     <section>
         <div class="chart-description">
-            <h2>Mapping Water Stress</h2>
-            <p>
-                Water Stress ratio between total freshwater withdrawn by all major sectors and total renewable freshwater resources, after taking into account environmental water requirements.<br>
-                Chart 1 shows the variation in water stress acrosss the world and how water stress has changed over time.<br>
-            </p>
+            <h2>Which countries around the world have the most pressure on water resources</h2>
         </div>
         <figure id="Chart1"></figure> 
         <p>
             Source: <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a>
+             <b>Aims:</b><br>
+            My goals with this map are to show where water resources are most strained around the world and to show where strain on those resources has improved or gotten worse in the past two decades.<br><br>
+         <b>Data:</b><br>
+             Water stress is essentually the ratio of the water a country uses to the amount it has. The metric is calculated as 100*[Total freshwater withdrawal (primary and secondary)]/([Total renewable water resources]-[Environmental Flow Requirements]) - 2). See <a href="https://www.fao.org/aquastat/en/databases/glossary/">FAO glossary</a> for further metric definitions.
+             One limitation of this dataset is that is is only availible at a country-level. This can washout variation within large countries, with varying climates. 
+             For example, the United States' dry southwest region struggles with water shortage, while more temperate regions of the US have plenty of water. This varitaion is lost in the country-level water stress statistic.<br><br>
+         <b>Approach:</b><br>
+             I want to show geographic variation in both absolute levels of water stress as well as the change in water stress over the past two decades. I employeed a map to show this geographic variation in water stress.
+             To create this map I first downloaded and cleaned AQUASTAT data on water stress for all countries in 2001 and in 2021 in Python. I then calculated the absolute and percent change in water stress in each country between those years. 
+             Once the data was cleaned I used vegaLite to display the: water stress in 2021 and 2001 and the absolute and percentage change in water stress between those years depending on the statistic selected in a drop down menu. 
+             These statistics were represented by a color gradient from blue to red to represent countries with good and improving water stress and those with poor and declining water stress respectively.
+             Additionally, I added an interactive tooltip so that viewers can see exact statistics for countries.
+             <br><br>
+         <b>Challenges:</b><br>
+            I used a <a href="https://github.com/mclass-user/mclass-user.github.io/blob/main/maps/map_world.geojson">geojson file</a> from 'mclass-user' on Github as the base for my map. 
+            This geojson file used International Organization of Standards 3 (ISO3) codes along with country names to identify individual countries. However, the AQUASTAT data only used country names and in many cases the country names were not an exact match between the two data sets.
+            For example, one dataset used 'United States' while the other used 'United States of America'.
+            To resolve this I imported the AQUASTAT data into Python and used a package called <a href="https://pypi.org/project/pycountry/">pycountry</a> to assist in coverting the AQUASTAT country names into ISO3 codes. 
+            This package searches through the most commonly used country names to find a match and can output the matching ISO3 code. This package along with a few hand corrected cases allowed me to successfully link the AQUASTAT data to the geojson based on ISO3 code.<br><br>
+         <b>Conclusion:</b><br>
+             The Northern Africa and Western Asia are and have been the region of the world with the most critical water stress. Water stress in the region dwarfs water stres in all other countries.
+             This is not all that suprising considering the region is know for it's arid and desert climates.
+             Examining the change in water stress between 2001 and 2021 we can see that in most countries water stress is getting worse. 
+             This could be due increased demand as populations grow and economic activity increase combined with reduced supply due the the impacts of climate change increasing evaporation rates in resevoirs.<br>
+
         </p>
     </section>
     <script>
