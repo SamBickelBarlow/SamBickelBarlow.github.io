@@ -57,11 +57,11 @@
          <b>Aims:</b><br>
             My goal with this chart is to show how global freshwater stores have changed over the past two decades.<br><br>
          <b>Data:</b><br>
-             Terrestrial water storage, including groundwater, soil water, surface water, snow and land ice, are derived from gravity measurements by the GRACE satellites (Boergens et al., 2019).<br>
+             Terrestrial water storage, including groundwater, soil water, surface water, snow and land ice, are derived from gravity measurements by the GRACE satellites (Boergens et al., 2019).
          The dataset does not show absolute terrestrial water storage levels. Instead it shows terrestrial water storage as the difference from the 2003-2006 average.<br><br>
          <b>Approach:</b><br>
-             To create the chart above I downloaded monthy global data from the Global Water Monitor storage going back to April 2002. I the performed minimal data cleaning to split the date column into separate month and year columns.<br>
-         I plotted the data as a line chart with terrestrial water storage on the y-axis, the month on the x-axis and each year of data plotted as a separate line with the shade of blue of the line distinguishing the year (darker blue for more recent years).<br>
+             To create the chart above I downloaded monthy global data from the Global Water Monitor storage going back to April 2002. I the performed minimal data cleaning to split the date column into separate month and year columns.
+         I plotted the data as a line chart with terrestrial water storage on the y-axis, the month on the x-axis and each year of data plotted as a separate line with the shade of blue of the line distinguishing the year (darker blue for more recent years).
          I decided to plot the data in this way to highlight the general but not uniform trend of decreasing global terrestrial water storage over time and the particular low storage amounts measured in 2023. This approach made the general downward trend of terrestrial water storage clear, but to ensure individual points could be investigated I added an interactive tooltip function.<br><br>
          <b>Challenges:</b><br>
              One challenge I faced is that there were some months in this data set that were missing data. At first these missing observations were interpreted by vegaLite as zero values. To instead simply not plot these points I had to eliminate those missing observations before plotting.<br><br>
