@@ -79,11 +79,12 @@
         </div>
         <figure id="Chart1"></figure> 
         <p>
-            Source: <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a><br>
-             <b>Aims:</b><br>
+            Source: <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a><br><br>
+         <b>Aims:</b><br>
             My goals with this map are to show where water resources are most strained around the world and to show where strain on those resources has improved or gotten worse in the past two decades.<br><br>
          <b>Data:</b><br>
-             Water stress is essentually the ratio of the water a country uses to the amount it has. The metric is calculated as 100*[Total freshwater withdrawal (primary and secondary)]/([Total renewable water resources]-[Environmental Flow Requirements]) - 2). See <a href="https://www.fao.org/aquastat/en/databases/glossary/">FAO glossary</a> for further metric definitions.
+             The data for this charts come from the UN-FAO AQUASTAT data.
+             Water stress is essentually the ratio of the water a country uses to the amount it has. See <a href="https://www.fao.org/aquastat/en/databases/glossary/">FAO glossary</a> for detailed metric definitions.
              One limitation of this dataset is that is is only availible at a country-level. This can washout variation within large countries, with varying climates. 
              For example, the United States' dry southwest region struggles with water shortage, while more temperate regions of the US have plenty of water. This varitaion is lost in the country-level water stress statistic.<br><br>
          <b>Approach:</b><br>
@@ -115,17 +116,44 @@
     <section>
         <div class="chart-description">
             <h2>Is efficient water use corrolated with high Gross Domestic Product (GDP)?</h2>
-            <p>
-              
-            </p>
         </div>
-        <figure id="Chart5"></figure> 
-         <p>
-         Source: <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a>
+        <figure id="Chart5"></figure> <figure id="Chart6"></figure> 
+        <p>
+         Source: <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a><br><br>
+        <b>Aims:</b><br>
+            I noticed in the map above that high GDP countries in the global north tended to have reduced water stress over the past two decades while lower GDP countries in the global south often increased in water stress. 
+            Therefore, I wanted examine the relationship between per capita GDP and water stress overtime in various regions of the world. I also looked at the same relationship but with water use efficiency.<br><br>
+         <b>Data:</b><br>
+             The data for these charts come from the UN-FAO AQUASTAT data.
+             Water stress is essentually the ratio of the water a country uses to the amount it has.
+             Water use efficiency a ratio of the water a country use compared to the amount it withdrawls from all sources.<br><br>
+         <b>Approach:</b><br>
+             In order to plot this data I downloaded data on all countries between 2001 and 2021 including their GDP per capita, water stress, water efficiency, and Total population. I then mapped each country to it's SDG region code.
+             Upon uploading the data to vega I use a transformation on GDP per capita, water stress, and water efficiency before plotting. This ensured a more interpretable chart by avoiding large skews caused by outliers.
+             I then created two scatter plots of log GDP per capita plotted again log water stress and log water use efficiency respectively. In each scatter plot I maximized interactivity and interpretability with several features:<br>
+             Slider to allow the user interactively investigate the plot over the twenty year period;<br>
+             Size to represent total population so that the user can get a sense of the number of people as well as countries impacted; <br>
+             Color and an interactive a drop down menu for inter and intra SDG regions;<br>
+             A regression line plotted to highlight the relationship between GDP per capita and the water statistic.<br>
+             
+             <br><br>
+         <b>Challenges:</b><br>
+            I used a <a href="https://github.com/mclass-user/mclass-user.github.io/blob/main/maps/map_world.geojson">geojson file</a> from 'mclass-user' on Github as the base for my map. 
+            This geojson file used International Organization of Standards 3 (ISO3) codes along with country names to identify individual countries. However, the AQUASTAT data only used country names and in many cases the country names were not an exact match between the two data sets.
+            For example, one dataset used 'United States' while the other used 'United States of America'.
+            To resolve this I imported the AQUASTAT data into Python and used a package called <a href="https://pypi.org/project/pycountry/">pycountry</a> to assist in coverting the AQUASTAT country names into ISO3 codes. 
+            This package searches through the most commonly used country names to find a match and can output the matching ISO3 code. This package along with a few hand corrected cases allowed me to successfully link the AQUASTAT data to the geojson based on ISO3 code.<br><br>
+         <b>Conclusion:</b><br>
+             The Northern Africa and Western Asia are and have been the region of the world with the most critical water stress. Water stress in the region dwarfs water stres in all other countries.
+             This is not all that suprising considering the region is know for it's arid and desert climates.
+             Examining the change in water stress between 2001 and 2021 we can see that in most countries water stress is getting worse. 
+             This could be due increased demand as populations grow and economic activity increase combined with reduced supply due the the impacts of climate change increasing evaporation rates in resevoirs.<br>
+
     <script>
-         let figure_5_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%205/Water%20Efficiency%20GDP.json";
-    
-    vegaEmbed('#Chart5', figure_5_spec);
+        let figure_5_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%205/Water%20Stress%20GDP.json";
+        vegaEmbed('#Chart5', figure_5_spec);
+        let figure_6_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%205/Water%20Efficiency%20GDP.json";
+        vegaEmbed('#Chart6', figure_6_spec);
 </script>
 
  <section>
