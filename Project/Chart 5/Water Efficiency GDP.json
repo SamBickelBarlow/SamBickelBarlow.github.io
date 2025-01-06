@@ -1,0 +1,197 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 300,
+  "description": "Scatter plot comparing the logarithm of GDP per capita and Water Stress, with size based on TotalPopulation and a regression line.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%205/GDP_chart2.csv",
+    "format": {"type": "csv"}
+  },
+  "title": {
+    "text": "Relationship Between GDP and Water Efficiency",
+    "subtitle": "In general, GDP gains have not necessarily translated into improved water security.",
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 12
+  },
+  "params": [
+    {
+      "name": "yearSelection",
+      "value": 2021,
+      "bind": {
+        "input": "range",
+        "min": 2001,
+        "max": 2021,
+        "step": 1,
+        "name": "Year:"
+      }
+    },
+    {
+      "name": "regionSelection",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "Australia and New Zealand",
+          "Central and Southern Asia",
+          "Eastern and South-Eastern Asia",
+          "Europe and Northern America",
+          "Latin America and the Caribbean",
+          "Northern Africa and Western Asia",
+          "Oceania",
+          "Sub-Saharan Africa"
+        ],
+        "name": "Region:"
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.Year == yearSelection"
+    },
+    {
+      "filter": "regionSelection == 'All' || datum.SDG_Region == regionSelection"
+    },
+    {
+      "calculate": "log(datum['GDP per capita'])",
+      "as": "Log_GDP_per_capita"
+    },
+    {
+      "calculate": "log(datum['WaterStress'])",
+      "as": "Log_WaterStress"
+    },
+    {
+      "calculate": "log(datum['WaterEfficiency'])",
+      "as": "Log_WaterEfficiency"
+    },
+    {
+      "calculate": "datum['Total population']/1000",
+      "as": "Population_mil"
+    }
+  ],
+  "layer": [
+    {
+      "mark": "circle",
+      "encoding": {
+        "x": {
+          "field": "Log_GDP_per_capita",
+          "type": "quantitative",
+          "title": "Log(GDP per capita)",
+          "scale": {
+            "domain": [4, 12]
+          }
+        },
+        "y": {
+          "field": "Log_WaterEfficiency",
+          "type": "quantitative",
+          "title": "Log(Water Efficiency)",
+          "scale": {
+            "domain": [-2, 8]
+          }
+        },
+        "color": {
+          "field": "SDG_Region",
+          "type": "nominal",
+          "title": "SDG Region",
+          "scale": {
+            "domain": [
+              "Australia and New Zealand",
+              "Central and Southern Asia",
+              "Eastern and South-Eastern Asia",
+              "Europe and Northern America",
+              "Latin America and the Caribbean",
+              "Northern Africa and Western Asia",
+              "Oceania",
+              "Sub-Saharan Africa"
+            ],
+            "range": [
+              "#1f77b4",
+              "#ff7f0e",
+              "#2ca02c",
+              "#d62728",
+              "#9467bd",
+              "#8c564b",
+              "#e377c2",
+              "#7f7f7f"
+            ]
+          }
+        },
+        "size": {
+          "field": "Population_mil",
+          "type": "quantitative",
+          "title": "Total Population (millions)",
+          "scale": {
+            "domain": [1, 1000],
+            "range": [1, 1000]
+          }
+        },
+       "tooltip": [
+        {"field": "Area", "type": "nominal", "title": "Country"},
+        {"field": "Year", "type": "quantitative", "title": "Year"},
+        {"field": "GDP per capita", "type": "quantitative", "title": "GDP per capita", "format": "$,.0f"},
+        {"field": "WaterStress", "type": "quantitative", "title": "Water Stress", "format": ".2f"},
+        {"field": "Population_mil", "type": "quantitative", "title": "Total Population (M)", "format": ".2f"}
+]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum['GDP per capita'] > 0 && datum['WaterEfficiency'] > 0"
+        },
+        {
+          "regression": "Log_WaterEfficiency",
+          "on": "Log_GDP_per_capita"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "color": "red",
+        "strokeDash": [5, 5]
+      },
+      "encoding": {
+        "x": {
+          "field": "Log_GDP_per_capita",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Log_WaterEfficiency",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "strokeDash": [5, 5],
+        "color": "red",
+        "tooltip": {"content": "data"},
+        "size" : 2
+      },
+      "encoding": {
+        "x": {"value": 565},
+        "x2": {"value": 515},
+        "y": {"value": 315}
+      }
+    },
+   {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 11,
+        "font": "sans-serif",
+
+        "dx": 10,
+        "dy": 250
+      },
+      "encoding": {
+        "text": {
+          "value": "Regression Line"
+        },
+        "x": {"value": 506},
+        "y": {"value": 53}
+      }
+    }
+  ]
+}
