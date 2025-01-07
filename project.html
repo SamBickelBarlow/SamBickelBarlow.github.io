@@ -134,20 +134,23 @@
              Slider to allow the user interactively investigate the plot over the twenty year period;<br>
              Size to represent total population so that the user can get a sense of the number of people as well as countries impacted; <br>
              Color and an interactive a drop down menu for inter and intra SDG regions;<br>
-             A regression line plotted to highlight the relationship between GDP per capita and the water statistic.<br>
-             
+             A regression line plotted to highlight the relationship between GDP per capita and the water statistic.
+             Tooltips for individual observation detail.
              <br><br>
          <b>Challenges:</b><br>
-            I used a <a href="https://github.com/mclass-user/mclass-user.github.io/blob/main/maps/map_world.geojson">geojson file</a> from 'mclass-user' on Github as the base for my map. 
-            This geojson file used International Organization of Standards 3 (ISO3) codes along with country names to identify individual countries. However, the AQUASTAT data only used country names and in many cases the country names were not an exact match between the two data sets.
-            For example, one dataset used 'United States' while the other used 'United States of America'.
-            To resolve this I imported the AQUASTAT data into Python and used a package called <a href="https://pypi.org/project/pycountry/">pycountry</a> to assist in coverting the AQUASTAT country names into ISO3 codes. 
-            This package searches through the most commonly used country names to find a match and can output the matching ISO3 code. This package along with a few hand corrected cases allowed me to successfully link the AQUASTAT data to the geojson based on ISO3 code.<br><br>
+             When I originally plotted these charts I did so with the untransformed GDP per capita, water stress and water efficiency data. 
+             By the nature of this data, interpretability was challenging with most data points concentrated in the bottom left of the chart, 
+             but with enough outliers particularly in the Northern Africa and Western Asia region (a region of particular interest) 
+             that simplying dropping those outliers would take away from the value of the chart. Log transformations address this problem by brining outliers closer to the rest of the data thus 
+             allowing me to show the primary insight of the charts the relationship between GDP per capita and the water statistics.
+             Additionally the tooltip feature allows users to investigate the actual GDP per capita and water statistics so I don't feel the chart suffers much at all by not plotting the true values.<br><br>
          <b>Conclusion:</b><br>
-             The Northern Africa and Western Asia are and have been the region of the world with the most critical water stress. Water stress in the region dwarfs water stres in all other countries.
-             This is not all that suprising considering the region is know for it's arid and desert climates.
-             Examining the change in water stress between 2001 and 2021 we can see that in most countries water stress is getting worse. 
-             This could be due increased demand as populations grow and economic activity increase combined with reduced supply due the the impacts of climate change increasing evaporation rates in resevoirs.<br>
+             Due to my observations of the map, I first created the GDP per capita vs water stress chart expecting higher GDP countries to tend to have lower water stress. In most regions and in most years I found the opposite. This is explainable
+             by the demands on freshwater necessitated by greater economic activity.
+             To investigate further, I plotted GDP per capita against water use efficiency and found that indeed in general higher GDP countries tend to use there water more efficiency. I would hypothesize the wealthier countries are better able to afford
+             and impliment water usage technologies.
+             If my hypothesis from these charts are correct this means that the increased demand associated with greater economic activity are not offset by efficiency gains from better water usage technologies.
+        <br>
 
     <script>
         let figure_5_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%205/Water%20Stress%20GDP.json";
