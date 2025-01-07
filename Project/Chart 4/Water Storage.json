@@ -4,7 +4,7 @@
   "width": 500,
   "height": 300,
   "title": {
-    "text": "Terrestrial Water Storage (mm)",
+    "text": "Terrestrial Water Storage",
     "subtitle": "Sum of water stored underground, in water bodies and in snow and ice",
     "fontSize": 16,
     "subtitleFontSize": 12,
