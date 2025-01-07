@@ -7,9 +7,10 @@
     "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%205/GDP_chart2.csv",
     "format": {"type": "csv"}
   },
+  "background" : "#f9f9f9",
   "title": {
     "text": "Relationship Between GDP and Water Efficiency",
-    "subtitle": "In general, GDP gains have not necessarily translated into improved water security.",
+    "subtitle": "GDP per capita is associated  with higher water use efficiency.",
     "anchor": "start",
     "fontSize": 16,
     "subtitleFontSize": 12
