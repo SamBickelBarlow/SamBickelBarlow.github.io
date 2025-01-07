@@ -85,6 +85,10 @@
           "title": "Log(Water Stress)",
           "scale": {
             "domain": [-2, 8]
+          },
+          "axis": {
+            "titleAngle" : 0,
+            "titlePadding" : 50
           }
         },
         "color": {
