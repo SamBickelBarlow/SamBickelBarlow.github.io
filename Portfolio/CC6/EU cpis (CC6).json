@@ -22,7 +22,7 @@
   ],
           
     "height": 120,
-    "width": 120,   
+    "width": 500,   
     
     "mark": {   
             "type":"line",
