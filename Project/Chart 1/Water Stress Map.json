@@ -2,11 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Global Changes in Water Stress",
-    "subtitle": [
-      "Select a metric to display between 2001 and 2021",
-      "Source: United Nations FAO",
-      ""
-    ],
     "fontSize": 16,
     "subtitleFontSize": 12,
     "subtitleFontWeight": "lighter",
