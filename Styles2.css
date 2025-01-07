@@ -1,0 +1,114 @@
+/* This is an enhanced CSS file for clean and responsive styling */
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 60px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  font-weight: 600;
+}
+
+.big {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+.small {
+  font-size: 1.25em;
+}
+
+/* Paragraph */
+p {
+  margin-bottom: 1.5em;
+  font-weight: 300;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2.5em;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Links */
+a {
+  color: #065f46;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: #044e37;
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Buttons */
+button {
+  background-color: #065f46;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #044e37;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f8f8;
+  color: #555;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding-top: 30px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+}
