@@ -14,20 +14,25 @@
       "field": "Year",
       "type": "quantitative",
       "title": "",
-      "scale": {"domain": [2001, 2021]},
+      "scale": {
+        "domain": [2001, 2021]
+      },
       "axis": {
         "labelFont": "Arial",
         "labelFontSize": 12,
         "titleFont": "Arial",
         "titleFontSize": 14,
-        "grid": true
+        "grid": true,
+        "format": "" 
       }
     },
     "y": {
       "field": "share_of_Water_Stress",
       "type": "quantitative",
       "title": "",
-       "scale": {"domain": [0, 1]},
+      "scale": {
+        "domain": [0, 1]
+      },
       "axis": {
         "format": ".0%",
         "labelFont": "Arial",
@@ -44,8 +49,8 @@
       "type": "nominal",
       "title": "Sector",
       "scale": {
-      "domain": ["Agricultural Sector", "Industrial Sector", "Municipal Sector"],
-      "range": ["#aec97e", "#ffb81d", "#73b7d9"]
+        "domain": ["Agricultural Sector", "Industrial Sector", "Municipal Sector"],
+        "range": ["#aec97e", "#ffb81d", "#73b7d9"]
       },
       "legend": {
         "orient": "top",
@@ -54,7 +59,7 @@
         "labelFont": "Arial",
         "labelFontSize": 12
       }
-    },
+  },
     "facet": {
       "field": "Area",
       "type": "nominal",
@@ -69,7 +74,8 @@
         "labelAnchor": "start"
       }
     }
-  },
+  }
+  ,
   "title": {
     "text": "Contribution to Water Stress by Sector",
     "subtitle": "Sectoral Contribution to Water Stress by Region: 2001 to 2021",
