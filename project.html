@@ -32,19 +32,33 @@
     <section>
         <h2>Aims</h2>
         <p>
-            One of most daunting environmental challenges is the increasing threat to freshwater resources. In many ways water is the most critical natural resource on the planet. Losing access to it is devastating for economic activity and for some regions habitability itself. Failing to address a growing water crisis has consequences not only for the regions where water resources are under the most pressure, but also for the whole world as the displacements resulting from lack of access have negative impacts on global stability. With this project I aim to identify the areas and people that are currently under the most pressure. Identification of the most vulnerable is critical to targeting policy interventions that address or at least alleviate pressure water resources.
+            This project aims to explore and highlight the growing water crisis affecting different regions of the world. 
+            Through interactive visualizations, I set out to analyze trends in water resources, examine the pressures on freshwater supplies, and identify key areas where water scarcity is most critical. 
+            My primary goals are to understand how terrestrial water storage has changed over time, determine which countries face the greatest water stress, and examine the role of water efficiency and economic activity in this crisis. 
+            Additionally, I aim to investigate the urban-rural divide in access to freshwater and the main sectors contributing to water stress across different regions.
         </p>
     </section>
 
     <section>
         <h2>Data Sources</h2>
             <p>
-             To create the visualisations used in this project I have relied three sources of data:<br><br>
+             The visualizations in this project draw from three primary sources of data. 
+             First, the United Nations Food and Agriculture Organization (FAO) AQUASTAT database provides country-level statistics related to water resources, spanning several decades. 
+             Second, the WHO/UNICEF Joint Monitoring Programme (JMP) offers data on water access, sanitation, and hygiene from 1990 to the present. 
+             Finally, the Global Water Monitor, which uses satellite and ground station data, offers real-time measurements of water levels, including rainfall, temperature, and river flows. These datasets provide insights into water availability, water use efficiency, and the impacts of water stress on global populations.
 
-•	The United Nation’s Food and Agriculture Organisation’s (FAO’s) AQUASTAT database. This database includes over 180 country-level statistics relating to water resources and their use. This database stretches from 1960 through 2021, however, more recent data is more complete especially in developing parts of the world. (<a href="https://www.fao.org/aquastat/en/databases/">AQUASTAT (UN FAO)</a>)<br>
-•	The World Health Organisation and United Nations Children’s Emergency Funds (WHO/UNICEF) Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP). This course includes reported country, regional and global estimates of progress on drinking water, sanitation and hygiene since 1990. JMP data has been updated through 2022. (<a href="https://washdata.org/">JMP (WHO/UNICEF)</a>)<br>
-•	The Global Water Monitor. A resource developed by a consortium of universities and research organisations that leverages data from ground stations and satellites to produce up-to-date information on rainfall, air temperature and humidity, soil water, river flows and the volume of water bodies. (<a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a>)<br>
-
+            •   <a href="https://www.fao.org/aquastat/en/databases/">AQUASTAT - UN FAO</a><br>
+            •	<a href="https://washdata.org/">JMP - WHO/UNICEF</a><br>
+            •	<a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a><br>
+            </p>
+    </section>
+    <section>
+        <h2>Approach</h2>
+            <p>
+             To create the interactive visualizations, I utilized data processing tools Python and Vega-Lite. 
+             For example, to visualize the change in global terrestrial water storage, I gathered data from the Global Water Monitor, cleaned it, and displayed it as a line chart that illustrates the downward trend in freshwater resources over the last two decades. 
+             In the case of mapping water stress by country, I merged AQUASTAT data with a geoJSON file, carefully addressing discrepancies in country names using a Python package. I also built scatter plots to examine the relationship between GDP per capita and water stress or water efficiency. 
+             Throughout the project, I employed interactivity, including tooltips, drop-down menus, and sliders, to allow users to explore data points in detail and gain better insights into trends over time.
             </p>
     </section>
      <section>
@@ -237,14 +251,23 @@
 <section>
         <h2>Analytical Challenges</h2>
             <p>
-             Challenges...
+             While developing the project, I faced several analytical challenges. 
+             One of the primary issues was dealing with missing or inconsistent data. 
+             For instance, missing values in the Global Water Monitor dataset initially appeared as zeros, requiring me to clean and eliminate these data points before visualization. 
+             In the case of the AQUASTAT dataset, discrepancies in country names between the data and geoJSON files necessitated the use of the Python package pycountry to reconcile the names and ensure accurate geographic mapping. 
+             Additionally, creating visualizations for both urban and rural water access required careful consideration of how to represent proportional contributions to water stress, as trellised charts could not use different y-axes for different sectors. 
+             Despite these challenges, I was able to produce meaningful and interactive visualizations.
             </p>
 </section>
 
 <section>
         <h2>Conclusions</h2>
             <p>
-             Conclusions...
+             The project highlights the growing pressure on water resources, particularly in regions such as Northern Africa and Western Asia, where water stress is most severe.
+             Over the past two decades, many countries have seen an increase in water stress, exacerbated by population growth, economic expansion, and the effects of climate change. 
+             A key observation is that wealthier countries tend to have higher water use efficiency, though the demand for water in these regions often outweighs the efficiency gains. 
+             The project also confirms that rural populations in most regions face greater challenges in accessing freshwater compared to urban populations. 
+             Overall, the findings emphasize the need for targeted policy interventions to alleviate water stress and ensure equitable access to water, particularly in the most vulnerable regions.
             </p>
 </section>
 
