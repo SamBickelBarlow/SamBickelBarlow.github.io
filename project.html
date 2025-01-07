@@ -22,7 +22,7 @@
         Water Crisis:
     </h1>
     <h2>
-    Which populations around the world are most vulnerable and where should policy invensions be made?
+    Which populations around the world are most vulnerable and where should policy intervensions be made?
     </h2>
     <p style="margin-top: 0px; color: darkblue">
         <a href="https://SamBickelBarlow.github.io/index">Home Page</a> |
@@ -49,7 +49,7 @@
              The visualizations in this project draw from three primary sources of data. 
              First, the United Nations Food and Agriculture Organization (FAO) AQUASTAT database provides country-level statistics related to water resources, spanning several decades. 
              Second, the WHO/UNICEF Joint Monitoring Programme (JMP) offers data on water access, sanitation, and hygiene from 1990 to the present. 
-             Finally, the Global Water Monitor, which uses satellite and ground station data, offers real-time measurements of water levels, including rainfall, temperature, and river flows. These datasets provide insights into water availability, water use efficiency, and the impacts of water stress on global populations.
+             Finally, the Global Water Monitor, which uses satellite and ground station data, offers real-time measurements of water levels, including rainfall, temperature, and river flows. These datasets provide insights into water availability, water use efficiency, and the impacts of water stress on global populations.<br>
 
             •   <a href="https://www.fao.org/aquastat/en/databases/">AQUASTAT - UN FAO</a><br>
             •	<a href="https://washdata.org/">JMP - WHO/UNICEF</a><br>
@@ -59,10 +59,10 @@
     <section>
         <h2>Approach</h2>
             <p>
-             To create the interactive visualizations, I utilized data processing tools Python and Vega-Lite. 
-             For example, to visualize the change in global terrestrial water storage, I gathered data from the Global Water Monitor, cleaned it, and displayed it as a line chart that illustrates the downward trend in freshwater resources over the last two decades. 
-             In the case of mapping water stress by country, I merged AQUASTAT data with a geoJSON file, carefully addressing discrepancies in country names using a Python package. I also built scatter plots to examine the relationship between GDP per capita and water stress or water efficiency. 
-             Throughout the project, I employed interactivity, including tooltips, drop-down menus, and sliders, to allow users to explore data points in detail and gain better insights into trends over time.
+             To create the interactive visualisations, I utilized data processing tools Python and Vega-Lite. 
+             For example, to visualise the change in global terrestrial water storage, I gathered data from the Global Water Monitor, cleaned it, and displayed it as a line chart illustrating the downward trend in freshwater resources over the last two decades. 
+             In the case of mapping water stress by country, I merged AQUASTAT data with a geoJSON file, carefully addressing discrepancies in country names using a Python package. I also built scatter plots to examine the relationship between GDP per capita and water stress or water use efficiency. 
+             Throughout the project, I employed interactive tools, including tooltips, drop-down menus, and sliders, to allow users to explore data points in detail and gain better insights into trends over time.
             </p>
     </section>
      <section>
@@ -73,16 +73,17 @@
          <p>
          <b>Source:</b> <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a> <br><br>
          <b>Aims:</b><br>
-            My goal with this chart is to show how global freshwater stores have changed over the past two decades.<br><br>
+            To show how global freshwater stores have changed over the past two decades.<br><br>
          <b>Data:</b><br>
              Terrestrial water storage, including groundwater, soil water, surface water, snow and land ice, are derived from gravity measurements by the GRACE satellites (Boergens et al., 2019).
-         The dataset does not show absolute terrestrial water storage levels. Instead it shows terrestrial water storage as the difference from the 2003-2006 average.<br><br>
+             The dataset does not show absolute terrestrial water storage levels. Instead it shows terrestrial water storage as the difference from the 2003-2006 average.<br><br>
          <b>Approach:</b><br>
-             To create the chart above I downloaded monthy global data from the Global Water Monitor storage going back to April 2002. I the performed minimal data cleaning to split the date column into separate month and year columns.
-         I plotted the data as a line chart with terrestrial water storage on the y-axis, the month on the x-axis and each year of data plotted as a separate line with the shade of blue of the line distinguishing the year (darker blue for more recent years).
-         I decided to plot the data in this way to highlight the general but not uniform trend of decreasing global terrestrial water storage over time and the particular low storage amounts measured in 2023. This approach made the general downward trend of terrestrial water storage clear, but to ensure individual points could be investigated I added an interactive tooltip function.<br><br>
+             To create the chart above I downloaded monthy global data from the Global Water Monitor storage going back to April 2002. I performed minimal data cleaning to split the date column into separate month and year columns.
+             I plotted the data as a line chart with terrestrial water storage on the y-axis, the month on the x-axis and each year of data plotted as a separate line with the shade of blue of the line distinguishing the year (darker blue for more recent years).
+             I decided to plot the data in this way to highlight the general but not uniform trend of decreasing global terrestrial water storage over time and the particular low storage amounts measured in 2023. This approach made the general downward trend of terrestrial water storage clear, but to ensure individual points could be investigated I added an interactive tooltip function.<br><br>
          <b>Challenges:</b><br>
-             One challenge I faced is that there were some months in this data set that were missing data. At first these missing observations were interpreted by vegaLite as zero values. To instead simply not plot these points I had to eliminate those missing observations before plotting.<br><br>
+             One challenge I faced is that there were some months in this data set that were missing data. At first these missing observations were interpreted by vegaLite as zero values. 
+             To instead simply not plot these points I had to eliminate those missing observations before plotting.<br><br>
          <b>Conclusion:</b><br>
              Freshwater resources (measured as terrestrial water storage) have generally declined over the past two decades. This confirms concerns raised by researchers that pressure on water resources is a growing concern.<br>
          </p>
