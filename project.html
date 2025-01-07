@@ -71,7 +71,7 @@
         </div>
         <figure id="Chart4"></figure> 
          <p>
-         <b>Source:</b> Own elaboration of <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a> data<br><br>
+         <b>Source:</b> Own elaboration using <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a> data<br><br>
          <b>Aims:</b><br>
             To show how global freshwater stores have changed over the past two decades.<br><br>
          <b>Data:</b><br>
@@ -103,7 +103,7 @@
         </div>
         <figure id="Chart1"></figure> 
         <p>
-            <b>Source:</b> Own elaboration of <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data<br><br>
+            <b>Source:</b> Own elaboration using <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data<br><br>
          <b>Aims:</b><br>
             My goals with this map are to show where water resources are most strained around the world and to show where strain on those resources has improved or gotten worse in the past two decades.<br><br>
          <b>Data:</b><br>
@@ -143,7 +143,7 @@
         </div>
         <figure id="Chart5"></figure> <figure id="Chart6"></figure> 
         <p>
-         <b>Source:</b> Own elaboration of <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a> data<br><br>
+         <b>Source:</b> Own elaboration using <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a> data<br><br>
         <b>Aims:</b><br>
             I noticed in the map above that high GDP countries in the global north tended to have reduced water stress over the past two decades while lower GDP countries in the global south often increased in water stress. 
             Therefore, I wanted examine the relationship between per capita GDP and water stress overtime in various regions of the world. I also looked at the same relationship but with water use efficiency.<br><br>
@@ -194,7 +194,7 @@
         </div>
         <figure id="Chart2"></figure> 
      <p>
-         <b>Source:</b> Own elaboration of <a href="https://washdata.org/">Joint Monitoring Program (JMP) for Water Stress (WHO/UNICEF)</a> data<br><br>
+         <b>Source:</b> Own elaboration using <a href="https://washdata.org/">Joint Monitoring Program (JMP) for Water Stress (WHO/UNICEF)</a> data<br><br>
          <b>Aims:</b><br>
             In order to better understand the variation in water access within different populations within regions, I show the split in water access between urban and rural populations.<br><br>
          <b>Data:</b><br>
@@ -231,7 +231,7 @@
         </div>
         <figure id="Chart3"></figure> 
          <p>
-         <b>Source:</b> Own elaboration of <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data<br><br>
+         <b>Source:</b> Own elaboration using <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data<br><br>
          <br><br>
          <b>Aims:</b><br>
             My aim with this chart is to show which sectors contribute most to water stress across different regions over time.<br><br>
@@ -239,14 +239,14 @@
              The data for these charts come from the Joint Monitoring Program (JMP) for Water Stress (WHO/UNICEF).
              JMP categorizes water access into tiers: Safely managed, At least basic, Limited (meaning people must travel at least 30 minutes for clean water), Unimproved, and Surface water<br><br>
          <b>Approach:</b><br>
-             I used a stacked bar chart the show the porportion of both the urban and rural populations in each SDG region with each tier of water access. 
-             For added context on change overtime, included an interactive slider allowing the user to adjust the year.
-             I also used tooltips for details on each obervation.
+             I used a stacked bar chart to show the porportion of both the urban and rural populations in each SDG region with each tier of water access. 
+             For added context on change over time, included an interactive slider allowing the user to adjust the year.
+             I also used tooltips to provide details on each obervation.
              <br><br>
          <b>Challenges:</b><br>
-            The JMP dataset had some limitations due to missing data. For a small number of countries in some years statistics were available either for only the total population, only the urban population or only the rural population, or none at all.
-            To handle this, country-years with no observations were dropped and country-years with partial data were assumed parity for urban and rural populations. 
-            Because country-years with incomplete data were a small number cases I believe the chart is overall representative of each region.<br><br>
+            The JMP dataset had some limitations due to missing data. For a small number of countries, in some years, statistics were available either for only the total population, only the urban population or only the rural population, or none at all.
+            To handle this, country-years with no observations were dropped, and country-years with partial data were assumed to have parity for urban and rural populations. 
+            Because country-years with incomplete data were a small number of cases, the chart is overall representative of each region.<br><br>
          <b>Conclusion:</b><br>
              In all SDG regions (except Australia and New Zealand) rural populations struggle more with water access than urban populations. Though improvements have been made over time.
         </p>
@@ -263,8 +263,8 @@
              While developing the project, I faced several analytical challenges. 
              One of the primary issues was dealing with missing or inconsistent data. 
              For instance, missing values in the Global Water Monitor dataset initially appeared as zeros, requiring me to clean and eliminate these data points before visualization. 
-             In the case of the AQUASTAT dataset, discrepancies in country names between the data and geoJSON files necessitated the use of the Python package pycountry to reconcile the names and ensure accurate geographic mapping. 
-             Additionally, creating visualizations for both urban and rural water access required careful consideration of how to represent proportional contributions to water stress, as trellised charts could not use different y-axes for different sectors. 
+             In the case of the AQUASTAT dataset, discrepancies in country names between the data and geoJSON files required using the Python package pycountry to reconcile the names and ensure accurate geographic mapping. 
+             Additionally, creating visualisations for both urban and rural water access required careful consideration representing proportional contributions to water stress, as trellised charts could not use different y-axes for different sectors. 
              Despite these challenges, I was able to produce meaningful and interactive visualizations.
             </p>
 </section>
@@ -273,9 +273,10 @@
         <h2>Conclusions</h2>
             <p>
              The project highlights the growing pressure on water resources, particularly in regions such as Northern Africa and Western Asia, where water stress is most severe.
-             Over the past two decades, many countries have seen an increase in water stress, exacerbated by population growth, economic expansion, and the effects of climate change. 
-             A key observation is that wealthier countries tend to have higher water use efficiency, though the demand for water in these regions often outweighs the efficiency gains. 
-             The project also confirms that rural populations in most regions face greater challenges in accessing freshwater compared to urban populations. 
+             Over the past two decades, many countries have seen an increase in water stress, exacerbated by population growth, economic expansion, and the effects of climate change.
+             In the last 20 years, the biggest contributor to water stress is the agricultural sector, which accounts for more than 50% of the water stress (expect in Northern America and Europe). 
+             While there is not a significant correlation between waterstress and GDP per capita wealthier countries tend to have higher water use efficiency, though the demand for water in these regions often outweighs the efficiency gains. 
+             The project also confirms, despite overall improvements, rural populations in most regions face greater challenges in accessing freshwater compared to urban populations. 
              Overall, the findings emphasize the need for targeted policy interventions to alleviate water stress and ensure equitable access to water, particularly in the most vulnerable regions.
             </p>
 </section>
