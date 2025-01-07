@@ -195,39 +195,6 @@
         <figure id="Chart2"></figure> 
      <p>
          Source: Own elaboration of <a href="https://washdata.org/">Joint Monitoring Program (JMP) for Water Stress (WHO/UNICEF)</a> data<br><br>
-          
-        <b>Aims:</b><br>
-            My aim with this chart is to show which sectors contribute most to water stress across different regions over time.<br><br>
-         <b>Data:</b><br>
-             The data for these charts come from the Joint Monitoring Program (JMP) for Water Stress (WHO/UNICEF).
-             JMP categorizes water access into tiers: Safely managed, At least basic, Limited (meaning people must travel at least 30 minutes for clean water), Unimproved, and Surface water<br><br>
-         <b>Approach:</b><br>
-             I used a stacked bar chart the show the porportion of both the urban and rural populations in each SDG region with each tier of water access. 
-             For added context on change overtime, included an interactive slider allowing the user to adjust the year.
-             I also used tooltips for details on each obervation.
-             <br><br>
-         <b>Challenges:</b><br>
-            The JMP dataset had some limitations due to missing data. For a small number of countries in some years statistics were available either for only the total population, only the urban population or only the rural population, or none at all.
-            To handle this, country-years with no observations were dropped and country-years with partial data were assumed parity for urban and rural populations. 
-            Because country-years with incomplete data were a small number cases I believe the chart is overall representative of each region.<br><br>
-         <b>Conclusion:</b><br>
-             In all SDG regions (except Australia and New Zealand) rural populations struggle more with water access than urban populations. Though improvements have been made over time.
-     </p>
-    </section>
-    <script>
-        let figure_2_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%202/Water%20Access.json";
-    
-        vegaEmbed('#Chart2', figure_2_spec);
-    </script>
-
- <section>
-        <div class="chart-description">
-            <h2>Which sectors of economies are the biggest contributors to water stress?</h2>
-        </div>
-        <figure id="Chart3"></figure> 
-         <p>
-         Source: Own elaboration of <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data<br><br>
-         <br><br>
          <b>Aims:</b><br>
             In order to better understand the variation in water access within different populations within regions, I attempted to show the split in water access between urban and rural popualations.<br><br>
          <b>Data:</b><br>
@@ -249,6 +216,39 @@
              The exception being the Northern American and Europe region were the industrial sector is the largest contributor. 
              This makes sense as irrigation is highly water intensive and is still one of the main economic activities in many parts of the world. Northern America and Europe economies however 
              tend to be less focused on agriculture and more on other industries.<br>
+     
+     </p>
+    </section>
+    <script>
+        let figure_2_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%202/Water%20Access.json";
+    
+        vegaEmbed('#Chart2', figure_2_spec);
+    </script>
+
+ <section>
+        <div class="chart-description">
+            <h2>Which sectors of economies are the biggest contributors to water stress?</h2>
+        </div>
+        <figure id="Chart3"></figure> 
+         <p>
+         Source: Own elaboration of <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data<br><br>
+         <br><br>
+         <b>Aims:</b><br>
+            My aim with this chart is to show which sectors contribute most to water stress across different regions over time.<br><br>
+         <b>Data:</b><br>
+             The data for these charts come from the Joint Monitoring Program (JMP) for Water Stress (WHO/UNICEF).
+             JMP categorizes water access into tiers: Safely managed, At least basic, Limited (meaning people must travel at least 30 minutes for clean water), Unimproved, and Surface water<br><br>
+         <b>Approach:</b><br>
+             I used a stacked bar chart the show the porportion of both the urban and rural populations in each SDG region with each tier of water access. 
+             For added context on change overtime, included an interactive slider allowing the user to adjust the year.
+             I also used tooltips for details on each obervation.
+             <br><br>
+         <b>Challenges:</b><br>
+            The JMP dataset had some limitations due to missing data. For a small number of countries in some years statistics were available either for only the total population, only the urban population or only the rural population, or none at all.
+            To handle this, country-years with no observations were dropped and country-years with partial data were assumed parity for urban and rural populations. 
+            Because country-years with incomplete data were a small number cases I believe the chart is overall representative of each region.<br><br>
+         <b>Conclusion:</b><br>
+             In all SDG regions (except Australia and New Zealand) rural populations struggle more with water access than urban populations. Though improvements have been made over time.
         </p>
      </section>
     <script>
