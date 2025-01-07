@@ -1,0 +1,125 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Global Terrestrial Water Storage",
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC9/GWM-cleaned%20data2.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.date > 1038700800000"
+    }
+  ],
+  "title": {
+    "text": "Global Terrestrial Water Storage",
+    "subtitle": [
+      "Seasonally adjusted using a 12-month moving average",
+      "Data from 2003-2006 used as reference"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "color": "#333333"
+  },
+  "height": 400,
+  "width": 600,
+  "mark": {
+    "type": "line",
+    "color": "#1f77b4",
+    "strokeWidth": 2
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": "Date",
+      "axis": {
+        "labelAngle": 45,
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "titleFont": "Arial",
+        "titleFontWeight": "bold",
+        "grid": false
+      },
+      "scale": {
+        "domain": ["2003-01-01", "2023-11"]
+      }
+    },
+    "y": {
+      "field": "MA",
+      "type": "quantitative",
+      "title": "Difference from 2003-2006 Average",
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "titleFont": "Arial",
+        "titleFontWeight": "bold"
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "color": "#1f77b4",
+        "strokeWidth": 2,
+        "opacity": 0.1
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "#ff7f0e",
+        "opacity": 0.7,
+        "strokeWidth": 3,
+        "strokeDash": [4, 4]
+      },
+      "transform": [
+        {
+          "regression": "MA",
+          "on": "date",
+          "method": "linear"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "MA",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "#1f77b4",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "MA",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
+}
