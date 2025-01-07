@@ -63,7 +63,9 @@
           "type": "quantitative",
           "title": "Share of Population",
           "axis": {
-            "format": ".0%"
+            "format": ".0%",
+            "titleAngle" : 0,
+            "titlePadding" : 50
           }
         },
         "color": {
