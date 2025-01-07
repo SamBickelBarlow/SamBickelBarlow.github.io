@@ -2,10 +2,11 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Global Changes in Water Stress",
+    "subtitle": "between 2001 and 2021",
     "fontSize": 16,
     "subtitleFontSize": 12,
     "subtitleFontWeight": "lighter",
-    "anchor": "middle"
+    "anchor": "left"
   },
   "projection": {"type": "naturalEarth1"},
   "description": "",
