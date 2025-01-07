@@ -5,6 +5,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC9/ChinaPop.csv"
   },
+  "width" : 400,
   "transform": [
     {
       "calculate": "datum.Gender === 'M' ? -datum.Population : datum.Population",
