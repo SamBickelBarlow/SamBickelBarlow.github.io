@@ -66,7 +66,14 @@
         "labelAngle": -45
       }
     },
-    "y": {"field": "value", "type": "quantitative", "title": "Difference from 2003-2006 average"},
+    "y": {"field": "value", 
+          "type": "quantitative", 
+          "title": "Difference from 2003-2006 average",
+          "axis" : {
+            "titleFontSize": 10,
+            "titleAngle" :0 ,
+            "titlePadding" :80
+          }},
     "color": {
       "field": "year",
       "type": "nominal",
