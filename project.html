@@ -108,7 +108,7 @@
             My goals with this map are to show where water resources are most strained around the world and to show where strain on those resources has improved or gotten worse in the past two decades.<br><br>
          <b>Data:</b><br>
              The data for this charts come from the UN-FAO AQUASTAT data.
-             Water stress is essentually the ratio of the water a country uses to the amount it has. See <a href="https://www.fao.org/aquastat/en/databases/glossary/">FAO glossary</a> for detailed metric definitions.
+             Water stress is the ratio of the water a country uses to the amount it has. See <a href="https://www.fao.org/aquastat/en/databases/glossary/">FAO glossary</a> for detailed metric definitions.
              One limitation of this dataset is that is is only availible at a country-level. This can washout variation within large countries, with varying climates. 
              For example, the United States' dry southwest region struggles with water shortage, while more temperate regions of the US have plenty of water. This varitaion is lost in the country-level water stress statistic.<br><br>
          <b>Approach:</b><br>
@@ -149,10 +149,10 @@
             Therefore, I wanted examine the relationship between per capita GDP and water stress overtime in various regions of the world. I also looked at the same relationship but with water use efficiency.<br><br>
          <b>Data:</b><br>
              The data for these charts come from the UN-FAO AQUASTAT data.
-             Water stress is essentually the ratio of the water a country uses to the amount it has.
-             Water use efficiency a ratio of the water a country use compared to the amount it withdrawls from all sources.<br><br>
+             Water stress is the ratio of the water a country uses to the amount it has.
+             Water use efficiency is the ratio of the water a country uses compared to the amount it withdrawls.<br><br>
          <b>Approach:</b><br>
-             In order to plot this data I used country-level data between 2001 and 2021 including their GDP per capita, water stress, water efficiency, and Total population. I then mapped each country to it's SDG region code.
+             To plot this data I used country-level data between 2001 and 2021 including their GDP per capita, water stress, water efficiency, and Total population. I then mapped each country to it's SDG region code.
              Upon uploading the data to vega I use a transformation on GDP per capita, water stress, and water efficiency before plotting. This ensured a more interpretable chart by avoiding large skews caused by outliers.
              I then created two scatter plots of log GDP per capita plotted again log water stress and log water use efficiency respectively. In each scatter plot I maximized interactivity and interpretability with several features:<br>
              Slider to allow the user interactively investigate the plot over the twenty year period;<br>
@@ -169,11 +169,12 @@
              allowing me to show the primary insight of the charts the relationship between GDP per capita and the water statistics.
              Additionally the tooltip feature allows users to investigate the actual GDP per capita and water statistics so I don't feel the chart suffers much at all by not plotting the true values.<br><br>
          <b>Conclusion:</b><br>
-             Due to my observations of the map, I first created the GDP per capita vs water stress chart expecting higher GDP countries to tend to have lower water stress. In most regions and in most years I found the opposite. This is explainable
-             by the demands on freshwater necessitated by greater economic activity.
-             To investigate further, I plotted GDP per capita against water use efficiency and found that indeed in general higher GDP countries tend to use there water more efficiency. I would hypothesize the wealthier countries are better able to afford
-             and impliment water usage technologies.
-             If my hypothesis from these charts are correct this means that the increased demand associated with greater economic activity are not offset by efficiency gains from better water usage technologies.
+             Due to my observations of the map, I first created the GDP per capita vs water stress chart expecting higher GDP countries to tend to have lower water stress. In most regions and in most years I found the opposite. 
+             Despite the increases in the GDP the recent years, water stress has maintained similar levels and there is not a clear correlation between these two metrics.
+             A plausible explanation is the increased demands on freshwater necessitated by greater economic activity.
+             To investigate further, I plotted GDP per capita against water use efficiency. I found that indeed in general higher GDP countries tend have higher water use efficiency. I would hypothesize that wealthier countries are better able to afford
+             and implement water usage technologies.
+             Following this explanation, the increased demand associated with greater economic activity are not offset by efficiency gains from better water usage technologies.
         <br>
         </p>
     </section>
