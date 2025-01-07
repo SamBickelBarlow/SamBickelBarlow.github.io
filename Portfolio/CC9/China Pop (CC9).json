@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A population pyramid chart.",
+  "title" : "Chinese population pyramid",
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC9/ChinaPop.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum.Gender === 'M' ? -datum.Population : datum.Population",
+      "as": "AdjustedPopulation"
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "title" : "Age Group",
+      "field": "Age",
+      "type": "ordinal",
+      "sort": [
+        "100+", "95-99", "90-94", "85-89", "80-84", 
+        "75-79", "70-74", "65-69", "60-64", "55-59", 
+        "50-54", "45-49", "40-44", "35-39", "30-34", 
+        "25-29", "20-24", "15-19", "10-14", "5-9", "0-4"
+      ]
+    },
+    "x": {
+      "field": "AdjustedPopulation",
+      "type": "quantitative",
+       "axis": {
+        "title" : "Population",
+        "tickOpacity": 0,
+        "gridOpacity": 0,
+        "position": 0,
+        "labelExpr": "datum.value < 0 ? format(-datum.value, '.2s') : format(datum.value, '.2s')"
+      }
+    },
+    "color": {
+      "field": "Gender",
+      "type": "nominal",
+      "scale": {"range": ["red", "blue"]}
+    }
+  }
+}
