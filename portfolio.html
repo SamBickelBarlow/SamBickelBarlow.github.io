@@ -63,9 +63,9 @@
         </div>
         <figure id="Location21"></figure> 
         <figure id="Location22"></figure> 
-     <p>
+         <p>
          Source: <a href="https://www.economicsobservatory.com/create">Economics Observatory Create Your Own Chart</a>
-     </p>
+        </p>
     </section>
     <script>
         let figure_21_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC2/Unemployment Thailand (CC2).json";
@@ -214,6 +214,26 @@
     
     vegaEmbed('#Location81', figure_81_spec)
     vegaEmbed('#Location82', figure_82_spec)
+</script>
+<section>
+    <div class="chart-description">
+        <h2>Section 9: Analytics Charts (CC9)</h2>
+        <p>
+           I used UN FAO's AQUASTAT country-level data to plot GDP per capita against Water Use Efficiency.
+           I used color to distinguish geographic regions and size to show population.
+           I also plotted a univariate regression line to highlight the correlation between GDP per capita against Water Use Efficiency.
+        </p>
+    </div>
+    <figure id="Location91"></figure>
+    </section>
+    <p>
+        Sources: <a href="https://www.fao.org/aquastat/en/">UN FAO - AQUASTAT</a>
+    </p>
+
+<script>
+    let figure_91_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%205/Water%20Efficiency%20GDP.json";
+    
+    vegaEmbed('#Location91', figure_91_spec)
 </script>
 
 </body>
