@@ -19,6 +19,7 @@
   },
   "width": 600,
   "height": 300,
+  "background" , "#f9f9f9" ,
   "params": [
     {
       "name": "metric",
