@@ -128,7 +128,7 @@
              Water stress is essentually the ratio of the water a country uses to the amount it has.
              Water use efficiency a ratio of the water a country use compared to the amount it withdrawls from all sources.<br><br>
          <b>Approach:</b><br>
-             In order to plot this data I downloaded data on all countries between 2001 and 2021 including their GDP per capita, water stress, water efficiency, and Total population. I then mapped each country to it's SDG region code.
+             In order to plot this data I used country-level data between 2001 and 2021 including their GDP per capita, water stress, water efficiency, and Total population. I then mapped each country to it's SDG region code.
              Upon uploading the data to vega I use a transformation on GDP per capita, water stress, and water efficiency before plotting. This ensured a more interpretable chart by avoiding large skews caused by outliers.
              I then created two scatter plots of log GDP per capita plotted again log water stress and log water use efficiency respectively. In each scatter plot I maximized interactivity and interpretability with several features:<br>
              Slider to allow the user interactively investigate the plot over the twenty year period;<br>
@@ -163,13 +163,32 @@
         <div class="chart-description">
             <h2>Urban/Rural divide in access to freshwater</h2>
             <p>
-                In all regions of the world rural populations struggle more with access to clean water. However, in most regions access has improved overtime.<br>
-                Chart 2 shows share of populations with differing levels of access to freshwater across regions and how that has access has changed in the last 20 years.<br>
             </p>
         </div>
         <figure id="Chart2"></figure> 
      <p>
-         Source: <a href="https://washdata.org/">Joint Monitoring Program for Water Stress (WHO/UNICEF)</a>
+         Source: <a href="https://washdata.org/">Joint Monitoring Program (JMP) for Water Stress (WHO/UNICEF)</a><br><br>
+          <b>Aims:</b><br>
+            In order to better understand the variation in water access within different populations within regions, I attempted to show the split in water access between urban and rural popualations.<br><br>
+         <b>Data:</b><br>
+            The data for these charts come from the UN-FAO AQUASTAT data.
+            AQUASTAT breaks down contribution to water stress by three sectors (Agricultural, Industrial, and Municipal) based on water withdrawn for each sector. 
+            Agricultural is water used for crop irrigation, Industrial is water used for manufacturing and other economic activities, and municipal is water used for people to drink, cook, and bath with.
+         <br><br>
+         <b>Approach:</b><br>
+             I used trelised area charts for each region with each year from 2001 to 2021 on the x-axis and the proportional contribution to water stress on the y-axis.
+             Each sector's proportional contribution to water stress is represented with a different color on the area chart.
+             <br><br>
+         <b>Challenges:</b><br>
+             Initially, I had planned to show the raw contributions to water stress for each region. The issue with this approach is that the trelis chart only allows for a single y-axis scale,
+             which meant it was very difficult to see the sectoral differences in water stress in regions with low overall water stress. Instead I decided to calculate 
+             the proportional contribution to water stress for each sector. I believe this proportion is the main focus of the chart and overall water stress levels are already represented in the map and scatter plot.
+         <br><br>
+         <b>Conclusion:</b><br>
+             In most regions Agricultral water use dominates contribution to water stress. 
+             The exception being the Northern American and Europe region were the industrial sector is the largest contributor. 
+             This makes sense as irrigation is highly water intensive and is still one of the main economic activities in many parts of the world. Northern America and Europe economies however 
+             tend to be less focused on agriculture and more on other industries.
      </p>
     </section>
     <script>
@@ -181,14 +200,29 @@
  <section>
         <div class="chart-description">
             <h2>Which sectors of economies are the biggest contributors to water stress?</h2>
-            <p>
-             Chart 3 which sectors contribute most to water stress. In most regions, with the exception of North America and Europe, agricultural water use dominates freshwater stress contribution.<br>
-             While agriculture is naturally a water intensive economic activity, focusing on increasing efficient use of water in this sector could may pay the biggest dividends for policymakers interested in mitigating water shortages.
-            </p>
         </div>
         <figure id="Chart3"></figure> 
          <p>
-         Source: <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a>
+         Source: <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a><br><br>
+         <br><br>
+          <b>Aims:</b><br>
+            My aim with this chart is to show which sectors contribute most to water stress across different regions over time.<br><br>
+         <b>Data:</b><br>
+             The data for these charts come from the Joint Monitoring Program (JMP) for Water Stress (WHO/UNICEF).
+             JMP categorizes water access into tiers: Safely managed, At least basic, Limited (meaning people must travel at least 30 minutes for clean water), Unimproved, and Surface water<br><br>
+         <b>Approach:</b><br>
+             I used a stacked bar chart the show the porportion of both the urban and rural populations in each SDG region with each tier of water access. 
+             For added context on change overtime, included an interactive slider allowing the user to adjust the year.
+             I also used tooltips for details on each obervation.
+             <br><br>
+         <b>Challenges:</b><br>
+            The JMP dataset had some limitations due to missing data. For a small number of countries in some years statistics were available either for only the total population, only the urban population or only the rural population, or none at all.
+            To handle this, country-years with no observations were dropped and country-years with partial data were assumed parity for urban and rural populations. 
+            Because country-years with incomplete data were a small number cases I believe the chart is overall representative of each region.<br><br>
+         <b>Conclusion:</b><br>
+             In all SDG regions (except Australia and New Zealand) rural populations struggle more with water access than urban populations. Though improvements have been made over time.
+        <br>
+         </p>
     <script>
          let figure_3_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%203/Sector%20Stress.json";
     
