@@ -4,6 +4,7 @@
   },
   "height" : 120,
   "width" : 150,
+  "background" : "#f9f9f9",
   "mark": {
     "type": "area",
     "opacity": 0.75
