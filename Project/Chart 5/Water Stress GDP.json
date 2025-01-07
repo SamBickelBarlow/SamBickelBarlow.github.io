@@ -9,11 +9,12 @@
   },
   "title": {
     "text": "Relationship Between GDP and Water Stress",
-    "subtitle": "In general, GDP gains have not necessarily translated into improved water security.",
+    "subtitle": "In general, high income countries are not associated with lower water stress.",
     "anchor": "start",
     "fontSize": 16,
     "subtitleFontSize": 12
   },
+  "background" : "#f9f9f9" ,
   "params": [
     {
       "name": "yearSelection",
