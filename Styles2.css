@@ -90,25 +90,3 @@ footer {
   padding: 1em 0;
   font-size: 0.9em;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-    padding-top: 30px;
-  }
-
-  h1, h2, h3 {
-    font-size: 1.5em;
-  }
-}
-
-@media (max-width: 480px) {
-  body {
-    padding: 0 10px;
-  }
-
-  h1, h2, h3 {
-    font-size: 1.2em;
-  }
-}
