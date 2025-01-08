@@ -120,7 +120,7 @@
     
 <section>
     <div class="chart-description">
-        <h2>Test2 Which countries around the world have the most pressure on water resources?</h2>
+        <h2>Test3 Which countries around the world have the most pressure on water resources?</h2>
     </div>
     <figure id="Chart1"></figure>
     <p>
@@ -160,6 +160,20 @@
     // Embed the chart
     let figure_1_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/Water%20Stress%20Map.json";
     vegaEmbed('#Chart1', figure_1_spec);
+
+    // Toggle button functionality
+    const toggleButton2 = document.getElementById("toggleButton2");
+    const detailsParagraph2 = document.getElementById("detailsParagraph2");
+
+    toggleButton2.addEventListener("click", () => {
+        if (detailsParagraph2.style.display === "none") {
+            detailsParagraph2.style.display = "block";
+            toggleButton2.textContent = "Hide Details";
+        } else {
+            detailsParagraph2.style.display = "none";
+            toggleButton2.textContent = "Show Details";
+        }
+    });
 </script>
 
     <section>
