@@ -1,0 +1,106 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "2024 election predictions vs actual",
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC10/Election%20results.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.Forcast > ''"
+    }
+  ],
+
+  "title": {
+    "text": "2024 Presidential Election: predicted vs actual results by state",
+    "subtitle": ["Predicted results from 270towin.com based on pre-election polling", "https://www.270towin.com/maps/consensus-2024-presidential-election-forecast"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "height": 300,
+  "width": 300,
+
+  "layer": [
+    {
+
+  "selection": {
+     "paintbrush": {"type": "multi", "on": "mouseover", "nearest": true},
+      "grid": {"type": "interval", "bind": "scales"},
+      "division": {"type": "multi", "fields": ["Forcast"], "bind": "legend"}
+  },
+      "mark": "circle",
+
+      "encoding": {
+        "y": {
+          "field": "Net pred (Harris positive Trump negative)",
+          "type": "quantitative",
+          "scale": {"zero": false, "domain": [-0.55, 0.55]},
+          "axis": {
+            "labelExpr": "datum.value < 0 ? format(-datum.value, '.0%') : format(datum.value, '.0%')"
+          },
+          "title": "Trump                     Predicted net vote %                       Harris"
+        },
+
+        "x": {
+          "field": "Net act",
+          "type": "quantitative",
+          "scale": {"zero": false, "domain": [-0.55, 0.55]},
+          "axis": {
+            "labelExpr": "datum.value < 0 ? format(-datum.value, '.0%') : format(datum.value, '.0%')"
+          },
+          "title": "Trump                          Actual net vote %                      Harris"
+        },
+
+        "color": {
+          "field": "Forcast",
+          "type": "nominal",
+          "title": "Division (click a category)",
+          "legend": {"orient": "bottom", "columns": 3},
+          "scale": {
+            "domain": [
+              "Safe Trump",
+              "Likely Trump",
+              "Lean Trump",
+              "Swing",
+              "Safe Harris",
+              "Likely Harris"
+            ],
+            "range": [
+              "#8B0000",  // Dark red
+              "#FF0000",  // Red
+              "#FFA07A",  // Light red
+              "#d3d3d3",  // White
+              "#00008B",  // Dark blue
+              "#0000FF"   // Blue
+            ]
+          }
+        },
+        "opacity": {"condition": {"param": "division", "value": 0.5}, "value": 0},"size": {
+          "condition": {"param": "paintbrush", "value": 800},
+          "field": "n_obs", "type": "nominal", "legend":null},
+
+        "tooltip": [
+          {"field": "State/Area", "type": "nominal", "title": "State/Areea"},
+          {"field": "Forcast", "type": "nominal", "title": "Forcast category"},
+          {"field": "Harris pred", "type": "quantitative", "title": "predicted vote share - Harris", "format": ".0%"},
+          {"field": "Trump pred", "type": "quantitative", "title": "predicted vote share - Trump", "format": ".0%"},
+          {"field": "Net pred (Harris positive Trump negative)", "type": "quantitative", "title": "predicted vote share - Net", "format": ".0%"},
+          {"field": "Harris act", "type": "quantitative", "title": "actual vote share - Harris", "format": ".0%"},
+          {"field": "Trump act", "type": "quantitative", "title": "actual vote share - Trump", "format": ".0%"},
+          {"field": "Net act", "type": "quantitative", "title": "actual vote share - Net", "format": ".0%"},
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "stroke": "black", "strokeDash": [4, 4]},
+      "encoding": {
+        "x": {"field": "Net act", "type": "quantitative"},
+        "y": {"field": "Net act", "type": "quantitative"}
+      }
+    }
+  ]
+}
