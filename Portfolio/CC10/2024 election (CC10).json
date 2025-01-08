@@ -70,12 +70,12 @@
               "Likely Harris"
             ],
             "range": [
-              "#8B0000",  // Dark red
-              "#FF0000",  // Red
-              "#FFA07A",  // Light red
-              "#d3d3d3",  // White
-              "#00008B",  // Dark blue
-              "#0000FF"   // Blue
+              "#8B0000",
+              "#FF0000",
+              "#FFA07A",
+              "#d3d3d3",
+              "#00008B",
+              "#0000FF"
             ]
           }
         },
