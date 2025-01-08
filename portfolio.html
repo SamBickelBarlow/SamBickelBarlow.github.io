@@ -35,8 +35,6 @@
             <h2>Section 1: Hosting charts - GDP per capita charts. (CC1)</h2>
             <p>
                 These charts are from the Professor Richard's Chart Library.<br>
-                Chart 1 shows inflation in the United Kingdom and three other nations over time.<br>
-                Chart 2 shows the basket of goods and relative weights of the official United Kingdom inflation metrics.<br>
             </p>
         </div>
         <figure id="Location11"></figure> 
@@ -56,9 +54,7 @@
         <div class="chart-description">
             <h2>Section 2: Building. Creating your own visualisations. (CC2)</h2>
             <p>
-                I have created these charts using thee chart creation tool on the Economics Observatory website.<br>
-                Chart 1 shows the low unemployment rate in Thailand since 1990.<br>
-                Chart 2 shows the relatively higher unemploymeent rate in nearby Bangladesh over the same period.<br>
+                These charts were created using the chart creation tool on the Economics Observatory website.<br>
             </p>
         </div>
         <figure id="Location21"></figure> 
@@ -79,13 +75,16 @@
         <div class="chart-description">
             <h2>Section 3: Debating. Use a visualisation in economic/policy commentary. (CC3)</h2>
             <p>
-                In the Festival of Economics panel discussion <i>Great Britain? How We Get Our Future Back; and Growth: A Reckoning</i> Daniel Susskind discusses the trade off between inequality and growth in the United Kingdom. He notes that both growth and inequality increased in the 1980s and imply that the two are linked meaning increased growth comes at the cost of increasing inequality. Using World Bank data I plotted UK GDP along with a widely used measure inequality called the Gini Coefficient so that they can be easily compared over time. In general it seems like Daniel is correct. Both GDP and the Gini coefficient increase rapidly starting in the 1980s before both leveling off. However, it does appear that the Gini coefficient leveled off around the turn of the millenium about 5-10 years before GDP growth slowed, undermining Susskinds analysis somewhat.
+                In the Festival of Economics panel discussion <i>Great Britain? How We Get Our Future Back; and Growth: A Reckoning</i>
                 <br>
-                In the same panel Susskind also made the point that financial services were declining as a share of the UK economy. Investigating Office of National Statisitics data on Gross Value added by sector shows for the most part financial services have remained between 8 and 10 percent of the UK economy since the mid-2000s. However, Susskind did not specify a timeframe so he may have been refering to a decline in the financial services share of the economy since 2020. I would argue however that the share in 2020 may have been inflated by a relative decline in share from sectors with less ability to make remote transitions like hospitality and transportation.
+                Has the decline in financial services slowed growth in the UK economy and would accelerating growth by increasing financial services increase inequality?
             </p>
         </div>
-        <figure id="Location31"></figure> 
         <figure id="Location32"></figure> 
+        <figure id="Location31"></figure> 
+         <p>
+             The UK's financial services share has remained stable, but growth in the sector may boost the economy at the cost of increased inequality.
+         </p>
          <p>
          <b>Source:</b>  <a href="https://soundcloud.com/economics-observatory/great-britain-how-we-get-our-future-back-and-growth-a-reckoning?si=2687dae101b043759decf565eb5a709e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">Economics Observatory - Festival of Economics</a> | <a href="https://datacatalog.worldbank.org/home">World Bank (inequality and growth)</a> | <a href="https://www.ons.gov.uk/">Office National Statistics (UK sector GVA)</a>
          </p>
@@ -101,15 +100,16 @@
 <section>
     <div class="chart-description">
         <h2>Section 4: Replication, Re-create then improve, someone else's chart. (CC4)</h2>
-            <p>
-                Chart 1: New York Times: This chart plots the median age of a population on the x-axis for against the average age of legislatures against on the y-axis a number of countries. The United States is highlighted as an extreme example.<br>
-                Chart 2: My recreation of the New York Times' chart. I approximated the data from the New York Times chart and then recreated a close approximation in VegaLite.<br>
-                Chart 3: My improvement of the New York Times' chart. Rather than a scatter plot with the x-axis as the the median population age and the y-axis as the average of the legislature, I have calculated the ratio of the age of legisature to the median population age. I have also added a horizontal line to show the ratio at which the average legislature age and median population age are even so that it is easy to tell which countries have older and younger legislatures than their average. I have also retained highlighting of the United States. I believe my chart better gets to the central arguement that many legislatures, the US in particular, represent are much older than their constituents and therefore constitute a gerontocracy where older members of society are overrepresented.
-            </p>
+    <p>
+        Original chart is from the New York Times article America's Political Gerontocracy published January 19th 2024
+    </p> 
     </div>
     <img src="https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Portfolio/CC4/NYT average Legislature age.png" alt="Original NYT chart" width=350 height=350>
     <figure id="Location41"></figure>
     <figure id="Location42"></figure>
+     <p>
+            I improved the NYT chart by showing legislature-to-median-age ratios, highlighting U.S. overrepresentation, and adding a line for age parity to emphasize global gerontocracy.
+     </p>
     <p>
         <b>Source:</b> <a href="https://www.nytimes.com/live/2024/01/11/opinion/briefing?searchResultPosition=4#chart-of-the-week-americas-political-gerontocracy">NYT article - America's Political Gerontocracy</a>
     </p>
@@ -127,15 +127,14 @@
     <div class="chart-description">
         <h2>Section 5: Scraper. Implement a data scraper of your own. (CC5)</h2>
             <p>
-                The OECD published a report detailing the state of space economoy in December 2023.<br>
-                This report included tables for 10 countries with statististics like the Number of satellites the country has in orbit, number of spaceports within the country, the size of the country's space workforce, and the public budget for space exploration and actvities per capita.<br>
-                I scraped the data for each country in the report to create the charts below. Because the OECD report included public space budget in per capita terms, I also used World Bank data on population the population of each country to back into the budget.<br>
-                The charts reveal that the United Kingdom is a consistent outlier in terms of budget efficiency with the most satellites, spaceports and workforce per dollar of public budget. These charts suggest that further investigation should be done to understand why the United Kingdom is such an outlier on this regard.<br>
             </p>
     </div>
     <figure id="Location51"></figure>
     <figure id="Location52"></figure>
     <figure id="Location53"></figure>
+    <p>
+                I chose to scrap this OECD report because it contained statistics on space industry but in separate tables on different webpages. Scraping allowed for consolidation.<br>
+    </p>
     <p>
         <b>Sources:</b> <a href="https://www.oecd.org/en/publications/the-space-economy-in-figures_fa5494aa-en/full-report.html">OCED report: The Space Economy in Figures</a> | <a href="https://data.worldbank.org/indicator/SP.POP.TOTL?most_recent_year_desc=false">World Bank Population data</a>
     </p>
@@ -155,9 +154,6 @@
     <div class="chart-description">
         <h2>Section 6: Loops. Build a dashboard (CC6)</h2>
             <p>
-                Eurozone Inflation during the COVID-19 pandemic<br>
-                I used a for loop to iteratively call FRED (US Federal Reserve data) to get the consumer price index (CPIs) for nine Eurozone economies between 2020 and 2024.<br> 
-                The chart shows how all of these economies saw spikes in inflation starting late 2022. Though some economies like Poland had more inflation than others.<br>
             </p>
     </div>
     <figure id="Location61"></figure>
@@ -176,14 +172,13 @@
     <div class="chart-description">
         <h2>Section 7: Maps. Base maps and choropleths (CC7)</h2>
             <p>
-                I created a cloropleth map based on FEMA subapplication claims data.<br> 
-                It shows the total subapplication claims for the hazard category with the highest claims in each US county by year.<br>
-                This map gives a sense of where types hazards the most costly in the US. One suprise is the high flooding cost in the counties of a dry and water scare state like Arizona. This may require further investigation to understand why this is.
             </p>
     </div>
     <figure id="Location71"></figure>
     <figure id="Location72"></figure>
-   
+    <p>
+        I created a choropleth map of FEMA subapplication claims, showing the highest-cost hazard by year per county. Surprisingly, Arizona's flooding costs warrant investigation.
+    </p>
      <p>
         <b>Sources:</b> <a href="https://www.fema.gov/about/openfema/data-sets">OpenFEMA Datasets</a> | <a href="https://gist.githubusercontent.com/sdwfrost/d1c73f91dd9d175998ed166eb216994a/raw/e89c35f308cee7e2e5a784e1d3afc5d449e9e4bb/counties.geojson">US Counties Geospatial JSON file</a>
     </p>
@@ -200,11 +195,13 @@
     <div class="chart-description">
         <h2>Section 8: Big Data. Extracting a story from millions of prices (CC8)</h2>
         <p>
-            Using Richard Davies' UK price dataset I extracted median monthly pricing for nursing homes, residential homes, and home care assistants. The chart shows a clear spike in prices around April 2022 when the UK passed the Nationality and Border Act, which put more restrictions on immigration. Because migrants often take jobs a nurses it has been speculated that tighter immigration laws may be a contributing factor to rising care costs un the UK. However, the rapid price of care increase also coinsided with a more general price shock in the start of the Russia-Ukraine war. Disentagling whether the Nationality and Border Act or some other combination of factors triggered the increase in care prices would required further econometric investigation.
         </p>
     </div>
     <figure id="Location81"></figure>
     <figure id="Location82"></figure>
+    <p>
+        Using Richard Davies' UK price data, I charted median monthly costs for care services, revealing a sharp April 2022 spike. This coincided with the Nationality and Border Act, restricting immigration, and the Russia-Ukraine war's price shock. Further econometric analysis is needed to identify the primary driver of rising care costs.
+    </p>
   
     <p>
         <b>Sources:</b> <a href="https://richarddavies.io/prices/">Richard Davies UK research database</a>
@@ -221,11 +218,6 @@
     <div class="chart-description">
         <h2>Section 9: Analytics Charts (CC9)</h2>
         <p>
-           I used UN FAO's AQUASTAT country-level data to plot GDP per capita against Water Use Efficiency.
-           I used color to distinguish geographic regions and size to show population.
-           I also plotted a univariate regression line to highlight the correlation between GDP per capita against Water Use Efficiency.
-
-           In the second chart I look at at the distribution of the Chinese population.
         </p>
     </div>
     <figure id="Location91"></figure>
