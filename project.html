@@ -298,10 +298,13 @@
         <div class="chart-description">
             <h2>Which sectors of economies are the biggest contributors to water stress?</h2>
         </div>
-        <figure id="Chart3"></figure> 
+        <figure id="Chart3"></figure>
          <p>
-         <b>Source:</b> Own elaboration using <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data<br><br>
-         <br><br>
+            <b>Source:</b> Own elaboration using <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data<br><br>
+         </p>
+         <button id="toggleButton5">Show Details</button>
+         <p id="detailsParagraph5" style="display: none;">
+         <p>
          <b>Aims:</b><br>
             My aim with this chart is to show which sectors contribute most to water stress across different regions over time.<br><br>
          <b>Data:</b><br>
@@ -322,8 +325,21 @@
      </section>
     <script>
          let figure_3_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%203/Sector%20Stress.json";
-    
-    vegaEmbed('#Chart3', figure_3_spec);
+        vegaEmbed('#Chart3', figure_3_spec);
+
+         // Toggle button functionality
+        const toggleButton5 = document.getElementById("toggleButton5");
+        const detailsParagraph5 = document.getElementById("detailsParagraph5");
+
+        toggleButton5.addEventListener("click", () => {
+        if (detailsParagraph5.style.display === "none") {
+            detailsParagraph5.style.display = "block";
+            toggleButton5.textContent = "Hide Details";
+        } else {
+            detailsParagraph5.style.display = "none";
+            toggleButton5.textContent = "Show Details";
+        }
+    });
     </script>
 
 <section>
