@@ -120,7 +120,7 @@
     
 <section>
     <div class="chart-description">
-        <h2>Test4 Which countries around the world have the most pressure on water resources?</h2>
+        <h2>Which countries around the world have the most pressure on water resources?</h2>
     </div>
     <figure id="Chart1"></figure>
     <p>
@@ -178,11 +178,14 @@
 
     <section>
         <div class="chart-description">
-            <h2>Is efficient water use corrolated with high Gross Domestic Product (GDP)?</h2>
+            <h2>Test Is efficient water use corrolated with high Gross Domestic Product (GDP)?</h2>
         </div>
         <figure id="Chart5"></figure> <figure id="Chart6"></figure> 
         <p>
-         <b>Source:</b> Own elaboration using <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a> data<br><br>
+             <b>Source:</b> Own elaboration using <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a> data<br><br>
+        </p>
+        <button id="toggleButton3">Show Details</button>
+        <p id="detailsParagraph3" style="display: none;">
         <b>Aims:</b><br>
             I noticed in the map above that high GDP countries in the global north tended to have reduced water stress over the past two decades while lower GDP countries in the global south often increased in water stress. 
             Therefore, I wanted examine the relationship between per capita GDP and water stress overtime in various regions of the world. I also looked at the same relationship but with water use efficiency.<br><br>
@@ -223,7 +226,20 @@
         vegaEmbed('#Chart5', figure_5_spec);
         let figure_6_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%205/Water%20Efficiency%20GDP.json";
         vegaEmbed('#Chart6', figure_6_spec);
-    </script>
+        // Toggle button functionality
+        const toggleButton3 = document.getElementById("toggleButton3");
+        const detailsParagraph3 = document.getElementById("detailsParagraph3");
+
+        toggleButton3.addEventListener("click", () => {
+        if (detailsParagraph3.style.display === "none") {
+            detailsParagraph3.style.display = "block";
+            toggleButton3.textContent = "Hide Details";
+        } else {
+            detailsParagraph3.style.display = "none";
+            toggleButton3.textContent = "Show Details";
+        }
+    });
+</script>
 
  <section>
         <div class="chart-description">
