@@ -65,13 +65,14 @@
              Throughout the project, I employed interactive tools, including tooltips, drop-down menus, and sliders, to allow users to explore data points in detail and gain better insights into trends over time.
             </p>
     </section>
+    
     <section>
     <div class="chart-description">
         <h2>How has the world's terrestrial water storage changed in the past decade?</h2>
     </div>
     <figure id="Chart4"></figure> 
     <p>
-        <b>Source:</b> Own elaboration using <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a> data
+        <b>Source:</b> Own elaboration using <a href="https://www.globalwater.online/global-water/index.html" target="_blank">Global Water Monitor</a> data
     </p>
 
     <button id="toggleButton">Show Details</button>
@@ -117,15 +118,13 @@
     });
 </script>
     
-    <section>
+<section>
     <div class="chart-description">
         <h2>Which countries around the world have the most pressure on water resources?</h2>
     </div>
-    <figure id="Chart1"></figure> 
-
+    <figure id="Chart1"></figure>
     <p>
-        <b>Source:</b> Own elaboration using  teest
-        <a href="https://www.fao.org/aquastat/en/databases/" target="_blank">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data
+        <b>Source:</b> Own elaboration using <a href="https://www.fao.org/aquastat/en/databases/" target="_blank">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data
     </p>
          
     <button id="toggleButton">Show Details</button>
@@ -164,14 +163,18 @@
     let figure_1_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/Water%20Stress%20Map.json";
     vegaEmbed('#Chart1', figure_1_spec);
 
-    // Toggle button functionality
+     // Toggle button functionality
     const toggleButton = document.getElementById("toggleButton");
     const detailsParagraph = document.getElementById("detailsParagraph");
 
     toggleButton.addEventListener("click", () => {
-        const isHidden = detailsParagraph.style.display === "none";
-        detailsParagraph.style.display = isHidden ? "block" : "none";
-        toggleButton.textContent = isHidden ? "Hide Details" : "Show Details";
+        if (detailsParagraph.style.display === "none") {
+            detailsParagraph.style.display = "block";
+            toggleButton.textContent = "Hide Details";
+        } else {
+            detailsParagraph.style.display = "none";
+            toggleButton.textContent = "Show Details";
+        }
     });
 </script>
 
