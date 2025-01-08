@@ -65,6 +65,55 @@
              Throughout the project, I employed interactive tools, including tooltips, drop-down menus, and sliders, to allow users to explore data points in detail and gain better insights into trends over time.
             </p>
     </section>
+    <section>
+    <div class="chart-description">
+        <h2>How has the world's terrestrial water storage changed in the past decade?</h2>
+    </div>
+    <figure id="Chart4"></figure> 
+
+    <button id="toggleButton">Show Details</button>
+
+    <p id="detailsParagraph" style="display: none;">
+        <b>Source:</b> Own elaboration using <a href="https://www.globalwater.online/global-water/index.html">Global Water Monitor</a> data<br><br>
+        <b>Aims:</b><br>
+        To show how global freshwater stores have changed over the past two decades.<br><br>
+        <b>Data:</b><br>
+        Terrestrial water storage, including groundwater, soil water, surface water, snow and land ice, are derived from gravity measurements by the GRACE satellites (Boergens et al., 2019).
+        The dataset does not show absolute terrestrial water storage levels. Instead it shows terrestrial water storage as the difference from the 2003-2006 average.<br><br>
+        <b>Approach:</b><br>
+        To create the chart above I downloaded monthly global data from the Global Water Monitor storage going back to April 2002. I performed minimal data cleaning to split the date column into separate month and year columns.
+        I plotted the data as a line chart with terrestrial water storage on the y-axis, the month on the x-axis, and each year of data plotted as a separate line with the shade of blue of the line distinguishing the year (darker blue for more recent years).
+        I decided to plot the data in this way to highlight the general but not uniform trend of decreasing global terrestrial water storage over time and the particularly low storage amounts measured in 2023. This approach made the general downward trend of terrestrial water storage clear, but to ensure individual points could be investigated, I added an interactive tooltip function.<br><br>
+        <b>Challenges:</b><br>
+        One challenge I faced is that there were some months in this data set that were missing data. At first, these missing observations were interpreted by vegaLite as zero values. 
+        To instead simply not plot these points, I had to eliminate those missing observations before plotting.<br><br>
+        <b>Conclusion:</b><br>
+        Freshwater resources (measured as terrestrial water storage) have generally declined over the past two decades. 
+        This confirms concerns raised by researchers that pressure on water resources is a growing concern.
+        This chart also highlights the seasonal nature of terrestrial water storage, which peaks globally around April before declining to a low point in October. 
+        Policymakers may choose to focus water relief efforts in the late summer to autumn seasons.<br>
+    </p>
+</section>
+
+<script>
+    // Embed the chart
+    let figure_4_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%204/Water%20Storage.json";
+    vegaEmbed('#Chart4', figure_4_spec);
+
+    // Toggle button functionality
+    const toggleButton = document.getElementById("toggleButton");
+    const detailsParagraph = document.getElementById("detailsParagraph");
+
+    toggleButton.addEventListener("click", () => {
+        if (detailsParagraph.style.display === "none") {
+            detailsParagraph.style.display = "block";
+            toggleButton.textContent = "Hide Details";
+        } else {
+            detailsParagraph.style.display = "none";
+            toggleButton.textContent = "Show Details";
+        }
+    });
+</script>
      <section>
         <div class="chart-description">
             <h2>How has the world's terrestrial water storage changed in the past decade?</h2>
