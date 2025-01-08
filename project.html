@@ -162,20 +162,6 @@
     // Embed the chart
     let figure_1_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/Water%20Stress%20Map.json";
     vegaEmbed('#Chart1', figure_1_spec);
-
-    // Toggle button functionality
-    const toggleButton = document.getElementById("toggleButton");
-    const detailsParagraph = document.getElementById("detailsParagraph");
-
-    toggleButton.addEventListener("click", () => {
-        if (detailsParagraph.style.display === "none") {
-            detailsParagraph.style.display = "block";
-            toggleButton.textContent = "Hide Details";
-        } else {
-            detailsParagraph.style.display = "none";
-            toggleButton.textContent = "Show Details";
-        }
-    });
 </script>
 
     <section>
