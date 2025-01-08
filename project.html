@@ -49,7 +49,11 @@
              The visualizations in this project draw from three primary sources of data. 
              First, the United Nations Food and Agriculture Organization (FAO) AQUASTAT database provides country-level statistics related to water resources, spanning several decades. 
              Second, the WHO/UNICEF Joint Monitoring Programme (JMP) offers data on water access, sanitation, and hygiene from 1990 to the present. 
-             Finally, the Global Water Monitor, which uses satellite and ground station data, offers real-time measurements of water levels, including rainfall, temperature, and river flows. These datasets provide insights into water availability, water use efficiency, and the impacts of water stress on global populations.<br><br>
+             Finally, the Global Water Monitor, which uses satellite and ground station data, offers real-time measurements of water levels, including rainfall, temperature, and river flows. These datasets provide insights into water availability, water use efficiency, and the impacts of water stress on global populations.
+             Each data source required downloading csv files containing raw data without API options.
+             I decided not to attempt webscraping techniques for automataion. The benefit of doing so is minimal given that data on water resources is not generally updated often and have multiyear lag times. 
+             Additionally, each source generated data dynammically on it's site with iframes making webscraping scripts onerous and prone to breaking.
+             <br><br>
 
             •   <a href="https://www.fao.org/aquastat/en/databases/">AQUASTAT - UN FAO</a><br>
             •	<a href="https://washdata.org/">JMP - WHO/UNICEF</a><br>
