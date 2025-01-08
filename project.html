@@ -118,61 +118,62 @@
 </script>
     
     <section>
-        <div class="chart-description">
-            <h2>Which countries around the world have the most pressure on water resources</h2>
-        </div>
-        <figure id="Chart1"></figure> 
-        <p>
-            <b>Source:</b> Own elaboration using <a href="https://www.fao.org/aquastat/en/databases/">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data
-        </p>
+    <div class="chart-description">
+        <h2>Which countries around the world have the most pressure on water resources?</h2>
+    </div>
+    <figure id="Chart1"></figure> 
+
+    <p>
+        <b>Source:</b> Own elaboration using 
+        <a href="https://www.fao.org/aquastat/en/databases/" target="_blank">United Nations Food and Agriculture Organization (FAO) AQUASTAT</a> data
+    </p>
          
-        <button id="toggleButton">Show Details</button>
-        <p id="detailsParagraph" style="display: none;">
-         <b>Aims:</b><br>
-            My goals with this map are to show where water resources are most strained around the world and to show where strain on those resources has improved or gotten worse in the past two decades.<br><br>
-         <b>Data:</b><br>
-             The data for this charts come from the UN-FAO AQUASTAT data.
-             Water stress is the ratio of the water a country uses to the amount it has. See <a href="https://www.fao.org/aquastat/en/databases/glossary/">FAO glossary</a> for detailed metric definitions.
-             One limitation of this dataset is that is is only availible at a country-level. This can washout variation within large countries, with varying climates. 
-             For example, the United States' dry southwest region struggles with water shortage, while more temperate regions of the US have plenty of water. This varitaion is lost in the country-level water stress statistic.<br><br>
-         <b>Approach:</b><br>
-             I want to show geographic variation in both absolute levels of water stress as well as the change in water stress over the past two decades. I employeed a map to show this geographic variation in water stress.
-             To create this map I first downloaded and cleaned AQUASTAT data on water stress for all countries in 2001 and in 2021 in Python. I then calculated the absolute and percent change in water stress in each country between those years. 
-             Once the data was cleaned I used vegaLite to display the: water stress in 2021 and 2001 and the absolute and percentage change in water stress between those years depending on the statistic selected in a drop down menu. 
-             These statistics were represented by a color gradient from blue to red to represent countries with good and improving water stress and those with poor and declining water stress respectively.
-             Additionally, I added an interactive tooltip so that viewers can see exact statistics for countries.
-             <br><br>
-         <b>Challenges:</b><br>
-            I used a <a href="https://github.com/mclass-user/mclass-user.github.io/blob/main/maps/map_world.geojson">geojson file</a> from 'mclass-user' on Github as the base for my map. 
-            This geojson file used International Organization of Standards 3 (ISO3) codes along with country names to identify individual countries. However, the AQUASTAT data only used country names and in many cases the country names were not an exact match between the two data sets.
-            For example, one dataset used 'United States' while the other used 'United States of America'.
-            To resolve this I imported the AQUASTAT data into Python and used a package called <a href="https://pypi.org/project/pycountry/">pycountry</a> to assist in coverting the AQUASTAT country names into ISO3 codes. 
-            This package searches through the most commonly used country names to find a match and can output the matching ISO3 code. This package along with a few hand corrected cases allowed me to successfully link the AQUASTAT data to the geojson based on ISO3 code.<br><br>
-         <b>Conclusion:</b><br>
-             The Northern Africa and Western Asia are and have been the region of the world with the most critical water stress. Water stress in the region dwarfs water stres in all other countries.
-             This is not all that suprising considering the region is know for it's arid and desert climates.
-             Examining the change in water stress between 2001 and 2021 we can see that in most countries water stress is getting worse. 
-             This could be due increased demand as populations grow and economic activity increase combined with reduced supply due the the impacts of climate change increasing evaporation rates in resevoirs.<br>
+    <button id="toggleButton">Show Details</button>
 
-        </p>
-    </section>
-    <script>
-        let figure_1_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/Water%20Stress%20Map.json";
-        vegaEmbed('#Chart1', figure_1_spec);
-          // Toggle button functionality
-        const toggleButton = document.getElementById("toggleButton");
-        const detailsParagraph = document.getElementById("detailsParagraph");
+    <p id="detailsParagraph" style="display: none;">
+        <b>Aims:</b><br>
+        My goals with this map are to show where water resources are most strained around the world and to show where strain on those resources has improved or gotten worse in the past two decades.<br><br>
+        <b>Data:</b><br>
+        The data for this chart comes from the UN-FAO AQUASTAT data.
+        Water stress is the ratio of the water a country uses to the amount it has. See <a href="https://www.fao.org/aquastat/en/databases/glossary/" target="_blank">FAO glossary</a> for detailed metric definitions.
+        One limitation of this dataset is that it is only available at a country level. This can wash out variation within large countries with varying climates. 
+        For example, the United States' dry southwest region struggles with water shortages, while more temperate regions of the US have plenty of water. This variation is lost in the country-level water stress statistic.<br><br>
+        <b>Approach:</b><br>
+        I want to show geographic variation in both absolute levels of water stress as well as the change in water stress over the past two decades. I employed a map to show this geographic variation in water stress.
+        To create this map, I first downloaded and cleaned AQUASTAT data on water stress for all countries in 2001 and in 2021 in Python. I then calculated the absolute and percent change in water stress in each country between those years. 
+        Once the data was cleaned, I used vegaLite to display the water stress in 2021 and 2001 and the absolute and percentage change in water stress between those years depending on the statistic selected in a dropdown menu. 
+        These statistics were represented by a color gradient from blue to red to represent countries with good and improving water stress and those with poor and declining water stress, respectively.
+        Additionally, I added an interactive tooltip so that viewers can see exact statistics for countries.
+        <br><br>
+        <b>Challenges:</b><br>
+        I used a <a href="https://github.com/mclass-user/mclass-user.github.io/blob/main/maps/map_world.geojson" target="_blank">geojson file</a> from 'mclass-user' on Github as the base for my map. 
+        This geojson file used International Organization of Standards 3 (ISO3) codes along with country names to identify individual countries. However, the AQUASTAT data only used country names, and in many cases, the country names were not an exact match between the two datasets.
+        For example, one dataset used "United States" while the other used "United States of America".
+        To resolve this, I imported the AQUASTAT data into Python and used a package called <a href="https://pypi.org/project/pycountry/" target="_blank">pycountry</a> to assist in converting the AQUASTAT country names into ISO3 codes. 
+        This package searches through the most commonly used country names to find a match and can output the matching ISO3 code. This package, along with a few hand-corrected cases, allowed me to successfully link the AQUASTAT data to the geojson based on ISO3 codes.<br><br>
+        <b>Conclusion:</b><br>
+        Northern Africa and Western Asia are and have been the regions of the world with the most critical water stress. Water stress in the region dwarfs water stress in all other countries.
+        This is not all that surprising considering the region is known for its arid and desert climates.
+        Examining the change in water stress between 2001 and 2021, we can see that in most countries, water stress is getting worse. 
+        This could be due to increased demand as populations grow and economic activity increases, combined with reduced supply due to the impacts of climate change increasing evaporation rates in reservoirs.<br>
+    </p>
+</section>
 
-        toggleButton.addEventListener("click", () => {
-        if (detailsParagraph.style.display === "none") {
-            detailsParagraph.style.display = "block";
-            toggleButton.textContent = "Hide Details";
-        } else {
-            detailsParagraph.style.display = "none";
-            toggleButton.textContent = "Show Details";
-        }
+<script>
+    // Embed the chart
+    let figure_1_spec = "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/Water%20Stress%20Map.json";
+    vegaEmbed('#Chart1', figure_1_spec);
+
+    // Toggle button functionality
+    const toggleButton = document.getElementById("toggleButton");
+    const detailsParagraph = document.getElementById("detailsParagraph");
+
+    toggleButton.addEventListener("click", () => {
+        const isHidden = detailsParagraph.style.display === "none";
+        detailsParagraph.style.display = isHidden ? "block" : "none";
+        toggleButton.textContent = isHidden ? "Hide Details" : "Show Details";
     });
-    </script>
+</script>
 
     <section>
         <div class="chart-description">
