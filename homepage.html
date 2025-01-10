@@ -107,43 +107,89 @@
     </section>
 
     <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="project.html">Projects Page</a></li>
-            <li><a href="portfolio.html">Portfolio Page</a></li>
-        </ul>
-    </section>
-
-    <section>
         <h2>Contact</h2>
         <div class="contact-icons">
             <a href="mailto:sambickelb@gmail.com">
-                <img src="Gmail-logo.png" alt="Email Icon" class="icon">
+                <img src="assets/email.png" alt="Email Icon" class="icon">
             </a>
             <a href="https://www.linkedin.com/in/sam-bickel-barlow-02133a150/" target="_blank">
-                <img src="LI-Logo.png" alt="LinkedIn Icon" class="icon">
+                <img src="assets/linkedin.png" alt="LinkedIn Icon" class="icon">
             </a>
             <a href="https://github.com/SamBickelBarlow/SamBickelBarlow.github.io" target="_blank">
-                <img src="GitHub_Logo.png" alt="GitHub Icon" class="icon">
+                <img src="assets/github.png" alt="GitHub Icon" class="icon">
             </a>
         </div>
     </section>
 
+<section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <a href="project.html" class="project-item">
+                <img src="assets/water-crisis.png" alt="Water Crisis Project Image" class="project-image">
+                <span>Water Crisis Project</span>
+            </a>
+            <a href="portfolio.html" class="project-item">
+                <img src="assets/portfolio.png" alt="Portfolio Page Image" class="project-image">
+                <span>Portfolio Page</span>
+            </a>
+        </div>
+</section>
+
 <style>
     .contact-icons {
         display: flex;
-        gap: 128px; /* Adjust spacing between icons */
+        gap: 16px; /* Adjust spacing between icons */
         justify-content: center;
     }
 
     .icon {
-        width: 64px; /* Adjust size here */
+        width: 32px; /* Adjust size here */
         height: 32px; /* Adjust size here */
         transition: transform 0.3s ease;
     }
 
     .icon:hover {
         transform: scale(1.1); /* Slight zoom effect on hover */
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+
+    .project-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        background: #f7f7f7;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-item:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-image {
+        width: 150px; /* Adjust image size */
+        height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 0.5rem;
+    }
+
+    .project-item span {
+        color: #333;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0.5rem;
     }
 </style>
 </body>
