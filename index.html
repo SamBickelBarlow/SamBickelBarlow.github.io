@@ -1,40 +1,196 @@
 <!DOCTYPE html>
-<html> 
-<head>    
-    <link rel="stylesheet" type="text/css" href="Styles.css">
-    <title>My Portfolio</title>
-
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
-    <style>
-        #chartGrid {
-            display: flex;
-        }
-        
-    </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam's Page</title>
+    <link rel="stylesheet" href="homepage.css">
 </head>
+<body>
+    <header>
+        <img src="Professional%20photo.jpeg" alt="Photo">
+        <h1>Samuel Bickel-Barlow</h1>
+        <p>Candidate - M.P.A - Data Science for Public Policy at London School of Economics</p>
+        <a href="Bickel-Barlow%20CV%20Jan2025.pdf" target="_blank">View My Resume</a>
+    </header>
 
-<body> 
-    <h1 class="big" style="margin-bottom: 0px;"> 
-        Sam Bickel-Barlow
-    </h1>
-    <p>
-        London School of Economics
-        MPA - Data Science for Public Policy
-    </p>
-    <p style="margin-top: 0px; color: darkblue">
-        Home Page | <a href="https://www.linkedin.com/in/sam-bickel-barlow-02133a150/">LinkedIn</a> | <a
-            href="https://www.github.com/SamBickelBarlow">GitHub</a> | <a
-            href="https://SamBickelBarlow.github.io/project">Project</a> | <a
-            href="https://SamBickelBarlow.github.io/portfolio">Portfolio</a> | <a
-            href="https://SamBickelBarlow.github.io/homepage">Home Page2</a>
-    </p>
-    <h3 class="small"> 
-          
-    </h3>
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a data-driven professional pursuing an M.P.A. in Data Science for Public Policy at the London School of Economics, with a background in economics, public policy, and history. 
+            My experience spans Medicare policy research and government contract consulting, where I analyzed complex datasets and helped develop evidence-based recommendations for government stakeholders and clients.
+            I am motivated by a desire to leverage advanced data science techniques to address global challenges in public health and other policy areas.
+        </p>
+    </section>
 
+    <section>
+        <h2>Education</h2>
+        <section>
+            <h3>
+                London School of Economics, September 2024 - present
+            </h3>
+            <h4>
+                M.P.A - Data Science for Public Policy
+            </h4>
+            <p>
+                At LSE I have developed advanced technical skills in data science applied in a public policy context. 
+                Through my degree program I have solidified core econometric competencies, learned advanced data science methodologies and machine learning basics, 
+                developed and automated visualization skill set, and contextualized these skills within the policymaking field.
+            </p>
+        </section>
+        <section>
+            <h3>
+                Emory University, August 2015 - May 2019
+            </h3>
+            <h4>
+                B.A - Economics<br>
+                B.A - History: Law, Economics, and Human Rights
+            </h4>
+            <p>
+                As and undergraduate at Emory I received rigorous training in economic theory and econometrics methodologies. 
+                I also honed strong research and writing skills in the academic fields of both economics and history.
+            </p>
+        </section>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+            <section>
+                <h3>
+                    BDO USA
+                </h3>
+                <h4>
+                    Senior Associate - Government Contract Consulting, September 2021 - August 2024
+                </h4>
+                <p>
+                    • Analyzed thousands of employee’s payroll data across hundreds of contracts in SQL for clients subject to Service Contract Act regulations, revealing several hundred thousand dollars of compliance shortfalls.<br>
+                    • Trained team members on SQL coding and other data processes for project personnel transitions.<br>
+                    • Served as main award compliance point of contact for clients with large CARES act contracts.<br>
+                    • Created tailored engagement tools in Excel for budget tracking, invoice generation, and compliance reporting.<br>
+                    • Led engagements with dozens of hospitals and health systems to complete provider relief fund and cost reporting ensuring federal reimbursement.<br>
+                    • Communicated with clients and regulators to clarify case-specific reporting regulations.<br>
+                    • Contributed regularly to the BDO GovCon Week Ahead blog.
+                </p>
+            </section>
+            <section>
+                <h3>
+                    Medicare Payment Advisory Commission (MedPAC), June 2019 - August 2021
+                </h3>
+                <h4>
+                    Research Assistant
+                </h4>
+                <p>
+                    • Developed a breadth of healthcare industry knowledge with a focus on public sector and Medicare policy.<br>
+                    • Generated weekly deliverables for analysts tracking COVID-19’s impact on the healthcare industry through key indicators using near real-time unprocessed Medicare claims data.<br>
+                    • Modeled proposed Medicare Advantage value incentive program and skilled nursing facility value incentive programs.<br>
+                    • Created geographic visualizations of provider accessibility across the United States using R.<br>
+                    • Responsible for analyzing public data sets in Excel, and compiling relevant scholarly articles and legal statues in support the MedPAC’s Accountable Care Organization recommendations.<br>
+                    • Analyzed prescription drug pricing data to track increases in cost for Medicare beneficiaries.<br>
+                    • Identified and summarized academic research and stakeholder interviews discussing healthcare workforce trends.<br>
+                    • Drafted and researched the Hospital’s access to capital section of the hospital payment update chapter in the March 2020 and 2021 report to the Congress: Medicare Payment Policy.<br>
+                    • Presented on multiple topics to MedPAC commissioners and over 300 members of the healthcare trade press and other stakeholders.
+                </p>
+            </section>
+            <section>
+                <h3>
+                    3M - Health Information Systems, May 2018 - August 2018
+                </h3>
+                <h4>
+                    Business Operations Intern
+                </h4>
+                <p>
+                    • Developed streamlined pricing model for reporting and consulting services.<br>
+                    • Examined and predicted costs of fulfilling hospital engagements.<br>
+                    • Refined return on investment projections.
+                </p>
+            </section>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <a href="project.html" class="project-item">
+                <img src="ruralurban.png" alt="Water Crisis Project Image" class="project-image">
+                <span>Water Crisis Project</span>
+            </a>
+            <a href="portfolio.html" class="project-item">
+                <img src="FEMAmap2.png" alt="Portfolio Page Image" class="project-image">
+                <span>Portfolio Page</span>
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <div class="contact-icons">
+            <a href="mailto:sambickelb@gmail.com">
+                <img src="Gmail-logo.png" alt="Email Icon" class="icon">
+            </a>
+            <a href="https://www.linkedin.com/in/sam-bickel-barlow-02133a150/" target="_blank">
+                <img src="LI-Logo.png" alt="LinkedIn Icon" class="icon">
+            </a>
+            <a href="https://github.com/SamBickelBarlow/SamBickelBarlow.github.io" target="_blank">
+                <img src="GitHub_Logo.png" alt="GitHub Icon" class="icon">
+            </a>
+        </div>
+    </section>
+
+<style>
+    .contact-icons {
+        display: flex;
+        gap: 128px; /* Adjust spacing between icons */
+        justify-content: center;
+    }
+
+    .icon {
+        width: 64px; /* Adjust size here */
+        height: 32px; /* Adjust size here */
+        transition: transform 0.3s ease;
+    }
+
+    .icon:hover {
+        transform: scale(1.1); /* Slight zoom effect on hover */
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+
+    .project-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        background: #f7f7f7;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-item:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-image {
+        width: 150px; /* Adjust image size */
+        height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 0.5rem;
+    }
+
+    .project-item span {
+        color: #333;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+</style>
 </body>
-    
 </html>
