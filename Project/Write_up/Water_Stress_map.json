@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Global Changes in Water Stress",
-    "subtitle": "between 2001 and 2021",
+    "subtitle": "between 2002 and 2022",
     "fontSize": 16,
     "subtitleFontSize": 12,
     "subtitleFontWeight": "lighter",
@@ -11,7 +11,7 @@
   "projection": {"type": "naturalEarth1"},
   "description": "",
   "data": {
-    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/AQUASTAT_delta.csv"
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Write_up/AQUASTAT_delta_update.csv"
   },
   "width": 500,
   "height": 300,
@@ -25,8 +25,8 @@
         "options": [
           "Water Stress pct change",
           "Water Stress net change",
-          "Water Stress 2021",
-          "Water Stress 2001"
+          "Water Stress 2022",
+          "Water Stress 2002"
         ],
         "name": "Select Metric"
       }
@@ -34,7 +34,7 @@
     {
       "name": "scaleDomain",
       "value": [-1, 0 , 1],
-      "update": "metric === 'Water Stress 2001' ? [0, 50 , 100] : (metric === 'Water Stress 2021' ? [0, 50 , 100] : (metric === 'Water Stress net change' ? [-50, 0 , 50] : [-1, 0 , 1]))"
+      "update": "metric === 'Water Stress 2002' ? [0, 50 , 100] : (metric === 'Water Stress 2022' ? [0, 50 , 100] : (metric === 'Water Stress net change' ? [-50, 0 , 50] : [-1, 0 , 1]))"
     }
   ],
   "transform": [
@@ -85,7 +85,7 @@
           "legend": {
             "title": "Water Stress Metric",
             "formatType": "custom",
-            "labelExpr": "metric === 'Water Stress 2001' || metric === 'Water Stress 2021' ? format(datum.value, '.0f') : (metric === 'Water Stress net change' ? format(datum.value, '.0f') : format(datum.value, '.0%'))"
+            "labelExpr": "metric === 'Water Stress 2002' || metric === 'Water Stress 2022' ? format(datum.value, '.0f') : (metric === 'Water Stress net change' ? format(datum.value, '.0f') : format(datum.value, '.0%'))"
           }
         },
         "tooltip": [
@@ -104,13 +104,13 @@
             "format": ".1f"
           },
           {
-            "field": "Water Stress 2021",
-            "title": "Water Stress Score in 2021",
+            "field": "Water Stress 2022",
+            "title": "Water Stress Score in 2022",
             "format": ".1f"
           },
           {
-            "field": "Water Stress 2001",
-            "title": "Water Stress Score in 2001",
+            "field": "Water Stress 2002",
+            "title": "Water Stress Score in 2002",
             "format": ".1f"
           }
         ]
