@@ -11,7 +11,7 @@
   "projection": {"type": "naturalEarth1"},
   "description": "",
   "data": {
-    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Write_up/AQUASTAT_delta_update.csv"
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Write_up/Water Stress Map/clean_data.csv"
   },
   "width": 500,
   "height": 300,
