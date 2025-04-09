@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Global Changes in Water Stress",
+    "text": "Net Change in Water Stress",
     "subtitle": "between 2002 and 2022",
     "fontSize": 16,
     "subtitleFontSize": 12,
@@ -15,28 +15,7 @@
   },
   "width": 500,
   "height": 300,
-  "background" : "#f9f9f9" ,
-  "params": [
-    {
-      "name": "metric",
-      "value": "Water Stress pct change",
-      "bind": {
-        "input": "select",
-        "options": [
-          "Water Stress pct change",
-          "Water Stress net change",
-          "Water Stress 2022",
-          "Water Stress 2002"
-        ],
-        "name": "Select Metric"
-      }
-    },
-    {
-      "name": "scaleDomain",
-      "value": [-1, 0 , 1],
-      "update": "metric === 'Water Stress 2002' ? [0, 50 , 100] : (metric === 'Water Stress 2022' ? [0, 50 , 100] : (metric === 'Water Stress net change' ? [-50, 0 , 50] : [-1, 0 , 1]))"
-    }
-  ],
+  "background": "#f9f9f9",
   "transform": [
     {
       "lookup": "ISO3",
@@ -48,10 +27,6 @@
           "format": {"property": "features"}
         }
       }
-    },
-    {
-      "calculate": "datum[metric]",
-      "as": "selectedMetric"
     }
   ],
   "layer": [
@@ -76,45 +51,26 @@
       },
       "encoding": {
         "color": {
-          "field": "selectedMetric",
+          "field": "Water Stress net change",
           "type": "quantitative",
           "scale": {
-            "domain": {"expr": "scaleDomain"},
+            "domain": [-50, 0, 50],
             "range": ["#2D4A9A", "#FFFFFF", "#D14C2F"]
           },
           "legend": {
-            "title": "Water Stress Metric",
-            "formatType": "custom",
-            "labelExpr": "metric === 'Water Stress 2002' || metric === 'Water Stress 2022' ? format(datum.value, '.0f') : (metric === 'Water Stress net change' ? format(datum.value, '.0f') : format(datum.value, '.0%'))"
+            "title": "Net Change in Water Stress (2002–2022)",
+            "format": ".1f"
           }
         },
         "tooltip": [
-          {
-            "field": "properties.COUNTRY",
-            "title": "Country"
-          },
-          {
-            "field": "Water Stress pct change",
-            "title": "Pct change in water stress",
-            "format": ".1%"
-          },
-          {
-            "field": "Water Stress net change",
-            "title": "Net change in water stress",
-            "format": ".1f"
-          },
-          {
-            "field": "Water Stress 2022",
-            "title": "Water Stress Score in 2022",
-            "format": ".1f"
-          },
-          {
-            "field": "Water Stress 2002",
-            "title": "Water Stress Score in 2002",
-            "format": ".1f"
-          }
+          {"field": "properties.COUNTRY", "title": "Country"},
+          {"field": "Water Stress pct change", "title": "Pct change in water stress", "format": ".1%"},
+          {"field": "Water Stress net change", "title": "Net change in water stress", "format": ".1f"},
+          {"field": "Water Stress 2022", "title": "Water Stress Score in 2022", "format": ".1f"},
+          {"field": "Water Stress 2002", "title": "Water Stress Score in 2002", "format": ".1f"}
         ]
       }
     }
   ]
 }
+
