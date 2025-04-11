@@ -11,7 +11,7 @@
   "projection": {"type": "naturalEarth1"},
   "description": "",
   "data": {
-    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Write_up/water_stress_map/clean_data.csv"
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Write_up/water_stress_map/water_stress_map_clean_data.csv"
   },
   "width": 500,
   "height": 300,
