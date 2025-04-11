@@ -1,0 +1,89 @@
+{
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%203/area_chart.csv"
+  },
+  "transform": [
+    {
+      "calculate": "toNumber(datum.Year)",
+      "as": "YearNum"
+    },
+    {
+      "filter": "datum.YearNum === 2021"
+    }
+  ],
+  "height": 300,
+  "width": 500,
+  "background": "#f9f9f9",
+  "mark": {
+    "type": "bar",
+    "opacity": 0.85
+  },
+  "encoding": {
+    "x": {
+      "field": "Area",
+      "type": "nominal",
+      "title": "Region",
+      "axis": {
+        "labelAngle": 45,
+        "labelFont": "Arial",
+        "labelFontSize": 10,
+        "titleFont": "Arial",
+        "titleFontSize": 14
+      }
+    },
+    "y": {
+      "field": "share_of_Water_Stress",
+      "type": "quantitative",
+      "stack": "normalize",
+      "title": "Share of Water Stress",
+      "axis": {
+        "format": ".0%",
+        "labelFont": "Arial",
+        "labelFontSize": 12,
+        "titleFont": "Arial",
+        "titleFontSize": 14,
+        "grid": true
+      }
+    },
+    "color": {
+      "field": "Contribution to Water Stress",
+      "type": "nominal",
+      "title": "Sector",
+      "scale": {
+        "domain": ["Agricultural Sector", "Industrial Sector", "Municipal Sector"],
+        "range": ["#aec97e", "#ffb81d", "#73b7d9"]
+      },
+      "legend": {
+        "orient": "top",
+        "titleFont": "Arial",
+        "titleFontSize": 14,
+        "labelFont": "Arial",
+        "labelFontSize": 12
+      }
+    }
+  },
+  "title": {
+    "text": "Contribution to Water Stress by Sector in 2021",
+    "subtitle": "Share of Sectoral Contribution to Water Stress by Region",
+    "font": "Arial",
+    "fontSize": 18,
+    "subtitleFont": "Arial",
+    "subtitleFontSize": 14,
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "background": "white",
+    "axis": {
+      "domainColor": "gray",
+      "domainWidth": 1,
+      "gridColor": "#e6e6e6",
+      "gridWidth": 0.8,
+      "tickColor": "gray",
+      "tickWidth": 1
+    }
+  }
+}
