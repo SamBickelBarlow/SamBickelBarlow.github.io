@@ -1,16 +1,7 @@
 {
   "data": {
-    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%203/area_chart.csv"
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Write_up/sector_stress/AQUASTAT_sector_update_clean.csv"
   },
-  "transform": [
-    {
-      "calculate": "toNumber(datum.Year)",
-      "as": "YearNum"
-    },
-    {
-      "filter": "datum.YearNum === 2021"
-    }
-  ],
   "height": 300,
   "width": 500,
   "background": "#f9f9f9",
@@ -20,9 +11,9 @@
   },
   "encoding": {
     "x": {
-      "field": "Area",
+      "field": "Sustainable Development Goals (SDG) Regions",
       "type": "nominal",
-      "title": "Region",
+      "title": null,
       "axis": {
         "labelAngle": 45,
         "labelFont": "Arial",
@@ -32,29 +23,32 @@
       }
     },
     "y": {
-      "field": "share_of_Water_Stress",
-      "type": "quantitative",
-      "stack": "normalize",
-      "title": "Share of Water Stress",
-      "axis": {
-        "format": ".0%",
-        "labelFont": "Arial",
-        "labelFontSize": 12,
-        "titleFont": "Arial",
-        "titleFontSize": 14,
-        "grid": true
-      }
-    },
+  "field": "share_of_Water_Stress",
+  "type": "quantitative",
+  "stack": "normalize",
+  "title": "Share of Water Stress",
+  "axis": {
+    "format": ".0%",
+    "labelFont": "Arial",
+    "labelFontSize": 12,
+    "titleFont": "Arial",
+    "titleFontSize": 14,
+    "grid": true,
+    "titleAngle": 0,
+    "titleAlign": "left",
+    "titleY": -20
+  }
+},
     "color": {
       "field": "Contribution to Water Stress",
       "type": "nominal",
-      "title": "Sector",
+      "title": null,
       "scale": {
         "domain": ["Agricultural Sector", "Industrial Sector", "Municipal Sector"],
         "range": ["#aec97e", "#ffb81d", "#73b7d9"]
       },
       "legend": {
-        "orient": "top",
+        "orient": "right",
         "titleFont": "Arial",
         "titleFontSize": 14,
         "labelFont": "Arial",
@@ -63,7 +57,7 @@
     }
   },
   "title": {
-    "text": "Contribution to Water Stress by Sector in 2021",
+    "text": "Contribution to Water Stress by Sector in 2022",
     "subtitle": "Share of Sectoral Contribution to Water Stress by Region",
     "font": "Arial",
     "fontSize": 18,
