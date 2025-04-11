@@ -58,7 +58,7 @@
             "range": ["#2D4A9A", "#FFFFFF", "#D14C2F"]
           },
           "legend": {
-            "title": "Net Change in Water Stress (2002–2022)",
+            "title": "water stress Δ",
             "format": ".1f"
           }
         },
@@ -73,4 +73,3 @@
     }
   ]
 }
-
