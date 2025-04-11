@@ -2,43 +2,46 @@
   "data": {
     "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Write_up/sector_stress/sector_stress_clean_data.csv"
   },
-  "height": 300,
-  "width": 500,
+  "height": {"step": 30},
+  "width": 400,
   "background": "#f9f9f9",
   "mark": {
     "type": "bar",
     "opacity": 0.85
   },
   "encoding": {
-    "x": {
+    "y": {
       "field": "Sustainable Development Goals (SDG) Regions",
       "type": "nominal",
       "title": null,
       "axis": {
-        "labelAngle": 45,
         "labelFont": "Arial",
-        "labelFontSize": 10,
+        "labelFontSize": 12,
         "titleFont": "Arial",
         "titleFontSize": 14
+      },
+      "scale": {
+        "paddingInner": 0.3,
+        "paddingOuter": 0.05
       }
     },
-    "y": {
-  "field": "share_of_Water_Stress",
-  "type": "quantitative",
-  "stack": "normalize",
-  "title": "Share of Water Stress",
-  "axis": {
-    "format": ".0%",
-    "labelFont": "Arial",
-    "labelFontSize": 12,
-    "titleFont": "Arial",
-    "titleFontSize": 14,
-    "grid": true,
-    "titleAngle": 0,
-    "titleAlign": "left",
-    "titleY": -20
-  }
-},
+    "x": {
+      "field": "share_of_Water_Stress",
+      "type": "quantitative",
+      "stack": "normalize",
+      "title": "Share of Water Stress",
+      "axis": {
+        "format": ".0%",
+        "labelFont": "Arial",
+        "labelFontSize": 12,
+        "titleFont": "Arial",
+        "titleFontSize": 14,
+        "grid": true,
+        "titleAngle": 0,
+        "titleAlign": "left",
+        "titleY": -20
+      }
+    },
     "color": {
       "field": "Contribution to Water Stress",
       "type": "nominal",
