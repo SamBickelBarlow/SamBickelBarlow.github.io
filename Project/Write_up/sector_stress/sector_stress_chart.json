@@ -29,7 +29,7 @@
       "field": "share_of_Water_Stress",
       "type": "quantitative",
       "stack": "normalize",
-      "title": "Share of Water Stress",
+      "title": "",
       "axis": {
         "format": ".0%",
         "labelFont": "Arial",
