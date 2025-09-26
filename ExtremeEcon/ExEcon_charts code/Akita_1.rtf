@@ -1,0 +1,119 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",\
+  "description": "Glasgow scatterplot",\
+  "title": \{\
+    "text": "Extreme demographics: the old-age tsunami",\
+    "subtitle": [\
+      "Share of population that is aged 65+",\
+      "Source: UN. Japan=Red, S Korea=Yellow",\
+      ""\
+    ],\
+    "subtitleFontStyle": "italic",\
+    "subtitleFontSize": 10,\
+    "anchor": "start",\
+    "color": "#179fdb",\
+    "subtitleColor": "#179fdb"\
+  \},\
+  "config": \{\
+    "background": "#122b39",\
+    "view": \{\
+      "stroke": "transparent"\
+    \}\
+  \},\
+  "data": \{\
+    "values": [\
+      \{"Region": "Australia", "Year": "1950", "sh_65+": 0.08167923\},\
+      \{"Region": "Australia", "Year": "1951", "sh_65+": 0.082376515\},\
+      \{"Region": "Australia", "Year": "1952", "sh_65+": 0.083125449\},\
+      /* ALL OTHER DATA POINTS FROM YOUR DATASET */\
+      \{"Region": "United States of America", "Year": "2100", "sh_65+": 0.278751846\}\
+    ]\
+  \},\
+  "transform": [\{"filter": \{"selection": "Region"\}\}],\
+  "selection": \{\
+    "Region": \{\
+      "type": "single",\
+      "fields": ["Region"],\
+      "bind": \{\
+        "input": "select",\
+        "options": [\
+          null,\
+          "Australia",\
+          "Bangladesh",\
+          "Brazil",\
+          "Canada",\
+          "Chile",\
+          "China",\
+          "Democratic Republic of the Congo",\
+          "France",\
+          "India",\
+          "Indonesia",\
+          "Italy",\
+          "Japan",\
+          "Republic of Korea",\
+          "Spain",\
+          "United Kingdom",\
+          "United States of America"\
+        ],\
+        "name": "Select a country"\
+      \}\
+    \}\
+  \},\
+  "height": 300,\
+  "width": 300,\
+  "mark": \{\
+    "type": "line",\
+    "strokeWidth": 2\
+  \},\
+  "encoding": \{\
+    "x": \{\
+      "field": "Year",\
+      "type": "temporal",\
+      "title": null,\
+      "axis": \{\
+        "title": null,\
+        "grid": false,\
+        "labelSeparation": 10,\
+        "domainColor": "dimgrey",\
+        "labelColor": "#00a767",\
+        "tickColor": "pink",\
+        "gridColor": "dimgrey"\
+      \}\
+    \},\
+    "y": \{\
+      "field": "sh_65+",\
+      "type": "quantitative",\
+      "title": null,\
+      "axis": \{\
+        "title": null,\
+        "grid": false,\
+        "labelSeparation": 10,\
+        "domainColor": "dimgrey",\
+        "labelColor": "#00a767",\
+        "tickColor": "pink",\
+        "gridColor": "dimgrey",\
+        "format": "%"\
+      \}\
+    \},\
+    "color": \{\
+      "field": "Region",\
+      "type": "nominal",\
+      "legend": null,\
+      "scale": \{\
+        "range": [\
+          "#C1D0E6","#C1D0E6","#C1D0E6","#C1D0E6","#C1D0E6",\
+          "#C1D0E6","#C1D0E6","#C1D0E6","#C1D0E6","#C1D0E6",\
+          "#C1D0E6","red","yellow","#C1D0E6","#C1D0E6",\
+          "#C1D0E6","#C1D0E6"\
+        ]\
+      \}\
+    \}\
+  \}\
+\}}

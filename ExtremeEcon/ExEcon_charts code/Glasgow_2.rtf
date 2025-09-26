@@ -1,0 +1,108 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <div id="glasgow-chart"></div>\
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>\
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>\
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>\
+<script>\
+  const spec = \{\
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",\
+  "title": \{\
+    "text": "Drugs deaths in Scotland",\
+    "subtitle": "Annual deaths with drugs as reported cause. Source: NRS",\
+    "subtitleFontStyle": "italic",\
+    "subtitleFontSize": 10,\
+    "anchor": "start",\
+    "color": "whitesmoke",\
+    "subtitleColor": "whitesmoke"\
+  \},\
+  "config": \{\
+    "background": "#122b39",\
+    "view": \{"stroke": "transparent"\}\
+  \},\
+  "data": \{\
+    "values": [\
+      \{"Year": "1996", "All": 244, "Heroin": 84, "Methadone": 100, "Benzodiazepines": null, "Gabapentin/Pregabalin": null, "Cocaine": 3, "Ectasy": 9, "Amphetamines": null, "Alcohol": 87\},\
+      \{"Year": "1997", "All": 224, "Heroin": 74, "Methadone": 86, "Benzodiazepines": null, "Gabapentin/Pregabalin": null, "Cocaine": 5, "Ectasy": 2, "Amphetamines": null, "Alcohol": 70\},\
+      \{"Year": "1998", "All": 249, "Heroin": 121, "Methadone": 64, "Benzodiazepines": null, "Gabapentin/Pregabalin": null, "Cocaine": 4, "Ectasy": 3, "Amphetamines": null, "Alcohol": 86\},\
+      \{"Year": "1999", "All": 291, "Heroin": 167, "Methadone": 63, "Benzodiazepines": null, "Gabapentin/Pregabalin": null, "Cocaine": 12, "Ectasy": 8, "Amphetamines": null, "Alcohol": 89\},\
+      \{"Year": "2000", "All": 292, "Heroin": 196, "Methadone": 55, "Benzodiazepines": 164, "Gabapentin/Pregabalin": 0, "Cocaine": 4, "Ectasy": 11, "Amphetamines": 3, "Alcohol": 123\},\
+      \{"Year": "2001", "All": 332, "Heroin": 216, "Methadone": 69, "Benzodiazepines": 182, "Gabapentin/Pregabalin": 0, "Cocaine": 19, "Ectasy": 20, "Amphetamines": 5, "Alcohol": 140\},\
+      \{"Year": "2002", "All": 382, "Heroin": 248, "Methadone": 98, "Benzodiazepines": 245, "Gabapentin/Pregabalin": 0, "Cocaine": 31, "Ectasy": 20, "Amphetamines": 13, "Alcohol": 156\},\
+      \{"Year": "2003", "All": 317, "Heroin": 175, "Methadone": 87, "Benzodiazepines": 186, "Gabapentin/Pregabalin": 0, "Cocaine": 29, "Ectasy": 14, "Amphetamines": 10, "Alcohol": 128\},\
+      \{"Year": "2004", "All": 356, "Heroin": 225, "Methadone": 80, "Benzodiazepines": 140, "Gabapentin/Pregabalin": 0, "Cocaine": 38, "Ectasy": 17, "Amphetamines": 10, "Alcohol": 116\},\
+      \{"Year": "2005", "All": 336, "Heroin": 194, "Methadone": 72, "Benzodiazepines": 110, "Gabapentin/Pregabalin": 0, "Cocaine": 44, "Ectasy": 10, "Amphetamines": 11, "Alcohol": 114\},\
+      \{"Year": "2006", "All": 421, "Heroin": 260, "Methadone": 97, "Benzodiazepines": 94, "Gabapentin/Pregabalin": 0, "Cocaine": 33, "Ectasy": 13, "Amphetamines": 11, "Alcohol": 131\},\
+      \{"Year": "2007", "All": 455, "Heroin": 289, "Methadone": 114, "Benzodiazepines": 109, "Gabapentin/Pregabalin": 0, "Cocaine": 47, "Ectasy": 11, "Amphetamines": 11, "Alcohol": 157\},\
+      \{"Year": "2008", "All": 574, "Heroin": 324, "Methadone": 169, "Benzodiazepines": 149, "Gabapentin/Pregabalin": 2, "Cocaine": 36, "Ectasy": 5, "Amphetamines": 11, "Alcohol": 167\},\
+      \{"Year": "2009", "All": 545, "Heroin": 322, "Methadone": 173, "Benzodiazepines": 154, "Gabapentin/Pregabalin": 2, "Cocaine": 32, "Ectasy": 2, "Amphetamines": 6, "Alcohol": 165\},\
+      \{"Year": "2010", "All": 485, "Heroin": 254, "Methadone": 174, "Benzodiazepines": 122, "Gabapentin/Pregabalin": 3, "Cocaine": 33, "Ectasy": 0, "Amphetamines": 3, "Alcohol": 127\},\
+      \{"Year": "2011", "All": 584, "Heroin": 206, "Methadone": 275, "Benzodiazepines": 185, "Gabapentin/Pregabalin": 8, "Cocaine": 36, "Ectasy": 8, "Amphetamines": 24, "Alcohol": 129\},\
+      \{"Year": "2012", "All": 581, "Heroin": 221, "Methadone": 237, "Benzodiazepines": 196, "Gabapentin/Pregabalin": 25, "Cocaine": 31, "Ectasy": 9, "Amphetamines": 18, "Alcohol": 111\},\
+      \{"Year": "2013", "All": 527, "Heroin": 221, "Methadone": 216, "Benzodiazepines": 149, "Gabapentin/Pregabalin": 56, "Cocaine": 45, "Ectasy": 17, "Amphetamines": 27, "Alcohol": 103\},\
+      \{"Year": "2014", "All": 614, "Heroin": 309, "Methadone": 214, "Benzodiazepines": 121, "Gabapentin/Pregabalin": 86, "Cocaine": 45, "Ectasy": 14, "Amphetamines": 22, "Alcohol": 106\},\
+      \{"Year": "2015", "All": 706, "Heroin": 345, "Methadone": 251, "Benzodiazepines": 191, "Gabapentin/Pregabalin": 131, "Cocaine": 93, "Ectasy": 15, "Amphetamines": 17, "Alcohol": 107\},\
+      \{"Year": "2016", "All": 868, "Heroin": 473, "Methadone": 362, "Benzodiazepines": 426, "Gabapentin/Pregabalin": 208, "Cocaine": 123, "Ectasy": 28, "Amphetamines": 25, "Alcohol": 112\},\
+      \{"Year": "2017", "All": 934, "Heroin": 470, "Methadone": 439, "Benzodiazepines": 552, "Gabapentin/Pregabalin": 242, "Cocaine": 176, "Ectasy": 27, "Amphetamines": 32, "Alcohol": 90\},\
+      \{"Year": "2018", "All": 1187, "Heroin": 537, "Methadone": 560, "Benzodiazepines": 792, "Gabapentin/Pregabalin": 367, "Cocaine": 273, "Ectasy": 35, "Amphetamines": 46, "Alcohol": 156\},\
+      \{"Year": "2019", "All": 1280, "Heroin": 651, "Methadone": 567, "Benzodiazepines": 902, "Gabapentin/Pregabalin": 443, "Cocaine": 372, "Ectasy": 25, "Amphetamines": 52, "Alcohol": 140\},\
+      \{"Year": "2020", "All": 1339, "Heroin": 605, "Methadone": 708, "Benzodiazepines": 974, "Gabapentin/Pregabalin": 502, "Cocaine": 459, "Ectasy": 40, "Amphetamines": 60, "Alcohol": 173\}\
+    ]\
+  \},\
+  "repeat": \{\
+    "layer": ["All", "Heroin", "Methadone", "Benzodiazepines", "Gabapentin/Pregabalin", "Cocaine", "Ectasy", "Amphetamines", "Alcohol"]\
+  \},\
+  "spec": \{\
+    "height": 300,\
+    "width": 300,\
+    "mark": \{\
+      "type": "line",\
+      "point": true,\
+      "strokeWidth": 2\
+    \},\
+    "encoding": \{\
+      "x": \{\
+        "field": "Year",\
+        "type": "temporal",\
+        "axis": \{\
+          "title": null,\
+          "grid": false,\
+          "labelSeparation": 10,\
+          "domainColor": "dimgrey",\
+          "labelColor": "whitesmoke",\
+          "tickColor": "pink",\
+          "gridColor": "dimgrey"\
+        \}\
+      \},\
+      "y": \{\
+        "field": \{"repeat": "layer"\},\
+        "type": "quantitative",\
+        "axis": \{\
+          "title": null,\
+          "grid": false,\
+          "labelSeparation": 10,\
+          "domainColor": "dimgrey",\
+          "labelColor": "whitesmoke",\
+          "tickColor": "pink",\
+          "gridColor": "dimgrey"\
+        \},\
+        "title": null\
+      \},\
+      "color": \{\
+        "datum": \{"repeat": "layer"\},\
+        "legend": \{\
+          "orient": "top-left",\
+          "labelColor": "whitesmoke"\
+        \},\
+        "scale": \{"scheme": "set1"\}\
+      \}\
+    \}\
+  \}\
+\};\
+  vegaEmbed("#prison-pay-chart", spec);\
+</script>}

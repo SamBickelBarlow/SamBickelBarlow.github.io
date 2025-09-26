@@ -1,0 +1,89 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue254;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c99608;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 Source: https://data.unhcr.org/en/documents/details/117345\
+\
+<div id=\'93zaatari-chart"></div>\
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>\
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>\
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>\
+<script>\
+  const spec = \cb3 \expnd0\expndtw0\kerning0
+\{\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",\cb1 \
+\cb3   "title": \{\cb1 \
+\cb3     "text": "Zaatari refugee camp \'96 work permits",\cb1 \
+\cb3     "subtitle": ["Work permits issued per year", ""],\cb1 \
+\cb3     "subtitleFontStyle": "italic",\cb1 \
+\cb3     "subtitleFontSize": 10,\cb1 \
+\cb3     "anchor": "start",\cb1 \
+\cb3     "color": "#179fdb",\cb1 \
+\cb3     "subtitleColor": "#179fdb"\cb1 \
+\cb3   \},\cb1 \
+\cb3   "data": \{\cb1 \
+\cb3     "values": [\cb1 \
+\cb3       \{"year": "2019", "permits": 6695\},\cb1 \
+\cb3       \{"year": "2020", "permits": 7676\},\cb1 \
+\cb3       \{"year": "2021", "permits": 3877\},\cb1 \
+\cb3       \{"year": "2022", "permits": 2297\},\cb1 \
+\cb3       \{"year": "2023", "permits": 2961\},\cb1 \
+\cb3       \{"year": "2024", "permits": 1071\}\cb1 \
+\cb3     ]\cb1 \
+\cb3   \},\cb1 \
+\cb3   "config": \{\cb1 \
+\cb3     "background": "#122b39",\cb1 \
+\cb3     "view": \{"stroke": "transparent"\}\cb1 \
+\cb3   \},\cb1 \
+\cb3   "height": 300,\cb1 \
+\cb3   "width": 300,\cb1 \
+\cb3   "encoding": \{\cb1 \
+\cb3     "x": \{\cb1 \
+\cb3       "field": "year",\cb1 \
+\cb3       "type": "nominal",\cb1 \
+\cb3       "title": null,\cb1 \
+\cb3       "sort": ["2019","2020","2021","2022","2023","2024"],\cb1 \
+\cb3       "axis": \{\cb1 \
+\cb3         "labelAngle": 0,\cb1 \
+\cb3         "domainColor": "dimgrey",\cb1 \
+\cb3         "labelColor": "#00a767",\cb1 \
+\cb3         "tickColor": "whitesmoke"\cb1 \
+\cb3       \}\cb1 \
+\cb3     \}\cb1 \
+\cb3   \},\cb1 \
+\cb3   "layer": [\cb1 \
+\cb3     \{\cb1 \
+\cb3       "mark": \{"type": "bar", "color": "orange", "strokeWidth": 2, "opacity": 1\},\cb1 \
+\cb3       "encoding": \{\cb1 \
+\cb3         "y": \{\cb1 \
+\cb3           "field": "permits",\cb1 \
+\cb3           "type": "quantitative",\cb1 \
+\cb3           "title": null,\cb1 \
+\cb3           "axis": \{\cb1 \
+\cb3             "format": "~s",\cb1 \
+\cb3             "grid": false,\cb1 \
+\cb3             "domainColor": "dimgrey",\cb1 \
+\cb3             "labelColor": "#00a767",\cb1 \
+\cb3             "tickColor": "whitesmoke"\cb1 \
+\cb3           \}\cb1 \
+\cb3         \}\cb1 \
+\cb3       \}\cb1 \
+\cb3     \},\cb1 \
+\cb3     \{\cb1 \
+\cb3       "mark": \{"type": "text", "align": "center", "dy": -5, "color": "whitesmoke"\},\cb1 \
+\cb3       "encoding": \{\cb1 \
+\cb3         "y": \{"field": "permits", "type": "quantitative"\},\cb1 \
+\cb3         "text": \{"field": "permits", "type": "quantitative", "format": ",.0f"\}\cb1 \
+\cb3       \}\cb1 \
+\cb3     \}\cb1 \
+\cb3   ]\cb1 \
+\cb3 \}\cb1 \kerning1\expnd0\expndtw0 ;\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf2   vegaEmbed(\'93#zaatari-chart", spec);\
+</script>\expnd0\expndtw0\kerning0
+\
+}

@@ -1,0 +1,155 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red42\green44\blue51;
+\red144\green1\blue18;\red9\green60\blue148;\red19\green118\blue70;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgray\c0\c0;\cssrgb\c21961\c22745\c25882;
+\cssrgb\c63922\c8235\c8235;\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 <div id="aceh-chart" style="min-height:320px; width:100%; max-width:600px; margin: 0 auto;"></div>\
+\
+<script>\
+(function() \{\
+  // Self-contained initialization - no header code needed\
+  function initAcehChart() \{\
+    console.log("Initializing Aceh chart...");\
+    \
+    // Check if Vega libraries are loaded\
+    if (typeof window.vegaEmbed === 'undefined') \{\
+      console.log("Vega libraries not ready, retrying...");\
+      setTimeout(initAcehChart, 200);\
+      return;\
+    \}\
+    \
+    // Check if container exists\
+    const container = document.getElementById("aceh-chart");\
+    if (!container) \{\
+      console.error("Chart container not found!");\
+      return;\
+    \}\
+    \
+    // Clear any existing content\
+    container.innerHTML = '<p style="text-align: center; color: #666;">Loading chart...</p>';\
+    \
+    const spec = \strokec2 \{\
+  \strokec5 "$schema"\strokec2 : \strokec6 "https://vega.github.io/schema/vega-lite/v5.json"\strokec2 ,\
+  \strokec5 "title"\strokec2 : \{\
+    \strokec5 "text"\strokec2 : \strokec6 "Aceh - growth rates"\strokec2 ,\
+    \strokec5 "fontSize"\strokec2 : \strokec7 15\strokec2 ,\
+    \strokec5 "subtitle"\strokec2 : [\strokec6 "Annual average, 4 year periods, non-oil GDP"\strokec2 , \strokec6 ""\strokec2 ],\
+    \strokec5 "subtitleFontStyle"\strokec2 : \strokec6 "italic"\strokec2 ,\
+    \strokec5 "subtitleFontSize"\strokec2 : \strokec7 13\strokec2 ,\
+    \strokec5 "anchor"\strokec2 : \strokec6 "start"\strokec2 ,\
+    \strokec5 "color"\strokec2 : \strokec6 "#333333"\strokec2 ,\
+    \strokec5 "subtitleColor"\strokec2 : \strokec6 "#333333"\strokec2 ,\
+    \strokec5 "font"\strokec2 : \strokec6 "Newcastle Basic Clean, Arial, sans-serif"\strokec2 \
+  \},\
+  \strokec5 "data"\strokec2 : \{\
+    \strokec5 "values"\strokec2 : [\
+      \{\strokec5 "date"\strokec2 : \strokec6 "2000-2004"\strokec2 , \strokec5 "growth"\strokec2 : \strokec7 0.033551411\strokec2 , \strokec5 "label"\strokec2 : \strokec6 "Pre-tsunami"\strokec2 \},\
+      \{\strokec5 "date"\strokec2 : \strokec6 "2004-2008"\strokec2 , \strokec5 "growth"\strokec2 : \strokec7 0.047868984\strokec2 , \strokec5 "label"\strokec2 : \strokec6 "Rebuild"\strokec2 \},\
+      \{\strokec5 "date"\strokec2 : \strokec6 "2008-2012"\strokec2 , \strokec5 "growth"\strokec2 : \strokec7 0.057196189\strokec2 , \strokec5 "label"\strokec2 : \strokec6 "Aid withdrawal"\strokec2 \}\
+    ]\
+  \},\
+  \strokec5 "config"\strokec2 : \{\
+    \strokec5 "background"\strokec2 : \strokec6 "#fbfbfb"\strokec2 ,\
+    \strokec5 "view"\strokec2 : \{\
+      \strokec5 "stroke"\strokec2 : \strokec6 "transparent"\strokec2 \
+    \},\
+    \strokec5 "font"\strokec2 : \strokec6 "Newcastle Basic Clean, Arial, sans-serif"\strokec2 \
+  \},\
+  \strokec5 "height"\strokec2 : \strokec7 300\strokec2 ,\
+  \strokec5 "width"\strokec2 : \strokec6 "container"\strokec2 ,\
+  \strokec5 "encoding"\strokec2 : \{\
+    \strokec5 "x"\strokec2 : \{\
+      \strokec5 "field"\strokec2 : \strokec6 "date"\strokec2 ,\
+      \strokec5 "type"\strokec2 : \strokec6 "nominal"\strokec2 ,\
+      \strokec5 "title"\strokec2 : \strokec6 null\strokec2 ,\
+      \strokec5 "axis"\strokec2 : \{\
+        \strokec5 "labelAngle"\strokec2 : \strokec7 0\strokec2 ,\
+        \strokec5 "domainColor"\strokec2 : \strokec6 "dimgrey"\strokec2 ,\
+        \strokec5 "labelColor"\strokec2 : \strokec6 "#333333"\strokec2 ,\
+        \strokec5 "tickColor"\strokec2 : \strokec6 "#333333"\strokec2 ,\
+        \strokec5 "labelFontWeight"\strokec2 : \strokec6 "bold"\strokec2 ,\
+        \strokec5 "labelFontSize"\strokec2 : \strokec7 13\strokec2 \
+      \}\
+    \}\
+  \},\
+  \strokec5 "layer"\strokec2 : [\
+    \{\
+      \strokec5 "mark"\strokec2 : \{\
+        \strokec5 "type"\strokec2 : \strokec6 "bar"\strokec2 ,\
+        \strokec5 "color"\strokec2 : \strokec6 "#002fa7"\strokec2 ,\
+        \strokec5 "strokeWidth"\strokec2 : \strokec7 2\strokec2 ,\
+        \strokec5 "opacity"\strokec2 : \strokec7 1\strokec2 \
+      \},\
+      \strokec5 "encoding"\strokec2 : \{\
+        \strokec5 "y"\strokec2 : \{\
+          \strokec5 "field"\strokec2 : \strokec6 "growth"\strokec2 ,\
+          \strokec5 "type"\strokec2 : \strokec6 "quantitative"\strokec2 ,\
+          \strokec5 "title"\strokec2 : \strokec6 null\strokec2 ,\
+          \strokec5 "axis"\strokec2 : \{\
+            \strokec5 "format"\strokec2 : \strokec6 ".1%"\strokec2 ,\
+            \strokec5 "grid"\strokec2 : \strokec6 false\strokec2 ,\
+            \strokec5 "domainColor"\strokec2 : \strokec6 "dimgrey"\strokec2 ,\
+            \strokec5 "labelColor"\strokec2 : \strokec6 "#333333"\strokec2 ,\
+            \strokec5 "tickColor"\strokec2 : \strokec6 "#333333"\strokec2 ,\
+            \strokec5 "labelFontWeight"\strokec2 : \strokec6 "bold"\strokec2 ,\
+            \strokec5 "labelFontSize"\strokec2 : \strokec7 12\strokec2 \
+          \}\
+        \}\
+      \}\
+    \},\
+    \{\
+      \strokec5 "mark"\strokec2 : \{\
+        \strokec5 "type"\strokec2 : \strokec6 "text"\strokec2 ,\
+        \strokec5 "align"\strokec2 : \strokec6 "center"\strokec2 ,\
+        \strokec5 "dy"\strokec2 : \strokec7 -8\strokec2 ,\
+        \strokec5 "color"\strokec2 : \strokec6 "#333333"\strokec2 ,\
+        \strokec5 "font"\strokec2 : \strokec6 "Newcastle Basic Clean, Arial, sans-serif"\strokec2 ,\
+        \strokec5 "fontWeight"\strokec2 : \strokec6 "bold"\strokec2 ,\
+        \strokec5 "fontSize"\strokec2 : \strokec7 12\strokec2 \
+      \},\
+      \strokec5 "encoding"\strokec2 : \{\
+        \strokec5 "y"\strokec2 : \{\
+          \strokec5 "field"\strokec2 : \strokec6 "growth"\strokec2 ,\
+          \strokec5 "type"\strokec2 : \strokec6 "quantitative"\strokec2 \
+        \},\
+        \strokec5 "text"\strokec2 : \{\
+          \strokec5 "field"\strokec2 : \strokec6 "label"\strokec2 \
+        \}\
+      \}\
+    \}\
+  ]\
+\}\strokec4 ;\
+    \
+    // Render the chart\
+    vegaEmbed("#aceh-chart", spec, \{ \
+      actions: false, \
+      renderer: "svg",\
+      tooltip: true\
+    \})\
+    .then(result => \{\
+      console.log("Aceh chart rendered successfully!");\
+    \})\
+    .catch(err => \{\
+      console.error("Chart rendering failed:", err);\
+      container.innerHTML = '<p style="color: #ff6b6b; text-align: center; padding: 20px;">Chart failed to load: ' + err.message + '</p>';\
+    \});\
+  \}\
+  \
+  // Start initialization when DOM is ready\
+  if (document.readyState === 'loading') \{\
+    document.addEventListener('DOMContentLoaded', initAcehChart);\
+  \} else \{\
+    initAcehChart();\
+  \}\
+  \
+  // Re-initialize on Squarespace navigation events\
+  document.addEventListener('ajaxload', initAcehChart);\
+  document.addEventListener('page:loaded', initAcehChart);\
+\})();\
+</script>}

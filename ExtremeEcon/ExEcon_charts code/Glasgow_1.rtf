@@ -1,0 +1,141 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <div id="glasgow-chart"></div>\
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>\
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>\
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>\
+<script>\
+  const spec = \{\
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",\
+    "description": "Glasgow scatterplot",\
+    "title": \{\
+      "text": "Glasgow: deprivation and life expectancy",\
+      "subtitle": ["% of residents income deprived (x) and male life expectancy (y)",""],\
+      "subtitleFontStyle": "italic",\
+      "subtitleFontSize": 10,\
+      "subtitleColor": "white",\
+      "anchor": "start",\
+      "color": "white"\
+    \},\
+    "config": \{\
+      "background": "#122b39",\
+      "view": \{\
+        "stroke": "transparent"\
+      \}\
+    \},\
+    "data": \{\
+      "values": [\
+        \{"areaName": "Anniesland, Jordanhill and Whiteinch", "incomeDeprevation": 0.14, "employmentDeprivation": 0.15, "childPoverty": 0.14, "femaleLE": 80.8, "maleLE": 75.8, "disabilityRate": 0.19\},\
+        \{"areaName": "Arden and Carnwadric", "incomeDeprevation": 0.26, "employmentDeprivation": 0.25, "childPoverty": 0.34, "femaleLE": 76.0, "maleLE": 72.8, "disabilityRate": 0.22\},\
+        \{"areaName": "Baillieston and Garrowhill", "incomeDeprevation": 0.12, "employmentDeprivation": 0.12, "childPoverty": 0.14, "femaleLE": 81.6, "maleLE": 76.0, "disabilityRate": 0.21\},\
+        \{"areaName": "Balornock and Barmulloch", "incomeDeprevation": 0.29, "employmentDeprivation": 0.27, "childPoverty": 0.38, "femaleLE": 78.2, "maleLE": 70.8, "disabilityRate": 0.30\},\
+        \{"areaName": "Bellahouston, Craigton and Mosspark", "incomeDeprevation": 0.20, "employmentDeprivation": 0.18, "childPoverty": 0.22, "femaleLE": 80.5, "maleLE": 73.9, "disabilityRate": 0.29\},\
+        \{"areaName": "Blackhill and Hogganfield", "incomeDeprevation": 0.24, "employmentDeprivation": 0.23, "childPoverty": 0.33, "femaleLE": 77.5, "maleLE": 75.0, "disabilityRate": 0.25\},\
+        \{"areaName": "Blairdardie", "incomeDeprevation": 0.18, "employmentDeprivation": 0.16, "childPoverty": 0.20, "femaleLE": 79.4, "maleLE": 75.0, "disabilityRate": 0.25\},\
+        \{"areaName": "Broomhill and Partick West", "incomeDeprevation": 0.12, "employmentDeprivation": 0.11, "childPoverty": 0.19, "femaleLE": 79.7, "maleLE": 75.4, "disabilityRate": 0.17\},\
+        \{"areaName": "Calton and Bridgeton", "incomeDeprevation": 0.25, "employmentDeprivation": 0.21, "childPoverty": 0.47, "femaleLE": 76.6, "maleLE": 67.8, "disabilityRate": 0.24\},\
+        \{"areaName": "Carmunnock", "incomeDeprevation": 0.15, "employmentDeprivation": 0.10, "childPoverty": 0.18, "femaleLE": 81.2, "maleLE": 75.4, "disabilityRate": 0.21\},\
+        \{"areaName": "Castlemilk", "incomeDeprevation": 0.36, "employmentDeprivation": 0.33, "childPoverty": 0.44, "femaleLE": 76.8, "maleLE": 68.9, "disabilityRate": 0.31\},\
+        \{"areaName": "Cathcart and Simshill", "incomeDeprevation": 0.07, "employmentDeprivation": 0.08, "childPoverty": 0.07, "femaleLE": 84.3, "maleLE": 81.7, "disabilityRate": 0.17\},\
+        \{"areaName": "City Centre and Merchant City", "incomeDeprevation": 0.14, "employmentDeprivation": 0.12, "childPoverty": 0.37, "femaleLE": 76.4, "maleLE": 69.7, "disabilityRate": 0.15\},\
+        \{"areaName": "Corkerhill and North Pollok", "incomeDeprevation": 0.29, "employmentDeprivation": 0.26, "childPoverty": 0.37, "femaleLE": 76.7, "maleLE": 70.7, "disabilityRate": 0.24\},\
+        \{"areaName": "Croftfoot", "incomeDeprevation": 0.14, "employmentDeprivation": 0.12, "childPoverty": 0.25, "femaleLE": 79.4, "maleLE": 75.6, "disabilityRate": 0.16\},\
+        \{"areaName": "Crookston and South Cardonald", "incomeDeprevation": 0.20, "employmentDeprivation": 0.17, "childPoverty": 0.27, "femaleLE": 79.8, "maleLE": 75.3, "disabilityRate": 0.24\},\
+        \{"areaName": "Dennistoun", "incomeDeprevation": 0.19, "employmentDeprivation": 0.15, "childPoverty": 0.41, "femaleLE": 76.7, "maleLE": 70.8, "disabilityRate": 0.19\},\
+        \{"areaName": "Drumchapel", "incomeDeprevation": 0.36, "employmentDeprivation": 0.31, "childPoverty": 0.48, "femaleLE": 73.9, "maleLE": 68.9, "disabilityRate": 0.27\},\
+        \{"areaName": "Easterhouse", "incomeDeprevation": 0.32, "employmentDeprivation": 0.29, "childPoverty": 0.42, "femaleLE": 77.5, "maleLE": 69.7, "disabilityRate": 0.27\},\
+        \{"areaName": "Glasgow", "incomeDeprevation": 0.21, "employmentDeprivation": 0.19, "childPoverty": 0.32, "femaleLE": 78.2, "maleLE": 72.3, "disabilityRate": 0.23\},\
+        \{"areaName": "Glasgow North East", "incomeDeprevation": 0.25, "employmentDeprivation": 0.22, "childPoverty": 0.37, "femaleLE": 78.0, "maleLE": 72.5, "disabilityRate": 0.25\},\
+        \{"areaName": "Glasgow North West", "incomeDeprevation": 0.19, "employmentDeprivation": 0.17, "childPoverty": 0.32, "femaleLE": 77.6, "maleLE": 71.3, "disabilityRate": 0.21\},\
+        \{"areaName": "Glasgow South", "incomeDeprevation": 0.21, "employmentDeprivation": 0.19, "childPoverty": 0.29, "femaleLE": 78.8, "maleLE": 72.9, "disabilityRate": 0.22\},\
+        \{"areaName": "Govanhill", "incomeDeprevation": 0.24, "employmentDeprivation": 0.22, "childPoverty": 0.33, "femaleLE": 78.1, "maleLE": 71.4, "disabilityRate": 0.23\},\
+        \{"areaName": "Greater Gorbals", "incomeDeprevation": 0.30, "employmentDeprivation": 0.27, "childPoverty": 0.45, "femaleLE": 77.9, "maleLE": 68.7, "disabilityRate": 0.29\},\
+        \{"areaName": "Greater Govan", "incomeDeprevation": 0.28, "employmentDeprivation": 0.27, "childPoverty": 0.36, "femaleLE": 74.6, "maleLE": 66.7, "disabilityRate": 0.27\},\
+        \{"areaName": "Haghill and Carntyne", "incomeDeprevation": 0.28, "employmentDeprivation": 0.26, "childPoverty": 0.43, "femaleLE": 75.4, "maleLE": 69.9, "disabilityRate": 0.31\},\
+        \{"areaName": "Hillhead and Woodlands", "incomeDeprevation": 0.15, "employmentDeprivation": 0.12, "childPoverty": 0.31, "femaleLE": 79.3, "maleLE": 72.4, "disabilityRate": 0.15\},\
+        \{"areaName": "Hyndland, Dowanhill and Partick East", "incomeDeprevation": 0.08, "employmentDeprivation": 0.08, "childPoverty": 0.11, "femaleLE": 80.9, "maleLE": 76.7, "disabilityRate": 0.14\},\
+        \{"areaName": "Ibrox and Kingston", "incomeDeprevation": 0.21, "employmentDeprivation": 0.19, "childPoverty": 0.38, "femaleLE": 74.0, "maleLE": 70.2, "disabilityRate": 0.20\},\
+        \{"areaName": "Kelvindale and Kelvinside", "incomeDeprevation": 0.06, "employmentDeprivation": 0.05, "childPoverty": 0.11, "femaleLE": 84.3, "maleLE": 79.9, "disabilityRate": 0.14\},\
+        \{"areaName": "Kingspark and Mount Florida", "incomeDeprevation": 0.12, "employmentDeprivation": 0.11, "childPoverty": 0.16, "femaleLE": 82.8, "maleLE": 74.4, "disabilityRate": 0.17\},\
+        \{"areaName": "Knightswood", "incomeDeprevation": 0.23, "employmentDeprivation": 0.23, "childPoverty": 0.30, "femaleLE": 77.6, "maleLE": 71.6, "disabilityRate": 0.29\},\
+        \{"areaName": "Lambhill and Milton", "incomeDeprevation": 0.29, "employmentDeprivation": 0.28, "childPoverty": 0.39, "femaleLE": 77.0, "maleLE": 69.8, "disabilityRate": 0.30\},\
+        \{"areaName": "Langside and Battlefield", "incomeDeprevation": 0.13, "employmentDeprivation": 0.11, "childPoverty": 0.24, "femaleLE": 81.4, "maleLE": 74.6, "disabilityRate": 0.16\},\
+        \{"areaName": "Maryhill Road Corridor", "incomeDeprevation": 0.22, "employmentDeprivation": 0.19, "childPoverty": 0.39, "femaleLE": 76.1, "maleLE": 70.1, "disabilityRate": 0.22\},\
+        \{"areaName": "Mount Vernon and East Shettleston", "incomeDeprevation": 0.17, "employmentDeprivation": 0.19, "childPoverty": 0.17, "femaleLE": 79.7, "maleLE": 77.1, "disabilityRate": 0.29\},\
+        \{"areaName": "Newlands and Cathcart", "incomeDeprevation": 0.09, "employmentDeprivation": 0.08, "childPoverty": 0.11, "femaleLE": 81.8, "maleLE": 79.2, "disabilityRate": 0.17\},\
+        \{"areaName": "North Cardonald and Penilee", "incomeDeprevation": 0.23, "employmentDeprivation": 0.19, "childPoverty": 0.33, "femaleLE": 78.5, "maleLE": 73.5, "disabilityRate": 0.25\},\
+        \{"areaName": "North Maryhill and Summerston", "incomeDeprevation": 0.21, "employmentDeprivation": 0.19, "childPoverty": 0.31, "femaleLE": 79.5, "maleLE": 72.0, "disabilityRate": 0.23\},\
+        \{"areaName": "Parkhead and Dalmarnock", "incomeDeprevation": 0.38, "employmentDeprivation": 0.36, "childPoverty": 0.52, "femaleLE": 75.8, "maleLE": 67.6, "disabilityRate": 0.32\},\
+        \{"areaName": "Pollok", "incomeDeprevation": 0.17, "employmentDeprivation": 0.16, "childPoverty": 0.25, "femaleLE": 80.6, "maleLE": 73.8, "disabilityRate": 0.21\},\
+        \{"areaName": "Pollokshaws and Mansewood", "incomeDeprevation": 0.22, "employmentDeprivation": 0.20, "childPoverty": 0.29, "femaleLE": 80.0, "maleLE": 73.1, "disabilityRate": 0.24\},\
+        \{"areaName": "Pollokshields East", "incomeDeprevation": 0.21, "employmentDeprivation": 0.16, "childPoverty": 0.34, "femaleLE": 80.9, "maleLE": 74.4, "disabilityRate": 0.18\},\
+        \{"areaName": "Pollokshields West", "incomeDeprevation": 0.08, "employmentDeprivation": 0.06, "childPoverty": 0.10, "femaleLE": 82.3, "maleLE": 80.6, "disabilityRate": 0.16\},\
+        \{"areaName": "Priesthill and Househillwood", "incomeDeprevation": 0.32, "employmentDeprivation": 0.29, "childPoverty": 0.43, "femaleLE": 79.4, "maleLE": 71.3, "disabilityRate": 0.29\},\
+        \{"areaName": "Riddrie and Cranhill", "incomeDeprevation": 0.28, "employmentDeprivation": 0.27, "childPoverty": 0.40, "femaleLE": 78.8, "maleLE": 71.4, "disabilityRate": 0.32\},\
+        \{"areaName": "Robroyston and Millerston", "incomeDeprevation": 0.07, "employmentDeprivation": 0.07, "childPoverty": 0.09, "femaleLE": 80.0, "maleLE": 75.9, "disabilityRate": 0.13\},\
+        \{"areaName": "Ruchazie and Garthamlock", "incomeDeprevation": 0.30, "employmentDeprivation": 0.27, "childPoverty": 0.41, "femaleLE": 78.6, "maleLE": 70.4, "disabilityRate": 0.25\},\
+        \{"areaName": "Ruchill and Possilpark", "incomeDeprevation": 0.35, "employmentDeprivation": 0.33, "childPoverty": 0.47, "femaleLE": 73.1, "maleLE": 66.2, "disabilityRate": 0.30\},\
+        \{"areaName": "Scotland", "incomeDeprevation": 0.13, "employmentDeprivation": 0.13, "childPoverty": 0.18, "femaleLE": 80.6, "maleLE": 76.2, "disabilityRate": 0.20\},\
+        \{"areaName": "Shawlands and Strathbungo", "incomeDeprevation": 0.10, "employmentDeprivation": 0.09, "childPoverty": 0.16, "femaleLE": 80.3, "maleLE": 76.1, "disabilityRate": 0.14\},\
+        \{"areaName": "Sighthill, Roystonhill and Germiston", "incomeDeprevation": 0.32, "employmentDeprivation": 0.29, "childPoverty": 0.49, "femaleLE": 74.2, "maleLE": 69.9, "disabilityRate": 0.24\},\
+        \{"areaName": "South Nitshill and Darnley", "incomeDeprevation": 0.14, "employmentDeprivation": 0.12, "childPoverty": 0.17, "femaleLE": 76.3, "maleLE": 71.4, "disabilityRate": 0.17\},\
+        \{"areaName": "Springboig and Barlanark", "incomeDeprevation": 0.31, "employmentDeprivation": 0.29, "childPoverty": 0.43, "femaleLE": 78.3, "maleLE": 71.5, "disabilityRate": 0.30\},\
+        \{"areaName": "Springburn", "incomeDeprevation": 0.30, "employmentDeprivation": 0.28, "childPoverty": 0.46, "femaleLE": 76.4, "maleLE": 69.1, "disabilityRate": 0.28\},\
+        \{"areaName": "Temple and Anniesland", "incomeDeprevation": 0.19, "employmentDeprivation": 0.17, "childPoverty": 0.31, "femaleLE": 78.8, "maleLE": 72.4, "disabilityRate": 0.24\},\
+        \{"areaName": "Tollcross and West Shettleston", "incomeDeprevation": 0.27, "employmentDeprivation": 0.26, "childPoverty": 0.37, "femaleLE": 76.2, "maleLE": 69.8, "disabilityRate": 0.27\},\
+        \{"areaName": "Toryglen", "incomeDeprevation": 0.30, "employmentDeprivation": 0.28, "childPoverty": 0.38, "femaleLE": 77.9, "maleLE": 72.5, "disabilityRate": 0.29\},\
+        \{"areaName": "Yoker and Scotstoun", "incomeDeprevation": 0.24, "employmentDeprivation": 0.21, "childPoverty": 0.35, "femaleLE": 80.2, "maleLE": 74.0, "disabilityRate": 0.21\},\
+        \{"areaName": "Yorkhill and Anderston", "incomeDeprevation": 0.12, "employmentDeprivation": 0.10, "childPoverty": 0.34, "femaleLE": 75.9, "maleLE": 67.4, "disabilityRate": 0.12\}\
+      ]\
+    \},\
+    "mark": \{\
+      "type": "circle",\
+      "color": "hotpink",\
+      "size": 100\
+    \},\
+    "height": 300,\
+    "width": 300,\
+    "encoding": \{\
+      "x": \{\
+        "field": "incomeDeprevation",\
+        "type": "quantitative",\
+        "title": null,\
+        "axis": \{\
+          "title": null,\
+          "grid": false,\
+          "labelSeparation": 10,\
+          "domainColor": "dimgrey",\
+          "labelColor": "#00a767",\
+          "tickColor": "pink",\
+          "gridColor": "dimgrey",\
+          "format": "%"\
+        \}\
+      \},\
+      "y": \{\
+        "field": "maleLE",\
+        "type": "quantitative",\
+        "title": null,\
+        "scale": \{"domain": [60,85]\},\
+        "axis": \{\
+          "title": null,\
+          "grid": false,\
+          "labelSeparation": 10,\
+          "domainColor": "dimgrey",\
+          "labelColor": "#00a767",\
+          "tickColor": "pink",\
+          "gridColor": "dimgrey",\
+          "format": ""\
+        \}\
+      \},\
+      "tooltip": [\
+        \{"field": "areaName", "title": "Area"\}\
+      ]\
+    \}\
+  \};\
+  vegaEmbed("#glasgow-chart", spec);\
+</script>}
