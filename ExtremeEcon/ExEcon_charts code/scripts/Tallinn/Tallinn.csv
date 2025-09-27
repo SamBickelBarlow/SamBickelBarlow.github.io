@@ -1,0 +1,30 @@
+time_period,ref_area,indicator,breakdown,unit_measure,value,country_name
+2020,HU,desi_5_dps,desi_5a_egov,egov_score,57.7668,Hungary
+2020,BG,desi_5_dps,desi_5a_egov,egov_score,61.7611,Bulgaria
+2020,LT,desi_5_dps,desi_5a_egov,egov_score,81.4458,Lithuania
+2020,DK,desi_5_dps,desi_5a_egov,egov_score,87.1298,Denmark
+2020,NL,desi_5_dps,desi_5a_egov,egov_score,80.9606,Netherlands
+2020,BE,desi_5_dps,desi_5a_egov,egov_score,71.7312,Belgium
+2020,MT,desi_5_dps,desi_5a_egov,egov_score,78.1287,Malta
+2020,SK,desi_5_dps,desi_5a_egov,egov_score,55.6122,Slovakia
+2020,CZ,desi_5_dps,desi_5a_egov,egov_score,62.3774,Czech Republic
+2020,EU,desi_5_dps,desi_5a_egov,egov_score,72.0003,EU Average
+2020,PL,desi_5_dps,desi_5a_egov,egov_score,67.4074,Poland
+2020,HR,desi_5_dps,desi_5a_egov,egov_score,55.7543,Croatia
+2020,IE,desi_5_dps,desi_5a_egov,egov_score,80.629,Ireland
+2020,IT,desi_5_dps,desi_5a_egov,egov_score,67.4789,Italy
+2020,SI,desi_5_dps,desi_5a_egov,egov_score,70.7549,Slovenia
+2020,AT,desi_5_dps,desi_5a_egov,egov_score,80.8356,Austria
+2020,DE,desi_5_dps,desi_5a_egov,egov_score,66.3717,Germany
+2020,ES,desi_5_dps,desi_5a_egov,egov_score,87.2752,Spain
+2020,FI,desi_5_dps,desi_5a_egov,egov_score,86.9946,Finland
+2020,FR,desi_5_dps,desi_5a_egov,egov_score,76.7088,France
+2020,CY,desi_5_dps,desi_5a_egov,egov_score,68.9556,Cyprus
+2020,LU,desi_5_dps,desi_5a_egov,egov_score,73.7416,Luxembourg
+2020,UK,desi_5_dps,desi_5a_egov,egov_score,70.7718,United Kingdom
+2020,EE,desi_5_dps,desi_5a_egov,egov_score,89.334,Estonia
+2020,PT,desi_5_dps,desi_5a_egov,egov_score,75.1206,Portugal
+2020,LV,desi_5_dps,desi_5a_egov,egov_score,85.0632,Latvia
+2020,RO,desi_5_dps,desi_5a_egov,egov_score,48.4085,Romania
+2020,SE,desi_5_dps,desi_5a_egov,egov_score,79.3415,Sweden
+2020,EL,desi_5_dps,desi_5a_egov,egov_score,51.5001,Greece
