@@ -9,13 +9,9 @@
     "anchor": "left"
   },
   "projection": {"type": "naturalEarth1"},
-  "description": "",
-  "data": {
-    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/AQUASTAT_delta.csv"
-  },
   "width": 500,
   "height": 300,
-  "background" : "#f9f9f9" ,
+  "background": "#f9f9f9",
   "params": [
     {
       "name": "metric",
@@ -33,20 +29,39 @@
     },
     {
       "name": "scaleDomain",
-      "value": [-1, 0 , 1],
-      "update": "metric === 'Water Stress 2001' ? [0, 50 , 100] : (metric === 'Water Stress 2021' ? [0, 50 , 100] : (metric === 'Water Stress net change' ? [-50, 0 , 50] : [-1, 0 , 1]))"
+      "value": [-1, 0, 1],
+      "update": "metric === 'Water Stress 2001' ? [0, 50, 100] : (metric === 'Water Stress 2021' ? [0, 50, 100] : (metric === 'Water Stress net change' ? [-50, 0, 50] : [-1, 0, 1]))"
     }
   ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/world-110m.json",
+    "format": {"type": "topojson", "feature": "countries"}
+  },
   "transform": [
+    {"filter": "datum.id != 10"},   // 🔹 exclude Antarctica (ISO numeric = 010)
+    {
+      "lookup": "id",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/id-to-iso3.csv"
+        },
+        "key": "id",
+        "fields": ["ISO3", "COUNTRY"]
+      }
+    },
     {
       "lookup": "ISO3",
       "from": {
-        "key": "properties.ISO3",
-        "fields": ["type", "geometry", "properties"],
         "data": {
-          "url": "https://raw.githubusercontent.com/mclass-user/mclass-user.github.io/refs/heads/main/maps/map_world.geojson",
-          "format": {"property": "features"}
-        }
+          "url": "https://raw.githubusercontent.com/SamBickelBarlow/SamBickelBarlow.github.io/refs/heads/main/Project/Chart%201/AQUASTAT_delta.csv"
+        },
+        "key": "ISO3",
+        "fields": [
+          "Water Stress pct change",
+          "Water Stress net change",
+          "Water Stress 2021",
+          "Water Stress 2001"
+        ]
       }
     },
     {
@@ -63,9 +78,7 @@
         "strokeWidth": 0.25
       },
       "encoding": {
-        "tooltip": [
-          {"field": "properties.COUNTRY", "title": "Country"}
-        ]
+        "tooltip": [{"field": "COUNTRY", "title": "Country"}]
       }
     },
     {
@@ -84,37 +97,19 @@
           },
           "legend": {
             "title": "Water Stress Metric",
-            "formatType": "custom",
             "labelExpr": "metric === 'Water Stress 2001' || metric === 'Water Stress 2021' ? format(datum.value, '.0f') : (metric === 'Water Stress net change' ? format(datum.value, '.0f') : format(datum.value, '.0%'))"
           }
         },
         "tooltip": [
-          {
-            "field": "properties.COUNTRY",
-            "title": "Country"
-          },
-          {
-            "field": "Water Stress pct change",
-            "title": "Pct change in water stress",
-            "format": ".1%"
-          },
-          {
-            "field": "Water Stress net change",
-            "title": "Net change in water stress",
-            "format": ".1f"
-          },
-          {
-            "field": "Water Stress 2021",
-            "title": "Water Stress Score in 2021",
-            "format": ".1f"
-          },
-          {
-            "field": "Water Stress 2001",
-            "title": "Water Stress Score in 2001",
-            "format": ".1f"
-          }
+          {"field": "COUNTRY", "title": "Country"},
+          {"field": "Water Stress pct change", "title": "Pct change in water stress", "format": ".1%"},
+          {"field": "Water Stress net change", "title": "Net change in water stress", "format": ".1f"},
+          {"field": "Water Stress 2021", "title": "Water Stress Score in 2021", "format": ".1f"},
+          {"field": "Water Stress 2001", "title": "Water Stress Score in 2001", "format": ".1f"}
         ]
       }
     }
+  ]
+}
   ]
 }
