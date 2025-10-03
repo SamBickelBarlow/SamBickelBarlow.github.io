@@ -38,7 +38,7 @@
     "format": {"type": "topojson", "feature": "countries"}
   },
   "transform": [
-    {"filter": "datum.id != 10"},   // 🔹 exclude Antarctica (ISO numeric = 010)
+    {"filter": "datum.id != 10"},
     {
       "lookup": "id",
       "from": {
